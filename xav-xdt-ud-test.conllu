@@ -110,7 +110,6 @@
 # text_eng = Our parents lived (happily) with us in our small village in Lagoa Azul. (Estevam 2011:  31, 10)
 # text_por = 
 1	Te	te	PART	prcl	_	_	_	_	_
-2-3	wamamanorĩhã	_	_	_	_	_	_	_	_
 2	wamama	mama	NOUN	n	_	6	nsubj	_	_
 3	norĩhã	norĩ	PART	prcl	Emph=Yes	2	dep	_	_
 4	waré	wa	PRON	pron	_	6	obl	_	_
