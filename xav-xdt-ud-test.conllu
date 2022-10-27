@@ -21,7 +21,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 001.3
-# text = Warazu wahiʔrata norĩhã ma dapãrĩ zaʔra
+# text = Warazu wahiʔrata norĩ hã ma dapãrĩ zaʔra
 # text_fr = L’homme blanc a assassiné nos ancêtres. (Estevam, 27: 3)
 # text_eng = The white man murdered our ancestors.
 1	Warazu	warazu	NOUN	_	_	6	nsubj	_	_
