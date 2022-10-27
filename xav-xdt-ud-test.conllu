@@ -1,0 +1,242 @@
+# sent_id = 001.1
+# text = Tahata wahiʔratanorĩhã
+# text_eng = Those are our ancestros (Estevam 2011:  27, 1)
+# text_por = Aquele são nossos antepassados
+1	Tahata	tahata	DET	dem	_	2	det	_	that
+2-3	wahiʔratanorĩhã	_	_	_	_	_	_	_	_
+2	wahiʔrata	wahiʔrata	NOUN	n	_	0	root	_	ancesters
+3	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Col	2	discourse	_	_
+
+# sent_id = 001.2
+# text = Wahiʔrata norĩhã dañoʔre ma wama awajhuʔu .
+# text_fr = Nos ancêtres nous ont enseigné des chants.
+# text_eng = Our ancestors taught us songs.(Estevam, 27: 2)
+# text_por = 
+1	Wahiʔrata	wahiʔrata	NOUN	n	_	6	nsubj	_	ancestors
+2	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Col	1	dep	_	COLLECTIVE
+3	dañoʔre	_	NOUN	n	_	6	obj	_	song
+4	ma	ma	PART	_	_	3	discourse	_	_
+5	wama	wa	PRON	pron	Case=Dat|Number=Plur|Person=1	6	iobj	_	we
+6	awajhuʔu	_	VERB	_	_	0	root	_	show
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 001.3 
+# text = Warazu wahiʔrata norĩhã ma dapãrĩ zaʔra
+# text_fr = L’homme blanc a assassiné nos ancêtres. (Estevam, 27: 3)
+# text_eng = The white man murdered our ancestors.
+1	Warazu	warazu	NOUN	_	_	5	nsubj	_	_
+2-3	wahiʔratanorĩhã	_	_	_	_	_	_	_	_
+2	wahiʔrata	wahiʔrata	NOUN	n	_	_	_	_	ancesters
+3	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Col	2	discourse	_	_
+4	ma	ma	PART	_	_	5	dep	_	_
+5	dapãrĩ	pãrĩ	VERB	_	Hon=Yes|Person=3	0	root	_	_
+6	zaʔra	zaʔra	PART	_	Number=Plur	5	dep	_	_
+
+# sent_id = 001.4
+# text = Wahiʔrata norĩ höjmanazé ipire
+# text_eng = The life of our ancestors is hard (Estevam 2011:  28, 4)
+# text_por = 
+1-2	Wahiʔratanorĩ	_	_	_	_	_	_	_	_
+1	Wahiʔrata	wahiʔrata	NOUN	n	_	4	obj	_	_
+2	norĩ	norĩ	PART	prcl	Number=Col	1	dep	_	_
+3	höjmanazé	höjmanazé	NOUN	n	_	4	nsubj	_	_
+4	ipire	pire	NOUN	n	Nmzr=Yes|Person=3	0	root	_	_
+
+# sent_id = 001.5
+# text = Höjwahö wa za we wate simro waʔra norĩ hã
+# text_eng = Those are our ancestros (Estevam 2011:  28, 5)
+# text_por = Aquele são nossos antepassados
+1	Höjwahö	höjwahö	ADV	adv	_	6	advmod	_	_
+2	wa	wa	NOUN	n	_	6	nsubj	_	_
+3	za	za	PART	prcl	Aspect=Prosp	6	dep	_	_
+4	we	we	PART	prcl	Ventive=Yes	6	dep	_	_
+5	wate	te	AUX	aux	Number=Plur|Person=1	6	aux	_	_
+6	simro	simro	VERB	v	_	0	root	_	_
+7-9	waʔranorĩhã	_	_	_	_	_	_	_	_
+7	waʔra	ʔra	NOUN	n	Number=Plur|Person=1	6	obj	_	_
+8	norĩ	norĩ	PART	prcl	Number=Col	7	dep	_	_
+9	hã	hã	PART	prcl	Emph=Yes	7	dep	_	_
+
+# sent_id = 001.6
+# text = ʔwatébrémi tiʔa te ñamra
+# text_fr = Le garçon est assis par terre.
+# text_eng = The boy sat on the floor (Estevam 2011:  28, 6)
+# text_por = 
+1	ʔwatébrémi	_	NOUN	_	_	4	nsubj	_	_
+2	tiʔa	_	NOUN	_	_	4	obl	_	_
+3	te	_	PRON	_	_	4	dep	_	_
+4	ñamra	_	VERB	_	_	0	root	_	_
+
+# sent_id = 001.7
+# text = Höjwahö wa za oto wawaʔutu zaʔra ni
+# text_eng = In the afternoon we will rest. (Estevam 2011:  29, 7)
+# text_por = 
+1	Höjwahö	höjwahö	ADV	adv	_	5	advmod	_	_
+2	wa	wa	PRON	pron	_	5	nsubj	_	_
+3	za	za	PART	prcl	_	5	dep	_	_
+4	oto	oto	PART	prcl	Mir=Yes	5	dep	_	_
+5-7	wawaʔutu	_	_	_	_	_	_	_	_
+5	wawaʔutu	waʔutu	VERB	v	Number=Plur|Person=1	0	root	_	_
+6	zaʔra	zaʔra	PART	prcl	Number=Plur	5	dep	_	_
+7	ni	ni	PART	prcl	PronType=Ind	5	dep	_	_
+
+# sent_id = 001.8
+# text = Ma ʔröwipese re tete sõré
+# text_fr = Ils ont installé (les robinets) tout près. 
+# text_eng = They installed (the taps) close by. (Estevam 2011:  29, 8)
+# text_por =
+1	Ma	_	PART	_	_	6	dep	_	_
+2-3	ʔröwipese	_	_	_	_	_	_	_	_
+2	ʔröwi	_	ADV	_	_	6	advmod	_	_
+3	pese	_	NOUN	_	_	2	dep	_	_
+4	re	re	PART	_	Dim=Yes	2	dep	_	_
+5	tete	te	AUX	Person=3	_	6	aux	_	_
+6	sõré	sõré	VERB	_	_	0	root	_	_
+
+# sent_id = 001.9
+# text = Wasi na wa te ãma mro
+# text_fr = Je compte les étoiles.
+# text_eng = I count the stars (I pair with the stars). (Estevam 2011:  31, 9)
+# text_por =
+1	Wasi	wasi	NOUN	n	_	6	obl	_	_
+2	na	na	PART	prcl	Case=Ins	1	case	_	_
+3	wa	wa	PRON	pron	_	6	nsubj	_	_
+4	te	te	AUX	aux	_	6	aux	_	_
+5	ãma	ãma	PART	prcl	_	6	dep	_	_
+6	mro	mro	VERB	v	_	0	root	_	_
+
+# sent_id = 001.10
+# text = Te wamama norĩ hã waré ʔre höjmana zaʔra warob reb ʔré hã Uʔujwawẽ ãma hã
+# text_fr = 
+# text_eng = Our parents lived (happily) with us in our small village in Lagoa Azul. (Estevam 2011:  31, 10)
+# text_por = 
+1	Te	te	PART	prcl	_	_	_	_	_
+2-3	wamamanorĩhã	_	_	_	_	_	_	_	_
+2	wamama	mama	NOUN	n	_	6	nsubj	_	_
+3	norĩhã	norĩ	PART	prcl	Emph=Yes	2	dep	_	_
+4	waré	wa	PRON	pron	_	6	obl	_	_
+5	ʔre	ʔre	PART	prcl	_	6	dep	_	_
+6	höjmana	höjmana	VERB	v	_	0	root	_	_
+7	zaʔra	zaʔra	PART	prcl	_	6	dep	_	_
+8-9	warobreb	_	_	_	_	_	_	_	_
+8	warob	rob	NOUN	n	_	6	obl	_	_
+9	reb	reb	PART	prcl	_	8	nmod	_	_
+10	ʔré	_	ADP	posp	_	8	case	_	_
+11	hã	_	PART	prcl	_	8	dep	_	_
+12	Uʔujwawẽ	uʔujwawẽ	PROPN	_	_	6	obl	_	_
+13	ãma	_	ADP	posp	_	12	case	_	_
+14	hã	_	_	_	_	12	dep	_	_
+
+# sent_id = 001.11
+# text = Õhõ si uburé marĩ wajhuʔuʔwa hã tô, ropotoʔwa si.
+# text_fr = Seul le créateur, lui seul (est) celui qui connaît toutes les choses.
+# text_eng = Only the creator, he alone (is) knows all things. (Estevam 2011:  32, 11)
+# text_por = 
+1	Õhõ	õhõ	DET	dem	_	5	det	_	_
+2	si	si	PART	prcl	Restr=Yes	5	advmod	_	_
+3	uburé	uburé	PRON	pron	PronType=Tot	4	nmod	_	_
+4	marĩ	marĩ	NOUN	n	_	5	obj	_	_
+5	wajhuʔuʔwa	wajhuʔ	NOUN	n	_	0	root	_	_
+6	hã	hã	PART	prcl	Emph=Yes	5	dep	_	_
+7	tô	tô	PART	prcl	Fact=Yes	5	discourse	_	_
+8	,	,	PUNCT	punct	_	5	punct	_	_
+9-10	ropotoʔwa	_	_	_	_	_	_	_	_
+9	ro	ro	NOUN	n	_	10	nmod	_	_
+10	potoʔwa	potoʔwa	NOUN	n	_	5	nsubj	_	_
+11	si	si	PART	prcl	Restr=Yes	10	dep	_	_
+
+# sent_id = 001.12
+# text = Duré abazi hã wa wate wasima ʔrãzani zaʔra
+# text_fr = Nous nous égrainons le coton, aussi.
+# text_eng = We scatter cotton for us too. (Estevam 2011:  34, 14)
+# text_por = 
+1	Duré	_	ADV	_	_	7	advmod	_	_
+2	abazi	_	NOUN	_	_	7	obj	_	_
+3	hã	_	PART	_	Emph=Yes	7	dep	_	_
+4	wa	_	PART	_	_	7	nsubj	_	_
+5	wate	_	AUX	_	Number=Plur|Person=1	7	aux	_	_
+6	wasima	_	ADP	_	Case=Dative|Number=Plur|Person=1|Reflex=Yes	7	iobj	_	_
+7	ʔrãzani	_	VERB	_	_	0	root	_	_
+8	zaʔra	_	PART	_	Number=Plur	7	dep	_	_
+
+# sent_id = 001.13
+# text = Aʔuwẽ ñimiromhuri hã ĩʔrãzani
+# text_fr = Le travail des Xavantes (c’)est égrainer.
+# text_eng = The work of the Xavantes (it) is to scatter. (Estevam 2011:  34, 15a)
+# text_por = 
+1	Aʔuwẽ	aʔuwẽ	PROPN	propn	_	2	nmod	_	_
+2	ñimiromhuri	_	NOUN	n	_	4	nsubj	_	_
+3	hã	_	PART	prcl	Emph=Yes	4	dep	_	_
+4	ĩʔrãzani	_	NOUN	n	Nmzr=Yes	0	root	_	_
+
+# sent_id = 001.14
+# text = ĩʔrãzani na wa wate ãma wasima romhuri zaʔra
+# text_fr = Nous travaillons à égrainer (le coton) pour nous.
+# text_eng = We work to gin (the cotton) for us. (Estevam 2011:  34, 15b)
+# text_por = 
+1	ĩʔrãzani	_	NOUN	n	Nmzr=Yes	7	obl	_	_
+2	na	_	PART	prcl	Case=Ins	1	case	_	_
+3	wa	_	PRON	pron	_	7	nsubj	_	_
+4	wate	_	AUX	aux	Number=Plur|Person=1	7	aux	_	_
+5	ãma	_	PART	prcl	_	7	dep	_	_
+6	wasima	_	ADP	posp	Case=Dat|Number=Plur|Person=1|Reflex=Yes	7	iobj	_	_
+7	romhuri	_	VERB	v	_	0	root	_	_
+8	zaʔra	_	PART	prcl	Number=Plur	7	dep	_	_
+
+# sent_id = 888.1
+# text = Ö wa dzöiʔrẽ
+# text_fr = 
+# text_eng = I drink water (de Oliveira 2011:  p111, ex 160)
+# text_por = Eu bebo água
+1	Ö	ö	NOUN	n	_	3	obj	_	_
+2	wa	owa	PRON	pron	Number=Plur|Person=1|PronType=Prs	3	obj	_	_
+3	dzöiʔrẽ	dzöiʔrẽ	VERB	Number=Plur|Person=1	_	0	root	_	_
+
+# sent_id = 888.2
+# text = Ö te ĩdzöiʔrẽ
+# text_fr = 
+# text_eng = You drink water (de Oliveira 2011:  p111, ex 161)
+# text_por = Você bebe água
+1	Ö	ö	NOUN	n	_	3	obj	_	_
+2	te	te	PRON	pron	Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+3	ĩdzöiʔrẽ	dzöiʔrẽ	VERB	Number=Sing|Person=2	_	0	root	_	_
+
+# sent_id = 888.3
+# text = Ö ma dzöiʔrẽ
+# text_fr = 
+# text_eng = You drink water (de Oliveira 2011:  p112, ex 162)
+# text_por = Você bebe água
+1	ö	ö	NOUN	n	_	3	obj	_	_
+2	ma	ma	PRON	pron	Number=Sing|Person=3|PronType=Prs|Tense=Pres	3	obj	_	_
+3	dzöiʔrẽ	dzöiʔrẽ	VERB	Number=Plur|Person=1	_	0	root	_	_
+
+# sent_id = 888.4
+# text = Aiʔuté wa tsabu ni
+# text_fr = 
+# text_eng = We both saw the child (de Oliveira 2011:  p112, ex 163)
+# text_por = Nós dois vimos a criança.
+1	Aiʔuté	aiʔuté	NOUN	_	_	3	obj	_	_
+2	wa	wa	PRON	_	Number=Plur|Person=1|Tense=Past	3	nsubj	_	_
+3	tsabu	tsabu	VERB	_	Number=Plur|Person=1	0	root	_	_
+4	ni	ni	PRON	_	Number=Du	3	dep	_	_
+
+# sent_id = 888.5
+# text = Aiʔuté ma tsabu dzahuré
+# text_fr = 
+# text_eng = They both saw the child (de Oliveira 2011:  p112, ex 164)
+# text_por = Eles dois viram a criança.
+1	Aiʔuté	aiʔuté	NOUN  _	_	3	obj	_	_
+2	ma	ma	PRON	_	Number=Plur|Person=3|Tense=Past	3	nsubj	_	_
+3	tsabu	tsabu	VERB	_	Number=Plur|Person=1	0	root	_	_
+4	dzahuré	dzahuré	PRON	_	Number=Du|Person=3	3	dep	_	_
+
+# sent_id = 888.6
+# text = aiʔuté wa tsabu dzaʔrani
+# text_fr = 
+# text_eng = We saw the child (de Oliveira 2011:  p112, ex 165)
+# text_por = Nós vimos a criança.
+1	aiʔuté	_	NOUN	_	_	3	obj	_	_
+2	wa	_	PRON	_	Person=1|Tense=Past	3	nsubj	_	_
+3	tsabu	_	VERB	_	_	0	root	_	_
+4	dzaʔrani	_	PRON	_	Number=Plur	3	dep	_	_
+
