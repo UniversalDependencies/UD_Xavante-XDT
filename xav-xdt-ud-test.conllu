@@ -124,7 +124,7 @@
 11	hã	_	PART	prcl	_	8	dep	_	_
 12	Uʔujwawẽ	uʔujwawẽ	PROPN	_	_	6	obl	_	_
 13	ãma	_	ADP	posp	_	12	case	_	_
-14	hã	_	_	_	_	12	dep	_	_
+14	hã	hã	PART	prcl	_	12	dep	_	_
 
 # sent_id = 001.11
 # text = Õhõ si uburé marĩ wajhuʔuʔwa hã tô, ropotoʔwa si .
