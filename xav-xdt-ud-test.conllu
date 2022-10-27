@@ -52,10 +52,9 @@
 4	we	we	PART	prcl	Ventive=Yes	6	dep	_	_
 5	wate	te	AUX	aux	Number=Plur|Person=1	6	aux	_	_
 6	simro	simro	VERB	v	_	0	root	_	_
-7-9	waʔranorĩhã	_	_	_	_	_	_	_	_
 7	waʔra	ʔra	NOUN	n	Number=Plur|Person=1	6	obj	_	_
 8	norĩ	norĩ	PART	prcl	Number=Coll	7	dep	_	_
-9	hã	hã	PART	prcl	Emph=Yes	7	dep	_	_
+9	hã	hã	PART	prcl	Emph=Yes	7	discourse	_	_
 
 # sent_id = 001.6
 # text = ʔwatébrémi tiʔa te ñamra
