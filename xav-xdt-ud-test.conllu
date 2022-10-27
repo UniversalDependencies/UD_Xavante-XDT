@@ -218,7 +218,7 @@
 1	Aiʔuté	aiʔuté	NOUN	_	_	3	obj	_	_
 2	wa	wa	PRON	_	Number=Plur|Person=1|Tense=Past	3	nsubj	_	_
 3	tsabu	tsabu	VERB	_	Number=Plur|Person=1	0	root	_	_
-4	ni	ni	PRON	_	Number=Du	3	dep	_	_
+4	ni	ni	PRON	_	Number=Dual	3	dep	_	_
 
 # sent_id = 888.5
 # text = Aiʔuté ma tsabu dzahuré
@@ -228,7 +228,7 @@
 1	Aiʔuté	aiʔuté	NOUN  _	_	3	obj	_	_
 2	ma	ma	PRON	_	Number=Plur|Person=3|Tense=Past	3	nsubj	_	_
 3	tsabu	tsabu	VERB	_	Number=Plur|Person=1	0	root	_	_
-4	dzahuré	dzahuré	PRON	_	Number=Du|Person=3	3	dep	_	_
+4	dzahuré	dzahuré	PRON	_	Number=Dual|Person=3	3	dep	_	_
 
 # sent_id = 888.6
 # text = aiʔuté wa tsabu dzaʔrani
