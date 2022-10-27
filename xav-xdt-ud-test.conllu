@@ -36,7 +36,6 @@
 # text = Wahiʔrata norĩ höjmanazé ipire
 # text_eng = The life of our ancestors is hard (Estevam 2011:  28, 4)
 # text_por = 
-1-2	Wahiʔratanorĩ	_	_	_	_	_	_	_	_
 1	Wahiʔrata	wahiʔrata	NOUN	n	_	4	obj	_	_
 2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
 3	höjmanazé	höjmanazé	NOUN	n	_	4	nsubj	_	_
@@ -74,7 +73,6 @@
 2	wa	wa	PRON	pron	_	5	nsubj	_	_
 3	za	za	PART	prcl	_	5	dep	_	_
 4	oto	oto	PART	prcl	Mir=Yes	5	dep	_	_
-5-7	wawaʔutu	_	_	_	_	_	_	_	_
 5	wawaʔutu	waʔutu	VERB	v	Number=Plur|Person=1	0	root	_	_
 6	zaʔra	zaʔra	PART	prcl	Number=Plur	5	dep	_	_
 7	ni	ni	PART	prcl	PronType=Ind	5	dep	_	_
