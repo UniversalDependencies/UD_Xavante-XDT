@@ -222,7 +222,7 @@
 # text_fr = 
 # text_eng = They both saw the child (de Oliveira 2011:  p112, ex 164)
 # text_por = Eles dois viram a criança.
-1 Aiʔuté  aiʔuté  NOUN  _ _ 3 obj	_	_
+1	Aiʔuté	aiʔuté  NOUN	n	_	3	obj	_	_
 2	ma	ma	PRON	_	Number=Plur|Person=3|Tense=Past	3	nsubj	_	_
 3	tsabu	tsabu	VERB	_	Number=Plur|Person=1	0	root	_	_
 4	dzahuré	dzahuré	PRON	_	Number=Dual|Person=3	3	dep	_	_
