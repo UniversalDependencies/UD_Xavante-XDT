@@ -24,13 +24,13 @@
 # text = Warazu wahiʔrata norĩhã ma dapãrĩ zaʔra
 # text_fr = L’homme blanc a assassiné nos ancêtres. (Estevam, 27: 3)
 # text_eng = The white man murdered our ancestors.
-1	Warazu	warazu	NOUN	_	_	5	nsubj	_	_
-2-3	wahiʔratanorĩhã	_	_	_	_	_	_	_	_
-2	wahiʔrata	wahiʔrata	NOUN	n	_	_	_	_	ancesters
-3	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	2	discourse	_	_
-4	ma	ma	PART	_	_	5	dep	_	_
-5	dapãrĩ	pãrĩ	VERB	_	Hon=Yes|Person=3	0	root	_	_
-6	zaʔra	zaʔra	PART	_	Number=Plur	5	dep	_	_
+1	Warazu	warazu	NOUN	_	_	6	nsubj	_	_
+2	wahiʔrata	_	NOUN	_	_	6	obj	_	_
+3	norĩ	norĩ	PART	prcl	Emph=Yes|Number=Coll	2	dep	_	_
+4	hã	norĩ	PART	prcl	Emph=Yes|Number=Coll	2	discourse	_	_
+5	ma	ma	PART	_	_	6	dep	_	_
+6	dapãrĩ	pãrĩ	VERB	_	Hon=Yes|Person=3	0	root	_	_
+7	zaʔra	zaʔra	PART	_	Number=Plur	6	dep	_	_
 
 # sent_id = 001.4
 # text = Wahiʔrata norĩ höjmanazé ipire
