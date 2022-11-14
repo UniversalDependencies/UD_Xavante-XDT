@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>20</sentences><tokens>116</tokens><words>120</words><fused>4</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>20</sentences><tokens>116</tokens><words>120</words><fused>4</fused></test>
+  </size>
+  <lemmas unique="49" /><!-- norĩ, wa, te, ma, dzöiʔrẽ, hã, wahiʔrata, zaʔra, ö, aiʔuté, höjwahö, ni, si, tsabu, za -->
+  <forms unique="70" /><!-- hã, wa, ma, zaʔra, norĩ, te, wahiʔrata, aiʔuté, tsabu, wate, Ö, ãma, Höjwahö, dzöiʔrẽ, na -->
+  <fusions unique="4" /><!-- ropotoʔwa, wahiʔratanorĩhã, warobreb, ʔröwipese -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="10">
+    <tag name="ADP">4</tag><!-- _ -->
+    <tag name="ADV">4</tag><!-- _, höjwahö -->
+    <tag name="AUX">5</tag><!-- te, _ -->
+    <tag name="DET">2</tag><!-- tahata, õhõ -->
+    <tag name="NOUN">30</tag><!-- _, wahiʔrata, ö, aiʔuté, höjmanazé, mama, marĩ, pire, potoʔwa, ro -->
+    <tag name="PART">39</tag><!-- _, norĩ, hã, zaʔra, ma, si, za, na, ni, oto -->
+    <tag name="PRON">16</tag><!-- wa, _, ma, dzahuré, ni, owa, te, uburé -->
+    <tag name="PROPN">2</tag><!-- aʔuwẽ, uʔujwawẽ -->
+    <tag name="PUNCT">2</tag><!-- ,, . -->
+    <tag name="VERB">16</tag><!-- _, dzöiʔrẽ, tsabu, höjmana, mro, pãrĩ, simro, sõré, waʔutu -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="24">
+    <feat name="Aspect" value="Prosp" upos="PART">1</feat><!-- za -->
+    <feat name="Case" value="Dat" upos="ADP,PRON">3</feat><!-- wasima, wama -->
+    <feat name="Case" value="Ins" upos="PART">2</feat><!-- na -->
+    <feat name="Dim" value="Yes" upos="PART">1</feat><!-- re -->
+    <feat name="Emph" value="Yes" upos="PART">9</feat><!-- hã, norĩhã, norĩ -->
+    <feat name="Fact" value="Yes" upos="PART">1</feat><!-- tô -->
+    <feat name="Hon" value="Yes" upos="VERB">1</feat><!-- dapãrĩ -->
+    <feat name="Mir" value="Yes" upos="PART">1</feat><!-- oto -->
+    <feat name="Nmzr" value="Yes" upos="NOUN">3</feat><!-- ĩʔrãzani, ipire -->
+    <feat name="Number" value="Coll" upos="PART">7</feat><!-- norĩ, norĩhã, hã -->
+    <feat name="Number" value="Dual" upos="PRON">2</feat><!-- dzahuré, ni -->
+    <feat name="Number" value="Plur" upos="ADP,AUX,NOUN,PART,PRON,VERB">18</feat><!-- zaʔra, wate, tsabu, wa, wasima, dzaʔrani, ma, wama, wawaʔutu, waʔra -->
+    <feat name="Number" value="Sing" upos="PRON">2</feat><!-- ma, te -->
+    <feat name="Person" value="1" upos="ADP,AUX,NOUN,PRON,VERB">13</feat><!-- wa, wate, tsabu, wasima, wama, wawaʔutu, waʔra -->
+    <feat name="Person" value="2" upos="PRON">1</feat><!-- te -->
+    <feat name="Person" value="3" upos="NOUN,PRON,VERB">5</feat><!-- ma, dapãrĩ, dzahuré, ipire -->
+    <feat name="PronType" value="Ind" upos="PART">1</feat><!-- ni -->
+    <feat name="PronType" value="Prs" upos="PRON">3</feat><!-- ma, te, wa -->
+    <feat name="PronType" value="Tot" upos="PRON">1</feat><!-- uburé -->
+    <feat name="Reflex" value="Yes" upos="ADP">2</feat><!-- wasima -->
+    <feat name="Restr" value="Yes" upos="PART">2</feat><!-- si -->
+    <feat name="Tense" value="Past" upos="PRON">3</feat><!-- wa, ma -->
+    <feat name="Tense" value="Pres" upos="PRON">1</feat><!-- ma -->
+    <feat name="Ventive" value="Yes" upos="PART">1</feat><!-- we -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="13">
+    <dep name="advmod">5</dep>
+    <dep name="aux">5</dep>
+    <dep name="case">4</dep>
+    <dep name="dep">33</dep>
+    <dep name="det">2</dep>
+    <dep name="discourse">6</dep>
+    <dep name="iobj">3</dep>
+    <dep name="nmod">4</dep>
+    <dep name="nsubj">15</dep>
+    <dep name="obj">15</dep>
+    <dep name="obl">6</dep>
+    <dep name="punct">2</dep>
+    <dep name="root">20</dep>
+  </deps>
+</treebank>
