@@ -1,4 +1,4 @@
-# sent_id = 001.1
+# sent_id = EMX-1
 # text = Tahata wahiʔratanorĩhã
 # text_eng = Those are our ancestros (Estevam 2011:  27, 1)
 # text_por = Aquele são nossos antepassados
@@ -7,7 +7,7 @@
 2	wahiʔrata	wahiʔrata	NOUN	n	_	0	root	_	ancesters
 3	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	2	discourse	_	_
 
-# sent_id = 001.2
+# sent_id = EMX-2
 # text = Wahiʔrata norĩhã dañoʔre ma wama awajhuʔu .
 # text_fr = Nos ancêtres nous ont enseigné des chants.
 # text_eng = Our ancestors taught us songs.(Estevam, 27: 2)
@@ -20,7 +20,7 @@
 6	awajhuʔu	_	VERB	_	_	0	root	_	show
 7	.	.	PUNCT	_	_	6	punct	_	_
 
-# sent_id = 001.3
+# sent_id = EMX-3
 # text = Warazu wahiʔrata norĩ hã ma dapãrĩ zaʔra
 # text_fr = L’homme blanc a assassiné nos ancêtres. (Estevam, 27: 3)
 # text_eng = The white man murdered our ancestors.
@@ -32,7 +32,7 @@
 6	dapãrĩ	pãrĩ	VERB	_	Hon=Yes|Person=3	0	root	_	_
 7	zaʔra	zaʔra	PART	_	Number=Plur	6	dep	_	_
 
-# sent_id = 001.4
+# sent_id = EMX-4
 # text = Wahiʔrata norĩ höjmanazé ipire
 # text_eng = The life of our ancestors is hard (Estevam 2011:  28, 4)
 # text_por = 
@@ -41,7 +41,7 @@
 3	höjmanazé	höjmanazé	NOUN	n	_	4	nsubj	_	_
 4	ipire	pire	NOUN	n	Nmzr=Yes|Person=3	0	root	_	_
 
-# sent_id = 001.5
+# sent_id = EMX-5
 # text = Höjwahö wa za we wate simro waʔra norĩ hã
 # text_eng = Those are our ancestros (Estevam 2011:  28, 5)
 # text_por = Aquele são nossos antepassados
@@ -55,7 +55,7 @@
 8	norĩ	norĩ	PART	prcl	Number=Coll	7	dep	_	_
 9	hã	hã	PART	prcl	Emph=Yes	7	discourse	_	_
 
-# sent_id = 001.6
+# sent_id = EMX-6
 # text = ʔwatébrémi tiʔa te ñamra
 # text_fr = Le garçon est assis par terre.
 # text_eng = The boy sat on the floor (Estevam 2011:  28, 6)
@@ -65,7 +65,7 @@
 3	te	_	PRON	_	_	4	dep	_	_
 4	ñamra	_	VERB	_	_	0	root	_	_
 
-# sent_id = 001.7
+# sent_id = EMX-7
 # text = Höjwahö wa za oto wawaʔutu zaʔra ni
 # text_eng = In the afternoon we will rest. (Estevam 2011:  29, 7)
 # text_por = 
@@ -77,7 +77,7 @@
 6	zaʔra	zaʔra	PART	prcl	Number=Plur	5	dep	_	_
 7	ni	ni	PART	prcl	PronType=Ind	5	dep	_	_
 
-# sent_id = 001.8
+# sent_id = EMX-8
 # text = Ma ʔröwipese re tete sõré
 # text_fr = Ils ont installé (les robinets) tout près. 
 # text_eng = They installed (the taps) close by. (Estevam 2011:  29, 8)
@@ -90,7 +90,7 @@
 5	tete	te	AUX	Person=3	_	6	aux	_	_
 6	sõré	sõré	VERB	_	_	0	root	_	_
 
-# sent_id = 001.9
+# sent_id = EMX-9
 # text = Wasi na wa te ãma mro
 # text_fr = Je compte les étoiles.
 # text_eng = I count the stars (I pair with the stars). (Estevam 2011:  31, 9)
@@ -102,7 +102,7 @@
 5	ãma	ãma	PART	prcl	_	6	dep	_	_
 6	mro	mro	VERB	v	_	0	root	_	_
 
-# sent_id = 001.10
+# sent_id = EMX-10
 # text = Te wamama norĩ hã waré ʔre höjmana zaʔra warobreb ʔré hã Uʔujwawẽ ãma hã
 # text_fr = 
 # text_eng = Our parents lived (happily) with us in our small village in Lagoa Azul. (Estevam 2011:  31, 10)
@@ -124,7 +124,7 @@
 14	ãma	_	ADP	posp	_	13	case	_	_
 15	hã	hã	PART	prcl	_	13	dep	_	_
 
-# sent_id = 001.11
+# sent_id = EMX-11
 # text = Õhõ si uburé marĩ wajhuʔuʔwa hã tô , ropotoʔwa si
 # text_fr = Seul le créateur, lui seul (est) celui qui connaît toutes les choses.
 # text_eng = Only the creator, he alone (is) knows all things. (Estevam 2011:  32, 11)
@@ -142,7 +142,7 @@
 10	potoʔwa	potoʔwa	NOUN	n	_	5	nsubj	_	_
 11	si	si	PART	prcl	Restr=Yes	10	dep	_	_
 
-# sent_id = 001.12
+# sent_id = EMX-14
 # text = Duré abazi hã wa wate wasima ʔrãzani zaʔra
 # text_fr = Nous nous égrainons le coton, aussi.
 # text_eng = We scatter cotton for us too. (Estevam 2011:  34, 14)
@@ -156,7 +156,7 @@
 7	ʔrãzani	_	VERB	_	_	0	root	_	_
 8	zaʔra	_	PART	_	Number=Plur	7	dep	_	_
 
-# sent_id = 001.13
+# sent_id = EMX-15a
 # text = Aʔuwẽ ñimiromhuri hã ĩʔrãzani
 # text_fr = Le travail des Xavantes (c’)est égrainer.
 # text_eng = The work of the Xavantes (it) is to scatter. (Estevam 2011:  34, 15a)
@@ -166,7 +166,7 @@
 3	hã	_	PART	prcl	Emph=Yes	4	dep	_	_
 4	ĩʔrãzani	_	NOUN	n	Nmzr=Yes	0	root	_	_
 
-# sent_id = 001.14
+# sent_id = EMX-15b
 # text = ĩʔrãzani na wa wate ãma wasima romhuri zaʔra
 # text_fr = Nous travaillons à égrainer (le coton) pour nous.
 # text_eng = We work to gin (the cotton) for us. (Estevam 2011:  34, 15b)
@@ -179,4 +179,13 @@
 6	wasima	_	ADP	posp	Case=Dat|Number=Plur|Person=1|Reflex=Yes	7	iobj	_	_
 7	romhuri	_	VERB	v	_	0	root	_	_
 8	zaʔra	_	PART	prcl	Number=Plur	7	dep	_	_
+
+# sent_id = EMX-16
+# text = ĩʔrãzani na wa wate ãma wasima romhuri zaʔra
+# text_fr = Nous travaillons à égrainer (le coton) pour nous.
+# text_eng = We work to gin (the cotton) for us. (Estevam 2011:  35, 16)
+1	Ö	ö	NOUN	n	_	4	obj	_	_
+2	wa	wa	X	x	_	3	dep	_	_
+3	ĩĩsima	ĩĩ	PRON	pron	Case=Dat|Number=Sing|Person=1|Reflex=Yes	4	nsubj	_	_
+4	wẽ	wẽ	VERB	v	Person[abs]=3	0	root	_	_
 
