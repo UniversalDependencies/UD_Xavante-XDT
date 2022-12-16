@@ -173,8 +173,8 @@
 # text_por = 
 1	ĩʔrãzani	_	NOUN	n	Nmzr=Yes	7	obl	_	_
 2	na	_	PART	prcl	Case=Ins	1	case	_	_
-3	wa	_	PRON	pron	_	7	nsubj	_	_
-4	wate	_	AUX	aux	Number=Plur|Person=1	7	aux	_	_
+3	wa	_	PRON	pron	_	4	dep	_	_
+4	wate	_	AUX	aux	Number=Plur|Person=1	7	nsubj	_	_
 5	ãma	_	PART	prcl	_	7	dep	_	_
 6	wasima	_	ADP	posp	Case=Dat|Number=Plur|Person=1|Reflex=Yes	7	iobj	_	_
 7	romhuri	_	VERB	v	_	0	root	_	_
