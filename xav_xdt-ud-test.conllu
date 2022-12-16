@@ -86,7 +86,7 @@
 2-3	ʔröwipese	_	_	_	_	_	_	_	_
 2	ʔröwi	_	ADV	_	_	6	advmod	_	_
 3	pese	_	NOUN	_	_	2	dep	_	_
-4	re	re	PART	_	Dim=Yes	2	dep	_	_
+4	re	re	PART	_	Degree=Dim	2	dep	_	_
 5	tete	te	AUX	Person=3	_	6	aux	_	_
 6	sõré	sõré	VERB	_	_	0	root	_	_
 
