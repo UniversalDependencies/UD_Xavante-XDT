@@ -141,15 +141,14 @@
 
 # sent_id = EMX-14
 # text = Duré abazi hã wa wate wasima ʔrãzani zaʔra
-# text_fr = Nous nous égrainons le coton, aussi.
 # text_eng = We scatter cotton for us too. (Estevam 2011:  34, 14)
-# text_por = 
-1	Duré	_	ADV	_	_	7	advmod	_	_
-2	abazi	_	NOUN	_	_	7	obj	_	_
-3	hã	_	PART	_	Emph=Yes	7	dep	_	_
-4	wa	_	PART	_	_	7	nsubj	_	_
-5	wate	_	AUX	_	Number=Plur|Person=1	7	aux	_	_
-6	wasima	_	ADP	_	Case=Dat|Number=Plur|Person=1|Reflex=Yes	7	iobj	_	_
+# text_por = Nós fabricamos (processamos) algodão para nós também
+1	Duré	duré	ADV	adv	_	7	advmod	_	also;também
+2	abazi	abazi	NOUN	n	_	7	obj	_	cotton;algodão
+3	hã	hã	PART	prcl	Emph=Yes	7	dep	_	_
+4	wa	wa	PART	prcl	_	7	nsubj	_	_
+5	wate	te	AUX	aux	Number=Plur|Person=1	7	aux	_	auxiliar.verb;verbo.auxiliar
+6	wasima	_	ADP	posp	Case=Dat|Number=Plur|Person=1|Reflex=Yes	7	iobj	_	_
 7	ʔrãzani	_	VERB	_	_	0	root	_	_
 8	zaʔra	_	PART	_	Number=Plur	7	dep	_	_
 
@@ -158,9 +157,9 @@
 # text_fr = Le travail des Xavantes (c’)est égrainer.
 # text_eng = The work of the Xavantes (it) is to scatter. (Estevam 2011:  34, 15a)
 # text_por = 
-1	Aʔuwẽ	aʔuwẽ	PROPN	propn	_	2	nmod	_	_
-2	ñimiromhuri	_	NOUN	n	_	4	nsubj	_	_
-3	hã	_	PART	prcl	Emph=Yes	4	dep	_	_
+1	Aʔuwẽ	aʔuwẽ	PROPN	propn	_	2	nmod	_	Xavante;xavante
+2	ñimiromhuri	romhuri	NOUN	n	_	4	nsubj	_	work,labour;trabalho
+3	hã	hã	PART	prcl	Emph=Yes	4	dep	_	_
 4	ĩʔrãzani	_	NOUN	n	Nmzr=Yes	0	root	_	_
 
 # sent_id = EMX-15b
@@ -169,11 +168,11 @@
 # text_eng = We work to gin (the cotton) for us. (Estevam 2011:  34, 15b)
 # text_por = 
 1	ĩʔrãzani	_	NOUN	n	Nmzr=Yes	7	obl	_	_
-2	na	_	PART	prcl	Case=Ins	1	case	_	_
-3	wa	_	PRON	pron	_	4	dep	_	_
-4	wate	_	AUX	aux	Number=Plur|Person=1	7	nsubj	_	_
+2	na	na	PART	prcl	Case=Ins	1	case	_	_
+3	wa	wa	PRON	pron	_	4	dep	_	_
+4	wate	te	AUX	aux	Number=Plur|Person=1	7	nsubj	_	_
 5	ãma	_	PART	prcl	_	7	dep	_	_
-6	wasima	_	ADP	posp	Case=Dat|Number=Plur|Person=1|Reflex=Yes	7	iobj	_	_
+6	wasima	_	PRON	pron	Case=Dat|Number=Plur|Person=1|Reflex=Yes	7	iobj	_	_
 7	romhuri	_	VERB	v	_	0	root	_	_
 8	zaʔra	_	PART	prcl	Number=Plur	7	dep	_	_
 
@@ -181,8 +180,8 @@
 # text = ĩʔrãzani na wa wate ãma wasima romhuri zaʔra
 # text_fr = Nous travaillons à égrainer (le coton) pour nous.
 # text_eng = We work to gin (the cotton) for us. (Estevam 2011:  35, 16)
-1	Ö	ö	NOUN	n	_	4	obj	_	_
+1	Ö	ö	NOUN	n	_	4	obj	_	water;água
 2	wa	wa	X	x	_	3	dep	_	_
 3	ĩĩsima	ĩĩ	PRON	pron	Case=Dat|Number=Sing|Person=1|Reflex=Yes	4	nsubj	_	_
-4	wẽ	wẽ	VERB	v	Person[abs]=3	0	root	_	_
+4	wẽ	wẽ	VERB	v	Person[abs]=3	0	root	_	want;querer
 
