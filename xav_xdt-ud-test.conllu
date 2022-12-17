@@ -9,7 +9,6 @@
 
 # sent_id = EMX-2
 # text = Wahiʔrata norĩhã dañoʔre ma wama awajhuʔu .
-# text_fr = Nos ancêtres nous ont enseigné des chants.
 # text_eng = Our ancestors taught us songs.(Estevam, 27: 2)
 # text_por = 
 1	Wahiʔrata	wahiʔrata	NOUN	n	_	6	nsubj	_	ancestors
@@ -22,36 +21,36 @@
 
 # sent_id = EMX-3
 # text = Warazu wahiʔrata norĩ hã ma dapãrĩ zaʔra
-# text_fr = L’homme blanc a assassiné nos ancêtres. (Estevam, 27: 3)
 # text_eng = The white man murdered our ancestors.
-1	Warazu	warazu	NOUN	_	_	6	nsubj	_	_
+# text_por = O homem branco matou nossos antepassados. (Estevam, 27: 3)
+1	Warazu	warazu	NOUN	_	_	6	nsubj	_	white.man,non-indian;homem.branco,não-índio
 2	wahiʔrata	_	NOUN	_	_	6	obj	_	_
 3	norĩ	norĩ	PART	prcl	Emph=Yes|Number=Coll	2	dep	_	_
-4	hã	norĩ	PART	prcl	Emph=Yes|Number=Coll	2	discourse	_	_
+4	hã	norĩ	PART	prcl	Emph=Yes|Number=Coll	2	discourse	_	emphatic.particle;partícula.enfática
 5	ma	ma	PART	_	_	6	dep	_	_
-6	dapãrĩ	pãrĩ	VERB	_	Hon=Yes|Person=3	0	root	_	_
+6	dapãrĩ	pãrĩ	VERB	_	Hon=Yes|Person=3	0	root	_	murder;assassinar
 7	zaʔra	zaʔra	PART	_	Number=Plur	6	dep	_	_
 
 # sent_id = EMX-4
 # text = Wahiʔrata norĩ höjmanazé ipire
 # text_eng = The life of our ancestors is hard (Estevam 2011:  28, 4)
-# text_por = 
+# text_por = A vida de nossos antepassados é difícil
 1	Wahiʔrata	wahiʔrata	NOUN	n	_	4	obj	_	_
 2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
-3	höjmanazé	höjmanazé	NOUN	n	_	4	nsubj	_	_
-4	ipire	pire	NOUN	n	Nmzr=Yes|Person=3	0	root	_	_
+3	höjmanazé	höjmanazé	NOUN	n	_	4	nsubj	_	life;vida
+4	ipire	pire	NOUN	n	Nmzr=Yes|Person=3	0	root	_	hard;duro,dura
 
 # sent_id = EMX-5
 # text = Höjwahö wa za we wate simro waʔra norĩ hã
 # text_eng = Those are our ancestros (Estevam 2011:  28, 5)
 # text_por = Aquele são nossos antepassados
-1	Höjwahö	höjwahö	ADV	adv	_	6	advmod	_	_
-2	wa	wa	NOUN	n	_	6	nsubj	_	_
-3	za	za	PART	prcl	Aspect=Prosp	6	dep	_	_
+1	Höjwahö	höjwahö	ADV	adv	_	6	advmod	_	afternoon;à.tarde,de.tarde
+2	wa	wa	NOUN	n	_	6	nsubj	_	egophoric.marker;marcardor.egofórico
+3	za	za	PART	prcl	Aspect=Prosp	6	dep	_	prospective.aspect.marker;marcador.de.aspecto.prospectivo
 4	we	we	PART	prcl	Ventive=Yes	6	dep	_	_
 5	wate	te	AUX	aux	Number=Plur|Person=1	6	aux	_	_
-6	simro	simro	VERB	v	_	0	root	_	_
-7	waʔra	ʔra	NOUN	n	Number=Plur|Person=1	6	obj	_	_
+6	simro	simro	VERB	v	_	0	root	_	bring.back;trazer.de.volta
+7	waʔra	ʔra	NOUN	n	Number=Plur|Person=1	6	obj	_	son;filho
 8	norĩ	norĩ	PART	prcl	Number=Coll	7	dep	_	_
 9	hã	hã	PART	prcl	Emph=Yes	7	discourse	_	_
 
@@ -60,10 +59,10 @@
 # text_fr = Le garçon est assis par terre.
 # text_eng = The boy sat on the floor (Estevam 2011:  28, 6)
 # text_por = 
-1	ʔwatébrémi	_	NOUN	_	_	4	nsubj	_	_
-2	tiʔa	_	NOUN	_	_	4	obl	_	_
-3	te	_	PRON	_	_	4	dep	_	_
-4	ñamra	_	VERB	_	_	0	root	_	_
+1	ʔwatébrémi	watébrémi	NOUN	_	_	4	nsubj	_	menino
+2	tiʔa	ti	NOUN	n	_	4	obl	_	earth,ground;terra,chão
+3	te	te	PRON	pron	_	4	dep	_	_
+4	ñamra	ñamra	VERB	v	_	0	root	_	be.sit;estar.sentado
 
 # sent_id = EMX-7
 # text = Höjwahö wa za oto wawaʔutu zaʔra ni
@@ -73,7 +72,7 @@
 2	wa	wa	PRON	pron	_	5	nsubj	_	_
 3	za	za	PART	prcl	_	5	dep	_	_
 4	oto	oto	PART	prcl	Mir=Yes	5	dep	_	_
-5	wawaʔutu	waʔutu	VERB	v	Number=Plur|Person=1	0	root	_	_
+5	wawaʔutu	waʔutu	VERB	v	Number=Plur|Person=1	0	root	_	res;descansar
 6	zaʔra	zaʔra	PART	prcl	Number=Plur	5	dep	_	_
 7	ni	ni	PART	prcl	PronType=Ind	5	dep	_	_
 
@@ -82,42 +81,41 @@
 # text_fr = Ils ont installé (les robinets) tout près. 
 # text_eng = They installed (the taps) close by. (Estevam 2011:  29, 8)
 # text_por =
-1	Ma	_	PART	_	_	6	dep	_	_
+1	Ma	ma	PART	_	_	6	dep	_	_
 2-3	ʔröwipese	_	_	_	_	_	_	_	_
-2	ʔröwi	_	ADV	_	_	6	advmod	_	_
-3	pese	_	NOUN	_	_	2	dep	_	_
+2	ʔröwi	röwi	ADV	_	_	6	advmod	_	_
+3	pese	pese	NOUN	_	_	2	dep	_	_
 4	re	re	PART	_	Degree=Dim	2	dep	_	_
 5	tete	te	AUX	Person=3	_	6	aux	_	_
-6	sõré	sõré	VERB	_	_	0	root	_	_
+6	sõré	sõré	VERB	_	_	0	root	_	install;instalar
 
 # sent_id = EMX-9
 # text = Wasi na wa te ãma mro
 # text_fr = Je compte les étoiles.
 # text_eng = I count the stars (I pair with the stars). (Estevam 2011:  31, 9)
 # text_por =
-1	Wasi	wasi	NOUN	n	_	6	obl	_	_
+1	Wasi	wasi	NOUN	n	_	6	obl	_	star;estrela
 2	na	na	PART	prcl	Case=Ins	1	case	_	_
 3	wa	wa	PRON	pron	_	6	nsubj	_	_
 4	te	te	AUX	aux	_	6	aux	_	_
 5	ãma	ãma	PART	prcl	_	6	dep	_	_
-6	mro	mro	VERB	v	_	0	root	_	_
+6	mro	mro	VERB	v	_	0	root	_	match;contar
 
 # sent_id = EMX-10
 # text = Te wamama norĩ hã waré ʔre höjmana zaʔra warobreb ʔré hã Uʔujwawẽ ãma hã
-# text_fr = 
 # text_eng = Our parents lived (happily) with us in our small village in Lagoa Azul. (Estevam 2011:  31, 10)
 # text_por = 
 1	Te	te	PART	prcl	_	7	discourse	_	_
-2	wamama	mama	NOUN	n	_	7	nsubj	_	_
+2	wamama	mama	NOUN	n	_	7	nsubj	_	father;pai
 3	norĩ	norĩ	PART	prcl	Number=Coll	2	dep	_	_
 4	hã	norĩ	PART	prcl	Emph=Yes	2	dep	_	_
 5	waré	wa	PRON	pron	_	7	obl	_	_
 6	ʔre	ʔre	PART	prcl	_	7	dep	_	_
-7	höjmana	höjmana	VERB	v	_	0	root	_	_
+7	höjmana	höjmana	VERB	v	_	0	root	_	live;viver
 8	zaʔra	zaʔra	PART	prcl	_	7	dep	_	_
 9-10	warobreb	_	_	_	_	_	_	_	_
-9	warob	rob	NOUN	n	_	7	obl	_	_
-10	reb	reb	PART	prcl	_	9	nmod	_	_
+9	warob	rob	NOUN	n	_	7	obl	_	village;aldeia
+10	reb	reb	PART	prcl	_	9	nmod	_	diminutive.marker;diminutivo
 11	ʔré	_	ADP	posp	_	9	case	_	_
 12	hã	_	PART	prcl	_	9	dep	_	_
 13	Uʔujwawẽ	uʔujwawẽ	PROPN	_	_	7	obl	_	_
@@ -126,20 +124,19 @@
 
 # sent_id = EMX-11
 # text = Õhõ si uburé marĩ wajhuʔuʔwa hã tô , ropotoʔwa si
-# text_fr = Seul le créateur, lui seul (est) celui qui connaît toutes les choses.
 # text_eng = Only the creator, he alone (is) knows all things. (Estevam 2011:  32, 11)
 # text_por = 
 1	Õhõ	õhõ	DET	dem	_	5	det	_	_
 2	si	si	PART	prcl	Restr=Yes	5	advmod	_	_
-3	uburé	uburé	PRON	pron	PronType=Tot	4	nmod	_	_
-4	marĩ	marĩ	NOUN	n	_	5	obj	_	_
-5	wajhuʔuʔwa	wajhuʔ	NOUN	n	_	0	root	_	_
+3	uburé	uburé	PRON	pron	PronType=Tot	4	nmod	_	all;tudo
+4	marĩ	marĩ	NOUN	n	_	5	obj	_	thing;coisa
+5	wajhuʔuʔwa	wajhuʔ	NOUN	n	_	0	root	_	know;conhecer
 6	hã	hã	PART	prcl	Emph=Yes	5	dep	_	_
 7	tô	tô	PART	prcl	Fact=Yes	5	discourse	_	_
 8	,	,	PUNCT	punct	_	5	punct	_	_
 9-10	ropotoʔwa	_	_	_	_	_	_	_	_
-9	ro	ro	NOUN	n	_	10	nmod	_	_
-10	potoʔwa	potoʔwa	NOUN	n	_	5	nsubj	_	_
+9	ro	ro	NOUN	n	_	10	nmod	_	world;mundo
+10	potoʔwa	potoʔwa	NOUN	n	_	5	nsubj	_	create;criar
 11	si	si	PART	prcl	Restr=Yes	10	dep	_	_
 
 # sent_id = EMX-14
