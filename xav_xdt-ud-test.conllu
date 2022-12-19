@@ -176,12 +176,39 @@
 7	romhuri	_	VERB	v	_	0	root	_	_
 8	zaʔra	_	PART	prcl	Number=Plur	7	dep	_	_
 
-# sent_id = EMX-16
-# text = ĩʔrãzani na wa wate ãma wasima romhuri zaʔra
-# text_fr = Nous travaillons à égrainer (le coton) pour nous.
-# text_eng = We work to gin (the cotton) for us. (Estevam 2011:  35, 16)
+# sent_id = EMX-16a
+# text = Ö wa ĩĩsima wẽ
+# text_fr = Je veux de l’eau.
+# text_eng = I want some water. (Estevam 2011:  35, 16a)
 1	Ö	ö	NOUN	n	_	4	obj	_	water;água
 2	wa	wa	X	x	_	3	dep	_	_
 3	ĩĩsima	ĩĩ	PRON	pron	Case=Dat|Number=Sing|Person=1|Reflex=Yes	4	nsubj	_	_
 4	wẽ	wẽ	VERB	v	Person[abs]=3	0	root	_	want;querer
 
+# sent_id = EMX-16b
+# text = Ĩĩsiupte da wa ĩĩsima wẽ
+# text_fr = Je veux me laver.
+# text_eng = I want to wash myself. (Estevam 2011:  35, 16b)
+1	Ĩĩsiupte	upte	VERB	v	Number[abs]=Sing|Person[abs]=1	5	obj	_	wash;lavagem
+2	da	da	X	x	Subord=Yes	1	dep	_	_
+3	wa	wa	X	x	_	4	dep	_	_
+4	ĩĩsima	ĩĩ	PRON	pron	Case=Dat|Number=Sing|Person=1|Reflex=Yes	5	nsubj	_	_
+5	wẽ	wẽ	VERB	v	Person[abs]=3	_	_	_	want;querer
+
+# sent_id = EMX-17
+# text = Te za oto asina aahöjmana aba mo, aʔuwẽ hã atébré aba hö
+# text_fr = A partir de maintenant vous vivrez par vous-mêmes, pour que le (peuple) xavante (se) multiplie.
+# text_eng = From now on you will live by yourselves, so that the (people) xavante (will) multiply. (Estevam 2011:  35, 17)
+1	Te	te	PART	prcl	_	_	_	_	_
+2	za	za	PART	prcl	_	_	_	_	_
+3	oto	oto	PART	prcl	Mir=Yes	_	_	_	_
+4	asina	_	PRON	pron	_	_	_	_	_
+5	aahöjmana	höjmana	VERB	v	_	_	_	_	_
+6	aba	aba	PART	prcl	Number=Coll	_	_	_	_
+7	mo	mo	AUX	aux	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_
+9	aʔuwẽ	_	_	_	_	_	_	_	_
+10	hã	_	_	_	_	_	_	_	_
+11	atébré	_	_	_	_	_	_	_	_
+12	aba	_	_	_	_	_	_	_	_
+13	hö	_	_	_	_	_	_	_	_
