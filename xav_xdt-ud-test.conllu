@@ -230,3 +230,29 @@
 # text = warazu ʔra
 # text_fr = fils de l’homme blanc
 # text_eng = Son of the white man (Estevam 2011:  38, 19a)
+1	warazu	warazu	NOUN	n	_	2	nmod	_	white.man,non-indian;homem.branco,não-índio
+2	ʔra	ʔra	NOUN	n	_	0	root	_	son;filho
+
+# sent_id = EMX-19b
+# text = ĩʔra
+# text_fr = son fils
+# text_eng = his son (Estevam 2011:  38, 19b)
+1	ĩʔra	ʔra	NOUN	n	Person=3	0	root	_	son;filho
+
+# sent_id = EMX-20a
+# text = ĩĩmama zéré
+# text_fr = cheveux de mon père
+# text_eng = hair of my father (Estevam 2011:  38, 20a)
+1	ĩĩmama	mama	NOUN	n	Number=Sing|Person=1	2	nmod	_	father;pai
+2	zéré	zéré	NOUN	n	_	0	root	_	hair;cabelo
+
+# sent_id = EMX-20b
+# text = ĩséré
+# text_fr = ses cheveux
+# text_eng = his hair (Estevam 2011:  38, 20b)
+1	ĩséré	séré	NOUN	n	Person=3	0	root	_	hair;cabelo
+
+# sent_id = EMX-21
+# text = ĩĩmama tei wapsã
+# text_fr = chien de mon père
+# text_eng = dog of my father (Estevam 2011:  39, 21)
