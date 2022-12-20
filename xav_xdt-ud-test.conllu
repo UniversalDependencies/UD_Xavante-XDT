@@ -263,4 +263,20 @@
 # sent_id = EMX-22
 # text = Ĩhiñimizaʔreseõ tô daro mono bö te höjmana zaʔra tô
 # text_fr = De vieux ignares existent en effet dans chaque village.
-# text_eng = Old ignoramuses exist indeed in every village. (Estevam 2011:  39, 22)
+# text_eng = Old ignoramuses exist indeed in every village. (Estevam 2011:  40, 22)
+1-2	Ĩhiñimizaʔreseõ	_	_	_	_	_	_	_	_
+1	Ĩhi	ĩhi	NOUN	n	_	2	nmod	_	old;velho
+2	ñimizaʔreseõ	ñimizaʔrese	NOUN	n	Polarity=Neg	_	_	_	ignorant;ignorante
+3	tô	tô	PART	prcl	Case=Fact	8	dep	_	factive;fictício
+4	daro	ro	NOUN	n	_	8	obl	_	village;aldeia
+5	mono	mono	PART	prcl	NumType=Dist	4	dep	_	_
+6	bö	bö	PART	prcl	Case=Loc	4	case	_	locative;aluguel
+7	te	te	PART	prcl	_	8	discourse	_	_
+8	höjmana	höjmana	VERB	v	Person[abs]=3	0	root	_	live;viver
+9	zaʔra	zaʔra	PART	prcl	Number=Plur	8	dep	_	_
+10	tô	tô	PART	prcl	Case=Fact	8	dep	_	factive;fictício
+
+# sent_id = EMX-23a
+# text = Uwajʔrewawẽ zahadu tete di
+# text_fr = L’avocat n’est pas encore mûr
+# text_eng = The avocado is not ripe yet. (Estevam 2011:  40, 23a)
