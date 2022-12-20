@@ -181,7 +181,7 @@
 # text_fr = Je veux de l’eau.
 # text_eng = I want some water. (Estevam 2011:  35, 16a)
 1	Ö	ö	NOUN	n	_	4	obj	_	water;água
-2	wa	wa	X	x	_	3	dep	_	_
+2	wa	wa	X	x	_	3	dep	_	egophoric.marker;marcardor.egofórico
 3	ĩĩsima	ĩĩ	PRON	pron	Case=Dat|Number=Sing|Person=1|Reflex=Yes	4	nsubj	_	_
 4	wẽ	wẽ	VERB	v	Person[abs]=3	0	root	_	want;querer
 
@@ -191,7 +191,7 @@
 # text_eng = I want to wash myself. (Estevam 2011:  35, 16b)
 1	Ĩĩsiupte	upte	VERB	v	Number[abs]=Sing|Person[abs]=1	5	obj	_	wash;lavagem
 2	da	da	X	x	Subord=Yes	1	dep	_	_
-3	wa	wa	X	x	_	4	dep	_	_
+3	wa	wa	X	x	_	4	dep	_	egophoric.marker;marcardor.egofórico
 4	ĩĩsima	ĩĩ	PRON	pron	Case=Dat|Number=Sing|Person=1|Reflex=Yes	5	nsubj	_	_
 5	wẽ	wẽ	VERB	v	Person[abs]=3	_	_	_	want;querer
 
