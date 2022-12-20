@@ -256,3 +256,11 @@
 # text = ĩĩmama tei wapsã
 # text_fr = chien de mon père
 # text_eng = dog of my father (Estevam 2011:  39, 21)
+1	ĩĩmama	mama	NOUN	n	Number=Sing|Person=1	2	nmod	_	father;pai
+2	te	te	NOUN	n	_	_	_	_	_
+3	wapsã	wapsã	NOUN	n	_	2	appos	_	dog;cadela
+
+# sent_id = EMX-22
+# text = Ĩhiñimizaʔreseõ tô daro mono bö te höjmana zaʔra tô
+# text_fr = De vieux ignares existent en effet dans chaque village.
+# text_eng = Old ignoramuses exist indeed in every village. (Estevam 2011:  39, 22)
