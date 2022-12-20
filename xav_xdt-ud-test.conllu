@@ -199,16 +199,16 @@
 # text = Te za oto asina aahöjmana aba mo, aʔuwẽ hã atébré aba hö
 # text_fr = A partir de maintenant vous vivrez par vous-mêmes, pour que le (peuple) xavante (se) multiplie.
 # text_eng = From now on you will live by yourselves, so that the (people) xavante (will) multiply. (Estevam 2011:  35, 17)
-1	Te	te	PART	prcl	_	_	_	_	_
-2	za	za	PART	prcl	_	_	_	_	_
-3	oto	oto	PART	prcl	Mir=Yes	_	_	_	_
-4	asina	_	PRON	pron	_	_	_	_	_
-5	aahöjmana	höjmana	VERB	v	_	_	_	_	_
-6	aba	aba	PART	prcl	Number=Coll	_	_	_	_
-7	mo	mo	AUX	aux	_	_	_	_	_
-8	,	_	_	_	_	_	_	_	_
-9	aʔuwẽ	_	_	_	_	_	_	_	_
-10	hã	_	_	_	_	_	_	_	_
-11	atébré	_	_	_	_	_	_	_	_
-12	aba	_	_	_	_	_	_	_	_
-13	hö	_	_	_	_	_	_	_	_
+1	Te	te	PART	prcl	_	5	discourse	_	_
+2	za	za	PART	prcl	Aspect=Prosp	5	dep	_	prospective.aspect.marker;marcador.de.aspecto.prospectivo
+3	oto	oto	PART	prcl	Mir=Yes	5	dep	_	_
+4	asina	a	PRON	pron	Case=Ins|Hon=Yes|Person=2|Reflex=Yes	5	nsubj	_	_
+5	aahöjmana	höjmana	VERB	v	Hon=Yes|Person[abs]=2	0	root	_	live;viver
+6	aba	aba	PART	prcl	Number=Coll	5	dep	_	collective.marker
+7	mo	mo	AUX	aux	_	5	aux	_	_
+8	,	,	PUNCT	punct	_	5	punct	_	_
+9	aʔuwẽ	aʔuwẽ	NOUN	n	_	11	nsubj	_	Xavante;xavante
+10	hã	hã	PART	prcl	Emph=Yes	11	dep	_	_
+11	atébré	atébré	VERB	v	Person[abs]=3	5	advmod	_	multiply;multiplicar
+12	aba	aba	PART	prcl	Number=Coll	11	dep	_	collective.marker
+13	hö	hö	X	x	Mood=Des	11	dep	_	_
