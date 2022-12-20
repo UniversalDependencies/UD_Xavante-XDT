@@ -212,3 +212,9 @@
 11	atébré	atébré	VERB	v	Person[abs]=3	5	advmod	_	multiply;multiplicar
 12	aba	aba	PART	prcl	Number=Coll	11	dep	_	collective.marker
 13	hö	hö	X	x	Mood=Des	11	dep	_	_
+
+# sent_id = EMX-18
+# text = Wa ʔre ĩĩhöjmana rowẽuptabi na hã
+# text_fr = Je vivais très heureusement.
+# text_eng = I lived very happily. (Estevam 2011:  35, 18)
+
