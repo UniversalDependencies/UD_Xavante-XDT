@@ -323,9 +323,9 @@
 # text = Norõ te su ma azidi tô
 # text_fr = Ils ont aperçu les feuilles de palmier (sp).
 # text_eng = They noticed the palm leaves. (Estevam 2011:  41, 26)
-1	Norõ	norõ	NOUN	n	_	2	nmod	_	_
+1	Norõ	norõ	NOUN	n	_	2	nmod	_	palm.sp;palmeira.esp
 2	te	te	NOUN	n	_	3	nmod	_	_
-3	su	su	NOUN	n	_	5	obj	_	_
+3	su	su	NOUN	n	_	5	obj	_	leaf;folha
 4	ma	ma	PART	prcl	_	5	dep	_	perfect.aspect;aspecto.perfeito
 5	azidi	zidi	VERB	v	Number=Coll|Person[abs]=3	0	root	_	notice;aviso
 6	tô	tô	PART	prcl	Fact=Yes	5	dep	_	factive;fictício
