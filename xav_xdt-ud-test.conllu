@@ -257,7 +257,7 @@
 # text_fr = chien de mon père
 # text_eng = dog of my father (Estevam 2011:  39, 21)
 1	ĩĩmama	mama	NOUN	n	Number=Sing|Person=1	2	nmod	_	father;pai
-2	te	te	NOUN	n	_	_	_	_	_
+2	te	te	NOUN	n	_	0	root	_	_
 3	wapsã	wapsã	NOUN	n	_	2	appos	_	dog;cadela
 
 # sent_id = EMX-22
@@ -299,3 +299,33 @@
 # text = abaʔwa norĩ
 # text_fr = (les) chasseurs
 # text_eng = the hunters (Estevam 2011:  41, 24a)
+1	abaʔwa	abaʔwa	NOUN	n	_	0	root	_	hunter;caçador
+2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
+
+# sent_id = EMX-24b
+# text = utö norĩ
+# text_fr = (les) tapirs
+# text_eng = the tapirs (Estevam 2011:  41, 24b)
+1	utö	utö	NOUN	n	_	0	root	_	tapir;tapir
+2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
+
+# sent_id = EMX-25
+# text = Wede hã uburé ma pusi
+# text_fr = Tous les arbres ont surgi.
+# text_eng = All the trees have sprung up. (Estevam 2011:  41, 25)
+1	Wede	wede	NOUN	n	_	5	nsubj	_	tree;árvore
+2	hã	hã	PART	prcl	Emph=Yes	1	dep	_	_
+3	uburé	uburé	PRON	pron	PronType=Tot	1	nmod	_	all;tudo
+4	ma	ma	PART	prcl	_	5	dep	_	perfect.aspect;aspecto.perfeito
+5	pusi	pusi	VERB	v	Person[abs]=3	0	root	_	spring.up;brotar
+
+# sent_id = EMX-26
+# text = Norõ te su ma azidi tô
+# text_fr = Ils ont aperçu les feuilles de palmier (sp).
+# text_eng = They noticed the palm leaves. (Estevam 2011:  41, 26)
+1	Norõ	norõ	NOUN	n	_	2	nmod	_	_
+2	te	te	NOUN	n	_	3	nmod	_	_
+3	su	su	NOUN	n	_	5	obj	_	_
+4	ma	ma	PART	prcl	_	5	dep	_	perfect.aspect;aspecto.perfeito
+5	azidi	zidi	VERB	v	Number=Coll|Person[abs]=3	0	root	_	notice;aviso
+6	tô	tô	PART	prcl	Fact=Yes	5	dep	_	factive;fictício
