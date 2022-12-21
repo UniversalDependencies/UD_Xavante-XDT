@@ -280,3 +280,22 @@
 # text = Uwajʔrewawẽ zahadu tete di
 # text_fr = L’avocat n’est pas encore mûr
 # text_eng = The avocado is not ripe yet. (Estevam 2011:  40, 23a)
+1	Uwajʔrewawẽ	uwajʔrewawẽ	NOUN	n	_	3	nsubj	_	avocado;abacate
+2	zahadu	zahadu	ADV	adv	_	3	advmod	_	yet;ainda
+3	tete	tete	NOUN	n	Person[abs]=3	0	root	_	be.hard;ser.dura
+4	di	di	PART	prcl	_	3	dep	_	_
+
+# sent_id = EMX-23b
+# text = Asaro zöptete di
+# text_fr = Le riz n’est pas mûr
+# text_eng = The rice is not ripe (lit. “is hard”). (Estevam 2011:  40, 23b)
+1	Asaro	asaro	NOUN	n	_	3	nsubj	_	rice;arroz
+2-3	zöptete	_	_	_	_	_	_	_	_
+2	zöp	zöp	NOUN	n	_	3	nmod	_	grão;grão
+3	tete	tete	NOUN	n	Person[abs]=3	0	root	_	be.hard;ser.dura
+4	di	di	PART	prcl	_	3	dep	_	_
+
+# sent_id = EMX-24a
+# text = abaʔwa norĩ
+# text_fr = (les) chasseurs
+# text_eng = the hunters (Estevam 2011:  41, 24a)
