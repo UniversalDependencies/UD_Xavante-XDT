@@ -92,6 +92,26 @@
 9	u	u	ADP	posp	_	8	case	_	to;a,para
 10	.	.	PUNCT	punct	_	4	punct	_	_
 
+# sent_id = GL-CLX18.1
+# text = Pi'õ , te mo buru u . Tame , te wapa aibö mreme hã .
+# text_por = Uma mulher vai à roça. Lá ela escuta a conversa de um homem.
+# text_eng = A woman goes to the slash. There she listens to a man's conversation.
+1	Pi'õ	pi'õ	NOUN	_	_	4	nsubj	_	_
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	te	te	X	x	Htp=Yes	4	dep	_	_
+4	mo	mo	VERB	_	_	0	root	_	_
+5	buru	buru	NOUN	_	_	4	obl	_	_
+6	u	u	ADP	_	_	5	case	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+8	Tame	_	ADV	_	_	11	advcl	_	there;lá
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	te	te	X	x	Htp=Yes	11	dep	_	_
+11	wapa	wapari	VERB	_	_	4	parataxis	_	hear;escutar
+12	aibö	aibö	NOUN	n	_	13	nmod	_	_
+13	mreme	mreme	NOUN	n	_	11	obj	_	conversation,talk;conversa
+14	hã	hã	PART	_	_	13	discourse	_	_
+15	.	.	PUNCT	_	_	13	punct	_	_
+
 # sent_id = EMX-1
 # text = Tahata wahiʔratanorĩhã
 # text_eng = Those are our ancestros (Estevam 2011:  27, 1)
