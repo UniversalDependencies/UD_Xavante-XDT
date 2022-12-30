@@ -1,3 +1,97 @@
+# sent_id = GL-CLX16.1
+# text = Aibõ , te mo . Pi’õ , te mo . Ba'õno , te mo . O hã , te mo .
+# text_por = Uni homem vai. Uma mulher vai. A menina vai. Ele (ela) vai.
+# text_eng = One man goes. A woman goes. The girl goes. He (she) goes.
+1	Aibö	aibö	NOUN	n	_	4	nsubj	_	man;homem
+2	,	,	PUNCT	punct	_	4	punct	_	_
+3	te	te	X	x	Htp=Yes	4	dep	_	heterophoric.marker;marcardor.heterofórico
+4	mo	mo	VERB	v	_	0	root	_	go;ir
+5	.	.	PUNCT	punct	_	4	punct	_	_
+6	Pi’õ	pi'õ	NOUN	n	_	9	nsubj	_	woman;mulher
+7	,	,	PUNCT	punct	_	9	punct	_	_
+8	te	te	X	x	Htp=Yes	9	dep	_	heterophoric.marker;marcardor.heterofórico
+9	mo	mo	VERB	v	_	4	parataxis	_	go;ir
+10	.	.	PUNCT	punct	_	9	punct	_	_
+11	Ba'õno	ba'õno	NOUN	n	_	14	nsubj	_	girl;menina
+12	,	,	PUNCT	punct	_	14	punct	_	_
+13	te	te	X	x	Htp=Yes	14	dep	_	heterophoric.marker;marcardor.heterofórico
+14	mo	mo	VERB	v	_	4	parataxis	_	go;ir
+15	.	.	PUNCT	punct	_	14	punct	_	_
+16	Õhã	õhã	PRON	pron	Emph=Yes|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	he,she,it;ele,ela
+17	,	,	PUNCT	punct	_	19	punct	_	_
+18	te	te	X	x	Htp=Yes	19	dep	_	heterophoric.marker;marcardor.heterofórico
+19	mo	mo	VERB	v	_	4	parataxis	_	go;ir
+20	.	.	PUNCT	punct	_	19	punct	_	_
+
+# sent_id = GL-CLX16.2
+# text = Wapté , te wara . Tsa'êtè , te wara . Uhödö , te wara .
+# text_por = Um adolescente corre. Ele corre depressa. Uma anta corre.
+# text_eng = A teenager runs. He runs fast. A tapir runs.
+1	Wapté	wapté	NOUN	n	_	4	nsubj	_	teenager;adolescente
+2	,	,	PUNCT	punct	_	4	punct	_	_
+3	te	te	X	x	Htp=Yes	4	dep	_	heterophoric.marker;marcardor.heterofórico
+4	wara	wara	VERB	v	_	0	root	_	run;correr
+5	.	.	PUNCT	punct	_	4	punct	_	_
+6	Tsa'ẽtè	tsa'ẽtè	ADV	adv	_	9	advmod	_	in.a.hurry,quickly,loud;depressa,em.voz.alta
+7	,	,	PUNCT	punct	_	9	punct	_	_
+8	te	te	X	x	Htp=Yes	9	dep	_	heterophoric.marker;marcardor.heterofórico
+9	wara	wara	VERB	v	_	4	parataxis	_	run;correr
+10	.	.	PUNCT	punct	_	9	punct	_	_
+11	Uhödö	uhödö	NOUN	n	_	14	nsubj	_	tapir;anta
+12	,	,	PUNCT	punct	_	14	punct	_	_
+13	te	te	X	x	Htp=Yes	14	dep	_	heterophoric.marker;marcardor.heterofórico
+14	wara	wara	VERB	v	_	4	parataxis	_	run;correr
+15	.	.	PUNCT	punct	_	14	punct	_	_
+
+# sent_id = GL-CLX16.3
+# text = Aibö , te mo buru u . Pi'õ dzéma , te mo buru u .
+# text_por = Um homem vai à roça. Também uma mulher vai à roça.
+# text_eng = A man goes to the fields. A woman also goes to the fields.
+1	Aibö	aibö	NOUN	n	_	4	nsubj	_	man;homem
+2	,	,	PUNCT	punct	_	4	punct	_	_
+3	te	te	X	x	Htp=Yes	4	dep	_	heterophoric.marker;marcardor.heterofórico
+4	mo	mo	VERB	v	_	0	root	_	go;ir
+5	buru	buru	NOUN	n	_	4	obl	_	slash;roça
+6	u	u	ADP	posp	_	5	case	_	to;a,para
+7	.	.	PUNCT	punct	_	4	punct	_	_
+8	Pi’õ	pi'õ	NOUN	n	_	12	nsubj	_	woman;mulher
+9	dzéma	dzéma	ADV	adv	_	12	advmod	_	also;também
+10	,	,	PUNCT	punct	_	12	punct	_	_
+11	te	te	X	x	Htp=Yes	12	dep	_	heterophoric.marker;marcardor.heterofórico
+12	mo	mo	VERB	v	_	4	parataxis	_	go;ir
+13	buru	buru	NOUN	n	_	12	obl	_	slash;roça
+14	u	u	ADP	posp	_	13	case	_	to;a,para
+15	.	.	PUNCT	punct	_	12	punct	_	_
+
+# sent_id = GL-CLX16.4
+# text = Aibõ , te mo . Pi’õ , te mo . Ba'õno , te mo . O hã , te mo .
+# text_por = Um homem e uma mulher vão à roça.
+1	Aibö	aibö	NOUN	n	_	6	nsubj	_	man;homem
+2	pi'õi	pi'õ	NOUN	n	_	1	nmod	_	woman;mulher
+3	me	me	ADP	posp	_	2	case	_	with;com
+4	,	,	PUNCT	punct	_	6	punct	_	_
+5	te	te	X	x	Htp=Yes	6	dep	_	heterophoric.marker;marcardor.heterofórico
+6	tineb	ne	VERB	v	Person=3	0	root	_	walk;andar,caminhar
+7	dzahuré	dzahuré	NOUN	n	_	6	cc	_	both;ambos
+8	buru	buru	NOUN	n	_	6	obl	_	slash;roça
+9	u	u	ADP	posp	_	8	case	_	to;a,para
+10	.	.	PUNCT	punct	_	6	punct	_	_
+
+# sent_id = GL-CLX16.5
+# text = Aibõ , te mo . Pi’õ , te mo . Ba'õno , te mo . O hã , te mo .
+# text_por = Um menino vai para casa, à mãe dele.
+# text_eng = A boy goes home to his mother.
+1	'Watébrémi	'watébrémi	NOUN	n	_	4	nsubj	_	boy;menino
+2	,	,	PUNCT	punct	_	4	punct	_	_
+3	te	te	X	x	Htp=Yes	4	dep	_	heterophoric.marker;marcardor.heterofórico
+4	mo	mo	VERB	v	_	0	root	_	go;ir
+5	'ri	'ri	NOUN	n	_	4	obl	_	house;casa
+6	tẽme	tẽme	ADP	posp	_	5	case	_	to;para,até
+7	,	,	PUNCT	punct	_	4	punct	_	_
+8	tina	na	NOUN	n	Person=3|Reflex=Yes	4	obl	_	mother;mãe
+9	u	u	ADP	posp	_	8	case	_	to;a,para
+10	.	.	PUNCT	punct	_	4	punct	_	_
+
 # sent_id = EMX-1
 # text = Tahata wahiʔratanorĩhã
 # text_eng = Those are our ancestros (Estevam 2011:  27, 1)
