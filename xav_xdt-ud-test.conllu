@@ -92,6 +92,92 @@
 9	u	u	ADP	posp	_	8	case	_	to;a,para
 10	.	.	PUNCT	punct	_	4	punct	_	_
 
+# sent_id = GL-CLX16.6
+# text = Aibö , te wara pe'a dzô .
+# text_por = Um homem corre em busca de um peixe.
+# text_eng = A man runs in search of a fish.
+1	Aibö	aibö	NOUN	n	_	4	nsubj	_	man;homem
+2	,	,	PUNCT	punct	_	4	punct	_	_
+3	te	te	X	x	Htp=Yes	4	dep	_	heterophoric.marker;marcardor.heterofórico
+4	wara	wara	VERB	v	_	0	root	_	run;correr
+5	pe'a	pe'a	NOUN	n	_	4	obl	_	fish;peixe
+6	dzô	dzô	ADP	posp	_	5	case	_	after,in.search.of;atrás.de,em.busca.de
+7	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = GL-CLX16.7
+# text = Pe'a , te tiwi wara .
+# text_por = Um peixe foge dele.
+# text_eng = A fish runs away from him.
+1	Pe'a	pe'a	NOUN	n	_	5	nsubj	_	fish;peixe
+2	,	,	PUNCT	punct	_	5	punct	_	_
+3	te	te	X	x	Htp=Yes	5	dep	_	heterophoric.marker;marcardor.heterofórico
+4	tiwi	wi	ADP	posp	Person=3	5	obl	_	far.from;longe.de
+5	wara	wara	VERB	v	_	0	root	_	run;correr
+6	.	.	PUNCT	punct	_	5	punct	_	_
+
+# sent_id = GL-CLX16.8
+# text = Tsô wara wa , te tiwi wara .
+# text_por = Porque ele corre atrás dele, ele foge.
+# text_eng = Because he runs after him, he runs away.
+1	Tsô	tsô	ADP	posp	_	2	obl	_	after,towards,in.search.of;em.busca.de,atrás.de
+2	wara	wara	VERB	v	_	7	advcl	_	run;correr
+3	wa	wa	SCONJ	sconj	_	2	mark	_	because;por.que
+4	,	,	PUNCT	punct	_	7	punct	_	_
+5	te	te	X	x	Htp=Yes	7	dep	_	heterophoric.marker;marcardor.heterofórico
+6	tiwi	wi	ADP	posp	Person=3	7	obl	_	far.from;longe.de
+7	wara	wara	VERB	v	_	0	root	_	run;correr
+8	.	.	PUNCT	punct	_	7	punct	_	_
+
+# sent_id = GL-CLX16.9
+# text = Aibõ , ma wei wi .
+# text_por = Um homem veio.
+# text_eng = A man came.
+1	Aibö	aibö	NOUN	n	_	4	nsubj	_	man;homem
+2	,	,	PUNCT	punct	_	4	punct	_	_
+3	ma	ma	PART	prcl	_	4	dep	_	perfect.aspect;aspecto.perfectivo
+4	wei	we	ADV	adv	_	0	root	_	hither;para.cá
+5	wi	wi	ADP	posp	_	4	obl	_	far.from;longe.de
+6	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = GL-CLX16.10
+# text = E marĩ dzô, ma wei wi.
+# text_por = Para que ele veio?
+# text_eng = What did he come for?
+1	E	e	PART	prcl	Int=Yes	2	dep	_	question.particle;partícula.interrogativa
+2	marĩ	marĩ	PRON	pron	_	6	obl	_	something,what;algo,o.que,alguma.coisa
+3	dzô	dzô	ADP	posp	_	2	case	_	after,in.search.of;atrás.de,em.busca.de
+4	,	,	PUNCT	punct	_	6	punct	_	_
+5	ma	ma	PART	prcl	_	6	dep	_	perfect.aspect;aspecto.perfectivo
+6	wei	we	ADV	adv	_	0	root	_	hither;para.cá
+7	wi	wi	ADP	posp	_	6	obl	_	far.from;longe.de
+8	.	.	PUNCT	punct	_	6	punct	_	_
+
+# sent_id = GL-CLX16.11
+# text = Ti'ra , te te tsabu da , ma wei wi .
+# text_por = Para ver seu filho, ele veio.
+# text_eng = To see his son, he came.
+1	Ti'ra	'ra	NOUN	n	Person=3	4	obj	_	son,daughter;filho,filha
+2	,	,	PUNCT	punct	_	4	punct	_	_
+3	tete	te	AUX	aux	Number=Sing|Person=3	4	aux	_	_
+4	tsabu	tsabu	VERB	v	_	8	advcl	_	see,take.care.of;ver,enxergar,olhar,cuidar
+5	da	da	SCONJ	sconj	_	4	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+6	,	,	PUNCT	punct	_	8	punct	_	_
+7	ma	ma	PART	prcl	Aspect=Perf	8	dep	_	perfect.aspect;aspecto.perfectivo
+8	wei	we	ADV	adv	_	0	root	_	hither;para.cá
+9	wi	wi	ADP	posp	_	8	obl	_	far.from;longe.de
+10	.	.	PUNCT	punct	_	8	punct	_	_
+
+# sent_id = GL-CLX16.12
+# text = E te dza apö mo . 
+# text_por = Ele voltará?
+# text_eng = Will he come back?
+1	E	e	PART	prcl	Int=Yes	5	dep	_	question.particle;partícula.interrogativa
+2	te	te	X	x	Htp=Yes	5	dep	_	heterophoric.marker;marcardor.heterofórico
+3	dza	dza	PART	prcl	Tense=Fut	5	dep	_	future.marker;marcador.de.futuro
+4	apö	apö	ADV	adv	_	5	advmod	_	back,again;de.volta,outra.vez
+5	mo	mo	VERB	v	_	0	root	_	go;ir
+6	.	.	PUNCT	punct	_	5	punct	_	_
+
 # sent_id = GL-CLX18.1
 # text = Pi'õ , te mo buru u . Tame , te wapa aibö mreme hã .
 # text_por = Uma mulher vai à roça. Lá ela escuta a conversa de um homem.
