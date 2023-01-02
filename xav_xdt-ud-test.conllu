@@ -182,21 +182,111 @@
 # text = Pi'õ , te mo buru u . Tame , te wapa aibö mreme hã .
 # text_por = Uma mulher vai à roça. Lá ela escuta a conversa de um homem.
 # text_eng = A woman goes to the slash. There she listens to a man's conversation.
-1	Pi'õ	pi'õ	NOUN	n	_	4	nsubj	_	_
+1	Pi'õ	pi'õ	NOUN	n	_	4	nsubj	_	woman;mulher
 2	,	,	PUNCT	punct	_	4	punct	_	_
-3	te	te	X	x	Htp=Yes	4	dep	_	_
-4	mo	mo	VERB	v	_	0	root	_	_
-5	buru	buru	NOUN	n	_	4	obl	_	_
-6	u	u	ADP	posp	_	5	case	_	_
+3	te	te	X	x	Htp=Yes	4	dep	_	heterophoric.marker;marcardor.heterofórico
+4	mo	mo	VERB	v	_	0	root	_	go;ir
+5	buru	buru	NOUN	n	_	4	obl	_	slash;roça
+6	u	u	ADP	posp	_	5	case	_	to;a,para
 7	.	.	PUNCT	punct	_	4	punct	_	_
 8	Tame	tame	ADV	adv	_	11	advcl	_	there;lá
 9	,	,	PUNCT	punct	_	11	punct	_	_
-10	te	te	X	x	Htp=Yes	11	dep	_	_
+10	te	te	X	x	Htp=Yes	11	dep	_	heterophoric.marker;marcardor.heterofórico
 11	wapa	wapari	VERB	v	_	4	parataxis	_	hear;escutar
-12	aibö	aibö	NOUN	n	_	13	nmod	_	_
+12	aibö	aibö	NOUN	n	_	13	nmod	_	man;homem
 13	mreme	mreme	NOUN	n	_	11	obj	_	conversation,talk;conversa
-14	hã	hã	PART	prcl	_	13	discourse	_	_
+14	hã	hã	PART	prcl	Emph=Yes	13	discourse	_	_
 15	.	.	PUNCT	punct	_	13	punct	_	_
+
+# sent_id = GL-CLX18.2
+# text = Aibö , te wei mo 'watébrémi me . 'Watébrémi marĩ na , te aibö tsadanha .
+# text_por = Um homem vem com um menino. Um menino pergunta alguma coisa a um homem.
+# text_eng = A man comes with a boy. A boy asks a man something.
+1	Aibö	aibö	NOUN	n	_	5	nsubj	_	man;homem
+2	,	,	PUNCT	punct	_	5	punct	_	_
+3	te	te	X	x	Htp=Yes	5	dep	_	heterophoric.marker;marcardor.heterofórico
+4	wei	we	ADV	adv	_	5	advmod	_	hither;para.cá
+5	mo	mo	VERB	v	_	0	root	_	go;ir
+6	'watébrémi	'watébrémi	NOUN	n	_	5	obl	_	boy;menino
+7	me	me	ADP	posp	_	6	case	_	with;com
+8	.	.	PUNCT	punct	_	5	punct	_	_
+9	'Watébrémi	'watébrémi	NOUN	n	_	15	nsubj	_	boy;menino
+10	marĩ	marĩ	PRON	pron	_	15	obl	_	something,what;algo,o.que,alguma.coisa
+11	na	na	ADP	posp	_	10	case	_	in;from;em,de
+12	,	,	PUNCT	punct	_	15	punct	_	_
+13	te	te	X	x	Htp=Yes	15	dep	_	heterophoric.marker;marcardor.heterofórico
+14	aibö	aibö	NOUN	n	_	15	obj	_	man;homem
+15	tsadanha	tsadanharĩ	VERB	v	_	5	parataxis	_	ask;perguntar
+16	.	.	PUNCT	punct	_	15	punct	_	_
+
+# sent_id = GL-CLX18.3
+# text = Aibö , ma atsa tsada'ö marĩ na .
+# text_por = Um homem lhe responde alguma coisa.
+# text_eng = A man answers him something.
+1	Aibö	aibö	NOUN	n	_	5	nsubj	_	man;homem
+2	,	,	PUNCT	punct	_	5	punct	_	_
+3	ma	ma	PART	prcl	Aspect=Perf	5	dep	_	perfect.aspect;aspecto.perfectivo
+4	atsa	atsa	PRON	pron	_	5	iobj	_	_
+5	tsada'ö	tsada'öbö	VERB	v	_	0	root	_	reply;responder
+6	marĩ	marĩ	PRON	pron	_	5	obl	_	something,what;algo,o.que,alguma.coisa
+7	na	na	ADP	posp	_	6	case	_	in;from;em,de
+8	.	.	PUNCT	punct	_	5	punct	_	_
+
+# sent_id = GL-CLX18.4
+# text = Apötsi , 'watébrémi , te marĩ aibö wi waptẽ , tsa da .
+# text_por = Em seguida, um menino pede algo a um homem, para comer.
+# text_eng = Then a boy asks a man for something to eat.
+1	Apötsi	apötsi	ADV	adv	_	9	advmod	_	later,after,then;mais.tarde,depois,em.seguida
+2	,	,	PUNCT	punct	_	9	punct	_	_
+3	'watébrémi	'watébrémi	NOUN	n	_	9	nsubj	_	boy;menino
+4	,	,	PUNCT	punct	_	9	punct	_	_
+5	te	te	X	x	Htp=Yes	9	dep	_	heterophoric.marker;marcardor.heterofórico
+6	marĩ	marĩ	PRON	pron	_	9	obj	_	something,what;algo,o.que,alguma.coisa
+7	aibö	aibö	NOUN	n	_	9	iobj	_	man;homem
+8	wi	wi	ADP	posp	_	9	obl	_	far.from;longe.de
+9	waptẽ	waptẽrẽ	VERB	v	_	0	root	_	ask,request;pedir,solicitar
+10	,	,	PUNCT	punct	_	9	punct	_	_
+11	tsa	tsa	NOUN	n	_	9	advcl	_	food;comida,alimento
+12	da	da	SCONJ	sconj	_	11	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+13	.	.	PUNCT	punct	_	9	punct	_	_
+
+# sent_id = GL-CLX18.5
+# text = Pi’õ tsa'ẽtẽ , te romhu buru ãma hã . Romhuri ãna hã , marĩ datsa da hã , hõimana õ di .
+# text_por = Uma mulher trabalha depressa na roça. Sem o trabalho, não há nada para comer.
+# text_eng = A woman works quickly in the fields. Without work, there is nothing to eat.
+1	Pi’õ	pi'õ	NOUN	n	_	5	nsubj	_	woman;mulher
+2	tsa'ẽtè	tsa'ẽtè	ADV	adv	_	5	advmod	_	in.a.hurry,quickly,loud;depressa,em.voz.alta
+3	,	,	PUNCT	punct	_	5	punct	_	_
+4	te	te	X	x	Htp=Yes	5	dep	_	heterophoric.marker;marcardor.heterofórico
+5	romhu	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
+6	buru	buru	NOUN	n	_	5	obl	_	slash;roça
+7	ãma	ãma	ADP	posp	_	6	case	_	in;em
+8	hã	hã	PART	prcl	Emph=Yes	7	discourse	_	_
+9	.	.	PUNCT	punct	_	5	punct	_	_
+10	Romhuri	romhuri	VERB	v	_	15	xcomp	_	to.work;trabalhar
+11	ãna	na	ADP	posp	_	10	obl	_	in;from;em,de
+12	hã	hã	PART	prcl	Emph=Yes	10	discourse	_	_
+13	,	,	PUNCT	punct	_	15	punct	_	_
+14	marĩ	marĩ	PRON	pron	_	15	nmod	_	something,what;algo,o.que,alguma.coisa
+15	datsa	tsa	NOUN	n	_	5	parataxis	_	food;comida,alimento
+16	da	da	SCONJ	sconj	_	15	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+17	hã	hã	PART	prcl	Emph=Yes	15	discourse	_	_
+18	,	,	PUNCT	punct	_	15	punct	_	_
+19	hõimana	na	ADP	posp	_	20	obl	_	in;from;em,de
+20	õ	õ	PART	prcl	_	15	dep	_	negative.marker;marcador.negativo
+21	di	di	ADV	adv	_	20	expl	_	expletive;expletivo
+22	.	.	PUNCT	punct	_	15	punct	_	_
+
+# sent_id = GL-CLX18.6
+# text = Tahawa , te romhu tsa'ẽtẽ .
+# text_por = Por isso, ela trabalha depressa.
+# text_eng = So she works fast.
+1	Tahawa	tahawa	ADV	adv	_	4	advmod	_	therefore;por.isso
+2	,	,	PUNCT	punct	_	4	punct	_	_
+3	te	te	X	x	Htp=Yes	4	dep	_	heterophoric.marker;marcardor.heterofórico
+4	romhu	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
+5	tsa'ẽtè	tsa'ẽtè	ADV	adv	_	4	advmod	_	in.a.hurry,quickly,loud;depressa,em.voz.alta
+6	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = EMX-1
 # text = Tahata wahiʔratanorĩhã
