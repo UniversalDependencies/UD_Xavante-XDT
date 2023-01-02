@@ -288,6 +288,39 @@
 5	tsa'ẽtè	tsa'ẽtè	ADV	adv	_	4	advmod	_	in.a.hurry,quickly,loud;depressa,em.voz.alta
 6	.	.	PUNCT	punct	_	4	punct	_	_
 
+# sent_id = GL-CLX21.1
+# text = E te ĩromhu . Ĩhe , wa romhu
+# text_por = Você trabalha? - Sim, eu trabalho.
+# text_eng = Do you work? - Yes I work.
+1	E	e	PART	prcl	Int=Yes	3	dep	_	question.particle;partícula.interrogativa
+2	te	te	X	x	Htp=Yes	3	dep	_	heterophoric.marker;marcardor.heterofórico
+3	ĩromhu	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
+4	.	.	PUNCT	punct	_	3	punct	_	_
+5	Ĩhe	ĩhe	INTJ	intj	_	8	discourse	_	yes;sim
+6	,	,	PUNCT	punct	_	8	punct	_	_
+7	wa	wa	X	x	Ego=Yes|Person=1	8	dep	_	egophoric.marker;marcardor.egofórico
+8	romhu	romhuri	VERB	v	_	3	parataxis	_	to.work;trabalhar
+
+# sent_id = GL-CLX21.2
+# text = E aibö dzéma , te romhu . Ĩhe , õhã dzéma , te romhu .
+# text_por = Um homem trabalha também? - Sim, ele trabalha também.
+# text_eng = Does a man work too? - Yes, he works too.
+1	E	e	PART	prcl	Int=Yes	6	dep	_	question.particle;partícula.interrogativa
+2	aibö	aibö	NOUN	n	_	6	nsubj	_	man;homem
+3	dzéma	dzéma	ADV	adv	_	6	advmod	_	also;também
+4	,	,	PUNCT	punct	_	6	punct	_	_
+5	te	te	X	x	Htp=Yes	6	dep	_	heterophoric.marker;marcardor.heterofórico
+6	romhu	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
+7	.	.	PUNCT	punct	_	6	punct	_	_
+8	Ĩhe	ĩhe	INTJ	intj	_	14	discourse	_	yes;sim
+9	,	,	PUNCT	punct	_	14	punct	_	_
+10	õhã	õhã	PRON	pron	Emph=Yes|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	he,she,it;ele,ela
+11	dzéma	dzéma	ADV	adv	_	14	advmod	_	also;também
+12	,	,	PUNCT	punct	_	14	punct	_	_
+13	te	te	X	x	Htp=Yes	14	dep	_	heterophoric.marker;marcardor.heterofórico
+14	romhu	romhuri	VERB	v	_	6	parataxis	_	to.work;trabalhar
+15	.	.	PUNCT	punct	_	14	punct	_	_
+
 # sent_id = EMX-1
 # text = Tahata wahiʔratanorĩhã
 # text_eng = Those are our ancestros (Estevam 2011:  27, 1)
