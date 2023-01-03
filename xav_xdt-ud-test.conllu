@@ -262,7 +262,7 @@
 11	hã	hã	PART	prcl	Emph=Yes	9	discourse	_	_
 12	,	,	PUNCT	punct	_	14	punct	_	_
 13	marĩ	marĩ	PRON	pron	_	14	nmod	_	something,what;algo,o.que,alguma.coisa
-14	datsa	tsa	NOUN	n	_	18	obl	_	food;comida,alimento
+14	datsa	tsa	NOUN	n	Hum=Yes	18	obl	_	food;comida,alimento
 15	da	da	SCONJ	sconj	_	14	case	_	for,in.order.to,so.that;para,afim.de,para.que
 16	hã	hã	PART	prcl	Emph=Yes	14	discourse	_	_
 17	,	,	PUNCT	punct	_	14	punct	_	_
