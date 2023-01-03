@@ -331,6 +331,27 @@
 16	ni	ni	X	x	_	15	dep	_	dual.number.marker;indicador.dual
 17	.	.	PUNCT	punct	_	15	punct	_	_
 
+# sent_id = GL-CLX21.4
+# text = E anorĩwa'wahã te ĩwapari dza'ra wa'wa . Ĩhe , wa norĩhã , wa wapari dza'ra ni .
+# text_por = Vocês escutam ? - Sim, nós escutamos.
+# text_eng = Do you hear? - Yes, we heard.
+1	E	e	PART	prcl	Int=Yes	4	dep	_	question.particle;partícula.interrogativa
+2	anorĩwa'wahã	norĩ	PRON	pron	Emph=Yes|Number=Coll|Person=2	4	nsubj	_	_
+3	te	te	X	x	Htp=Yes	4	dep	_	heterophoric.marker;marcardor.heterofórico
+4	ĩwapari	wapari	VERB	v	Person=2	0	root	_	hear;escutar
+5	dza'ra	dza'ra	PART	prcl	Number=Plur	4	dep	_	_
+6	wa'wa	'wa	X	x	Number=Dual	4	dep	_	dual.number.marker;indicador.dual
+7	.	.	PUNCT	punct	_	4	punct	_	_
+8	Ĩhe	ĩhe	INTJ	intj	_	13	discourse	_	yes;sim
+9	,	,	PUNCT	punct	_	13	punct	_	_
+10	wanorĩhã	norĩ	PRON	pron	Ego=Yes|Emph=Yes|Number=Coll|Person=1	13	nsubj	_	collective.marker,marcador.de.coletivo
+11	,	,	PUNCT	punct	_	13	punct	_	_
+12	wa	wa	X	x	Ego=Yes|Person=1	13	dep	_	egophoric.marker;marcardor.egofórico
+13	wapari	wapari	VERB	v	_	4	parataxis	_	hear;escutar
+14	dza'ra	dza'ra	PART	prcl	Number=Plur	13	dep	_	_
+15	ni	ni	X	x	Number=Dual	13	dep	_	dual.number.marker;indicador.dual
+16	.	.	PUNCT	punct	_	13	punct	_	_
+
 # sent_id = EMX-1
 # text = Tahata wahiʔratanorĩhã
 # text_eng = Those are our ancestros (Estevam 2011:  27, 1)
