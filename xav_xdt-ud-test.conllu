@@ -144,7 +144,7 @@
 # text_por = Para que ele veio?
 # text_eng = What did he come for?
 1	E	e	PART	prcl	Int=Yes	2	dep	_	question.particle;partícula.interrogativa
-2	marĩ	marĩ	PRON	pron	_	6	obl	_	something,what;algo,o.que,alguma.coisa
+2	marĩ	marĩ	NOUN	n	_	6	obl	_	something,what;algo,o.que,alguma.coisa
 3	dzô	dzô	ADP	posp	_	2	case	_	after,in.search.of;atrás.de,em.busca.de
 4	,	,	PUNCT	punct	_	6	punct	_	_
 5	ma	ma	PART	prcl	_	6	dep	_	perfect.aspect;aspecto.perfectivo
@@ -211,7 +211,7 @@
 7	me	me	ADP	posp	_	6	case	_	with;com
 8	.	.	PUNCT	punct	_	5	punct	_	_
 9	'Watébrémi	'watébrémi	NOUN	n	_	15	nsubj	_	boy;menino
-10	marĩ	marĩ	PRON	pron	_	15	obl	_	something,what;algo,o.que,alguma.coisa
+10	marĩ	marĩ	NOUN	n	_	15	obl	_	something,what;algo,o.que,alguma.coisa
 11	na	na	ADP	posp	_	10	case	_	in;from;em,de
 12	,	,	PUNCT	punct	_	15	punct	_	_
 13	te	te	X	x	Htp=Yes	15	dep	_	heterophoric.marker;marcardor.heterofórico
@@ -228,7 +228,7 @@
 3	ma	ma	PART	prcl	Aspect=Perf	5	dep	_	perfect.aspect;aspecto.perfectivo
 4	atsa	atsa	PRON	pron	_	5	iobj	_	_
 5	tsada'ö	tsada'öbö	VERB	v	_	0	root	_	reply;responder
-6	marĩ	marĩ	PRON	pron	_	5	obl	_	something,what;algo,o.que,alguma.coisa
+6	marĩ	marĩ	NOUN	n	_	5	obl	_	something,what;algo,o.que,alguma.coisa
 7	na	na	ADP	posp	_	6	case	_	in;from;em,de
 8	.	.	PUNCT	punct	_	5	punct	_	_
 
@@ -240,7 +240,7 @@
 2	,	,	PUNCT	punct	_	9	punct	_	_
 3	'watébrémi	'watébrémi	NOUN	n	_	9	nsubj	_	boy;menino
 4	te	te	X	x	Htp=Yes	9	dep	_	heterophoric.marker;marcardor.heterofórico
-5	marĩ	marĩ	PRON	pron	_	9	obj	_	something,what;algo,o.que,alguma.coisa
+5	marĩ	marĩ	NOUN	n	_	9	obj	_	something,what;algo,o.que,alguma.coisa
 6	aibö	aibö	NOUN	n	_	9	iobj	_	man;homem
 7	wi	wi	ADP	posp	_	9	obl	_	far.from;longe.de
 8	waptẽ	waptẽrẽ	VERB	v	_	0	root	_	ask,request;pedir,solicitar
@@ -261,7 +261,7 @@
 10	ãna	na	ADP	posp	_	9	case	_	without;sem
 11	hã	hã	PART	prcl	Emph=Yes	9	discourse	_	_
 12	,	,	PUNCT	punct	_	14	punct	_	_
-13	marĩ	marĩ	PRON	pron	_	14	nmod	_	something,what;algo,o.que,alguma.coisa
+13	marĩ	marĩ	NOUN	n	_	14	nmod	_	something,what;algo,o.que,alguma.coisa
 14	datsa	tsa	NOUN	n	Hum=Yes	18	obl	_	food;comida,alimento
 15	da	da	SCONJ	sconj	_	14	case	_	for,in.order.to,so.that;para,afim.de,para.que
 16	hã	hã	PART	prcl	Emph=Yes	14	discourse	_	_
