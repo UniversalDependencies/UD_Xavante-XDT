@@ -258,7 +258,7 @@
 10	ãna	na	ADP	posp	_	9	case	_	without;sem
 11	hã	hã	PART	prcl	Emph=Yes	9	discourse	_	_
 12	,	,	PUNCT	punct	_	14	punct	_	_
-13	marĩ	marĩ	PRON	pron	_	14	nmod	_	something,what;algo,o.que,alguma.coisa
+13	marĩ	marĩ	NOUN	n	_	14	nmod	_	something,what;algo,o.que,alguma.coisa
 14	datsa	tsa	NOUN	n	_	18	obl	_	food;comida,alimento
 15	da	da	SCONJ	sconj	_	14	case	_	for,in.order.to,so.that;para,afim.de,para.que
 16	hã	hã	PART	prcl	Emph=Yes	14	discourse	_	_
@@ -284,7 +284,7 @@
 # text_eng = Do you work? - Yes I work.
 1	E	e	PART	prcl	Int=Yes	3	dep	_	question.particle;partícula.interrogativa
 2	te	te	X	x	Htp=Yes	3	dep	_	heterophoric.marker;marcardor.heterofórico
-3	ĩromhu	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
+3	ĩromhu	romhuri	VERB	v	Person=2	0	root	_	to.work;trabalhar
 4	.	.	PUNCT	punct	_	3	punct	_	_
 5	Ĩhe	ĩhe	INTJ	intj	_	8	discourse	_	yes;sim
 6	,	,	PUNCT	punct	_	8	punct	_	_
@@ -336,7 +336,7 @@
 # text_por = Vocês escutam ? - Sim, nós escutamos.
 # text_eng = Do you hear? - Yes, we heard.
 1	E	e	PART	prcl	Int=Yes	4	dep	_	question.particle;partícula.interrogativa
-2	anorĩwa'wahã	norĩ	PRON	pron	Emph=Yes|Number=Coll|Person=2	4	nsubj	_	_
+2	anorĩwa'wahã	anorĩwa'wahã	PRON	pron	Emph=Yes|Number=Coll|Person=2	4	nsubj	_	_
 3	te	te	X	x	Htp=Yes	4	dep	_	heterophoric.marker;marcardor.heterofórico
 4	ĩwapari	wapari	VERB	v	Person=2	0	root	_	hear;escutar
 5	dza'ra	dza'ra	PART	prcl	Number=Plur	4	dep	_	_
@@ -344,13 +344,33 @@
 7	.	.	PUNCT	punct	_	4	punct	_	_
 8	Ĩhe	ĩhe	INTJ	intj	_	13	discourse	_	yes;sim
 9	,	,	PUNCT	punct	_	13	punct	_	_
-10	wanorĩhã	norĩ	PRON	pron	Ego=Yes|Emph=Yes|Number=Coll|Person=1	13	nsubj	_	collective.marker,marcador.de.coletivo
+10	wanorĩhã	wanorĩhã	PRON	pron	Ego=Yes|Emph=Yes|Number=Coll|Person=1	13	nsubj	_	_
 11	,	,	PUNCT	punct	_	13	punct	_	_
 12	wa	wa	X	x	Ego=Yes|Person=1	13	dep	_	egophoric.marker;marcardor.egofórico
 13	wapari	wapari	VERB	v	_	4	parataxis	_	hear;escutar
 14	dza'ra	dza'ra	PART	prcl	Number=Plur	13	dep	_	_
 15	ni	ni	X	x	Number=Dual	13	dep	_	dual.number.marker;indicador.dual
 16	.	.	PUNCT	punct	_	13	punct	_	_
+
+# sent_id = GL-CLX21.5
+# text = E marĩ , te ĩwaptẽrẽ dza'ra wa'wa . Wa norĩ hã , wa watsa waptẽrẽ dza'ra ni .
+# text_por = O que vocês estão pedindo? - Nós pedimos nossa comida.
+# text_eng = What are you asking? - We ordered our food.
+1	E	e	PART	prcl	Int=Yes	4	dep	_	question.particle;partícula.interrogativa
+2	marĩ	marĩ	NOUN	n	_	4	obj	_	something,what;algo,o.que,alguma.coisa
+3	te	te	X	x	Htp=Yes	4	dep	_	heterophoric.marker;marcardor.heterofórico
+4	ĩwaptẽrẽ	waptẽrẽ	VERB	v	Person=2	0	root	_	ask,request;pedir,solicitar
+5	dza'ra	dza'ra	PART	prcl	Number=Plur	4	dep	_	_
+6	wa'wa	'wa	X	x	Number=Dual	4	dep	_	dual.number.marker;indicador.dual
+7	.	.	PUNCT	punct	_	4	punct	_	_
+8	wanorĩhã	wanorĩhã	PRON	pron	Ego=Yes|Emph=Yes|Number=Coll|Person=1	12	nsubj	_	_
+9	,	,	PUNCT	punct	_	12	punct	_	_
+10	wa	wa	X	x	Ego=Yes|Person=1	12	dep	_	egophoric.marker;marcardor.egofórico
+11	watsa	tsa	NOUN	n	Numbr=Plur|Person=1	12	obj	_	food;comida,alimento
+12	waptẽrẽ	waptẽrẽ	VERB	v	_	4	parataxis	_	ask,request;pedir,solicitar
+13	dza'ra	dza'ra	PART	prcl	Number=Plur	12	dep	_	_
+14	ni	ni	X	x	Number=Dual	12	dep	_	dual.number.marker;indicador.dual
+15	.	.	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = EMX-1
 # text = Tahata wahiʔratanorĩhã
