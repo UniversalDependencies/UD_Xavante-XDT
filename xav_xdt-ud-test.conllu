@@ -239,54 +239,47 @@
 1	Apötsi	apötsi	ADV	adv	_	9	advmod	_	later,after,then;mais.tarde,depois,em.seguida
 2	,	,	PUNCT	punct	_	9	punct	_	_
 3	'watébrémi	'watébrémi	NOUN	n	_	9	nsubj	_	boy;menino
-4	,	,	PUNCT	punct	_	9	punct	_	_
-5	te	te	X	x	Htp=Yes	9	dep	_	heterophoric.marker;marcardor.heterofórico
-6	marĩ	marĩ	PRON	pron	_	9	obj	_	something,what;algo,o.que,alguma.coisa
-7	aibö	aibö	NOUN	n	_	9	iobj	_	man;homem
-8	wi	wi	ADP	posp	_	9	obl	_	far.from;longe.de
-9	waptẽ	waptẽrẽ	VERB	v	_	0	root	_	ask,request;pedir,solicitar
-10	,	,	PUNCT	punct	_	9	punct	_	_
-11	tsa	tsa	NOUN	n	_	9	advcl	_	food;comida,alimento
-12	da	da	SCONJ	sconj	_	11	mark	_	for,in.order.to,so.that;para,afim.de,para.que
-13	.	.	PUNCT	punct	_	9	punct	_	_
+4	te	te	X	x	Htp=Yes	9	dep	_	heterophoric.marker;marcardor.heterofórico
+5	marĩ	marĩ	PRON	pron	_	9	obj	_	something,what;algo,o.que,alguma.coisa
+6	aibö	aibö	NOUN	n	_	9	iobj	_	man;homem
+7	wi	wi	ADP	posp	_	9	obl	_	far.from;longe.de
+8	waptẽ	waptẽrẽ	VERB	v	_	0	root	_	ask,request;pedir,solicitar
+9	,	,	PUNCT	punct	_	9	punct	_	_
+10	tsa	tsa	NOUN	n	_	9	advcl	_	food;comida,alimento
+11	da	da	SCONJ	sconj	_	11	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+12	.	.	PUNCT	punct	_	9	punct	_	_
 
-# sent_id = GL-CLX18.5
-# text = Pi’õ tsa'ẽtẽ , te romhu buru ãma hã . Romhuri ãna hã , marĩ datsa da hã , hõimana õ di .
-# text_por = Uma mulher trabalha depressa na roça. Sem o trabalho, não há nada para comer.
-# text_eng = A woman works quickly in the fields. Without work, there is nothing to eat.
-1	Pi’õ	pi'õ	NOUN	n	_	5	nsubj	_	woman;mulher
-2	tsa'ẽtè	tsa'ẽtè	ADV	adv	_	5	advmod	_	in.a.hurry,quickly,loud;depressa,em.voz.alta
-3	,	,	PUNCT	punct	_	5	punct	_	_
-4	te	te	X	x	Htp=Yes	5	dep	_	heterophoric.marker;marcardor.heterofórico
-5	romhu	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
-6	buru	buru	NOUN	n	_	5	obl	_	slash;roça
-7	ãma	ãma	ADP	posp	_	6	case	_	in;em
-8	hã	hã	PART	prcl	Emph=Yes	7	discourse	_	_
-9	.	.	PUNCT	punct	_	5	punct	_	_
-10	Romhuri	romhuri	VERB	v	_	19	obl	_	to.work;trabalhar
-11	ãna	na	ADP	posp	_	10	case	_	without;sem
-12	hã	hã	PART	prcl	Emph=Yes	10	discourse	_	_
-13	,	,	PUNCT	punct	_	15	punct	_	_
-14	marĩ	marĩ	PRON	pron	_	15	nmod	_	something,what;algo,o.que,alguma.coisa
-15	datsa	tsa	NOUN	n	_	19	obl	_	food;comida,alimento
-16	da	da	SCONJ	sconj	_	15	case	_	for,in.order.to,so.that;para,afim.de,para.que
-17	hã	hã	PART	prcl	Emph=Yes	15	discourse	_	_
-18	,	,	PUNCT	punct	_	15	punct	_	_
-19	hõimana	na	VERB	posp	_	5	parataxis	_	be,live,exist;ser,viver,existir
-20	õ	õ	PART	prcl	_	19	dep	_	negative.marker;marcador.negativo
-21	di	di	X	adv	_	19	expl	_	expletive;expletivo
-22	.	.	PUNCT	punct	_	19	punct	_	_
+1	Pi’õ	pi'õ	NOUN	n	_	4	nsubj	_	woman;mulher
+2	tsa'ẽtè	tsa'ẽtè	ADV	adv	_	4	advmod	_	in.a.hurry,quickly,loud;depressa,em.voz.alta
+3	te	te	X	x	Htp=Yes	4	dep	_	heterophoric.marker;marcardor.heterofórico
+4	romhu	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
+5	buru	buru	NOUN	n	_	4	obl	_	slash;roça
+6	ãma	ãma	ADP	posp	_	5	case	_	in;em
+7	hã	hã	PART	prcl	Emph=Yes	6	discourse	_	_
+8	.	.	PUNCT	punct	_	4	punct	_	_
+9	Romhuri	romhuri	VERB	v	_	18	obl	_	to.work;trabalhar
+10	ãna	na	ADP	posp	_	9	case	_	without;sem
+11	hã	hã	PART	prcl	Emph=Yes	9	discourse	_	_
+12	,	,	PUNCT	punct	_	14	punct	_	_
+13	marĩ	marĩ	PRON	pron	_	14	nmod	_	something,what;algo,o.que,alguma.coisa
+14	datsa	tsa	NOUN	n	_	18	obl	_	food;comida,alimento
+15	da	da	SCONJ	sconj	_	14	case	_	for,in.order.to,so.that;para,afim.de,para.que
+16	hã	hã	PART	prcl	Emph=Yes	14	discourse	_	_
+17	,	,	PUNCT	punct	_	14	punct	_	_
+18	hõimana	na	VERB	posp	_	4	parataxis	_	be,live,exist;ser,viver,existir
+19	õ	õ	PART	prcl	_	18	dep	_	negative.marker;marcador.negativo
+20	di	di	X	adv	_	18	expl	_	expletive;expletivo
+21	.	.	PUNCT	punct	_	18	punct	_	_
 
 # sent_id = GL-CLX18.6
 # text = Tahawa , te romhu tsa'ẽtẽ .
 # text_por = Por isso, ela trabalha depressa.
 # text_eng = So she works fast.
 1	Tahawa	tahawa	ADV	adv	_	4	advmod	_	therefore;por.isso
-2	,	,	PUNCT	punct	_	4	punct	_	_
-3	te	te	X	x	Htp=Yes	4	dep	_	heterophoric.marker;marcardor.heterofórico
-4	romhu	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
-5	tsa'ẽtè	tsa'ẽtè	ADV	adv	_	4	advmod	_	in.a.hurry,quickly,loud;depressa,em.voz.alta
-6	.	.	PUNCT	punct	_	4	punct	_	_
+2	te	te	X	x	Htp=Yes	4	dep	_	heterophoric.marker;marcardor.heterofórico
+3	romhu	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
+4	tsa'ẽtè	tsa'ẽtè	ADV	adv	_	4	advmod	_	in.a.hurry,quickly,loud;depressa,em.voz.alta
+5	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = GL-CLX21.1
 # text = E te ĩromhu . Ĩhe , wa romhu
