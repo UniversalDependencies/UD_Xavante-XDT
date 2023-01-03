@@ -313,7 +313,7 @@
 # text = E 'wa hã marĩ hã te tsadanha . Wa norĩ hã , marĩ hã , wa tsadanharĩ ni .
 # text_por = Quem está perguntando alguma coisa ? - Nós dois perguntamos alguma coisa.
 # text_eng = Who is asking something? - We both asked something.
-1	E	e	PART	prcl	Int=Yes	2	dep	_	question.particle;partícula.interrogativa
+1	E	e	PART	prcl	Int=Yes	7	dep	_	question.particle;partícula.interrogativa
 2	'wa	wa	PRON	pron	PronType=Int	7	nsubj	_	who;quem
 3	hã	hã	PART	prcl	Emph=Yes	2	dep	_	_
 4	marĩ	marĩ	NOUN	n	_	7	obj	_	something,what;algo,o.que,alguma.coisa
@@ -328,7 +328,7 @@
 13	,	,	PUNCT	punct	_	15	punct	_	_
 14	wa	wa	X	x	Ego=Yes|Person=1	15	dep	_	egophoric.marker;marcardor.egofórico
 15	tsadanharĩ	tsadanharĩ	VERB	v	_	7	parataxis	_	ask;perguntar
-16	ni	ni	X	x	_	15	dep	_	dual.number.marker;indicador.dual
+16	ni	ni	X	x	Number=Dual	15	dep	_	dual.number.marker;indicador.dual
 17	.	.	PUNCT	punct	_	15	punct	_	_
 
 # sent_id = GL-CLX21.4
