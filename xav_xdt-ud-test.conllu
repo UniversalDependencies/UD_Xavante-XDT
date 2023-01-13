@@ -372,6 +372,23 @@
 14	ni	ni	X	x	Number=Dual	12	dep	_	dual.number.marker;indicador.dual
 15	.	.	PUNCT	punct	_	12	punct	_	_
 
+# sent_id = GL-CLX23.8
+# text = Wa norĩ hã , wa tsa'wari dza'ra ni ö , u'mre 'remhã .
+# text_por = Nós despejamos a água que está nas cabaças.
+# text_eng = We pour the water that is in the gourds.
+1	wanorĩhã	wanorĩhã	PRON	pron	Emph=Yes|Number=Coll|Person=1	4	nsubj	_	_
+2	,	,	PUNCT	punct	_	4	punct	_	_
+3	wa	wa	X	x	Ego=Yes|Person=1	4	dep	_	egophoric.marker;marcardor.egofórico
+4	tsa'wari	tsa'wari	VERB	v	_	0	root	_	pour;derramar,despejar
+5	dza'ra	dza'ra	PART	prcl	Number=Plur	4	dep	_	_
+6	ni	ni	X	x	Number=Dual	4	dep	_	dual.number.marker;indicador.dual
+7	ö	ö	NOUN	n	_	4	obj	_	water;água
+8	,	,	PUNCT	punct	_	7	punct	_	_
+9	u'mre	u'mre	NOUN	n	_	_	_	_	gourd;cabaça
+10	'remhã	hã	ADP	posp	_	7	_	_	inside,being.inside;dentro,estando.dentro
+11	.	.	PUNCT	punct	_	4	punct	_	_
+
+
 # sent_id = EMX-1
 # text = Tahata wahiʔratanorĩhã
 # text_eng = Those are our ancestros (Estevam 2011:  27, 1)
