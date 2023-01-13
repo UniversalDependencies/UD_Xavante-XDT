@@ -384,8 +384,8 @@
 6	ni	ni	X	x	Number=Dual	4	dep	_	dual.number.marker;indicador.dual
 7	ö	ö	NOUN	n	_	4	obj	_	water;água
 8	,	,	PUNCT	punct	_	7	punct	_	_
-9	u'mre	u'mre	NOUN	n	_	_	_	_	gourd;cabaça
-10	'remhã	hã	ADP	posp	_	7	_	_	inside,being.inside;dentro,estando.dentro
+9	u'mre	u'mre	NOUN	n	_	7	acl	_	gourd;cabaça
+10	'remhã	hã	ADP	posp	_	9	case	_	inside,being.inside;dentro,estando.dentro
 11	.	.	PUNCT	punct	_	4	punct	_	_
 
 
