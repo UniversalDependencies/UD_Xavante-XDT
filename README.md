@@ -1,6 +1,6 @@
 # Summary
 
-UD_Xavante-XDT is a collection of annotated sentences in [Xavante](https://glottolog.org/resource/languoid/id/xava1240). Sentence annotation and documentation by Ivan Roksandic, [Fabrício Ferraz Gerardi](http://languagestructure.github.io/) and Uliana Vedenina.
+UD_Xavante-XDT is a collection of annotated sentences in [Xavante](https://glottolog.org/resource/languoid/id/xava1240). Sentence annotation and documentation by [Fabrício Ferraz Gerardi](http://languagestructure.github.io/),  Ivan Roksandic, and Uliana Vedenina.
 
 
 # Introduction
