@@ -636,13 +636,13 @@
 7	te	te	X	x	Aspect=Imp|Htp=Yes	8	dep	_	heterophoric.marker;marcardor.heterofórico
 8	titsa	tsari	VERB	v	Person=3	0	root	_	bite;morder
 9	.	.	PUNCT	punct	_	8	punct	_	_
-10	Tahawa	tahawa	ADV	adv	_	16	advmod	_	therefore;por.isso
+10	Tahawa	tahawa	SCONJ	sconj	_	16	mark	_	therefore;por.isso
 11	,	,	PUNCT	punct	_	16	punct	_	_
 12	pi’õ	pi'õ	NOUN	n	_	16	nsubj	_	woman;mulher
 13	waptsã	waptsã	NOUN	n	_	16	obj	_	dog,puppy;cachorro
 14	hã	hã	DET	det	_	13	det	_	_
 15	ma	ma	PART	prcl	Aspect=Perf	16	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
-16	adzö	adzöri	VERB	v	_	8	parataxis	_	beat;bater
+16	adzö	adzöri	VERB	v	_	8	advmod	_	beat;bater
 17	.	.	PUNCT	punct	_	16	punct	_	_
 
 # sent_id = GL-CLX24.3
@@ -758,7 +758,7 @@
 # text = Tãma tsei wa , ma tô tiwĩ .
 # text_por = Por que lhe é gostosa, ela a matou.
 # text_eng = Because it's tasty for him, it killed it.
-1	Tãma	_	_	_	_	2	_	_	lhe,a.ele,.para.ele
+1	Tãma	tãma	PRON	pron	Case=Dat|Person=3	2	_	_	lhe,a.ele,.para.ele
 2	tsei	tse	NOUN	n	_	0	root	_	tasty;gostoso
 3	wa	wa	X	x	Ego=Yes|Person=1	2	dep	_	egophoric.marker;marcardor.egofórico
 4	,	,	PUNCT	punct	_	2	punct	_	_
@@ -875,7 +875,7 @@
 # text_por = Nós lhe damos dinheiro.
 # text_eng = We give you money.
 1	Wanorĩhã	wanorĩhã	PRON	pron	Emph=Yes|Number=Coll|Person=1	4	nsubj	_	_
-2	wa	wa	X	x	Ego=Yes|Person=1	4	dep	_	egophoric.marker;marcardor.egofórico
+2	wa	wa	X	x	Ego=Yes|=1	4	dep	_	egophoric.marker;marcardor.egofórico
 3	tãma	_	_	_	_	4	iobj	_	lhe,a.ele,para.ele
 4	tsõmri	tsõmri	VERB	v	_	0	root	_	give;dar
 5	dza'ra	dza'ra	PART	prcl	Number=Plur	4	dep	_	_
@@ -991,6 +991,123 @@
 2	wapté	wapté	NOUN	n	_	3	nmod	_	teenager;adolescente
 3	höimanadzé	höimanadzé	NOUN	n	_	0	root	_	life,existence;vida,existência
 4	.	.	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = GL-CLX27.8
+# text = Ba'õtõ norĩ hã tina u , te tineb dzahuré .
+# text_por = As duas meninas vão à mãe delas (= para a casa da mãe delas).
+# text_eng = The two girls go to their mother (= to their mother's house).
+1	Ba'õtõ	ba'õtõre	NOUN	n	_	7	nsubj	_	little.girl;menina.pequena
+2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
+3	hã	hã	DET	det	_	1	det	_	_
+4	tina	na	NOUN	n	Person=3|Reflex=Yes	7	obl	_	mother;mãe
+5	u	u	ADP	posp	_	4	case	_	to;a,para
+6	te	te	X	x	Aspect=Imp|Htp=Yes	7	dep	_	heterophoric.marker;marcardor.heterofórico
+7	tineb	ne	VERB	v	Person=3	0	root	_	walk;andar,caminhar
+8	dzahuré	dzahuré	NUM	num	Number=Dual	7	nummod	_	_
+9	.	.	PUNCT	punct	_	7	punct	_	_
+
+# sent_id = GL-CLX27.9
+# text = A'uwẽ ãma hã , ba'õtõ höimanadzé õneu'ötsi tina me , duré ĩno norĩ duré ĩhitébré dzapore norĩ wamhã .
+# text_por = Entre os Xavante, a vida das meninas se realiza sempre junto ã mãe, e entre as irmãzinhas e irmãozinhos.
+# text_eng = Among the Xavante, a girl's life is always to live with her mother, and with her little sisters and brothers.
+1	A'uwẽ	a'uwẽ	NOUN	n	_	6	nmod	_	man,person,people,indian;homem,pessoa,gente,índio
+2	ãma	ãma	ADP	posp	_	1	case	_	in;em
+3	hã	hã	DET	det	_	1	det	_	_
+4	,	,	PUNCT	punct	_	6	punct	_	_
+5	ba'õtõ	ba'õtõre	NOUN	n	_	6	nmod	_	little.girl;menina.pequena
+6	höimanadzé	höimanadzé	NOUN	n	_	0	root	_	life,existence;vida,existência
+7	õneu'ötsi	õneu'ötsi	ADV	adv	_	6	advmod	_	always;sempre
+8	tina	na	NOUN	n	Person=3|Reflex=Yes	6	obl	_	mother;mãe
+9	me	me	ADP	posp	_	8	case	_	with;com
+10	,	,	PUNCT	punct	_	8	punct	_	_
+11	duré	duré	ADV	adv	_	12	advmod	_	also;também
+12	ĩno	no	NOUN	n	Number=Sing|Person=3	8	conj	_	man's.younger.brother,woman's.younger.sister;irmão.menor.do.homem,irmã.menor.da.mulher
+13	norĩ	norĩ	PART	prcl	Number=Coll	12	dep	_	_
+14	duré	duré	ADV	adv	_	15	advmod	_	also;também
+15	ĩhitébré	hitébré	NOUN	n	Number=Sing|Person=3	12	conj	_	woman's brother;irmão.da.mulhei
+16	dzapore	dzapore	NOUN	n	_	15	nmod	_	little;pequeno
+17	norĩ	norĩ	PART	prcl	Number=Coll	15	dep	_	_
+18	wamhã	wamhã	X	x	_	6	dep	_	_
+19	.	.	PUNCT	punct	_	6	punct	_	_
+
+# sent_id = GL-CLX30.1
+# text = Watsi'utsu , te wei mo wadzô .
+# text_por = Nosso companheiro de grupo vem até nós.
+# text_eng = Our groupmate comes to us.
+1	Watsi'utsu	tsi'utsu	NOUN	n	Number=Plur|Person=1	4	nsubj	_	partner.of.the.same.age.group;companheiro.do.mesmo.grupo.etário
+2	te	te	X	x	Aspect=Imp|Htp=Yes	4	dep	_	heterophoric.marker;marcardor.heterofórico
+3	wei	we	ADV	adv	_	4	advmod	_	hither;para.cá
+4	mo	mo	VERB	v	_	0	root	_	go;ir
+5	wadzô	dzô	ADP	posp	Number=Plur|Person=1	4	obl	_	after,in.search.of;atrás.de,em.busca.de
+6	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = GL-CLX30.2
+# text = Atsõhui'wa romhuri'wa uptabi .
+# text_por = Teu padrinho é trabalhador muito bom.
+# text_eng = Your godfather is a very good worker.
+1	Atsõhui'wa	tsõhui'wa	NOUN	n	Person=2	2	nsubj	_	godfather;padrinho
+2	romhuri'wa	romhuri'wa	NOUN	n	_	0	root	_	worker;trabalhador
+3	uptabi	uptabi	NOUN	n	_	2	_	_	good,very.good;muito,muito.bom
+4	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = GL-CLX30.3
+# text = Aimama adub'rata me , te romhuri dzahuré buru ãma hã .
+# text_por = Teu pai e teu irmão trabalham na roça.
+# text_eng = Your father and your brother work in the fields.
+1	Aimama	mama	NOUN	n	Person=2	5	nsubj	_	 father,uncle;pai,tio
+2	adub'rata	dub'rata	NOUN	n	_	1	nmod	_	older.brother;irmão.mais.velho
+3	me	me	ADP	posp	_	2	case	_	with;com
+4	te	te	X	x	Aspect=Imp|Htp=Yes	5	dep	_	heterophoric.marker;marcardor.heterofórico
+5	romhuri	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
+6	dzahuré	dzahuré	NUM	num	Number=Dual	5	dep	_	_
+7	buru	buru	NOUN	n	_	5	obl	_	slash;roça
+8	ãma	ãma	ADP	posp	_	7	case	_	in;em
+9	hã	hã	DET	det	_	7	det	_	_
+10	.	.	PUNCT	punct	_	5	punct	_	_
+
+# sent_id = GL-CLX30.4
+# text = Ana norĩ hã, te tsawi petse dza'ra ti'ra norĩ hã .
+# text_por = As mães de vocês amam mesmo seus filhos.
+# text_eng = Your mothers really love their children.
+1	Ana	na	NOUN	n	Person=2	5	nsubj	_	mother;mãe
+2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
+3	hã	hã	DET	det	_	1	det	_	_
+4	te	te	X	x	Aspect=Imp|Htp=Yes	5	dep	_	heterophoric.marker;marcardor.heterofórico
+5	tsawi	tsawi	VERB	v	_	0	root	_	love,like,greet;amar,gostar,cumprimentar
+6	petse	petse	ADV	adv	_	5	advmod	_	much,very.much;mesmo,muito.mesmo
+7	dza'ra	dza'ra	PART	prcl	Number=Plur	5	dep	_	_
+8	ti'ra	'ra	NOUN	n	Person=3	5	obj	_	son,daughter;filho,filha
+9	norĩ	norĩ	PART	prcl	Number=Coll	8	dep	_	_
+10	hã	hã	DET	det	_	8	det	_	_
+11	.	.	PUNCT	punct	_	5	punct	_	_
+
+# sent_id = GL-CLX30.5
+# text = Ano tina me , te tineb dzahuré ’ri'ahö u .
+# text_por = Teu irmão menor e a mãe dele vão à cidade.
+# text_eng = Your little brother and his mother are going to town.
+1	Ano	no	NOUN	n	Number=Sing|Person=3	5	nsubj	_	man's.younger.brother,woman's.younger.sister;irmão.menor.do.homem,irmã.menor.da.mulher
+2	tina	na	NOUN	n	Person=3|Reflex=Yes	1	nmod	_	mother;mãe
+3	me	me	ADP	posp	_	2	case	_	with;com
+4	te	te	X	x	Aspect=Imp|Htp=Yes	5	dep	_	heterophoric.marker;marcardor.heterofórico
+5	tineb	ne	VERB	v	Person=3	0	root	_	walk;andar,caminhar
+6	dzahuré	dzahuré	NUM	num	Number=Dual	5	nummod	_	_
+7	’ri'ahö	’ri'ahö	NOUN	n	_	5	obl	_	city;cidade
+8	u	u	ADP	posp	_	7	case	_	to;a,para
+9	.	.	PUNCT	punct	_	5	punct	_	_
+
+# sent_id = GL-CLX30.6
+# text = Pi'õ timro me, te romhuri dzahuré 'ri ãma.
+# text_por = A mulher com seu marido trabalha na casa.
+# text_eng = The woman with her husband works in the house.
+1	Pi’õ	pi'õ	NOUN	n	_	5	nsubj	_	woman;mulher
+2	timro	mro	NOUN	n	Person=3	1	nmod	_	husband,wife;esposo,esposa,marido
+3	me	me	ADP	posp	_	2	case	_	with;com
+4	te	te	X	x	Aspect=Imp|Htp=Yes	5	dep	_	heterophoric.marker;marcardor.heterofórico
+5	romhuri	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
+6	dzahuré	dzahuré	NUM	num	Number=Dual	5	nummod	_	_
+7	'ri	'ri	NOUN	n	_	5	obl	_	house;casa
+8	ãma	ãma	ADP	posp	_	7	case	_	in;em
+9	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = EMX-1
 # text = Tahata wahiʔratanorĩhã
