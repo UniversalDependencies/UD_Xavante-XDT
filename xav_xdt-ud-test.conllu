@@ -311,7 +311,7 @@
 # text_por = Quem está perguntando alguma coisa ? - Nós dois perguntamos alguma coisa.
 # text_eng = Who is asking something? - We both asked something.
 1	E	e	PART	prcl	Int=Yes	7	dep	_	question.particle;partícula.interrogativa
-2	'wa	wa	PRON	pron	PronType=Int	7	nsubj	_	who;quem
+2	'wa	'wa	PRON	pron	PronType=Int	7	nsubj	_	who;quem
 3	hã	hã	PART	prcl	Emph=Yes	2	discourse	_	_
 4	marĩ	marĩ	NOUN	n	_	7	obj	_	something,what;algo,o.que,alguma.coisa
 5	hã	hã	DET	det	_	4	det	_	_
@@ -1113,19 +1113,19 @@
 # text = Dapoto'wa , ma poto a'uwẽ norĩ hã. Danhimidzama dzéma , ma duré apoto .
 # text_por = O criador criou os homens. Ele também criou os animais domésticos.
 # text_eng = The creator created men. He also created domestic animals.
-1	Dapoto'wa	poto'wa	NOUN	n	Person=3	3	nsubj	_	creator.of.men;criador.dos.homens
-2	ma	ma	PART	prcl	Aspect=Perf	3	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
-3	poto	poto	VERB	v	_	0	root	_	be.born,create;nascer,criar
-4	a'uwẽ	a'uwẽ	NOUN	n	_	3	obj	_	man,person,people,indian;homem,pessoa,gente,índio
-5	norĩ	norĩ	PART	prcl	Number=Coll	4	dep	_	_
-6	hã	hã	DET	det	_	4	det	_	_
-7	.	.	PUNCT	punct	_	3	punct	_	_
-8	Danhimidzama	nhimidzama	NOUN	n	Person=3	12	obj	_	domestic.animal;animal.doméstico
-9	dzéma	dzéma	ADV	adv	_	12	advmod	_	also;também
-10	ma	ma	PART	prcl	Aspect=Perf	12	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
-11	duré	duré	ADV	adv	_	12	advmod	_	also;também
-12	apoto	poto	VERB	v	_	3	parataxis	_	be.born,create;nascer,criar
-13	.	.	PUNCT	punct	_	12	punct	_	_
+1	Dapoto'wa	poto'wa	NOUN	n	Person=3	3	nsubj	3:nsubj	creator.of.men;criador.dos.homens
+2	ma	ma	PART	prcl	Aspect=Perf	3	dep	3:dep	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
+3	poto	poto	VERB	v	_	0	root	0:root	be.born,create;nascer,criar
+4	a'uwẽ	a'uwẽ	NOUN	n	_	3	obj	3:obj	man,person,people,indian;homem,pessoa,gente,índio
+5	norĩ	norĩ	PART	prcl	Number=Coll	4	dep	4:dep	_
+6	hã	hã	DET	det	_	4	det	4:det	_
+7	.	.	PUNCT	punct	_	3	punct	3:punct	_
+8	Danhimidzama	nhimidzama	NOUN	n	Person=3	12	obj	12:obj	domestic.animal;animal.doméstico
+9	dzéma	dzéma	ADV	adv	_	12	advmod	12:advmod	also;também
+10	ma	ma	PRON	pron	_	12	nsubj	12:nsubj	he,she;ele,ela
+11	duré	duré	ADV	adv	_	12	advmod	12:advmod	also;também
+12	apoto	poto	VERB	v	_	3	parataxis	3:parataxis	be.born,create;nascer,criar
+13	.	.	PUNCT	punct	_	12	punct	12:punct	_
 
 # sent_id = GL-CLX30.8
 # text = Romharé hã dahöimanadzé ĩwẽ.
@@ -1154,6 +1154,118 @@
 11	höimana	höimana	VERB	v	_	0	root	_	be,live,exist;ser,viver,existir
 12	dza'ra	dza'ra	PART	prcl	Number=Plur	11	dep	_	_
 13	.	.	PUNCT	punct	_	11	punct	_	_
+
+# sent_id = GL-CLX31.1
+# text = E ni'wa , te romhu. Mare di!  Ni'wa, te te romhuri õ di , tãi wa.
+# text_por = Alguém trabalha? - Não! Ninguém trabalha, porque chove.
+# text_eng = Does anyone work? - No! Nobody works because it rains.
+1	E	e	PART	prcl	Int=Yes	4	dep	_	question.particle;partícula.interrogativa
+2	ni'wa	ni'wa	PRON	pron	PronType=Ind	4	nsubj	_	someone,some;alguém,algum
+3	te	te	X	x	Aspect=Imp|Htp=Yes	4	dep	_	heterophoric.marker;marcardor.heterofórico
+4	romhu	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
+5	.	.	PUNCT	punct	_	4	punct	_	_
+6	Mare	mare	NOUN	n	_	4	parataxis	_	nada;nothing
+7	di	di	X	x	_	6	dep	_	expletive;expletivo
+8	!	!	PUNCT	punct	_	6	punct	_	_
+9	Ni'wa	ni'wa	PRON	pron	PronType=Ind	12	nsubj	_	someone,some;alguém,algum
+10	te	te	X	x	Aspect=Imp|Htp=Yes	12	dep	_	heterophoric.marker;marcardor.heterofórico
+11	te	te	AUX	aux	_	12	aux	_	_
+12	romhuri	romhuri	VERB	v	_	6	parataxis	_	to.work;trabalhar
+13	õ	õ	PART	prcl	_	12	dep	_	negative.marker;marcador.negativo
+14	di	di	X	x	_	12	dep	_	expletive;expletivo
+15	,	,	PUNCT	punct	_	12	punct	_	_
+16	tãi	tã	NOUN	n	_	12	obl	_	rain;chuva
+17	wa	wa	ADP	posp	_	16	case	_	why;por,por.que,por.motivo.de
+18	.	.	PUNCT	punct	_	12	punct	_	_
+
+# sent_id = GL-CLX31.2
+# text = Awẽptsi tã õ wamhã , aibö norĩ hã, te dza romhuri dza'ra pi'õ norĩ me, buru ãma hã .
+# text_por = Se amanhã não chover, os homens e as mulheres trabalharão na roça.
+# text_eng = If tomorrow it doesn't rain, the men and women will work in the fields.
+1	Awẽptsi	awẽptsi	ADV	adv	_	2	advmod	_	tomorrow,amanhã,quandofor.amanhã
+2	tã	tã	NOUN	n	_	11	advcl	_	rain;chuva
+3	õ	õ	PART	prcl	_	2	dep	_	negative.marker;marcador.negativo
+4	wamhã	wamhã	SCONJ	sconj	_	2	mark	_	when;quando
+5	,	,	PUNCT	punct	_	11	punct	_	_
+6	aibö	aibö	NOUN	n	_	11	nsubj	_	man;homem
+7	norĩ	norĩ	PART	prcl	Number=Coll	6	dep	_	_
+8	hã	hã	DET	det	_	6	det	_	_
+9	te	te	X	x	Aspect=Imp|Htp=Yes	11	dep	_	heterophoric.marker;marcardor.heterofórico
+10	dza	dza	PART	prcl	Tense=Fut	11	dep	_	future.marker;marcador.de.futuro
+11	romhuri	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
+12	dza'ra	dza'ra	PART	prcl	Number=Plur	11	dep	_	_
+13	pi'õ	pi'õ	NOUN	n	_	11	obl	_	woman;mulher
+14	norĩ	norĩ	PART	prcl	Number=Coll	13	dep	_	_
+15	me	me	ADP	posp	_	13	case	_	with;com
+16	,	,	PUNCT	punct	_	11	punct	_	_
+17	buru	buru	NOUN	n	_	11	obl	_	slash;roça
+18	ãma	ãma	ADP	posp	_	17	case	_	in;em
+19	hã	hã	DET	det	_	17	det	_	_
+20	.	.	PUNCT	punct	_	11	punct	_	_
+
+# sent_id = GL-CLX31.3
+# text = E 'wa , te aima tinha, wapté aihini petse , te te romhuri dza'ra õ na hã.
+# text_por = Quem lhe disse, que os adolescentes todos mesmo não trabalham ?
+# text_eng = Who told you that all teenagers don't work?
+1	E	e	PART	prcl	Int=Yes	5	dep	5:dep	question.particle;partícula.interrogativa
+2	'wa	'wa	PRON	pron	PronType=Int	5	nsubj	5:nsubj	who;quem
+3	te	te	X	x	Aspect=Imp|Htp=Yes	5	dep	5:dep	heterophoric.marker;marcardor.heterofórico
+4	aima	ma	PRON	pron	Person=2	_	_	_	he,she;ele,ela
+5	tinha	nharĩ	VERB	v	Person=3	_	_	_	speak;falar
+6	,	,	PUNCT	punct	_	5	punct	5:punct	_
+7	wapté	wapté	NOUN	n	_	12	nsubj	12:nsubj	teenager;adolescente
+8	aihini	aihini	PRON	pron	PronType=Coll	7	nmod	7:nmod	all;todos
+9	petse	petse	ADV	adv	_	12	advmod	12:advmod	much,very.much;mesmo,muito.mesmo
+10	te	te	X	x	Aspect=Imp|Htp=Yes	12	dep	12:dep	heterophoric.marker;marcardor.heterofórico
+11	te	te	AUX	au	_	12	aux	12:aux	_
+12	romhuri	romhuri	VERB	v	_	5	xcomp	5:xcomp	to.work;trabalhar
+13	dza'ra	dza'ra	PART	prcl	Number=Plur	12	dep	12:dep	_
+14	õ	õ	PART	prcl	_	12	dep	12:dep	negative.marker;marcador.negativo
+15	na	na	ADP	posp	_	12	obl	12:obl	in,from;em,de
+16	hã	hã	PART	prcl	Emph=Yes	12	discourse	12:dep	_
+17	.	.	PUNCT	punct	_	12	punct	12:punct	_
+
+# sent_id = GL-CLX31.4
+# text = Atsõhui'wa, te ĩma nharĩ dza'ra ĩprédub nhimiroti dzarina.
+# text_por = Os padrinhos mefalaram, seguindo a decisão dos adultos.
+# text_eng = The godparents told me, following the decision of the adults.
+1	Atsõhui'wa	tsõhui'wa	NOUN	n	Person=2	4	nsubj	_	godfather;padrinho
+2	te	te	X	x	Aspect=Imp|Htp=Yes	4	dep	_	heterophoric.marker;marcardor.heterofórico
+3	ĩma	_	_	_	Person=1	_	_	_	_
+4	nharĩ	nharĩ	VERB	v	Person=3	0	root	_	speak;falar
+5	dza'ra	dza'ra	PART	prcl	Number=Plur	4	dep	_	_
+6	ĩprédub	prédu	NOUN	n	Person=3	7	nmod	_	adult,mature;adulto,maduro
+7	nhimiroti	nhimiroti	NOUN	n	_	4	advcl	_	advice,order;conselho,ordem
+8	dzarina	dzarina	SCONJ	sconj	_	7	mark	_	behind,following;atrás.de;seguindo
+9	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = GL-CLX31.5
+# text = Ãhã bötö parimhã, wapté norĩ hã , te dza romhuri dza'ra a'ãma buru ãma hã , bötö mitsi na . Ãne a'uwẽ höimanadzé.
+# text_por = Depois desse dia, os adolescentes trabalharão na roça dos defensores por um dia. Assim é a tradição dos Xavante.
+# text_eng = After that day, the teenagers will work in the defenders' fields for a day. This is the tradition of the Xavante.
+1	Ãhã	ãhã	PRON	pron	PronType=Dem	2	nmod	_	this;este,esta
+2	bötö	bötö	NOUN	n	_	9	_	_	day,sun,time;dia,sol,hora
+3	parimhã	parimhã	SCONJ	sconj	_	2	mark	_	_
+4	,	,	PUNCT	punct	_	9	punct	_	_
+5	wapté	wapté	NOUN	n	_	9	nsubj	_	teenager;adolescente
+6	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	9	discourse	_	_
+7	te	te	X	x	Aspect=Imp|Htp=Yes	9	dep	_	heterophoric.marker;marcardor.heterofórico
+8	dza	dza	PART	prcl	Tense=Fut	9	dep	_	future.marker;marcador.de.futuro
+9	romhuri	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
+10	dza'ra	dza'ra	PART	prcl	Number=Plur	9	dep	_	_
+11	a'ãma	a'ãma	NOUN	n	_	12	nmod	_	defender,lawyer;defensor,advogado
+12	buru	buru	NOUN	n	_	9	obl	_	slash;roça
+13	ãma	ãma	ADP	posp	_	12	case	_	in;em
+14	hã	hã	DET	det	_	12	det	_	_
+15	,	,	PUNCT	punct	_	9	punct	_	_
+16	bötö	bötö	NOUN	n	_	9	obl	_	day,sun,time;dia,sol,hora
+17	mitsi	mitsi	NUM	num	_	16	nummod	_	one;um,uma
+18	na	na	ADP	posp	_	16	case	_	in,from;em,de
+19	.	.	PUNCT	punct	_	9	punct	_	_
+20	Ãne	ãne	ADV	adv	_	22	advmod	_	thus;assim
+21	a'uwẽ	a'uwẽ	NOUN	n	_	22	nmod	_	man,person,people,indian;homem,pessoa,gente,índio
+22	höimanadzé	höimanadzé	NOUN	n	_	9	parataxis	_	life,existence;vida,existência
+23	.	.	PUNCT	punct	_	22	punct	_	_
 
 # sent_id = EMX-1
 # text = Tahata wahiʔratanorĩhã
