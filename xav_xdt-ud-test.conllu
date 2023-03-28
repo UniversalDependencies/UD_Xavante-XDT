@@ -500,7 +500,7 @@
 6	na	na	ADP	posp	_	5	case	_	in;from;em,de
 7	.	.	PUNCT	punct	_	3	punct	_	_
 
-# sent_id = GL-CLX23.1b
+# sent_id = GL-CLX23.10
 # text = Wanorĩhã , wa atsamarĩ ni atsarina .
 # text_por = Nós dois seguimos a você.
 # text_eng = We both follow you.
@@ -511,7 +511,7 @@
 5	atsarina	tsarina	X	x	Person[abs]=2	_	_	_	behind;
 6	.	.	PUNCT	punct	_	_	_	_	_
 
-# sent_id = GL-CLX23.1b
+# sent_id = GL-CLX23.11
 # text = E te ĩwapari dza'ra wa'wa . Ĩhe !
 # text_por = Vocês escutam? - Sim!
 # text_eng = Do you hear? - Yes!
@@ -524,7 +524,7 @@
 7	Ĩhe	ĩhe	INTJ	intj	_	3	parataxis	_	yes;sim
 8	!	!	PUNCT	punct	_	7	punct	_	_
 
-# sent_id = GL-CLX23.2b
+# sent_id = GL-CLX23.20
 # text = E te ĩtsadanha aibö hã . Mare di !
 # text_por = Você pergunta o homem? - Não!
 # text_eng = Do you ask the man? - No!
@@ -538,7 +538,7 @@
 8	di	di	X	x	_	7	expl	_	expletive;expletivo
 9	!	!	PUNCT	punct	_	7	punct	_	_
 
-# sent_id = GL-CLX23.3b
+# sent_id = GL-CLX23.30
 # text = E te dza ĩtsa'wa ö hã . Madze di !
 # text_por = Vocês vai derramar a água? - Não!
 # text_eng = Are you going to spill the water? - No!
@@ -553,7 +553,7 @@
 9	di	di	X	x	_	8	expl	_	expletive;expletivo
 10	!	!	PUNCT	punct	_	8	punct	_	_
 
-# sent_id = GL-CLX23.4b
+# sent_id = GL-CLX23.40
 # text = E te ĩwaptẽ dawede hã dawede'wai wi hã. Ĩhe ! Ĩ'rã dzé di .
 # text_por = Você pede um remédio ao enfermeiro? - Sim! Minha cabeça dói.
 # text_eng = Do you ask the nurse for medicine? - Yes! My head hurts.
@@ -573,7 +573,7 @@
 14	di	di	X	x	_	13	expl	_	expletive;expletivo
 15	.	.	PUNCT	punct	_	13	punct	_	_
 
-# sent_id = GL-CLX23.5b
+# sent_id = GL-CLX23.50
 # text = 'Watébrémi norĩ hã, e te dza ĩromhuri dza'ra wa'wa aibö me hã . Ĩhe ! Tsa'ẽtẽ wa dza romhuri dza'ra ni aibö me .
 # text_por = Meninos, vocês vão trabalhar com o homem ? - Sim! Nós vamos trabalhar depressa com o homem.
 # text_eng = Boys, are you going to work with the man? - Yes! We're going to work quickly with the man.
