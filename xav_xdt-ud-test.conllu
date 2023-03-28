@@ -1460,6 +1460,26 @@
 11	aba	aba	PART	prcl	Number=Coll	10	dep	_	collective.marker
 12	!	!	PUNCT	punct	_	10	punct	_	_
 
+# sent_id = GL-CLX33.8
+# text = Aimama te dza wei mo , marĩ ĩpire hã te te aima waihu'u da .
+# text_por = Seu pai virá, para lhe comunicar algo de importante.
+# text_eng = Your father will come to tell you something important.
+1	Aimama	mama	NOUN	n	Person=2	5	nsubj	_	father,uncle;pai,tio
+2	te	te	PART	prcl	Htp=Yes|Tense=Pres	5	dep	_	heterophoric.marker;marcardor.heterofórico
+3	dza	dza	PART	prcl	Tense=Fut	5	dep	_	future.marker;marcador.de.futuro
+4	wei	we	ADV	adv	_	5	advmod	_	hither;para.cá
+5	mo	mo	VERB	v	_	0	root	_	go;ir
+6	,	,	PUNCT	punct	_	5	punct	_	_
+7	marĩ	marĩ	NOUN	n	_	13	obj	_	something,what;algo,o.que,alguma.coisa
+8	ĩpire	pire	NOUN	n	Person=3	7	nmod	_	heavy,important;pesado,importante
+9	hã	hã	DET	det	_	8	det	_	_
+10	te	te	PART	prcl	Htp=Yes|Tense=Pres	13	dep	_	heterophoric.marker;marcardor.heterofórico
+11	te	te	AUX	aux	_	13	aux	_	_
+12	aima	ai	PRON	pron	Case=Dat|Person=2	13	iobj	_	he,she;ele,ela
+13	waihu'u	waihu'u	VERB	v	_	5	advcl	_	know,do,teach;saber,fazer,ensinar
+14	da	da	SCONJ	sconj	_	13	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+15	.	.	PUNCT	punct	_	5	punct	_	_
+
 # sent_id = GL-CLX33.9
 # text = E höiwi te ĩ'madö'ö dza'ra wa'wa . Mare di ! Wa norĩ hã höiwi wa te 'madö'ö dza'ra õ di .
 # text_por = Vocês estão vendo o avião? Niio! Nós não estamos vendo o avião.
@@ -1517,7 +1537,7 @@
 2	ãma	ãma	ADP	posp	_	1	case	_	in;em
 3	hã	hã	DET	det	_	1	det	_	_
 4	,	,	PUNCT	punct	_	6	punct	_	_
-5	mararé	mararé	ADV	adv	_	6	advmod	_	 at.dawn,early;de.madrugada,cedo
+5	mararé	mararé	ADV	adv	_	6	advmod	_	at.dawn,early;de.madrugada,cedo
 6	romhuri	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
 7	.	.	PUNCT	punct	_	6	punct	_	_
 8	'Watébrémi	'watébrémi	NOUN	n	_	19	nsubj	_	boy;menino
