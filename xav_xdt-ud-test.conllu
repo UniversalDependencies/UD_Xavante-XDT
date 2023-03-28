@@ -265,7 +265,7 @@
 21	.	.	PUNCT	punct	_	18	punct	_	_
 
 # sent_id = GL-CLX18.6
-# text = Tahawa te romhu tsa'ẽtẽ .
+# text = Tahawa te romhu tsa'ẽtè .
 # text_por = Por isso, ela trabalha depressa.
 # text_eng = So she works fast.
 1	Tahawa	tahawa	SCONJ	sconj	_	3	mark	_	therefore;por.isso
@@ -473,7 +473,7 @@
 5	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = GL-CLX23.8
-# text = Wanorĩhã , wa tsa'wari dza'ra ni ö , u'mre 'remhã .
+# text = Wanorĩhã wa tsa'wari dza'ra ni ö , u'mre 'remhã .
 # text_por = Nós despejamos a água que está nas cabaças.
 # text_eng = We pour the water that is in the gourds.
 1	Wanorĩhã	wanorĩhã	PRON	pron	Emph=Yes|Number=Coll|Person=1	3	nsubj	_	_
@@ -504,7 +504,7 @@
 # text_por = Nós dois seguimos a você.
 # text_eng = We both follow you.
 1	Wanorĩhã	wanorĩhã	PRON	pron	Emph=Yes|Number=Coll|Person=1	3	nsubj	_	_
-2	wa	wa	X	x	Ego=Yes|Person=1	3	dep	_	egophoric.marker;marcardor.egofórico
+2	wa	wa	PART	prcl	Ego=Yes|Person=1	3	dep	_	egophoric.marker;marcardor.egofórico
 3	atsamarĩ	tsamarĩ	VERB	v	Person[abs]=2	0	root	_	follow;seguir
 4	ni	ni	X	x	Number=Dual	3	dep	_	dual.number.marker;indicador.dual
 5	atsarina	tsarina	ADP	posp	Person[abs]=2	3	obl	_	behind;atrás
@@ -573,7 +573,7 @@
 15	.	.	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = GL-CLX23.50
-# text = 'Watébrémi norĩhã, e te dza ĩromhuri dza'ra wa'wa aibö me hã . Ĩhe ! Tsa'ẽtẽ wa dza romhuri dza'ra ni aibö me .
+# text = 'Watébrémi norĩhã , e te dza ĩromhuri dza'ra wa'wa aibö me hã . Ĩhe ! Tsa'ẽtè wa dza romhuri dza'ra ni aibö me .
 # text_por = Meninos, vocês vão trabalhar com o homem ? - Sim! Nós vamos trabalhar depressa com o homem.
 # text_eng = Boys, are you going to work with the man? - Yes! We're going to work quickly with the man.
 1	'Watébrémi	'watébrémi	NOUN	n	_	7	vocative	_	boy;menino
@@ -591,8 +591,8 @@
 13	.	.	PUNCT	punct	_	7	punct	_	_
 14	Ĩhe	ĩhe	INTJ	intj	_	7	parataxis	_	yes;sim
 15	!	!	PUNCT	punct	_	14	punct	_	_
-16	Tsa'ẽtè	tsa'ẽtè	ADV	adv	_	19	_	_	in.a.hurry,quickly,loud;depressa,em.voz.alta
-17	wa	wa	X	x	Ego=Yes|Person=1	19	dep	_	egophoric.marker;marcardor.egofórico
+16	Tsa'ẽtè	tsa'ẽtè	ADV	adv	_	19	advmod	_	in.a.hurry,quickly,loud;depressa,em.voz.alta
+17	wa	wa	PART	prcl	Ego=Yes|Person=1	19	dep	_	egophoric.marker;marcardor.egofórico
 18	dza	dza	PART	prcl	Tense=Fut	19	dep	_	future.marker;marcador.de.futuro
 19	romhuri	romhuri	VERB	v	_	14	parataxis	_	to.work;trabalhar
 20	dza'ra	dza'ra	PART	prcl	Number=Plur	19	dep	_	_
@@ -602,7 +602,7 @@
 24	.	.	PUNCT	punct	_	19	punct	_	_
 
 # sent_id = GL-CLX24.1
-# text = Pi'õ te wara tsi'a dzô te te öri da . Ba'õtõ dzéma tsi’a te ti'ö .
+# text = Pi'õ te wara tsi'a dzô te te öri da . Ba'õtõ dzéma tsi'a te ti'ö .
 # text_por = Uma mulher corre atrás de uma galinha para pegá-la. Também uma menina pega uma galinha.
 # text_eng = A woman runs after a chicken to catch it. Also a girl catches a chicken.
 1	Pi'õ	pi'õ	NOUN	n	_	3	nsubj	_	woman;mulher
@@ -623,7 +623,7 @@
 16	.	.	PUNCT	punct	_	15	punct	_	_
 
 # sent_id = GL-CLX24.2
-# text = Taha pari , waptsã dzéma tsi'a te titsa . Taha wa , pi'õ waptsã hã , ma adzö .
+# text = Taha pari , waptsã dzéma tsi'a te titsa . Tahawa , pi'õ waptsã hã , ma adzö .
 # text_por = Depois disso também um cachorro morde uma galinha. Por isso uma mulher bate o cachorro.
 # text_eng = After that also a dog bites a chicken. That's why a woman beats the dog.
 1	Taha	taha	PRON	pron	_	8	dislocated	_	that;isso
@@ -641,7 +641,7 @@
 13	waptsã	waptsã	NOUN	n	_	16	obj	_	dog,puppy;cachorro
 14	hã	hã	DET	det	_	13	det	_	_
 15	ma	ma	PART	prcl	Htp=Yes|Tense=Past	16	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
-16	adzö	adzöri	VERB	v	_	8	advmod	_	beat;bater
+16	adzö	adzöri	VERB	v	_	8	advcl	_	beat;bater
 17	.	.	PUNCT	punct	_	16	punct	_	_
 
 # sent_id = GL-CLX24.3
@@ -715,7 +715,7 @@
 7	!	!	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = GL-CLX24.8
-# text = Ba'õtõ norĩ, e tiha na te ĩnharĩ wa'wa rowahutu'wai ma . Tihai õ di !
+# text = Ba'õtõ norĩ , e tiha na te ĩnharĩ wa'wa rowahutu'wai ma . Tihai õ di !
 # text_por = Vocês duas meninas, o que vocês falam ao professor? - Não é nada!
 # text_eng = You two girls, what do you tell the teacher? - Nothing!
 1	Ba'õtõ	ba'õtõre	NOUN	n	_	8	vocative	_	little.girl;menina.pequena
@@ -759,7 +759,7 @@
 # text_eng = Because it's tasty for him, it killed it.
 1	Tãma	ti	PRON	pron	Case=Dat|Person=3	2	nmod	_	lhe,a.ele,.para.ele
 2	tsei	tse	NOUN	n	_	0	root	_	tasty;gostoso
-3	wa	wa	X	x	Ego=Yes|Person=1	2	dep	_	egophoric.marker;marcardor.egofórico
+3	wa	wa	PART	prcl	Ego=Yes|Person=1	2	dep	_	egophoric.marker;marcardor.egofórico
 4	ma	ma	PART	prcl	Htp=Yes|Tense=Past	6	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
 5	tô	tô	PART	prcl	Fact=Yes	6	dep	_	factive;fictício
 6	tiwĩ	wĩrĩ	VERB	v	Person[abs]=3	2	parataxis	_	kill.a.being;matar.um.ser
