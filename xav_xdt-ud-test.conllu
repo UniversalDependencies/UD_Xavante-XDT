@@ -321,7 +321,7 @@
 10	,	,	PUNCT	punct	_	14	punct	_	_
 11	marĩ	marĩ	NOUN	n	_	14	obj	_	something,what;algo,o.que,alguma.coisa
 12	hã	hã	DET	det	_	11	det	_	_
-13	wa	wa	X	x	Ego=Yes|Person=1	14	dep	_	egophoric.marker;marcardor.egofórico
+13	wa	wa	PART	prcl	Ego=Yes|Person=1	14	dep	_	egophoric.marker;marcardor.egofórico
 14	tsadanharĩ	tsadanharĩ	VERB	v	_	7	parataxis	_	ask;perguntar
 15	ni	ni	X	x	Number=Dual	14	dep	_	dual.number.marker;indicador.dual
 16	.	.	PUNCT	punct	_	14	punct	_	_
