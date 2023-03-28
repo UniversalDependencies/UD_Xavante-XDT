@@ -2105,7 +2105,7 @@
 4	tsãmra	tsãmra	VERB	v	_	0	root	_	sit.down;sentar-se
 
 # sent_id = EMX-7
-# text = Höiwahö wa za oto wawa'utu dza'ra ni
+# text = Höiwahö wa dza oto wawa'utu dza'ra ni
 # text_eng = In the afternoon we will rest. (Estevam 2011:  29, 7)
 # text_por = À tarde vamos descansar.
 1	Höiwahö	höiwahö	ADV	adv	_	5	advmod	_	late;de.tarde
@@ -2141,7 +2141,7 @@
 5	mro	mro	VERB	v	_	0	root	_	match;contar
 
 # sent_id = EMX-10
-# text = Te wamama norĩhã waré 're höimana za'ra warobreb 'ré hã U'ujwawẽ ãma hã
+# text = Te wamama norĩhã waré 're höimana dza'ra warobreb 'ré hã U'ujwawẽ ãma hã
 # text_eng = Our parents lived (happily) with us in our small village in Lagoa Azul. (Estevam 2011:  31, 10)
 # text_por = Nossos pais viviam (felizmente) conosco em nosso pequeno vilarejo em Lagoa Azul.
 1	Te	te	PART	prcl	Htp=Yes|Tense=Pres	6	dep	_	heterophoric.marker;marcardor.heterofórico
