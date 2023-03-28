@@ -1825,7 +1825,7 @@
 # text = Ai'repudu uburé te waihu'u , ĩmama te te ĩpo'repu'u na hã .
 # text_por = O menino crescido sabe tudo o que o pai lhe recordou.
 # text_eng = The grown-up boy knows everything his father has reminded him of.
-1	Ai'repudu	ai'repudu	NOUN	n	_	4	nsubj	_	 big.boy;menino.crescido
+1	Ai'repudu	ai'repudu	NOUN	n	_	4	nsubj	_	big.boy;menino.crescido
 2	uburé	uburé	PRON	pron	PronType=Tot	4	obj	_	all;tudo
 3	te	te	PART	prcl	Htp=Yes|Tense=Pres	4	dep	_	heterophoric.marker;marcardor.heterofórico
 4	waihu'u	waihu'u	VERB	v	_	0	root	_	know,do,teach;saber,fazer,ensinar
