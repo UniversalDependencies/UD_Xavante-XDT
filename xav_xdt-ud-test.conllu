@@ -1,5 +1,5 @@
 # sent_id = GL-CLX16.1
-# text = Aibö te mo . Pi’õ te mo . Ba'õno te mo . Ohã te mo .
+# text = Aibö te mo . Pi’õ te mo . Ba'õno te mo . Õhã te mo .
 # text_por = Uni homem vai. Uma mulher vai. A menina vai. Ele (ela) vai.
 # text_eng = One man goes. A woman goes. The girl goes. He (she) goes.
 1	Aibö	aibö	NOUN	n	_	3	nsubj	_	man;homem
@@ -37,7 +37,7 @@
 12	.	.	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = GL-CLX16.3
-# text = Aibö te mo buru u . Pi'õ dzéma te mo buru u .
+# text = Aibö te mo buru u . Pi’õ dzéma te mo buru u .
 # text_por = Um homem vai à roça. Também uma mulher vai à roça.
 # text_eng = A man goes to the fields. A woman also goes to the fields.
 1	Aibö	aibö	NOUN	n	_	3	nsubj	_	man;homem
@@ -116,7 +116,7 @@
 7	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = GL-CLX16.9
-# text = Aibõ , ma wei wi .
+# text = Aibö , ma wei wi .
 # text_por = Um homem veio.
 # text_eng = A man came.
 1	Aibö	aibö	NOUN	n	_	3	nsubj	_	man;homem
@@ -151,7 +151,7 @@
 8	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = GL-CLX16.12
-# text = E te dza apö mo . 
+# text = E te dza apö mo .
 # text_por = Ele voltará?
 # text_eng = Will he come back?
 1	E	e	PART	prcl	Int=Yes	5	dep	_	question.particle;partícula.interrogativa
@@ -210,7 +210,7 @@
 14	.	.	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = GL-CLX18.3
-# text = Aibö , ma atsa tsada'ö marĩ na .
+# text = Aibö ma atsa tsada'ö marĩ na .
 # text_por = Um homem lhe responde alguma coisa.
 # text_eng = A man answers him something.
 1	Aibö	aibö	NOUN	n	_	4	nsubj	_	man;homem
@@ -239,7 +239,7 @@
 12	.	.	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = GL-CLX18.5
-# text = Pi’õ tsa'ẽtẽ te romhu buru ãma hã . Romhuri ãna hã , marĩ datsa da hã , höimana õ di .
+# text = Pi’õ tsa'ẽtè te romhu buru ãma hã . Romhuri ãna hã , marĩ datsa da hã , höimana õ di .
 # text_por = Uma mulher trabalha depressa na roça. Sem o trabalho, não há nada para comer.
 # text_eng = A woman works quickly in the fields. Without work, there is nothing to eat.
 1	Pi’õ	pi'õ	NOUN	n	_	4	nsubj	_	woman;mulher
@@ -328,7 +328,7 @@
 16	.	.	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = GL-CLX21.4
-# text = E anorĩwa'wahã te ĩwapari dza'ra wa'wa . Ĩhe , wa norĩhã wa wapari dza'ra ni .
+# text = E anorĩwa'wahã te ĩwapari dza'ra wa'wa . Ĩhe , wanorĩhã wa wapari dza'ra ni .
 # text_por = Vocês escutam ? - Sim, nós escutamos.
 # text_eng = Do you hear? - Yes, we heard.
 1	E	e	PART	prcl	Int=Yes	4	dep	_	question.particle;partícula.interrogativa
@@ -367,7 +367,7 @@
 14	.	.	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = GL-CLX23.1
-# text = Aibö norĩ hã duré pi'õ norĩ hã te romhuri dza'ra buru ãma hã .
+# text = Aibö norĩhã duré pi'õ norĩ hã te romhuri dza'ra buru ãma hã .
 # text_por = Os homens e as mulheres trabalham na roça .
 # text_eng = Men and women work in the fields.
 1	Aibö	aibö	NOUN	n	_	7	nsubj	_	man;homem
@@ -398,7 +398,7 @@
 9	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = GL-CLX23.3
-# text = Wapté norĩ hã te wapari dza'ra ĩprédu mreme hã .
+# text = Wapté norĩhã te wapari dza'ra ĩprédu mreme hã .
 # text_por = Os adolescentes escutam a palavra do adulto.
 # text_eng = Teenagers listen to the words of adults.
 1	Wapté	wapté	NOUN	n	_	4	nsubj	_	teenager;adolescente
