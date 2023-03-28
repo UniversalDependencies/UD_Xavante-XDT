@@ -2117,11 +2117,11 @@
 7	ni	ni	X	x	Number=Dual	5	dep	_	dual.number.marker;indicador.dual
 
 # sent_id = EMX-8
-# text = Ma 'röwẽpese rowẽ pese re te te sõré
+# text = Ma 'rowẽpese rowẽ pese re te te sõré
 # text_eng = They installed (the taps) close by. (Estevam 2011:  29, 8)
 # text_por = Eles instalaram (as torneiras) perto.
 1	Ma	ma	PART	prcl	Htp=Yes|Tense=Past	2	dep	_	perfect.aspect;aspecto.perfeito
-2-3	'röwẽpese	_	_	_	_	_	_	_	_
+2-3	'rowẽpese	_	_	_	_	_	_	_	_
 2	rowẽ	rowẽ	VERB	v	_	0	root	_	make.beautiful;fazer.bonito,alegrar
 3	pese	pese	ADV	advmod	_	2	advmod	_	_
 4	re	re	PART	prcl	Degree=Dim	2	dep	_	diminutive;diminutivo
@@ -2141,7 +2141,7 @@
 5	mro	mro	VERB	v	_	0	root	_	match;contar
 
 # sent_id = EMX-10
-# text = Te wamama norĩhã waré 're höimana dza'ra warobreb 'ré hã U'ujwawẽ ãma hã
+# text = Te wamama norĩhã waré 're höimana dza'ra warobreb 're hã U'ujwawẽ ãma hã
 # text_eng = Our parents lived (happily) with us in our small village in Lagoa Azul. (Estevam 2011:  31, 10)
 # text_por = Nossos pais viviam (felizmente) conosco em nosso pequeno vilarejo em Lagoa Azul.
 1	Te	te	PART	prcl	Htp=Yes|Tense=Pres	6	dep	_	heterophoric.marker;marcardor.heterofórico
