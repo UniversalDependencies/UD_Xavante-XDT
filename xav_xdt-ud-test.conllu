@@ -1315,13 +1315,13 @@
 # text_eng = When the afternoon comes, the teenagers get tired of singing.
 1	Höiwahö	höiwahö	ADV	adv	_	10	dislocated	_	late;de.tarde
 2	,	,	PUNCT	punct	_	10	punct	_	_
-3	u	u	ADP	posp	_	_	_	_	to;a,para
+3	u	u	ADP	posp	_	10	obl	_	to;a,para
 4	te	te	PART	prcl	Htp=Yes|Tense=Pres	10	dep	_	heterophoric.marker;marcardor.heterofórico
 5	wapté	wapté	NOUN	n	_	10	nsubj	_	teenager;adolescente
 6	te	te	PRON	pron	_	_	_	_	_
 7	te	te	AUX	aux	_	10	aux	_	_
 8	ãma	ãma	ADP	posp	_	_	_	_	in;em
-9	're	're	PART	prcl	_	_	_	_	indicator.of.repeated.action;indicador.de.ação.repetida
+9	're	're	PART	prcl	_	10	dep	_	indicator.of.repeated.action;indicador.de.ação.repetida
 10	ãputsi	ãputsi	VERB	v	_	0	root	_	get.tired;cansar-se
 11	tinho're	danho're	NOUN	n	Person=3	10	obl	_	song;canto
 12	na	na	ADP	posp	_	11	case	_	in,from;em,de
@@ -1346,7 +1346,7 @@
 12	!	!	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = GL-CLX33.2
-# text = E bötö bö romhuri aba õ di . Niwa bötö na , wanorĩhã wa romhuri ni. Wawa'a-te , niwamhã wa te romhuri õ di .
+# text = E bötö bö romhuri aba õ di . Niwa bötö na , wanorĩhã wa romhuri ni . Wawa'a-te , niwamhã wa te romhuri õ di .
 # text_por = Vocês dois trabalham todos os dias? Algum dia nós dois trabalhamos. Por nossa preguiça, alguma vez nós dois não trabalhamos. 
 # text_eng = Do you two work every day? Someday we both work. Because of our laziness, sometimes both of us don't work.
 1	E	e	PART	prcl	Int=Yes	4	dep	_	question.particle;partícula.interrogativa
@@ -1366,7 +1366,7 @@
 15	romhuri	romhuri	VERB	v	_	4	parataxis	_	to.work;trabalhar
 16	ni	ni	X	x	Number=Dual	15	dep	_	dual.number.marker;indicador.dual
 17	.	.	PUNCT	punct	_	15	punct	_	_
-18-19	Wawa'a-te	te	PART	prcl	Htp=Yes|Tense=Pres	_	dep	_	heterophoric.marker;marcardor.heterofórico
+18-19	Wawa'a-te	_	_	_	_	_	_	_	_	_
 18	Wawa'a	wa'a	NOUN	n	Number=Plur|Person=1	24	dislocated	_	laziness;preguiça
 19	te	te	ADP	posp	_	18	case	_	because.of,why;por.causa.de,por.que
 20	,	,	PUNCT	punct	_	24	punct	_	_
@@ -1416,7 +1416,7 @@
 17	.	.	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = GL-CLX33.5
-# text = Rowatsu'u hã waihu'u õ wamhã , rowaptẽrẽ tsa'ẽtẽ ĩprédu wi .
+# text = Rowatsu'u hã waihu'u õ wamhã , rowaptẽrẽ tsa'ẽtè ĩprédu wi .
 # text_por = Se você não souber a história, peça logo ao ancião.
 # text_eng = If you don't know the story, ask the elder right away.
 1	Rowatsu'u	rowatsu'u	NOUN	n	_	3	obj	_	story;história
@@ -1447,7 +1447,7 @@
 10	di	di	X	x	_	9	expl	_	expletive;expletivo
 11	!	!	PUNCT	punct	_	9	punct	_	_
 12	Pi’õ	pi'õ	NOUN	n	_	18	nsubj	_	woman;mulher
-13	dza	dza	PART	prcl	Tense=Fut	18	dep	_	future.marker;marcador.de.futuro
+13	dza	dza	PART	prcl	Tense=Fut	18	det	_	future.marker;marcador.de.futuro
 14	hadu	hady	ADV	adv	_	18	advmod	_	yet;ainda
 15	te	te	PART	prcl	Htp=Yes|Tense=Pres	18	dep	_	heterophoric.marker;marcardor.heterofórico
 16	te	te	AUX	aux	_	18	aux	_	_
@@ -1458,7 +1458,7 @@
 21	.	.	PUNCT	punct	_	18	punct	_	_
 
 # sent_id = GL-CLX33.7
-# text = Ma'ãpé , mrami pa'o hã ! Ma' ãpé , pa'o mrami aba !
+# text = Ma'ãpé , mrami pa'o hã ! Ma'ãpé , pa'o mrami aba !
 # text_por = Então pegue duas bananas! - Então peguem vocês dois duas bananas!
 # text_eng = Then take two bananas! - Then get you two two bananas!
 1	Ma'ãpé	ma'ãpé	AUX	aux	_	3	dislocated	_	exhortative;exortativo
@@ -1495,7 +1495,7 @@
 15	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = GL-CLX33.9
-# text = E höiwi te ĩ'madö'ö dza'ra wa'wa . Mare di ! Wa norĩ hã höiwi wa te 'madö'ö dza'ra õ di .
+# text = E höiwi te ĩ'madö'ö dza'ra wa'wa . Mare di ! Wanorĩhã höiwi wa te 'madö'ö dza'ra õ di .
 # text_por = Vocês estão vendo o avião? Niio! Nós não estamos vendo o avião.
 # text_eng = Do you see the plane? No! We do not see the plane.
 1	E	e	PART	prcl	Int=Yes	4	dep	_	question.particle;partícula.interrogativa
@@ -1544,7 +1544,7 @@
 20	.	.	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = GL-CLX34.1
-# text = A'uwẽ ãma hã , mararé romhuri . 'Watébrémi norĩ hã timama me , duré ba'õtõ norĩ hã tina me te romhuri dza'ra .
+# text = A'uwẽ ãma hã , mararé romhuri . 'Watébrémi norĩhã timama me , duré ba'õtõ norĩ hã tina me te romhuri dza'ra .
 # text_por = Entre os Xavante há trabalho de manhã. Os meninos trabalham com o pai, e as meninas com a mãe.
 # text_eng = Among the Xavante there is work in the morning. The boys work with their father, and the girls with their mother.
 1	A'uwẽ	a'uwẽ	NOUN	n	_	6	dislocated	_	man,person,people,indian;homem,pessoa,gente,índio
@@ -1570,7 +1570,7 @@
 21	.	.	PUNCT	punct	_	19	punct	_	_
 
 # sent_id = GL-CLX34.2
-# text = A'uwẽ ãma hã , romhuri pire di , datsa da hã .
+# text = A'uwẽ ãma hã , romhuri ĩpire di , datsa da hã .
 # text_por = Entre os Xavante o trabalho é importante para a subsistência.
 # text_eng = Among the Xavante, work is important for subsistence.
 1	A'uwẽ	a'uwẽ	NOUN	n	_	5	dislocated	_	man,person,people,indian;homem,pessoa,gente,índio
@@ -1611,7 +1611,7 @@
 19	.	.	PUNCT	punct	_	16	punct	_	_
 
 # sent_id = GL-CLX34.4
-# text = Aihini nho'a hã , rowahutu'wa te adzadanha : " Anorĩwa'wa hã , e te aipo'repu'u dza'ra wa'wa marĩ na hã te aima waihu'u dza'ra wa'wa ahömhö hã . " Ĩhe ! " aihini ma tsada'öbö dza'ra .
+# text = Aihini nho'a hã , rowahutu'wa te adzadanha : " Anorĩwa'wahã , e te aipo'repu'u dza'ra wa'wa marĩ na hã te aima waihu'u dza'ra wa'wa ahömhö hã . " Ĩhe ! " aihini ma tsada'öbö dza'ra .
 # text_por = Na frente de todos, os professor pergunta: "Vocês lembram o que eu lhes ensinei ontem?" "Sim!" responderam lhe todos.
 # text_eng = In front of everyone, the teacher asks: "Do you remember what I taught you yesterday?" "Yes!" they all answered him.
 1	Aihini	aihini	PRON	pron	PronType=Coll	7	dislocated	_	all;todos
@@ -1691,14 +1691,13 @@
 34	wẽ	wẽ	NOUN	n	Person=3	40	dislocated	_	good,beatuful;bom,bonito,belo
 35	uptabi	uptabi	NOUN	n	_	34	nmod	_	good,very.good;muito,muito.bom
 36	na	na	ADP	posp	_	35	case	_	in,from;em,de
-37	,	,	PUNCT	punct	_	40	punct	_	_
-38	wa	wa	X	x	Ego=Yes|Person=1	40	dep	_	egophoric.marker;marcardor.egofórico
-39	te	te	AUX	aux	_	40	aux	_	_
-40	waihu'u	waihu'u	VERB	v	_	27	advcl	_	know,do,teach;saber,fazer,ensinar
-41	dza'ra	dza'ra	PART	prcl	Number=Plur	40	dep	_	_
-42	da	da	SCONJ	sconj	_	40	mark	_	for,in.order.to,so.that;para,afim.de,para.que
-43	!	!	PUNCT	punct	_	40	punct	_	_
-44	"	"	PUNCT	punct	_	21	punct	_	_
+37	wa	wa	X	x	Ego=Yes|Person=1	40	dep	_	egophoric.marker;marcardor.egofórico
+38	te	te	AUX	aux	_	40	aux	_	_
+39	waihu'u	waihu'u	VERB	v	_	27	advcl	_	know,do,teach;saber,fazer,ensinar
+40	dza'ra	dza'ra	PART	prcl	Number=Plur	40	dep	_	_
+41	da	da	SCONJ	sconj	_	40	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+42	!	!	PUNCT	punct	_	40	punct	_	_
+43	"	"	PUNCT	punct	_	21	punct	_	_
 
 # sent_id = GL-CLX37.1
 # text = 'Watébrémire , e aima waihu'u petse di ? Ĩhe !
