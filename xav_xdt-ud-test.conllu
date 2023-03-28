@@ -411,6 +411,25 @@
 8	hã	hã	DET	det	_	7	det	_	_
 9	.	.	PUNCT	punct	_	4	punct	_	_
 
+# sent_id = GL-CLX23.4
+# text = E te ĩtsadanharĩ dza'ra wa'wa waradzu hã marĩ na ?
+# text_por = Vocês perguntaram algo ao "civilizado"? Não! 
+# text_eng = Did you ask the "civilized" something? No!
+1	E	e	PART	prcl	Int=Yes	3	dep	_	question.particle;partícula.interrogativa
+2	te	te	PART	prcl	Htp=Yes|Tense=Pres	3	dep	_	heterophoric.marker;marcardor.heterofórico
+3	ĩtsadanharĩ	tsadanharĩ	VERB	v	Person=2	0	root	_	ask;perguntar
+4	dza'ra	dza'ra	PART	prcl	Number=Plur	3	dep	_	_
+5	wa'wa	'wa	X	x	Number=Dual	3	dep	_	dual.number.marker;indicador.dual
+6	waradzu	waradzu	NOUN	n	_	3	iobj	_	white,civilized,non-indian;branco,civilizado,não-índio
+7	hã	hã	DET	det	_	6	det	_	_
+8	marĩ	marĩ	NOUN	n	_	3	obl	_	something,what;algo,o.que,alguma.coisa
+9	na	na	ADP	posp	_	8	case	_	in;from;em,de
+10	?	?	PUNCT	punct	_	3	punct	_	_
+11	Mare	mare	NOUN	n	_	3	parataxis	_	nada;nothing
+12	di	di	X	x	_	11	expl	_	expletive;expletivo
+13	.	.	PUNCT	punct	_	11	punct	_	_
+
+
 # sent_id = GL-CLX23.5
 # text = Ba'õtõ norĩ , e te ĩ'madö'ö 'wa ai'uté hã ? Ĩhe !
 # text_por = Meninas (duas), vocês estão vendo a criança? Sim!
