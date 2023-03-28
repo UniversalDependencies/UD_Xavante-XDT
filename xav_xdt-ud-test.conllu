@@ -1049,6 +1049,21 @@
 3	uptabi	uptabi	NOUN	n	_	2	_	_	good,very.good;muito,muito.bom
 4	.	.	PUNCT	punct	_	2	punct	_	_
 
+# sent_id = GL-CLX30.3
+# text = Aimama adub'rata me te romhuri dzahuré buru ãma hã .
+# text_por = Teu pai e teu irmão trabalham na roça.
+# text_eng = Your father and your brother work in the fields.
+1	Aimama	mama	NOUN	n	Person=2	5	nsubj	_	father,uncle;pai,tio
+2	adub'rata	dub'rata	NOUN	n	_	1	nmod	_	older.brother;irmão.mais.velho
+3	me	me	ADP	posp	_	2	case	_	with;com
+4	te	te	PART	prcl	Htp=Yes|Tense=Pres	5	dep	_	heterophoric.marker;marcardor.heterofórico
+5	romhuri	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
+6	dzahuré	dzahuré	NUM	num	Number=Dual	5	dep	_	_
+7	buru	buru	NOUN	n	_	5	obl	_	slash;roça
+8	ãma	ãma	ADP	posp	_	7	case	_	in;em
+9	hã	hã	DET	det	_	7	det	_	_
+10	.	.	PUNCT	punct	_	5	punct	_	_
+
 # sent_id = GL-CLX30.4
 # text = Ana norĩ hã te tsawi petse dza'ra ti'ra norĩ hã .
 # text_por = As mães de vocês amam mesmo seus filhos.
