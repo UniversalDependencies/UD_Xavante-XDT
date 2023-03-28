@@ -623,7 +623,7 @@
 16	.	.	PUNCT	punct	_	15	punct	_	_
 
 # sent_id = GL-CLX24.2
-# text = Taha pari , waptsã dzéma tsi'a te titsa . Tahawa , pi'õ waptsã hã , ma adzö .
+# text = Taha pari , waptsã dzéma tsi'a te titsa . Tahawa , pi'õ waptsã hã ma adzö .
 # text_por = Depois disso também um cachorro morde uma galinha. Por isso uma mulher bate o cachorro.
 # text_eng = After that also a dog bites a chicken. That's why a woman beats the dog.
 1	Taha	taha	PRON	pron	_	8	dislocated	_	that;isso
@@ -882,7 +882,7 @@
 8	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = GL-CLX27.1
-# text = Wapté te mo buru , u timama me .
+# text = Wapté te mo buru u , timama me .
 # text_por = O adolescente vai à roça com o pai dele.
 # text_eng = The teenager goes to the fields with his father.
 1	Wapté	wapté	NOUN	n	_	3	nsubj	_	teenager;adolescente
@@ -1212,7 +1212,7 @@
 5	tinha	nharĩ	VERB	v	Person=3	0	root	_	speak;falar
 6	,	,	PUNCT	punct	_	5	punct	_	_
 7	wapté	wapté	NOUN	n	_	12	nsubj	_	teenager;adolescente
-8	aihini	aihini	PRON	pron	PronType=Coll	7	nmod	_	all;todos
+8	aihini	aihini	PRON	pron	Number=Coll	7	nmod	_	all;todos
 9	petse	petse	ADV	adv	_	12	advmod	_	much,very.much;mesmo,muito.mesmo
 10	te	te	PART	prcl	Htp=Yes|Tense=Pres	12	dep	_	heterophoric.marker;marcardor.heterofórico
 11	te	te	AUX	au	_	12	aux	_	_
@@ -1647,7 +1647,7 @@
 31	"	"	PUNCT	punct	_	29	punct	_	_
 32	aihini	aihini	PRON	pron	PronType=Coll	34	nsubj	_	all;todos
 33	ma	ma	PART	prcl	Htp=Yes|Tense=Past	34	dep	_	perfect.aspect;aspecto.perfeito
-34	tsada'ö	tsada'öbö	VERB	v	_	22	parataxis	_	reply;responder
+34	tsada'öbö	tsada'öbö	VERB	v	_	22	parataxis	_	reply;responder
 35	dza'ra	dza'ra	PART	prcl	Number=Plur	34	dep	_	_
 36	.	.	PUNCT	punct	_	34	punct	_	_
 
@@ -1802,7 +1802,7 @@
 8	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = GL-CLX37.7
-# text = Rowahutu'wa ĩta'are te ta'a , 'watébrémi norĩ dzô romhoré u da hã .
+# text = Rowahutu'wa ĩta'are te ta'a , 'watébrémi norĩ dzô romnhoré u da hã .
 # text_por = O professor toca a campainha para (reunir) os meninos para as aulas.
 # text_eng = The teacher rings the bell (to gather) the boys for lessons.
 1	Rowahutu'wa	rowahutu'wa	NOUN	n	_	4	nsubj	_	teacher;professor
@@ -1872,7 +1872,7 @@
 15	!	!	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = GL-CLX38.1
-# text = " Ĩ'ra norĩ , e ai’udza te ĩ'uptsõi wa'wa . " pi'õ, te tsadanha . " Madze di ! " õ norĩ hã ma tsada'öbö dzahuré .
+# text = " Ĩ'ra norĩ , e ai’udza te ĩ'uptsõi wa'wa . " pi'õ te tsadanha . " Madze di ! " õ norĩ hã ma tsada'öbö dzahuré .
 # text_por = "Minhas duas filhas, vocês lavam suas roupas?"pergunta a mulher. "Não!" responderam as duas.
 # text_eng = "My two daughters, do you wash your clothes?" asks the woman. "No!" replied the two.
 1	"	"	PUNCT	punct	_	8	punct	_	_
@@ -1954,7 +1954,7 @@
 4	ĩtsa	tsa	NOUN	n	Person=3	3	nsubj	_	food;comida,alimento
 5	?	?	PUNCT	punct	_	3	punct	_	_
 6	"	"	PUNCT	punct	_	3	punct	_	_
-7	pi’õ	pi'õ	NOUN	n	_	9	nsubj	_	woman;mulher
+7	pi'õ	pi'õ	NOUN	n	_	9	nsubj	_	woman;mulher
 8	te	te	PART	prcl	Htp=Yes|Tense=Pres	9	dep	_	heterophoric.marker;marcardor.heterofórico
 9	tsadanha	tsadanharĩ	VERB	v	_	0	root	_	ask;perguntar
 10	.	.	PUNCT	punct	_	9	punct	_	_
@@ -1970,12 +1970,12 @@
 5	.	.	PUNCT	punct	_	4	punct	_	_
 6	Tahawa	tahawa	SCONJ	sconj	_	8	mark	_	therefore;por.isso
 7	,	,	PUNCT	punct	_	8	punct	_	_
-8	watsai	tsa	NOUN	n	Numbr=Plur|Person=1	4	advcl	_	food;comida,alimento
+8	watsai	tsa	NOUN	n	Number=Plur|Person=1	4	advcl	_	food;comida,alimento
 9	ahö	ahö	NOUN	n	_	8	nmod	_	many,numerous,abundant;muito,numeroso,abundante
 10	di	di	X	x	_	8	dep	_	expletive;expletivo
 11	!	!	PUNCT	punct	_	8	punct	_	_
 12	"	"	PUNCT	punct	_	8	punct	_	_
-13	ba'õtõ	ba'õtõre	NOUN	n	_	16	nsubj	_	little.girl;menina.pequena
+13	ba'õtõre	ba'õtõre	NOUN	n	_	16	nsubj	_	little.girl;menina.pequena
 14	te	te	PART	prcl	Htp=Yes|Tense=Pres	16	dep	_	heterophoric.marker;marcardor.heterofórico
 15	tãma	ti	PRON	pron	Case=Dat|Person=3	16	iobj	_	_
 16	tinha	nharĩ	VERB	v	Person=3	0	root	_	speak;falar
