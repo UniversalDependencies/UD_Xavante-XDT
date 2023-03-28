@@ -1,4 +1,4 @@
-# sent_id = GL-CLX16.1
+sent_id = GL-CLX16.1
 # text = Aibö te mo . Pi’õ te mo . Ba'õno te mo . Õhã te mo .
 # text_por = Uni homem vai. Uma mulher vai. A menina vai. Ele (ela) vai.
 # text_eng = One man goes. A woman goes. The girl goes. He (she) goes.
@@ -454,7 +454,7 @@
 3	te	te	PART	prcl	Htp=Yes|Tense=Pres	4	dep	_	heterophoric.marker;marcardor.heterofórico
 4	waptẽrẽ	waptẽrẽ	VERB	v	_	0	root	_	ask,request;pedir,solicitar
 5	dzahuré	dzahuré	NUM	num	Number=Dual	4	nummod	_	_
-6	dawede	wede	NOUN	n	_	4	obj	_	medicine;remédio
+6	dawede	wede	NOUN	n	Gnq=Yes	4	obj	_	medicine;remédio
 7	hã	hã	DET	det	_	6	det	_	_
 8	,	,	PUNCT	punct	_	4	punct	_	_
 9	dawede'wai	dawede'wa	NOUN	n	_	4	dislocated	_	nurse,doctor;enfermeiro,médico
@@ -559,7 +559,7 @@
 1	E	e	PART	prcl	Int=Yes	3	dep	_	question.particle;partícula.interrogativa
 2	te	te	PART	prcl	Htp=Yes|Tense=Pres	3	dep	_	heterophoric.marker;marcardor.heterofórico
 3	ĩwaptẽ	waptẽrẽ	VERB	v	Person=2	0	root	_	ask,request;pedir,solicitar
-4	dawede	wede	NOUN	n	_	3	obj	_	medicine;remédio
+4	dawede	wede	NOUN	n	Gnq=Yes	3	obj	_	medicine;remédio
 5	hã	hã	DET	det	_	4	det	_	_
 6	dawede'wai	dawede'wa	NOUN	n	_	3	obl	_	nurse,doctor;enfermeiro,médico
 7	wi	wi	ADP	posp	_	6	case	_	far.from;longe.de
@@ -1872,7 +1872,7 @@
 15	!	!	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = GL-CLX38.1
-# text = " Ĩ'ra norĩ , e ai’udza te ĩ'uptsõi wa'wa . " pi'õ te tsadanha . " Madze di ! " õ norĩ hã ma tsada'öbö dzahuré .
+# text = " Ĩ'ra norĩ , e ai’udza te ĩ'uptsõi wa'wa . " pi'õ te tsadanha . " Madze di ! " õnorĩhã ma tsada'öbö dzahuré .
 # text_por = "Minhas duas filhas, vocês lavam suas roupas?"pergunta a mulher. "Não!" responderam as duas.
 # text_eng = "My two daughters, do you wash your clothes?" asks the woman. "No!" replied the two.
 1	"	"	PUNCT	punct	_	8	punct	_	_
@@ -2043,333 +2043,136 @@
 6	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = EMX-1
-# text = Tahata wahiʔratanorĩhã
+# text = Tahata wahi'rata norĩhã
 # text_eng = Those are our ancestros (Estevam 2011:  27, 1)
 # text_por = Aquele são nossos antepassados
-1	Tahata	tahata	DET	dem	_	2	det	_	that
-2-3	wahiʔratanorĩhã	_	_	_	_	_	_	_	_
-2	wahiʔrata	wahiʔrata	NOUN	n	_	0	root	_	ancesters
+1	Tahata	tahata	DET	dem	_	2	det	_	isso;that
+2	wahi'rata	'rata	NOUN	n	_	0	root	_	ancestor;antepassado
 3	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	2	discourse	_	_
 
 # sent_id = EMX-2
-# text = Wahiʔrata norĩhã dañoʔre ma wama awajhuʔu .
-# text_eng = Our ancestors taught us songs.(Estevam, 27: 2)
-# text_por = 
-1	Wahiʔrata	wahiʔrata	NOUN	n	_	6	nsubj	_	ancestors
-2	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	1	dep	_	collective.marker
-3	dañoʔre	_	NOUN	n	_	6	obj	_	song,chant
-4	ma	ma	PART	_	_	3	discourse	_	_
-5	wama	wa	PRON	pron	Case=Dat|Number=Plur|Person=1	6	iobj	_	we
-6	awajhuʔu	_	VERB	_	_	0	root	_	show
+# text = Wahi'rata norĩhã danho're ma wama awaihu'u .
+# text_eng = Our ancestors taught us songs. (Estevam, 27: 2)
+# text_por = Nossos ancestrais nos ensinaram canções.
+1	Wahi'rata	'rata	NOUN	n	_	6	nsubj	_	ancestor;antepassado
+2	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	6	discourse	_	_
+3	danho're	danho're	NOUN	n	_	6	obj	_	song;canto
+4	ma	ma	PART	prcl	Htp=Yes|Tense=Past	3	dep	_	perfect.aspect;aspecto.perfeito
+5	wama	wa	PRON	pron	Case=Dat|Number=Plur|Person=1	6	iobj	_	_
+6	awaihu'u	waihu'u	VERB	v	_	0	root	_	know,do,teach;saber,fazer,ensinar
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = EMX-3
-# text = Warazu wahiʔrata norĩ hã ma dapãrĩ zaʔra
-# text_eng = The white man murdered our ancestors.
-# text_por = O homem branco matou nossos antepassados. (Estevam, 27: 3)
-1	Warazu	warazu	NOUN	_	_	6	nsubj	_	white.man,non-indian;homem.branco,não-índio
-2	wahiʔrata	_	NOUN	_	_	6	obj	_	_
-3	norĩ	norĩ	PART	prcl	Emph=Yes|Number=Coll	2	dep	_	_
-4	hã	norĩ	PART	prcl	Emph=Yes|Number=Coll	2	discourse	_	emphatic.particle;partícula.enfática
-5	ma	ma	PART	_	_	6	dep	_	_
-6	dapãrĩ	pãrĩ	VERB	_	Hon=Yes|Person=3	0	root	_	murder;assassinar
-7	zaʔra	zaʔra	PART	_	Number=Plur	6	dep	_	_
+# text = Warazu wahi'rata norĩhã ma dapãrĩ dza'ra
+# text_eng = The white man murdered our ancestors. (Estevam, 27: 3)
+# text_por = O homem branco matou nossos antepassados. 
+1	Waradzu	waradzu	NOUN	n	_	5	nsubj	_	white,civilized,non-indian;branco,civilizado,não-índio
+2	wahi'rata	'rata	NOUN	n	_	5	obj	_	ancestor;antepassado
+3	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	5	discourse	_	_
+4	ma	ma	PART	prcl	Htp=Yes|Tense=Past	5	dep	_	perfect.aspect;aspecto.perfeito
+5	dapãrĩ	pãrĩ	VERB	_	Gnq=Yes|Person=3	0	root	_	kill.two.beings;matar.dois.seres
+6	dza'ra	dza'ra	PART	prcl	Number=Plur	5	dep	_	_
 
 # sent_id = EMX-4
-# text = Wahiʔrata norĩ höjmanazé ipire
-# text_eng = The life of our ancestors is hard (Estevam 2011:  28, 4)
-# text_por = A vida de nossos antepassados é difícil
-1	Wahiʔrata	wahiʔrata	NOUN	n	_	4	obj	_	_
+# text = Wahi'rata norĩ höimanadzé ipire
+# text_eng = The life of our ancestors is hard. (Estevam 2011:  28, 4)
+# text_por = A vida de nossos antepassados é difícil.
+1	Wahi'rata	'rata	NOUN	n	_	3	nmod	_	ancestor;antepassado
 2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
-3	höjmanazé	höjmanazé	NOUN	n	_	4	nsubj	_	life;vida
-4	ipire	pire	NOUN	n	Nmzr=Yes|Person=3	0	root	_	hard;duro,dura
+3	höimanadzé	höimanadzé	NOUN	n	_	4	nsubj	_	life,existence;vida,existência
+4	ĩpire	pire	NOUN	n	Person=3	0	root	_	heavy,important;pesado,importante
 
 # sent_id = EMX-5
-# text = Höjwahö wa za we wate simro waʔra norĩ hã
-# text_eng = Those are our ancestros (Estevam 2011:  28, 5)
-# text_por = Aquele são nossos antepassados
-1	Höjwahö	höjwahö	ADV	adv	_	6	advmod	_	afternoon;à.tarde,de.tarde
-2	wa	wa	NOUN	n	_	6	nsubj	_	egophoric.marker;marcardor.egofórico
-3	za	za	PART	prcl	Aspect=Prosp	6	dep	_	prospective.aspect.marker;marcador.de.aspecto.prospectivo
-4	we	we	PART	prcl	Ventive=Yes	6	dep	_	_
+# text = Höiwahö wa dza we wate simro wa'ra norĩhã
+# text_eng = In the afternoon we will bring our children back. (Estevam 2011:  28, 5)
+# text_por = À tarde, traremos nossos filhos de volta.
+1	Höiwahö	höiwahö	ADV	adv	_	6	advmod	_	late;de.tarde
+2	wa	wa	PART	prcl	Ego=Yes|Person=1	6	dep	_	egophoric.marker;marcardor.egofórico
+3	dza	dza	PART	prcl	Tense=Fut	6	dep	_	future.marker;marcador.de.futuro
+4	we	we	ADV	adv	_	6	advmod	_	hither;para.cá
 5	wate	te	AUX	aux	Number=Plur|Person=1	6	aux	_	_
 6	simro	simro	VERB	v	_	0	root	_	bring.back;trazer.de.volta
-7	waʔra	ʔra	NOUN	n	Number=Plur|Person=1	6	obj	_	son;filho
-8	norĩ	norĩ	PART	prcl	Number=Coll	7	dep	_	_
-9	hã	hã	PART	prcl	Emph=Yes	7	discourse	_	_
+7	wa'ra	'ra	NOUN	n	Number=Plur|Person=1	6	obj	_	son,daughter;filho,filha
+8	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	6	discourse	_	_
 
 # sent_id = EMX-6
-# text = ʔwatébrémi tiʔa te ñamra
-# text_fr = Le garçon est assis par terre.
+# text = 'Watébrémi ti'a te tsãmra
 # text_eng = The boy sat on the floor (Estevam 2011:  28, 6)
-# text_por = 
-1	ʔwatébrémi	watébrémi	NOUN	_	_	4	nsubj	_	menino
-2	tiʔa	ti	NOUN	n	_	4	obl	_	earth,ground;terra,chão
-3	te	te	PRON	pron	_	4	dep	_	_
-4	ñamra	ñamra	VERB	v	_	0	root	_	be.sit;estar.sentado
+# text_por = O menino sentou no chão
+1	'Watébrémi	'watébrémi	NOUN	n	_	4	nsubj	_	boy;menino
+2	ti'a	ti'a	NOUN	n	_	4	obj	_	ground;terra
+3	te	te	PART	prcl	Htp=Yes|Tense=Pres	4	dep	_	heterophoric.marker;marcardor.heterofórico
+4	tsãmra	tsãmra	VERB	v	_	0	root	_	sit.down;sentar-se
 
 # sent_id = EMX-7
-# text = Höjwahö wa za oto wawaʔutu zaʔra ni
+# text = Höjwahö wa za oto wawa'utu za'ra ni
 # text_eng = In the afternoon we will rest. (Estevam 2011:  29, 7)
-# text_por = 
-1	Höjwahö	höjwahö	ADV	adv	_	5	advmod	_	_
-2	wa	wa	PRON	pron	_	5	nsubj	_	_
-3	za	za	PART	prcl	_	5	dep	_	_
-4	oto	oto	PART	prcl	Mir=Yes	5	dep	_	_
-5	wawaʔutu	waʔutu	VERB	v	Number=Plur|Person=1	0	root	_	res;descansar
-6	zaʔra	zaʔra	PART	prcl	Number=Plur	5	dep	_	_
-7	ni	ni	PART	prcl	PronType=Ind	5	dep	_	_
+# text_por = À tarde vamos descansar.
+1	Höiwahö	höiwahö	ADV	adv	_	5	advmod	_	late;de.tarde
+2	wa	wa	PART	prcl	Ego=Yes|Person=1	5	dep	_	egophoric.marker;marcardor.egofórico
+3	dza	dza	PART	prcl	Tense=Fut	5	dep	_	future.marker;marcador.de.futuro
+4	oto	oto	ADV	adv	_	5	advmod	_	then;então
+5	wawa'utu	tsiwa'utu	VERB	v	Number=Plur|Person=1	0	root	_	rest;descansar
+6	dza'ra	dza'ra	PART	prcl	Number=Plur	5	dep	_	_
+7	ni	ni	X	x	Number=Dual	5	dep	_	dual.number.marker;indicador.dual
 
 # sent_id = EMX-8
-# text = Ma ʔröwipese re tete sõré
-# text_fr = Ils ont installé (les robinets) tout près. 
+# text = Ma 'röwipese re tete sõré
 # text_eng = They installed (the taps) close by. (Estevam 2011:  29, 8)
-# text_por =
-1	Ma	ma	PART	_	_	6	dep	_	_
-2-3	ʔröwipese	_	_	_	_	_	_	_	_
-2	ʔröwi	röwi	ADV	_	_	6	advmod	_	_
-3	pese	pese	NOUN	_	_	2	dep	_	_
-4	re	re	PART	_	Degree=Dim	2	dep	_	_
-5	tete	te	AUX	Person=3	_	6	aux	_	_
-6	sõré	sõré	VERB	_	_	0	root	_	install;instalar
+# text_por = Eles instalaram (as torneiras) perto.
+1	Ma	ma	PART	prcl	Htp=Yes|Tense=Past	2	dep	_	perfect.aspect;aspecto.perfeito
+2-3	'röwipese	_	_	_	_	_	_	_	_
+2	rowẽ	rowẽ	VERB	v	_	0	root	_	make.beautiful;fazer.bonito,alegrar
+3	pese	pese	ADV	advmod	_	2	advmod	_	_
+4	re	re	PART	prcl	Degree=Dim	2	dep	_	diminutive;diminutivo
+5	te	te	PRON	pron	_	7	nsubj	_	_
+6	te	te	AUX	aux	_	7	aux	_	_
+7	sõré	sõré	VERB	_	_	2	parataxis	_	install;instalar
 
 # sent_id = EMX-9
-# text = Wasi na wa te ãma mro
+# text = Wasina wa te ãma mro
 # text_fr = Je compte les étoiles.
 # text_eng = I count the stars (I pair with the stars). (Estevam 2011:  31, 9)
-# text_por =
-1	Wasi	wasi	NOUN	n	_	6	obl	_	star;estrela
-2	na	na	PART	prcl	Case=Ins	1	case	_	_
-3	wa	wa	PRON	pron	_	6	nsubj	_	_
-4	te	te	AUX	aux	_	6	aux	_	_
-5	ãma	ãma	PART	prcl	_	6	dep	_	_
-6	mro	mro	VERB	v	_	0	root	_	match;contar
+# text_por = Conto as estrelas (faço par com as estrelas).
+1	Wasina	wasi	NOUN	n	Case=Ins	5	obj	_	star;estrela
+2	wa	wa	PART	prcl	Ego=Yes|Person=1	5	dep	_	egophoric.marker;marcardor.egofórico
+3	te	te	AUX	aux	_	5	aux	_	_
+4	ãma	ãma	ADP	posp	_	5	obl	_	in;em
+5	mro	mro	VERB	v	_	0	root	_	match;contar
 
 # sent_id = EMX-10
-# text = Te wamama norĩ hã waré ʔre höjmana zaʔra warobreb ʔré hã Uʔujwawẽ ãma hã
+# text = Te wamama norĩ hã waré 're höimana za'ra warobreb 'ré hã U'ujwawẽ ãma hã
 # text_eng = Our parents lived (happily) with us in our small village in Lagoa Azul. (Estevam 2011:  31, 10)
-# text_por = 
-1	Te	te	PART	prcl	_	7	discourse	_	_
-2	wamama	mama	NOUN	n	_	7	nsubj	_	father;pai
-3	norĩ	norĩ	PART	prcl	Number=Coll	2	dep	_	_
-4	hã	norĩ	PART	prcl	Emph=Yes	2	dep	_	_
-5	waré	wa	PRON	pron	_	7	obl	_	_
-6	ʔre	ʔre	PART	prcl	_	7	dep	_	_
-7	höjmana	höjmana	VERB	v	_	0	root	_	live;viver
-8	zaʔra	zaʔra	PART	prcl	_	7	dep	_	_
-9-10	warobreb	_	_	_	_	_	_	_	_
-9	warob	rob	NOUN	n	_	7	obl	_	village;aldeia
-10	reb	reb	PART	prcl	_	9	nmod	_	diminutive.marker;diminutivo
-11	ʔré	_	ADP	posp	_	9	case	_	_
-12	hã	_	PART	prcl	_	9	dep	_	_
-13	Uʔujwawẽ	uʔujwawẽ	PROPN	_	_	7	obl	_	_
-14	ãma	_	ADP	posp	_	13	case	_	_
-15	hã	hã	PART	prcl	_	13	dep	_	_
+# text_por = Nossos pais viviam (felizmente) conosco em nosso pequeno vilarejo em Lagoa Azul.
+1	Te	te	PART	prcl	Htp=Yes|Tense=Pres	6	dep	_	heterophoric.marker;marcardor.heterofórico
+2	wamama	mama	NOUN	n	_	6	nsubj	_	father;pai
+3	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	6	discourse	_	_
+4	waré	ré	ADP	posp	Number=Plur|Person=1	6	obl	_	full.of,inside.of,during,while;cheio.de,dentro.de,durante,enquanto,sendo
+5	're	're	ADP	posp	_	6	obl	_	inside,in;dentro.de,em
+6	höimana	höimana	VERB	v	_	0	root	_	be,live,exist;ser,viver,existir
+7	dza'ra	dza'ra	PART	prcl	Number=Plur	6	dep	_	_
+8-9	warobreb	_	_	_	_	_	_	_	_
+8	warob	rob	NOUN	n	Number=Plur|Person=1	6	obl	_	village;aldeia
+9	reb	re	PART	prcl	Degree=Dim	8	dep	_	diminutive;diminutivo
+10	're	're	ADP	posp	_	8	case	_	inside,in;dentro.de,em
+11	hã	hã	DET	det	_	8	det	_	_
+12	U'uiwawẽ	u'uiwawẽ	PROPN	propn	_	6	obl	_	_
+13	ãma	ãma	ADP	posp	_	12	case	_	in;em
+14	hã	hã	DET	det	_	12	det	_	_
 
 # sent_id = EMX-11
-# text = Õhõ si uburé marĩ wajhuʔuʔwa hã tô , ropotoʔwa si
+# text = Õhõ si uburé marĩ waihu'u'wa hã tô , ropoto'wa si
 # text_eng = Only the creator, he alone (is) knows all things. (Estevam 2011:  32, 11)
-# text_por = 
-1	Õhõ	õhõ	DET	dem	_	5	det	_	_
-2	si	si	PART	prcl	Restr=Yes	5	advmod	_	_
+# text_por = Somente o criador, somente ele (é) conhece todas as coisas.
+1	Õhã	õhã	PRON	pron	Emph=Yes|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	he,she,it;ele,ela
+2	si	si	ADV	adv	_	5	advmod	_	only;só,somente
 3	uburé	uburé	PRON	pron	PronType=Tot	4	nmod	_	all;tudo
-4	marĩ	marĩ	NOUN	n	_	5	obj	_	thing;coisa
-5	wajhuʔuʔwa	wajhuʔ	NOUN	n	_	0	root	_	know;conhecer
+4	marĩ	marĩ	NOUN	n	_	5	obj	_	something,what;algo,o.que,alguma.coisa
+5	waihu'u'wa	waihu'u	NOUN	n	_	0	root	_	one.who.knows;aquele.quem.sabe
 6	hã	hã	PART	prcl	Emph=Yes	5	dep	_	_
-7	tô	tô	PART	prcl	Fact=Yes	5	discourse	_	_
+7	tô	tô	PART	prcl	Fact=Yes	5	dep	_	factive;fictício
 8	,	,	PUNCT	punct	_	5	punct	_	_
-9-10	ropotoʔwa	_	_	_	_	_	_	_	_
+9-10	ropoto'wa	_	_	_	_	_	_	_	_
 9	ro	ro	NOUN	n	_	10	nmod	_	world;mundo
-10	potoʔwa	potoʔwa	NOUN	n	_	5	nsubj	_	create;criar
-11	si	si	PART	prcl	Restr=Yes	10	dep	_	_
-
-# sent_id = EMX-14
-# text = Duré abazi hã wa wate wasima ʔrãzani zaʔra
-# text_eng = We scatter cotton for us too. (Estevam 2011:  34, 14)
-# text_por = Nós fabricamos (processamos) algodão para nós também
-1	Duré	duré	ADV	adv	_	7	advmod	_	also;também
-2	abazi	abazi	NOUN	n	_	7	obj	_	cotton;algodão
-3	hã	hã	PART	prcl	Emph=Yes	7	dep	_	_
-4	wa	wa	PART	prcl	_	7	nsubj	_	_
-5	wate	te	AUX	aux	Number=Plur|Person=1	7	aux	_	auxiliar.verb;verbo.auxiliar
-6	wasima	_	ADP	posp	Case=Dat|Number=Plur|Person=1|Reflex=Yes	7	iobj	_	_
-7	ʔrãzani	_	VERB	_	_	0	root	_	_
-8	zaʔra	_	PART	_	Number=Plur	7	dep	_	_
-
-# sent_id = EMX-15a
-# text = Aʔuwẽ ñimiromhuri hã ĩʔrãzani
-# text_fr = Le travail des Xavantes (c’)est égrainer.
-# text_eng = The work of the Xavantes (it) is to scatter. (Estevam 2011:  34, 15a)
-# text_por = 
-1	Aʔuwẽ	aʔuwẽ	PROPN	propn	_	2	nmod	_	Xavante;xavante
-2	ñimiromhuri	romhuri	NOUN	n	_	4	nsubj	_	work,labour;trabalho
-3	hã	hã	PART	prcl	Emph=Yes	4	dep	_	_
-4	ĩʔrãzani	_	NOUN	n	Nmzr=Yes	0	root	_	_
-
-# sent_id = EMX-15b
-# text = ĩʔrãzani na wa wate ãma wasima romhuri zaʔra
-# text_fr = Nous travaillons à égrainer (le coton) pour nous.
-# text_eng = We work to gin (the cotton) for us. (Estevam 2011:  34, 15b)
-# text_por = 
-1	ĩʔrãzani	_	NOUN	n	Nmzr=Yes	7	obl	_	_
-2	na	na	PART	prcl	Case=Ins	1	case	_	_
-3	wa	wa	PRON	pron	_	4	dep	_	_
-4	wate	te	AUX	aux	Number=Plur|Person=1	7	nsubj	_	_
-5	ãma	_	PART	prcl	_	7	dep	_	_
-6	wasima	_	PRON	pron	Case=Dat|Number=Plur|Person=1|Reflex=Yes	7	iobj	_	_
-7	romhuri	_	VERB	v	_	0	root	_	_
-8	zaʔra	_	PART	prcl	Number=Plur	7	dep	_	_
-
-# sent_id = EMX-16a
-# text = Ö wa ĩĩsima wẽ
-# text_fr = Je veux de l’eau.
-# text_eng = I want some water. (Estevam 2011:  35, 16a)
-1	Ö	ö	NOUN	n	_	4	obj	_	water;água
-2	wa	wa	PART	prcl	_	3	dep	_	egophoric.marker;marcardor.egofórico
-3	ĩĩsima	ĩĩ	PRON	pron	Case=Dat|Number=Sing|Person=1|Reflex=Yes	4	nsubj	_	_
-4	wẽ	wẽ	VERB	v	Person=3	0	root	_	want;querer
-
-# sent_id = EMX-16b
-# text = Ĩĩsiupte da wa ĩĩsima wẽ
-# text_fr = Je veux me laver.
-# text_eng = I want to wash myself. (Estevam 2011:  35, 16b)
-1	Ĩĩsiupte	upte	VERB	v	Number=Sing|Person=1	5	obj	_	wash;lavagem
-2	da	da	X	x	Subord=Yes	1	dep	_	_
-3	wa	wa	PART	prcl	_	4	dep	_	egophoric.marker;marcardor.egofórico
-4	ĩĩsima	ĩĩ	PRON	pron	Case=Dat|Number=Sing|Person=1|Reflex=Yes	5	nsubj	_	_
-5	wẽ	wẽ	VERB	v	Person=3	_	_	_	want;querer
-
-# sent_id = EMX-17
-# text = Te za oto asina aahöjmana aba mo, aʔuwẽ hã atébré aba hö
-# text_fr = A partir de maintenant vous vivrez par vous-mêmes, pour que le (peuple) xavante (se) multiplie.
-# text_eng = From now on you will live by yourselves, so that the (people) xavante (will) multiply. (Estevam 2011:  35, 17)
-1	Te	te	PART	prcl	_	5	discourse	_	_
-2	za	za	PART	prcl	Aspect=Prosp	5	dep	_	prospective.aspect.marker;marcador.de.aspecto.prospectivo
-3	oto	oto	PART	prcl	Mir=Yes	5	dep	_	_
-4	asina	a	PRON	pron	Case=Ins|Hon=Yes|Person=2|Reflex=Yes	5	nsubj	_	_
-5	aahöjmana	höjmana	VERB	v	Hon=Yes|Person=2	0	root	_	live;viver
-6	aba	aba	PART	prcl	Number=Coll	5	dep	_	collective.marker
-7	mo	mo	AUX	aux	_	5	aux	_	_
-8	,	,	PUNCT	punct	_	5	punct	_	_
-9	aʔuwẽ	aʔuwẽ	NOUN	n	_	11	nsubj	_	Xavante;xavante
-10	hã	hã	PART	prcl	Emph=Yes	11	dep	_	_
-11	atébré	atébré	VERB	v	Person=3	5	advmod	_	multiply;multiplicar
-12	aba	aba	PART	prcl	Number=Coll	11	dep	_	collective.marker
-13	hö	hö	X	x	Mood=Des	11	dep	_	_
-
-# sent_id = EMX-18
-# text = Wa ʔre ĩĩhöjmana rowẽuptabi na hã
-# text_fr = Je vivais très heureusement.
-# text_eng = I lived very happily. (Estevam 2011:  35, 18)
-1	wa	wa	PART	prcl	_	3	dep	_	egophoric.marker;marcardor.egofórico
-2	ʔre	ʔre	PART	prcl	_	3	dep	_	_
-3	ĩĩhöjmana	höjmana	VERB	v	_	0	root	_	live;viver
-4-5	rowẽuptabi	_	_	_	_	_	_	_	_
-4	rowẽ	rowẽ	NOUN	n	_	3	advmod	_	happiness;felicidade
-5	uptabi	uptabi	NOUN	n	_	4	nmod	_	be.true;seja.verdadeiro
-6	na	na	PART	prcl	Case=Ins	4	dep	_	_
-7	hã	hã	PART	prcl	Emph=Yes	3	dep	_	_
-
-# sent_id = EMX-19a
-# text = warazu ʔra
-# text_fr = fils de l’homme blanc
-# text_eng = Son of the white man (Estevam 2011:  38, 19a)
-1	warazu	warazu	NOUN	n	_	2	nmod	_	white.man,non-indian;homem.branco,não-índio
-2	ʔra	ʔra	NOUN	n	_	0	root	_	son;filho
-
-# sent_id = EMX-19b
-# text = ĩʔra
-# text_fr = son fils
-# text_eng = his son (Estevam 2011:  38, 19b)
-1	ĩʔra	ʔra	NOUN	n	Person=3	0	root	_	son;filho
-
-# sent_id = EMX-20a
-# text = ĩĩmama zéré
-# text_fr = cheveux de mon père
-# text_eng = hair of my father (Estevam 2011:  38, 20a)
-1	ĩĩmama	mama	NOUN	n	Number=Sing|Person=1	2	nmod	_	father;pai
-2	zéré	zéré	NOUN	n	_	0	root	_	hair;cabelo
-
-# sent_id = EMX-20b
-# text = ĩséré
-# text_fr = ses cheveux
-# text_eng = his hair (Estevam 2011:  38, 20b)
-1	ĩséré	séré	NOUN	n	Person=3	0	root	_	hair;cabelo
-
-# sent_id = EMX-21
-# text = ĩĩmama tei wapsã
-# text_fr = chien de mon père
-# text_eng = dog of my father (Estevam 2011:  39, 21)
-1	ĩĩmama	mama	NOUN	n	Number=Sing|Person=1	2	nmod	_	father;pai
-2	te	te	NOUN	n	_	0	root	_	_
-3	wapsã	wapsã	NOUN	n	_	2	appos	_	dog;cadela
-
-# sent_id = EMX-22
-# text = Ĩhiñimizaʔreseõ tô daro mono bö te höjmana zaʔra tô
-# text_fr = De vieux ignares existent en effet dans chaque village.
-# text_eng = Old ignoramuses exist indeed in every village. (Estevam 2011:  40, 22)
-1-2	Ĩhiñimizaʔreseõ	_	_	_	_	_	_	_	_
-1	Ĩhi	ĩhi	NOUN	n	_	2	nmod	_	old;velho
-2	ñimizaʔreseõ	ñimizaʔrese	NOUN	n	Polarity=Neg	_	_	_	ignorant;ignorante
-3	tô	tô	PART	prcl	Case=Fact	8	dep	_	factive;fictício
-4	daro	ro	NOUN	n	_	8	obl	_	village;aldeia
-5	mono	mono	PART	prcl	NumType=Dist	4	dep	_	_
-6	bö	bö	PART	prcl	Case=Loc	4	case	_	locative;aluguel
-7	te	te	PART	prcl	_	8	discourse	_	_
-8	höjmana	höjmana	VERB	v	Person=3	0	root	_	live;viver
-9	zaʔra	zaʔra	PART	prcl	Number=Plur	8	dep	_	_
-10	tô	tô	PART	prcl	Case=Fact	8	dep	_	factive;fictício
-
-# sent_id = EMX-23a
-# text = Uwajʔrewawẽ zahadu tete di
-# text_fr = L’avocat n’est pas encore mûr
-# text_eng = The avocado is not ripe yet. (Estevam 2011:  40, 23a)
-1	Uwajʔrewawẽ	uwajʔrewawẽ	NOUN	n	_	3	nsubj	_	avocado;abacate
-2	zahadu	zahadu	ADV	adv	_	3	advmod	_	yet;ainda
-3	tete	tete	NOUN	n	Person=3	0	root	_	be.hard;ser.dura
-4	di	di	PART	prcl	_	3	dep	_	_
-
-# sent_id = EMX-23b
-# text = Asaro zöptete di
-# text_fr = Le riz n’est pas mûr
-# text_eng = The rice is not ripe (lit. “is hard”). (Estevam 2011:  40, 23b)
-1	Asaro	asaro	NOUN	n	_	3	nsubj	_	rice;arroz
-2-3	zöptete	_	_	_	_	_	_	_	_
-2	zöp	zöp	NOUN	n	_	3	nmod	_	grão;grão
-3	tete	tete	NOUN	n	Person=3	0	root	_	be.hard;ser.dura
-4	di	di	PART	prcl	_	3	dep	_	_
-
-# sent_id = EMX-24a
-# text = abaʔwa norĩ
-# text_fr = (les) chasseurs
-# text_eng = the hunters (Estevam 2011:  41, 24a)
-1	abaʔwa	abaʔwa	NOUN	n	_	0	root	_	hunter;caçador
-2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
-
-# sent_id = EMX-24b
-# text = utö norĩ
-# text_fr = (les) tapirs
-# text_eng = the tapirs (Estevam 2011:  41, 24b)
-1	utö	utö	NOUN	n	_	0	root	_	tapir;tapir
-2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
-
-# sent_id = EMX-25
-# text = Wede hã uburé ma pusi
-# text_fr = Tous les arbres ont surgi.
-# text_eng = All the trees have sprung up. (Estevam 2011:  41, 25)
-1	Wede	wede	NOUN	n	_	5	nsubj	_	tree;árvore
-2	hã	hã	PART	prcl	Emph=Yes	1	dep	_	_
-3	uburé	uburé	PRON	pron	PronType=Tot	1	nmod	_	all;tudo
-4	ma	ma	PART	prcl	_	5	dep	_	perfect.aspect;aspecto.perfeito
-5	pusi	pusi	VERB	v	Person=3	0	root	_	spring.up;brotar
-
-# sent_id = EMX-26
-# text = Norõ te su ma azidi tô
-# text_fr = Ils ont aperçu les feuilles de palmier (sp).
-# text_eng = They noticed the palm leaves. (Estevam 2011:  41, 26)
-1	Norõ	norõ	NOUN	n	_	2	nmod	_	palm.sp;palmeira.esp
-2	te	te	NOUN	n	_	3	nmod	_	_
-3	su	su	NOUN	n	_	5	obj	_	leaf;folha
-4	ma	ma	PART	prcl	_	5	dep	_	perfect.aspect;aspecto.perfeito
-5	azidi	zidi	VERB	v	Number=Coll|Person=3	0	root	_	notice;aviso
-6	tô	tô	PART	prcl	Fact=Yes	5	dep	_	factive;fictício
+10	poto'wa	poto	NOUN	n	_	5	dislocated	_	creator.of.people;criador.dos.homens
+11	si	si	ADV	adv	_	10	advmod	_	only;só,somente
