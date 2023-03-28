@@ -477,7 +477,7 @@
 # text_por = Nós despejamos a água que está nas cabaças.
 # text_eng = We pour the water that is in the gourds.
 1	Wanorĩhã	wanorĩhã	PRON	pron	Emph=Yes|Number=Coll|Person=1	3	nsubj	_	_
-2	wa	wa	X	x	Ego=Yes|Person=1	3	dep	_	egophoric.marker;marcardor.egofórico
+2	wa	wa	PART	prcl	Ego=Yes|Person=1	3	dep	_	egophoric.marker;marcardor.egofórico
 3	tsa'wari	tsa'wari	VERB	v	_	0	root	_	pour;derramar,despejar
 4	dza'ra	dza'ra	PART	prcl	Number=Plur	3	dep	_	_
 5	ni	ni	X	x	Number=Dual	3	dep	_	dual.number.marker;indicador.dual
