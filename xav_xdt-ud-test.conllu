@@ -1,5 +1,5 @@
 # sent_id = GL-CLX16.1
-# text = Aibõ te mo . Pi’õ te mo . Ba'õno te mo . Ohã te mo .
+# text = Aibö te mo . Pi’õ te mo . Ba'õno te mo . Ohã te mo .
 # text_por = Uni homem vai. Uma mulher vai. A menina vai. Ele (ela) vai.
 # text_eng = One man goes. A woman goes. The girl goes. He (she) goes.
 1	Aibö	aibö	NOUN	n	_	3	nsubj	_	man;homem
@@ -20,7 +20,7 @@
 16	.	.	PUNCT	punct	_	15	punct	_	_
 
 # sent_id = GL-CLX16.2
-# text = Wapté te wara . Tsa'êtè te wara . Uhödö te wara .
+# text = Wapté te wara . Tsa'ẽtè te wara . Uhödö te wara .
 # text_por = Um adolescente corre. Ele corre depressa. Uma anta corre.
 # text_eng = A teenager runs. He runs fast. A tapir runs.
 1	Wapté	wapté	NOUN	n	_	3	nsubj	_	teenager;adolescente
