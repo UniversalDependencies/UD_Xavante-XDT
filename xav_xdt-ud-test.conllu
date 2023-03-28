@@ -340,7 +340,7 @@
 8	Ĩhe	ĩhe	INTJ	intj	_	12	discourse	_	yes;sim
 9	,	,	PUNCT	punct	_	12	punct	_	_
 10	wanorĩhã	wanorĩhã	PRON	pron	Emph=Yes|Number=Coll|Person=1	12	nsubj	_	_
-11	wa	wa	X	x	Ego=Yes|Person=1	12	dep	_	egophoric.marker;marcardor.egofórico
+11	wa	wa	PART	prcl	Ego=Yes|Person=1	12	dep	_	egophoric.marker;marcardor.egofórico
 12	wapari	wapari	VERB	v	_	4	parataxis	_	hear;escutar
 13	dza'ra	dza'ra	PART	prcl	Number=Plur	12	dep	_	_
 14	ni	ni	X	x	Number=Dual	12	dep	_	dual.number.marker;indicador.dual
@@ -358,7 +358,7 @@
 6	wa'wa	'wa	X	x	Number=Dual	4	dep	_	dual.number.marker;indicador.dual
 7	.	.	PUNCT	punct	_	4	punct	_	_
 8	Wanorĩhã	wanorĩhã	PRON	pron	Emph=Yes|Number=Coll|Person=1	11	nsubj	_	_
-9	wa	wa	X	x	Ego=Yes|Person=1	11	dep	_	egophoric.marker;marcardor.egofórico
+9	wa	wa	PART	prcl	Ego=Yes|Person=1	11	dep	_	egophoric.marker;marcardor.egofórico
 10	watsa	tsa	NOUN	n	Number=Plur|Person=1	11	obj	_	food;comida,alimento
 11	waptẽrẽ	waptẽrẽ	VERB	v	_	4	parataxis	_	ask,request;pedir,solicitar
 12	dza'ra	dza'ra	PART	prcl	Number=Plur	11	dep	_	_
