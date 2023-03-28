@@ -1212,7 +1212,7 @@
 5	tinha	nharĩ	VERB	v	Person=3	0	root	_	speak;falar
 6	,	,	PUNCT	punct	_	5	punct	_	_
 7	wapté	wapté	NOUN	n	_	12	nsubj	_	teenager;adolescente
-8	aihini	aihini	PRON	pron	Number=Coll	7	nmod	_	all;todos
+8	aihini	aihini	PRON	pron	PronType=Tot	7	nmod	_	all;todos
 9	petse	petse	ADV	adv	_	12	advmod	_	much,very.much;mesmo,muito.mesmo
 10	te	te	PART	prcl	Htp=Yes|Tense=Pres	12	dep	_	heterophoric.marker;marcardor.heterofórico
 11	te	te	AUX	au	_	12	aux	_	_
@@ -1614,7 +1614,7 @@
 # text = Aihini nho'a hã , rowahutu'wa te adzadanha : " Anorĩwa'wahã , e te aipo'repu'u dza'ra wa'wa marĩ na hã te aima waihu'u dza'ra wa'wa ahömhö hã . " Ĩhe ! " aihini ma tsada'öbö dza'ra .
 # text_por = Na frente de todos, os professor pergunta: "Vocês lembram o que eu lhes ensinei ontem?" "Sim!" responderam lhe todos.
 # text_eng = In front of everyone, the teacher asks: "Do you remember what I taught you yesterday?" "Yes!" they all answered him.
-1	Aihini	aihini	PRON	pron	PronType=Coll	7	dislocated	_	all;todos
+1	Aihini	aihini	PRON	pron	PronType=Tot	7	dislocated	_	all;todos
 2	nho'a	nho'a	ADP	posp	_	1	case	_	in.front.of;frente.de
 3	hã	hã	PART	prcl	Emph=Yes	1	discourse	_	_
 4	,	,	PUNCT	punct	_	7	punct	_	_
@@ -1645,7 +1645,7 @@
 29	Ĩhe	ĩhe	INTJ	intj	_	34	ccomp	_	yes;sim
 30	!	!	PUNCT	punct	_	29	punct	_	_
 31	"	"	PUNCT	punct	_	29	punct	_	_
-32	aihini	aihini	PRON	pron	PronType=Coll	34	nsubj	_	all;todos
+32	aihini	aihini	PRON	pron	PronType=Tot	34	nsubj	_	all;todos
 33	ma	ma	PART	prcl	Htp=Yes|Tense=Past	34	dep	_	perfect.aspect;aspecto.perfeito
 34	tsada'öbö	tsada'öbö	VERB	v	_	22	parataxis	_	reply;responder
 35	dza'ra	dza'ra	PART	prcl	Number=Plur	34	dep	_	_
