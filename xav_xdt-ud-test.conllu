@@ -2176,3 +2176,60 @@ sent_id = GL-CLX16.1
 9	ro	ro	NOUN	n	_	10	nmod	_	world;mundo
 10	poto'wa	poto	NOUN	n	_	5	dislocated	_	creator.of.people;criador.dos.homens
 11	si	si	ADV	adv	_	10	advmod	_	only;só,somente
+
+# sent_id = EMX-14
+# text = Duré abadzi hã wa wate wasima 'rãzani za'ra
+# text_eng = We scatter cotton for us too. (Estevam 2011:  34, 14)
+# text_por = Nós fabricamos (processamos) algodão para nós também
+1	Duré	duré	ADV	adv	_	7	advmod	_	also;também
+2	abadzi	abadzi	NOUN	n	_	7	obj	_	cotton;algodão
+3	hã	hã	DET	det	_	2	det	_	_
+4	wa	wa	PART	prcl	Ego=Yes|Person=1	7	dep	_	egophoric.marker;marcardor.egofórico
+5	wate	te	AUX	aux	Number=Plur|Person=1	7	aux	_	_
+6	wasima	_	PRON	pron	Case=Dat|Number=Plur|Person=1|Reflex=Yes	7	iobj	_	_
+7	'rãzani	_	VERB	_	_	0	root	_	scatter;espalhar
+8	dza'ra	dza'ra	PART	prcl	Number=Plur	7	dep	_	_
+
+# sent_id = EMX-15a
+# text = A'uwẽ nhimiromhuri hã ĩ'rãzani
+# text_fr = Le travail des Xavantes (c’)est égrainer.
+# text_eng = The work of the Xavantes (it) is to scatter. (Estevam 2011:  34, 15a)
+# text_por = 
+1	A'uwẽ	a'uwẽ	NOUN	n	_	2	nmod	_	man,person,people,indian;homem,pessoa,gente,índio
+2	nhimiromhuri	romhuri	NOUN	n	_	4	nsubj	_	work,labour;trabalho
+3	hã	hã	DET	det	_	2	det	_	_
+4	ĩ'rãzani	'rãzani	VERB	v	Person=3	0	root	_	scatter;espalhar
+
+# sent_id = EMX-15b
+# text = ĩ'rãzani na wa wate ãma wasima romhuri za'ra
+# text_fr = Nous travaillons à égrainer (le coton) pour nous.
+# text_eng = We work to gin (the cotton) for us. (Estevam 2011:  34, 15b)
+# text_por = 
+1	ĩ'rãzani	'rãzani	VERB	v	Person=3	7	xcomp	_	scatter;espalhar
+2	na	na	ADP	posp	_	1	obl	_	in,from;em,de
+3	wa	wa	PART	prcl	Ego=Yes|Person=1	7	dep	_	egophoric.marker;marcardor.egofórico
+4	wate	te	AUX	aux	Number=Plur|Person=1	7	aux	_	_
+5	ãma	ãma	ADP	posp	_	7	obl	_	in;em
+6	wasima	_	PRON	pron	Case=Dat|Number=Plur|Person=1|Reflex=Yes	7	iobj	_	_
+7	romhuri	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
+8	dza'ra	dza'ra	PART	prcl	Number=Plur	7	dep	_	_
+
+# sent_id = EMX-16a
+# text = Ö wa ĩĩsima wẽ
+# text_fr = Je veux de l’eau.
+# text_eng = I want some water. (Estevam 2011:  35, 16a)
+1	Ö	ö	NOUN	n	_	4	obj	_	water;água
+2	wa	wa	PART	prcl	Ego=Yes|Person=1	4	dep	_	egophoric.marker;marcardor.egofórico
+3	ĩĩsima	ĩĩ	PRON	pron	Case=Dat|Number=Sing|Person=1|Reflex=Yes	4	nsubj	_	_
+4	wẽ	wẽ	VERB	v	_	0	root	_	want;querer
+
+# sent_id = EMX-16b
+# text = Ĩĩsiupte da wa ĩĩsima wẽ
+# text_fr = Je veux me laver.
+# text_eng = I want to wash myself. (Estevam 2011:  35, 16b)
+1	Ĩĩsiupte	upte	VERB	v	Number=Sing|Person=1	5	xcomp	_	wash;lavagem
+2	da	da	SCONJ	sconj	_	1	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+3	wa	wa	PART	prcl	Ego=Yes|Person=1	5	dep	_	egophoric.marker;marcardor.egofórico
+4	ĩĩsima	ĩĩ	PRON	pron	Case=Dat|Number=Sing|Person=1|Reflex=Yes	5	nsubj	_	_
+5	wẽ	wẽ	VERB	v	Person=3	0	root	_	want;querer
+
