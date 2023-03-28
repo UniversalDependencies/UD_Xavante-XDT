@@ -261,7 +261,7 @@
 17	,	,	PUNCT	punct	_	14	punct	_	_
 18	höimana	höimana	VERB	v	_	4	parataxis	_	be,live,exist;ser,viver,existir
 19	õ	õ	PART	prcl	_	18	dep	_	negative.marker;marcador.negativo
-20	di	di	X	x	_	18	expl	_	expletive;expletivo
+20	di	di	X	x	_	18	dep	_	expletive;expletivo
 21	.	.	PUNCT	punct	_	18	punct	_	_
 
 # sent_id = GL-CLX18.6
@@ -425,7 +425,7 @@
 9	na	na	ADP	posp	_	8	case	_	in;from;em,de
 10	?	?	PUNCT	punct	_	3	punct	_	_
 11	Mare	mare	NOUN	n	_	3	parataxis	_	nada;nothing
-12	di	di	X	x	_	11	expl	_	expletive;expletivo
+12	di	di	X	x	_	11	dep	_	expletive;expletivo
 13	.	.	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = GL-CLX23.5
@@ -534,7 +534,7 @@
 5	hã	hã	DET	det	_	4	det	_	_
 6	.	.	PUNCT	punct	_	3	punct	_	_
 7	Mare	mare	NOUN	n	_	3	parataxis	_	nada;nothing
-8	di	di	X	x	_	7	expl	_	expletive;expletivo
+8	di	di	X	x	_	7	dep	_	expletive;expletivo
 9	!	!	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = GL-CLX23.30
@@ -549,7 +549,7 @@
 6	hã	hã	DET	det	_	5	det	_	_
 7	.	.	PUNCT	punct	_	4	punct	_	_
 8	Madze	madze	NOUN	n	_	4	parataxis	_	nada;nothing
-9	di	di	X	x	_	8	expl	_	expletive;expletivo
+9	di	di	X	x	_	8	dep	_	expletive;expletivo
 10	!	!	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = GL-CLX23.40
@@ -569,7 +569,7 @@
 11	!	!	PUNCT	punct	_	10	punct	_	_
 12	Ĩ'rã	'rã	NOUN	n	Person=1	13	nsubj	_	head;cabeça
 13	dzé	dzé	VERB	v	_	10	parataxis	_	hurt;doer
-14	di	di	X	x	_	13	expl	_	expletive;expletivo
+14	di	di	X	x	_	13	dep	_	expletive;expletivo
 15	.	.	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = GL-CLX23.50
@@ -699,7 +699,7 @@
 7	ĩnha	nharĩ	VERB	v	Person=3	0	root	_	speak;falar
 8	.	.	PUNCT	punct	_	7	punct	_	_
 9	Mare	mare	NOUN	n	_	7	parataxis	_	nada;nothing
-10	di	di	X	x	_	9	expl	_	expletive;expletivo
+10	di	di	X	x	_	9	dep	_	expletive;expletivo
 11	!	!	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = GL-CLX24.7
@@ -732,7 +732,7 @@
 12	.	.	PUNCT	punct	_	8	punct	_	_
 13	Tihai	tiha	NOUN	n	_	8	parataxis	_	something;algo,alguma.coisa
 14	õ	õ	PART	prcl	_	13	dep	_	negative.marker;marcador.negativo
-15	di	di	X	x	_	13	expl	_	expletive;expletivo
+15	di	di	X	x	_	13	dep	_	expletive;expletivo
 16	!	!	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = GL-CLX24.9
@@ -932,7 +932,7 @@
 7	hã	hã	PART	prcl	Emph=Yes	5	discourse	_	_
 8	dahöimanadzéb	höimanadzé	NOUN	n	Number=Sing|Person=3	3	parataxis	_	life,existence;vida,existência
 9	õ	õ	PART	prcl	_	8	dep	_	negative.marker;marcador.negativo
-10	di	di	X	x	_	8	expl	_	expletive;expletivo
+10	di	di	X	x	_	8	dep	_	expletive;expletivo
 11	.	.	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = GL-CLX27.5
@@ -1163,14 +1163,14 @@
 4	romhu	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
 5	.	.	PUNCT	punct	_	4	punct	_	_
 6	Mare	mare	NOUN	n	_	4	parataxis	_	nada;nothing
-7	di	di	X	x	_	6	expl	_	expletive;expletivo
+7	di	di	X	x	_	6	dep	_	expletive;expletivo
 8	!	!	PUNCT	punct	_	6	punct	_	_
 9	Ni'wa	ni'wa	PRON	pron	PronType=Ind	12	nsubj	_	someone,some;alguém,algum
 10	te	te	PART	prcl	Htp=Yes|Tense=Pres	12	dep	_	heterophoric.marker;marcardor.heterofórico
 11	te	te	AUX	aux	_	12	aux	_	_
 12	romhuri	romhuri	VERB	v	_	6	parataxis	_	to.work;trabalhar
 13	õ	õ	PART	prcl	_	12	dep	_	negative.marker;marcador.negativo
-14	di	di	X	x	_	12	expl	_	expletive;expletivo
+14	di	di	X	x	_	12	dep	_	expletive;expletivo
 15	,	,	PUNCT	punct	_	12	punct	_	_
 16	tãi	tã	NOUN	n	_	12	advcl	_	rain;chuva
 17	wa	wa	SCONJ	sconj	_	16	mark	_	why;por,por.que,por.motivo.de
@@ -1337,12 +1337,12 @@
 3	dza'ra	dza'ra	PART	prcl	Number=Plur	2	dep	_	_
 4	wa'aba	_	PART	prcl	Number=Pauc	2	dep	_	_
 5	õ	õ	PART	prcl	_	2	dep	_	negative.marker;marcador.negativo
-6	di	di	X	x	_	2	expl	_	expletive;expletivo
+6	di	di	X	x	_	2	dep	_	expletive;expletivo
 7	ĩmreme	mreme	NOUN	n	Person=3	2	obj	_	conversation,talk;conversa
 8	hã	hã	DET	det	_	7	det	_	_
 9	.	.	PUNCT	punct	_	2	punct	_	_
 10	Mare	mare	NOUN	n	_	2	parataxis	_	nada;nothing
-11	di	di	X	x	_	10	expl	_	expletive;expletivo
+11	di	di	X	x	_	10	dep	_	expletive;expletivo
 12	!	!	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = GL-CLX33.2
@@ -1355,7 +1355,7 @@
 4	romhuri	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
 5	aba	aba	PART	prcl	Number=Coll	4	dep	_	collective.marker
 6	õ	õ	PART	prcl	_	4	dep	_	negative.marker;marcador.negativo
-7	di	di	X	x	_	4	expl	_	expletive;expletivo
+7	di	di	X	x	_	4	dep	_	expletive;expletivo
 8	.	.	PUNCT	punct	_	4	punct	_	_
 9	Niwa	niwa	ADV	adv	_	15	dislocated	_	sometime,once.in.a.while;alguma.vez,de.vez.em.quando,certa.vez
 10	bötö	bötö	NOUN	n	_	15	obl	_	day,sun,time;dia,sol,hora
@@ -1375,7 +1375,7 @@
 23	te	te	AUX	aux	_	24	aux	_	_
 24	romhuri	romhuri	VERB	v	_	15	parataxis	_	to.work;trabalhar
 25	õ	õ	PART	prcl	_	24	dep	_	negative.marker;marcador.negativo
-26	di	di	X	x	_	24	expl	_	expletive;expletivo
+26	di	di	X	x	_	24	dep	_	expletive;expletivo
 27	.	.	PUNCT	punct	_	24	punct	_	_
 
 # sent_id = GL-CLX33.3
@@ -1390,7 +1390,7 @@
 6	tsadanharĩ	tsadanharĩ	VERB	v	_	0	root	_	ask;perguntar_
 7	dza'ra	dza'ra	PART	prcl	Number=Plur	6	dep	_	_
 8	õ	õ	PART	prcl	_	6	dep	_	negative.marker;marcador.negativo
-9	di	di	X	x	_	6	expl	_	expletive;expletivo
+9	di	di	X	x	_	6	dep	_	expletive;expletivo
 10	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = GL-CLX33.4
@@ -1405,14 +1405,14 @@
 6	hã	hã	DET	det	_	5	det	_	_
 7	.	.	PUNCT	punct	_	4	punct	_	_
 8	Mare	mare	NOUN	n	_	4	parataxis	_	nada;nothing
-9	di	di	X	x	_	8	expl	_	expletive;expletivo
+9	di	di	X	x	_	8	dep	_	expletive;expletivo
 10	!	!	PUNCT	punct	_	8	punct	_	_
 11	Waradzu	waradzu	NOUN	n	_	14	nsubj	_	white,civilized,non-indian;branco,civilizado,não-índio
 12	te	te	PART	prcl	Htp=Yes|Tense=Pres	14	dep	_	heterophoric.marker;marcardor.heterofórico
 13	te	te	AUX	aux	_	14	aux	_	_
 14	adzöri	adzöri	VERB	v	_	8	parataxis	_	beat;bater
 15	õ	õ	PART	prcl	_	14	dep	_	negative.marker;marcador.negativo
-16	di	di	X	x	_	14	expl	_	expletive;expletivo
+16	di	di	X	x	_	14	dep	_	expletive;expletivo
 17	.	.	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = GL-CLX33.5
@@ -1444,7 +1444,7 @@
 7	hã	hã	DET	det	_	6	det	_	_
 8	.	.	PUNCT	punct	_	5	punct	_	_
 9	Madze	madze	NOUN	n	_	5	parataxis	_	nada;nothing
-10	di	di	X	x	_	9	expl	_	expletive;expletivo
+10	di	di	X	x	_	9	dep	_	expletive;expletivo
 11	!	!	PUNCT	punct	_	9	punct	_	_
 12	Pi’õ	pi'õ	NOUN	n	_	18	nsubj	_	woman;mulher
 13	dza	dza	PART	prcl	Tense=Fut	18	det	_	future.marker;marcador.de.futuro
@@ -1454,7 +1454,7 @@
 17	ĩma	ĩ	PRON	pron	Case=Dat|Person=1	18	iobj	_	he,she;ele,ela
 18	tsõmri	tsõmri	VERB	v	_	9	parataxis	_	give;dar
 19	õ	õ	PART	prcl	_	18	dep	_	negative.marker;marcador.negativo
-20	di	di	X	x	_	18	expl	_	expletive;expletivo
+20	di	di	X	x	_	18	dep	_	expletive;expletivo
 21	.	.	PUNCT	punct	_	18	punct	_	_
 
 # sent_id = GL-CLX33.7
@@ -1506,7 +1506,7 @@
 6	wa'wa	'wa	X	x	Number=Dual	4	dep	_	dual.number.marker;indicador.dual
 7	.	.	PUNCT	punct	_	4	punct	_	_
 8	Mare	mare	NOUN	n	_	4	parataxis	_	nada;nothing
-9	di	di	X	x	_	8	expl	_	expletive;expletivo
+9	di	di	X	x	_	8	dep	_	expletive;expletivo
 10	!	!	PUNCT	punct	_	8	punct	_	_
 11	Wanorĩhã	wanorĩhã	PRON	pron	Emph=Yes|Person=1|Number=Coll	15	nsubj	_	_
 12	höiwi	höiwi	NOUN	n	_	15	obj	_	plane;avião
@@ -1515,7 +1515,7 @@
 15	'madö'ö	'madö'ö	VERB	v	_	8	parataxis	_	see,look;ver,olhar,enxergar
 16	dza'ra	dza'ra	PART	prcl	Number=Plur	15	dep	_	_
 17	õ	õ	PART	prcl	_	15	dep	_	negative.marker;marcador.negativo
-18	di	di	X	x	_	15	expl	_	expletive;expletivo
+18	di	di	X	x	_	15	dep	_	expletive;expletivo
 19	.	.	PUNCT	punct	_	15	punct	_	_
 
 # sent_id = GL-CLX33.10
@@ -1579,7 +1579,7 @@
 4	,	,	PUNCT	punct	_	5	punct	_	_
 5	romhuri	romhuri	VERB	v	_	6	csubj	_	to.work;trabalhar
 6	ĩpire	pire	NOUN	n	Person=3	0	root	_	heavy,important;pesado,importante
-7	di	di	X	x	_	6	expl	_	expletive;expletivo
+7	di	di	X	x	_	6	dep	_	expletive;expletivo
 8	,	,	PUNCT	punct	_	6	punct	_	_
 9	datsa	tsa	NOUN	n	Gnq=Yes	6	advcl	_	food;comida,alimento
 10	da	da	SCONJ	sconj	_	9	mark	_	for,in.order.to,so.that;para,afim.de,para.que
@@ -1709,7 +1709,7 @@
 4	aima	ai	PRON	pron	Case=Dat|Person=2	5	iobj	_	he,she;ele,ela
 5	waihu'u	waihu'u	VERB	v	_	0	root	_	know,do,teach;saber,fazer,ensinar
 6	petse	petse	ADV	adv	_	5	advmod	_	much,very.much;mesmo,muito.mesmo
-7	di	di	X	x	_	5	expl	_	expletive;expletivo
+7	di	di	X	x	_	5	dep	_	expletive;expletivo
 8	?	?	PUNCT	punct	_	5	punct	_	_
 9	Ĩhe	ĩhe	INTJ	intj	_	5	parataxis	_	yes;sim
 10	!	!	PUNCT	punct	_	9	punct	_	_
@@ -1728,7 +1728,7 @@
 8	waihu'u	waihu'u	VERB	v	_	0	root	_	know,do,teach;saber,fazer,ensinar
 9	dza'ra	dza'ra	PART	prcl	Number=Plur	8	dep	_	_
 10	õ	õ	PART	prcl	_	8	dep	_	negative.marker;marcador.negativo
-11	di	di	X	x	_	8	expl	_	expletive;expletivo
+11	di	di	X	x	_	8	dep	_	expletive;expletivo
 12	.	.	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = GL-CLX37.3
@@ -1892,7 +1892,7 @@
 15	.	.	PUNCT	punct	_	14	punct	_	_
 16	"	"	PUNCT	punct	_	17	punct	_	_
 17	Madze	madze	NOUN	n	_	23	ccomp	_	nada;nothing
-18	di	di	X	x	_	17	expl	_	expletive;expletivo
+18	di	di	X	x	_	17	dep	_	expletive;expletivo
 19	!	!	PUNCT	punct	_	17	punct	_	_
 20	"	"	PUNCT	punct	_	17	punct	_	_
 21	õnorĩhã	õnorĩhã	PRON	pron	Number=Plur|Person=3	23	nsubj	_	_
@@ -1934,7 +1934,7 @@
 2	ma	ma	PART	prcl	Htp=Yes|Tense=Past	3	dep	_	perfect.aspect;aspecto.perfeito
 3	robdze	robdze	NOUN	n	_	_	_	_	happy;feliz
 4	uptabi	uptabi	NOUN	n	_	3	nmod	_	good,very.good;muito,muito.bom
-5	di	di	X	x	_	3	expl	_	expletive;expletivo
+5	di	di	X	x	_	3	dep	_	expletive;expletivo
 6	,	,	PUNCT	punct	_	3	punct	_	_
 7	ĩtsa	tsa	NOUN	n	Person=3	11	obj	_	food;comida,alimento
 8	wa	wa	X	x	Ego=Yes|Person=1	11	dep	_	egophoric.marker;marcardor.egofórico
@@ -1972,7 +1972,7 @@
 7	,	,	PUNCT	punct	_	8	punct	_	_
 8	watsai	tsa	NOUN	n	Numbr=Plur|Person=1	4	advcl	_	food;comida,alimento
 9	ahö	ahö	NOUN	n	_	8	nmod	_	many,numerous,abundant;muito,numeroso,abundante
-10	di	di	X	x	_	8	expl	_	expletive;expletivo
+10	di	di	X	x	_	8	dep	_	expletive;expletivo
 11	!	!	PUNCT	punct	_	8	punct	_	_
 12	"	"	PUNCT	punct	_	8	punct	_	_
 13	ba'õtõ	ba'õtõre	NOUN	n	_	16	nsubj	_	little.girl;menina.pequena
@@ -2373,4 +2373,3 @@
 4	ma	ma	PART	prcl	_	5	dep	_	perfect.aspect;aspecto.perfeito
 5	azidi	zidi	VERB	v	Number=Coll|Person[abs]=3	0	root	_	notice;aviso
 6	tô	tô	PART	prcl	Fact=Yes	5	dep	_	factive;fictício
-
