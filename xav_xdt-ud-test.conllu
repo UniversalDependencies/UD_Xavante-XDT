@@ -116,7 +116,7 @@
 7	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = GL-CLX16.9
-# text = Aibö , ma wei wi .
+# text = Aibö ma wei wi .
 # text_por = Um homem veio.
 # text_eng = A man came.
 1	Aibö	aibö	NOUN	n	_	3	nsubj	_	man;homem
@@ -268,8 +268,7 @@
 # text = Tahawa te romhu tsa'ẽtẽ .
 # text_por = Por isso, ela trabalha depressa.
 # text_eng = So she works fast.
-1	
-
+1	Tahawa	tahawa	SCONJ	sconj	_	3	mark	_	therefore;por.isso
 2	te	te	PART	prcl	Htp=Yes|Tense=Pres	3	dep	_	heterophoric.marker;marcardor.heterofórico
 3	romhu	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
 4	tsa'ẽtè	tsa'ẽtè	ADV	adv	_	3	advmod	_	in.a.hurry,quickly,loud;depressa,em.voz.alta
@@ -318,7 +317,7 @@
 6	te	te	PART	prcl	Htp=Yes|Tense=Pres	7	dep	_	heterophoric.marker;marcardor.heterofórico
 7	tsadanha	tsadanharĩ	VERB	v	_	0	root	_	ask;perguntar
 8	.	.	PUNCT	punct	_	7	punct	_	_
-9	Wanorĩhã	wanorĩhã	PRON	pron	Emph=Yes|Person=1|Number=Coll	14	nsubj	_	_
+9	Wanorĩhã	wanorĩhã	PRON	pron	Emph=Yes|Number=Coll|Person=1	14	nsubj	_	_
 10	,	,	PUNCT	punct	_	14	punct	_	_
 11	marĩ	marĩ	NOUN	n	_	14	obj	_	something,what;algo,o.que,alguma.coisa
 12	hã	hã	DET	det	_	11	det	_	_
@@ -367,7 +366,7 @@
 14	.	.	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = GL-CLX23.1
-# text = Aibö norĩhã duré pi'õ norĩ hã te romhuri dza'ra buru ãma hã .
+# text = Aibö norĩhã duré pi’õ norĩhã te romhuri dza'ra buru ãma hã .
 # text_por = Os homens e as mulheres trabalham na roça .
 # text_eng = Men and women work in the fields.
 1	Aibö	aibö	NOUN	n	_	7	nsubj	_	man;homem
