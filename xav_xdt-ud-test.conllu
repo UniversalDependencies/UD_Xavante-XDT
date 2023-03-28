@@ -1,4 +1,4 @@
-sent_id = GL-CLX16.1
+# sent_id = GL-CLX16.1
 # text = Aibö te mo . Pi’õ te mo . Ba'õno te mo . Õhã te mo .
 # text_por = Uni homem vai. Uma mulher vai. A menina vai. Ele (ela) vai.
 # text_eng = One man goes. A woman goes. The girl goes. He (she) goes.
@@ -1897,7 +1897,7 @@ sent_id = GL-CLX16.1
 20	"	"	PUNCT	punct	_	17	punct	_	_
 21	õnorĩhã	õnorĩhã	PRON	pron	Number=Plur|Person=3	23	nsubj	_	_
 22	ma	ma	PART	prcl	Htp=Yes|Tense=Past	23	dep	_	perfect.aspect;aspecto.perfeito
-23	tsada'ö	tsada'öbö	VERB	v	_	14	parataxis	_	reply;responder
+23	tsada'öbö	tsada'öbö	VERB	v	_	14	parataxis	_	reply;responder
 24	dzahuré	dzahuré	NUM	num	Number=Dual	21	nummod	_	_
 25	.	.	PUNCT	punct	_	23	punct	_	_
 
@@ -2063,7 +2063,7 @@ sent_id = GL-CLX16.1
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = EMX-3
-# text = Warazu wahi'rata norĩhã ma dapãrĩ dza'ra
+# text = Waradzu wahi'rata norĩhã ma dapãrĩ dza'ra
 # text_eng = The white man murdered our ancestors. (Estevam, 27: 3)
 # text_por = O homem branco matou nossos antepassados. 
 1	Waradzu	waradzu	NOUN	n	_	5	nsubj	_	white,civilized,non-indian;branco,civilizado,não-índio
@@ -2074,7 +2074,7 @@ sent_id = GL-CLX16.1
 6	dza'ra	dza'ra	PART	prcl	Number=Plur	5	dep	_	_
 
 # sent_id = EMX-4
-# text = Wahi'rata norĩ höimanadzé ipire
+# text = Wahi'rata norĩ höimanadzé ĩpire
 # text_eng = The life of our ancestors is hard. (Estevam 2011:  28, 4)
 # text_por = A vida de nossos antepassados é difícil.
 1	Wahi'rata	'rata	NOUN	n	_	3	nmod	_	ancestor;antepassado
@@ -2105,7 +2105,7 @@ sent_id = GL-CLX16.1
 4	tsãmra	tsãmra	VERB	v	_	0	root	_	sit.down;sentar-se
 
 # sent_id = EMX-7
-# text = Höjwahö wa za oto wawa'utu za'ra ni
+# text = Höiwahö wa za oto wawa'utu za'ra ni
 # text_eng = In the afternoon we will rest. (Estevam 2011:  29, 7)
 # text_por = À tarde vamos descansar.
 1	Höiwahö	höiwahö	ADV	adv	_	5	advmod	_	late;de.tarde
@@ -2117,7 +2117,7 @@ sent_id = GL-CLX16.1
 7	ni	ni	X	x	Number=Dual	5	dep	_	dual.number.marker;indicador.dual
 
 # sent_id = EMX-8
-# text = Ma 'röwipese re tete sõré
+# text = Ma 'röwipese rowẽ pese re te te sõré
 # text_eng = They installed (the taps) close by. (Estevam 2011:  29, 8)
 # text_por = Eles instalaram (as torneiras) perto.
 1	Ma	ma	PART	prcl	Htp=Yes|Tense=Past	2	dep	_	perfect.aspect;aspecto.perfeito
@@ -2161,7 +2161,7 @@ sent_id = GL-CLX16.1
 14	hã	hã	DET	det	_	12	det	_	_
 
 # sent_id = EMX-11
-# text = Õhõ si uburé marĩ waihu'u'wa hã tô , ropoto'wa si
+# text = Õhã si uburé marĩ waihu'u'wa hã tô , ropoto'wa si
 # text_eng = Only the creator, he alone (is) knows all things. (Estevam 2011:  32, 11)
 # text_por = Somente o criador, somente ele (é) conhece todas as coisas.
 1	Õhã	õhã	PRON	pron	Emph=Yes|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	he,she,it;ele,ela
@@ -2178,7 +2178,7 @@ sent_id = GL-CLX16.1
 11	si	si	ADV	adv	_	10	advmod	_	only;só,somente
 
 # sent_id = EMX-14
-# text = Duré abadzi hã wa wate wasima 'rãzani za'ra
+# text = Duré abadzi hã wa wate wasima 'rãzani dza'ra
 # text_eng = We scatter cotton for us too. (Estevam 2011:  34, 14)
 # text_por = Nós fabricamos (processamos) algodão para nós também
 1	Duré	duré	ADV	adv	_	7	advmod	_	also;também
@@ -2201,7 +2201,7 @@ sent_id = GL-CLX16.1
 4	ĩ'rãzani	'rãzani	VERB	v	Person=3	0	root	_	scatter;espalhar
 
 # sent_id = EMX-15b
-# text = ĩ'rãzani na wa wate ãma wasima romhuri za'ra
+# text = ĩ'rãzani na wa wate ãma wasima romhuri dza'ra
 # text_fr = Nous travaillons à égrainer (le coton) pour nous.
 # text_eng = We work to gin (the cotton) for us. (Estevam 2011:  34, 15b)
 # text_por = 
