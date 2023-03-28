@@ -412,7 +412,7 @@
 9	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = GL-CLX23.4
-# text = E te ĩtsadanharĩ dza'ra wa'wa waradzu hã marĩ na ?
+# text = E te ĩtsadanharĩ dza'ra wa'wa waradzu hã marĩ na ? Mare di .
 # text_por = Vocês perguntaram algo ao "civilizado"? Não!
 # text_eng = Did you ask the "civilized" something? No!
 1	E	e	PART	prcl	Int=Yes	3	dep	_	question.particle;partícula.interrogativa
