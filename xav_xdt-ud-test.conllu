@@ -413,7 +413,7 @@
 
 # sent_id = GL-CLX23.4
 # text = E te ĩtsadanharĩ dza'ra wa'wa waradzu hã marĩ na ?
-# text_por = Vocês perguntaram algo ao "civilizado"? Não! 
+# text_por = Vocês perguntaram algo ao "civilizado"? Não!
 # text_eng = Did you ask the "civilized" something? No!
 1	E	e	PART	prcl	Int=Yes	3	dep	_	question.particle;partícula.interrogativa
 2	te	te	PART	prcl	Htp=Yes|Tense=Pres	3	dep	_	heterophoric.marker;marcardor.heterofórico
@@ -645,6 +645,21 @@
 15	ma	ma	PART	prcl	Htp=Yes|Tense=Past	16	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
 16	adzö	adzöri	VERB	v	_	8	advmod	_	beat;bater
 17	.	.	PUNCT	punct	_	16	punct	_	_
+
+# sent_id = GL-CLX24.3
+# text = Wapté marĩ na hã pi'uriwi te tinha tinhohui'wai ma .
+# text_por = Um adolescentefala alguma coisa ás escondidas ao seu padrinho.
+# text_eng = A teenager secretly says something to his godfather.
+1	Wapté	wapté	NOUN	n	_	7	nsubj	_	teenager;adolescente
+2	marĩ	marĩ	NOUN	n	_	7	obl	_	something,what;algo,o.que,alguma.coisa
+3	na	na	ADP	posp	_	2	case	_	in;from;em,de
+4	hã	hã	DET	det	_	2	det	_	_
+5	pi'uriwi	pi'uriwi	ADV	adv	_	7	advmod	_	as escondidas;on.the.sly
+6	te	te	PART	prcl	Htp=Yes|Tense=Pres	7	dep	_	heterophoric.marker;marcardor.heterofórico
+7	tinha	nharĩ	VERB	v	Person=3	0	root	_	speak;falar
+8	tinhohui'wai	nhohui'wa	NOUN	n	Person=3	7	obl	_	godfather;padrinho.do.grupo.etário
+9	ma	ma	ADP	posp	Case=Dat	8	case	_	_
+10	.	.	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = GL-CLX24.4
 # text = Aibö dzéma pi'uriwi ma marĩ na tsada'ö.
