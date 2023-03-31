@@ -2331,3 +2331,17 @@
 3	tete	tete	NOUN	n	Person=3	0	root	_	be.hard;ser.dura
 4	di	di	PART	prcl	_	3	dep	_	_
 
+# sent_id = EMX-24a
+# text = aba'wa norĩ
+# text_fr = (les) chasseurs
+# text_eng = the hunters (Estevam 2011:  41, 24a)
+1	aba'wa	aba'wa	NOUN	n	_	0	root	_	hunter;caçador
+2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
+
+# sent_id = EMX-24b
+# text = utö norĩ
+# text_fr = (les) tapirs
+# text_eng = the tapirs (Estevam 2011:  41, 24b)
+1	utö	utö	NOUN	n	_	0	root	_	tapir;tapir
+2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
+
