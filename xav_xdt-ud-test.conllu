@@ -2232,7 +2232,7 @@
 5	wẽ	wẽ	VERB	v	_	0	root	_	want;querer
 
 # sent_id = EMX-17
-# text = Te za oto asina aahöimana aba mo, a'uwẽ hã atébré aba hö
+# text = Te dza oto asina aahöimana aba mo, a'uwẽ hã atébré aba hö
 # text_eng = From now on you will live by yourselves, so that the (people) xavante (will) multiply. (Estevam 2011:  35, 17)
 # text_por = A partir de agora vocês viverão sozinhos, para que o (povo) xavante (se multiplique).
 1	Te	te	PART	prcl	Htp=Yes|Tense=Pres	5	dep	_	heterophoric.marker;marcardor.heterofórico
@@ -2263,7 +2263,7 @@
 7	hã	hã	DET	det	_	5	det	_	_
 
 # sent_id = EMX-19a
-# text = warazu 'ra
+# text = waradzu 'ra
 # text_eng = son of the white man (Estevam 2011:  38, 19a)
 # text_por = filho do homem branco
 1	waradzu	waradzu	NOUN	n	_	2	nmod	_	white,civilized,non-indian;branco,civilizado,não-índio
@@ -2289,7 +2289,7 @@
 1	ĩdzéré	dzéré	NOUN	n	Person=3	0	root	_	hair;cabelo
 
 # sent_id = EMX-21
-# text = ĩĩmama tei wapsã
+# text = ĩĩmama te wapsã
 # text_fr = chien de mon père
 # text_eng = dog of my father (Estevam 2011:  39, 21)
 1	ĩĩmama	mama	NOUN	n	Number=Sing|Person=1	3	nmod	_	father;pai
@@ -2297,18 +2297,17 @@
 3	waptsã	waptsã	NOUN	n	_	0	root	_	dog,puppy;cachorro
 
 # sent_id = EMX-22
-# text = Ĩhiñimiza'reseõ tô darob mono bö te höimana za'ra tô
+# text = Ĩhiñimiza'reseõ tô darob mono bö te höimana dza'ra tô
 # text_fr = De vieux ignares existent en effet dans chaque village.
 # text_eng = Old ignoramuses exist indeed in every village. (Estevam 2011:  40, 22)
 1-2	Ĩhiñimiza'reseõ	_	_	_	_	_	_	_	_
 1	Ĩhi	ĩhi	NOUN	n	_	2	nmod	_	old,aged,elderly;velho,idoso,ancião
 2	ñimiza'reseõ	ñimiza'rese	NOUN	n	Polarity=Neg	8	nsubj	_	ignorant;ignorante
-3	tô	tô	PART	prcl	Case=Fact	8	dep	_	factive;fictício
+3	tô	tô	PART	prcl	Fact=Yes	8	dep	_	factive;fictício
 4	darob	rob	NOUN	n	Gnq=Yes	8	obl	_	village;aldeia
 5	mono	mono	PART	prcl	NumType=Dist	4	dep	_	_
 6	bö	bö	PART	prcl	Case=Loc	4	case	_	locative;aluguel
 7	te	te	PART	prcl	Htp=Yes|Tense=Pres	8	dep	_	heterophoric.marker;marcardor.heterofórico
 8	höimana	höimana	VERB	v	_	0	root	_	live;viver
 9	dza'ra	dza'ra	PART	prcl	Number=Plur	8	dep	_	_
-10	tô	tô	PART	prcl	Case=Fact	8	dep	_	factive;fictício
-
+10	tô	tô	PART	prcl	Fact=Yes	8	dep	_	factive;fictício
