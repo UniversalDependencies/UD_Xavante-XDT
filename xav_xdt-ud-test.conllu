@@ -1448,7 +1448,7 @@
 11	!	!	PUNCT	punct	_	9	punct	_	_
 12	Pi’õ	pi'õ	NOUN	n	_	18	nsubj	_	woman;mulher
 13	dza	dza	PART	prcl	Tense=Fut	18	dep	_	future.marker;marcador.de.futuro
-14	hadu	hady	ADV	adv	_	18	advmod	_	yet;ainda
+14	hadu	hadu	ADV	adv	_	18	advmod	_	yet;ainda
 15	te	te	PART	prcl	Htp=Yes|Tense=Pres	18	dep	_	heterophoric.marker;marcardor.heterofórico
 16	te	te	AUX	aux	_	18	aux	_	_
 17	ĩma	ĩ	PRON	pron	Case=Dat|Person=1	18	iobj	_	he,she;ele,ela
@@ -2311,4 +2311,23 @@
 8	höimana	höimana	VERB	v	_	0	root	_	live;viver
 9	dza'ra	dza'ra	PART	prcl	Number=Plur	8	dep	_	_
 10	tô	tô	PART	prcl	Fact=Yes	8	dep	_	factive;fictício
+
+# sent_id = EMX-23a
+# text = Uwaj'rewawẽ zahadu tete di
+# text_fr = L’avocat n’est pas encore mûr
+# text_eng = The avocado is not ripe yet. (Estevam 2011:  40, 23a)
+1	Uwaj'rewawẽ	uwaj'rewawẽ	NOUN	n	_	3	nsubj	_	avocado;abacate
+2	zahadu	zahadu	ADV	adv	_	3	advmod	_	yet;ainda
+3	tete	tete	NOUN	n	_	0	root	_	be.hard;ser.dura
+4	di	di	PART	prcl	_	3	dep	_	_
+
+# sent_id = EMX-23b
+# text = Asaro zöptete di
+# text_fr = Le riz n’est pas mûr
+# text_eng = The rice is not ripe (lit. “is hard”). (Estevam 2011:  40, 23b)
+1	Asaro	asaro	NOUN	n	_	3	nsubj	_	rice;arroz
+2-3	zöptete	_	_	_	_	_	_	_	_
+2	zöp	zöp	NOUN	n	_	3	nmod	_	seed;grão
+3	tete	tete	NOUN	n	Person=3	0	root	_	be.hard;ser.dura
+4	di	di	PART	prcl	_	3	dep	_	_
 
