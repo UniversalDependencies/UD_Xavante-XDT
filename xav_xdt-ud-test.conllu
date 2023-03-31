@@ -2232,7 +2232,7 @@
 5	wẽ	wẽ	VERB	v	_	0	root	_	want;querer
 
 # sent_id = EMX-17
-# text = Te dza oto asina aahöimana aba mo, a'uwẽ hã atébré aba hö
+# text = Te dza oto asina aahöimana aba mo , a'uwẽ hã atébré aba hö
 # text_eng = From now on you will live by yourselves, so that the (people) xavante (will) multiply. (Estevam 2011:  35, 17)
 # text_por = A partir de agora vocês viverão sozinhos, para que o (povo) xavante (se multiplique).
 1	Te	te	PART	prcl	Htp=Yes|Tense=Pres	5	dep	_	heterophoric.marker;marcardor.heterofórico
@@ -2289,7 +2289,7 @@
 1	ĩdzéré	dzéré	NOUN	n	Person=3	0	root	_	hair;cabelo
 
 # sent_id = EMX-21
-# text = ĩĩmama te wapsã
+# text = ĩĩmama te waptsã
 # text_fr = chien de mon père
 # text_eng = dog of my father (Estevam 2011:  39, 21)
 1	ĩĩmama	mama	NOUN	n	Number=Sing|Person=1	3	nmod	_	father;pai
@@ -2311,3 +2311,4 @@
 8	höimana	höimana	VERB	v	_	0	root	_	live;viver
 9	dza'ra	dza'ra	PART	prcl	Number=Plur	8	dep	_	_
 10	tô	tô	PART	prcl	Fact=Yes	8	dep	_	factive;fictício
+
