@@ -1335,7 +1335,7 @@
 1	E	e	PART	prcl	Int=Yes	2	dep	_	question.particle;partícula.interrogativa
 2	wapari	wapari	VERB	v	_	0	root	_	hear;escutar
 3	dza'ra	dza'ra	PART	prcl	Number=Plur	2	dep	_	_
-4	wa'aba	_	PART	prcl	Number=Pauc	2	dep	_	_
+4	wa'aba	aba	PART	prcl	Number=Coll	2	dep	_	_
 5	õ	õ	PART	prcl	_	2	dep	_	negative.marker;marcador.negativo
 6	di	di	X	x	_	2	dep	_	expletive;expletivo
 7	ĩmreme	mreme	NOUN	n	Person=3	2	obj	_	conversation,talk;conversa
@@ -2080,7 +2080,7 @@
 1	Wahi'rata	'rata	NOUN	n	_	3	nmod	_	ancestor;antepassado
 2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
 3	höimanadzé	höimanadzé	NOUN	n	_	4	nsubj	_	life,existence;vida,existência
-4	ĩpire	pire	NOUN	n	Person=3	0	root	_	heavy,important;pesado,importante
+4	ĩpire	pire	NOUN	n	_	0	root	_	heavy,important;pesado,importante
 
 # sent_id = EMX-5
 # text = Höiwahö wa dza we wate simro wa'ra norĩhã
@@ -2117,17 +2117,17 @@
 7	ni	ni	X	x	Number=Dual	5	dep	_	dual.number.marker;indicador.dual
 
 # sent_id = EMX-8
-# text = Ma 'rowẽpese re te te sõré
+# text = Ma 'rowipese re te te sõré
 # text_eng = They installed (the taps) close by. (Estevam 2011:  29, 8)
 # text_por = Eles instalaram (as torneiras) perto.
-1	Ma	ma	PART	prcl	Htp=Yes|Tense=Past	2	dep	_	perfect.aspect;aspecto.perfeito
-2-3	'rowẽpese	_	_	_	_	_	_	_	_
-2	rowẽ	rowẽ	VERB	v	_	0	root	_	make.beautiful;fazer.bonito,alegrar
-3	pese	pese	ADV	advmod	_	2	advmod	_	_
-4	re	re	PART	prcl	Degree=Dim	2	dep	_	diminutive;diminutivo
+1	Ma	ma	PART	prcl	Htp=Yes|Tense=Past	3	dep	_	perfect.aspect;aspecto.perfeito
+2-3	'rowipese	_	_	_	_	_	_	_	_
+2	'rowi	'rowi	ADV	adv	_	3	advmod	_	near;perto
+3	pese	pese	VERB	v	_	0	root	_	be.perfect;seja.perfeito
+4	re	re	PART	prcl	Degree=Dim	3	dep	_	diminutive;diminutivo
 5	te	te	PRON	pron	_	7	nsubj	_	_
 6	te	te	AUX	aux	_	7	aux	_	_
-7	sõré	sõré	VERB	_	_	2	parataxis	_	install;instalar
+7	sõré	sõré	VERB	v	_	3	parataxis	_	install;instalar
 
 # sent_id = EMX-9
 # text = Wasina wa te ãma mro
@@ -2168,13 +2168,13 @@
 2	si	si	ADV	adv	_	5	advmod	_	only;só,somente
 3	uburé	uburé	PRON	pron	PronType=Tot	4	nmod	_	all;tudo
 4	marĩ	marĩ	NOUN	n	_	5	obj	_	something,what;algo,o.que,alguma.coisa
-5	waihu'u'wa	waihu'u	NOUN	n	_	0	root	_	one.who.knows;aquele.quem.sabe
+5	waihu'u'wa	waihu'u'wa	NOUN	n	_	0	root	_	one.who.knows;aquele.quem.sabe
 6	hã	hã	PART	prcl	Emph=Yes	5	dep	_	_
 7	tô	tô	PART	prcl	Fact=Yes	5	dep	_	factive;fictício
 8	,	,	PUNCT	punct	_	5	punct	_	_
 9-10	ropoto'wa	_	_	_	_	_	_	_	_
 9	ro	ro	NOUN	n	_	10	nmod	_	world;mundo
-10	poto'wa	poto	NOUN	n	_	5	dislocated	_	creator.of.people;criador.dos.homens
+10	poto'wa	poto'wa	NOUN	n	_	5	dislocated	_	creator.of.people;criador.dos.homens
 11	si	si	ADV	adv	_	10	advmod	_	only;só,somente
 
 # sent_id = EMX-14
@@ -2186,15 +2186,14 @@
 3	hã	hã	DET	det	_	2	det	_	_
 4	wa	wa	PART	prcl	Ego=Yes|Person=1	7	dep	_	egophoric.marker;marcardor.egofórico
 5	wate	te	AUX	aux	Number=Plur|Person=1	7	aux	_	_
-6	wasima	_	PRON	pron	Case=Dat|Number=Plur|Person=1|Reflex=Yes	7	iobj	_	_
+6	wasima	wa	PRON	pron	Case=Dat|Number=Plur|Person=1|Reflex=Yes	7	iobj	_	_
 7	'rãzani	_	VERB	_	_	0	root	_	scatter;espalhar
 8	dza'ra	dza'ra	PART	prcl	Number=Plur	7	dep	_	_
 
 # sent_id = EMX-15a
 # text = A'uwẽ nhimiromhuri hã ĩ'rãzani
-# text_fr = Le travail des Xavantes (c’)est égrainer.
 # text_eng = The work of the Xavantes (it) is to scatter. (Estevam 2011:  34, 15a)
-# text_por = 
+# text_por = O trabalho dos Xavantes (it) é espalhar.
 1	A'uwẽ	a'uwẽ	NOUN	n	_	2	nmod	_	man,person,people,indian;homem,pessoa,gente,índio
 2	nhimiromhuri	romhuri	NOUN	n	_	4	nsubj	_	work,labour;trabalho
 3	hã	hã	DET	det	_	2	det	_	_
@@ -2202,22 +2201,21 @@
 
 # sent_id = EMX-15b
 # text = ĩ'rãzani na wa wate ãma wasima romhuri dza'ra
-# text_fr = Nous travaillons à égrainer (le coton) pour nous.
 # text_eng = We work to gin (the cotton) for us. (Estevam 2011:  34, 15b)
-# text_por = 
+# text_por = Trabalhamos para descaroçar (o algodão) para nós.
 1	ĩ'rãzani	'rãzani	VERB	v	Person=3	7	xcomp	_	scatter;espalhar
 2	na	na	ADP	posp	_	1	obl	_	in,from;em,de
 3	wa	wa	PART	prcl	Ego=Yes|Person=1	7	dep	_	egophoric.marker;marcardor.egofórico
 4	wate	te	AUX	aux	Number=Plur|Person=1	7	aux	_	_
 5	ãma	ãma	ADP	posp	_	7	obl	_	in;em
-6	wasima	_	PRON	pron	Case=Dat|Number=Plur|Person=1|Reflex=Yes	7	iobj	_	_
+6	wasima	wa	PRON	pron	Case=Dat|Number=Plur|Person=1|Reflex=Yes	7	iobj	_	_
 7	romhuri	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
 8	dza'ra	dza'ra	PART	prcl	Number=Plur	7	dep	_	_
 
 # sent_id = EMX-16a
 # text = Ö wa ĩĩsima wẽ
-# text_fr = Je veux de l’eau.
 # text_eng = I want some water. (Estevam 2011:  35, 16a)
+# text_por = Trabalhamos para descaroçar (o algodão) para nós.
 1	Ö	ö	NOUN	n	_	4	obj	_	water;água
 2	wa	wa	PART	prcl	Ego=Yes|Person=1	4	dep	_	egophoric.marker;marcardor.egofórico
 3	ĩĩsima	ĩĩ	PRON	pron	Case=Dat|Number=Sing|Person=1|Reflex=Yes	4	nsubj	_	_
@@ -2225,11 +2223,92 @@
 
 # sent_id = EMX-16b
 # text = Ĩĩsiupte da wa ĩĩsima wẽ
-# text_fr = Je veux me laver.
 # text_eng = I want to wash myself. (Estevam 2011:  35, 16b)
+# text_por = Eu quero me lavar.
 1	Ĩĩsiupte	upte	VERB	v	Number=Sing|Person=1	5	xcomp	_	wash;lavagem
 2	da	da	SCONJ	sconj	_	1	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 3	wa	wa	PART	prcl	Ego=Yes|Person=1	5	dep	_	egophoric.marker;marcardor.egofórico
 4	ĩĩsima	ĩĩ	PRON	pron	Case=Dat|Number=Sing|Person=1|Reflex=Yes	5	nsubj	_	_
-5	wẽ	wẽ	VERB	v	Person=3	0	root	_	want;querer
+5	wẽ	wẽ	VERB	v	_	0	root	_	want;querer
+
+# sent_id = EMX-17
+# text = Te za oto asina aahöimana aba mo, a'uwẽ hã atébré aba hö
+# text_eng = From now on you will live by yourselves, so that the (people) xavante (will) multiply. (Estevam 2011:  35, 17)
+# text_por = A partir de agora vocês viverão sozinhos, para que o (povo) xavante (se multiplique).
+1	Te	te	PART	prcl	Htp=Yes|Tense=Pres	5	dep	_	heterophoric.marker;marcardor.heterofórico
+2	dza	dza	PART	prcl	Tense=Fut	5	dep	_	future.marker;marcador.de.futuro
+3	oto	oto	ADV	adv	_	5	advmod	_	then;então
+4	asina	a	PRON	pron	Case=Ins|Hon=Yes|Person=2|Reflex=Yes	5	obl	_	_
+5	aahöimana	höimana	VERB	v	Hon=Yes|Person=2	0	root	_	be,live,exist;ser,viver,existir
+6	aba	aba	PART	prcl	Number=Coll	5	dep	_	collective.marker
+7	mo	mo	AUX	aux	_	5	aux	_	_
+8	,	,	PUNCT	punct	_	5	punct	_	_
+9	a'uwẽ	a'uwẽ	NOUN	n	_	11	nsubj	_	man,person,people,indian;homem,pessoa,gente,índio
+10	hã	hã	DET	det	_	9	det	_	_
+11	atébré	atébré	VERB	v	_	5	parataxis	_	multiply;multiplicar
+12	aba	aba	PART	prcl	Number=Coll	11	dep	_	collective.marker
+13	hö	hö	X	x	Mood=Des	11	dep	_	_
+
+# sent_id = EMX-18
+# text = Wa 're ĩĩhöimana rowẽuptabi na hã
+# text_eng = I lived very happily. (Estevam 2011:  35, 18)
+# text_por = Eu vivi muito feliz.
+1	Wa	wa	PART	prcl	Ego=Yes|Person=1	3	dep	_	egophoric.marker;marcardor.egofórico
+2	're	're	ADP	posp	_	3	dep	_	inside,in;dentro.de,em
+3	ĩĩhöimana	höimana	VERB	v	Number=Sing|Person=1	0	root	_	live;viver
+4-5	rowẽuptabi	_	_	_	_	_	_	_	_
+4	rowẽ	rowẽ	VERB	v	_	3	parataxis	_	make.beautiful;fazer.bonito,alegrar
+5	uptabi	uptabi	NOUN	n	_	4	obl	_	good,very.good;muito,muito.bom
+6	na	na	ADP	posp	_	5	case	_	in,from;em,de
+7	hã	hã	DET	det	_	5	det	_	_
+
+# sent_id = EMX-19a
+# text = warazu 'ra
+# text_eng = son of the white man (Estevam 2011:  38, 19a)
+# text_por = filho do homem branco
+1	waradzu	waradzu	NOUN	n	_	2	nmod	_	white,civilized,non-indian;branco,civilizado,não-índio
+2	'ra	'ra	NOUN	n	Number=Plur|Person=1	0	root	_	son,daughter;filho,filha
+
+# sent_id = EMX-19b
+# text = ĩ'ra
+# text_eng = his son (Estevam 2011:  38, 19b)
+# text_por = o filho dele
+1	ĩ'ra	'ra	NOUN	n	Person=3	0	root	_	son,daughter;filho,filha
+
+# sent_id = EMX-20a
+# text = ĩĩmama dzéré
+# text_eng = hair of my father (Estevam 2011:  38, 20a)
+# text_por = cabelo do meu pai
+1	ĩĩmama	mama	NOUN	n	Number=Sing|Person=1	2	nmod	_	father;pai
+2	dzéré	dzéré	NOUN	n	_	0	root	_	hair;cabelo
+
+# sent_id = EMX-20b
+# text = ĩdzéré
+# text_eng = his hair (Estevam 2011:  38, 20b)
+# text_por = o cabelo dele
+1	ĩdzéré	dzéré	NOUN	n	Person=3	0	root	_	hair;cabelo
+
+# sent_id = EMX-21
+# text = ĩĩmama tei wapsã
+# text_fr = chien de mon père
+# text_eng = dog of my father (Estevam 2011:  39, 21)
+1	ĩĩmama	mama	NOUN	n	Number=Sing|Person=1	3	nmod	_	father;pai
+2	te	te	X	x	Gnq=Yes	3	dep	_	_
+3	waptsã	waptsã	NOUN	n	_	0	root	_	dog,puppy;cachorro
+
+# sent_id = EMX-22
+# text = Ĩhiñimiza'reseõ tô darob mono bö te höimana za'ra tô
+# text_fr = De vieux ignares existent en effet dans chaque village.
+# text_eng = Old ignoramuses exist indeed in every village. (Estevam 2011:  40, 22)
+1-2	Ĩhiñimiza'reseõ	_	_	_	_	_	_	_	_
+1	Ĩhi	ĩhi	NOUN	n	_	2	nmod	_	old,aged,elderly;velho,idoso,ancião
+2	ñimiza'reseõ	ñimiza'rese	NOUN	n	Polarity=Neg	8	nsubj	_	ignorant;ignorante
+3	tô	tô	PART	prcl	Case=Fact	8	dep	_	factive;fictício
+4	darob	rob	NOUN	n	Gnq=Yes	8	obl	_	village;aldeia
+5	mono	mono	PART	prcl	NumType=Dist	4	dep	_	_
+6	bö	bö	PART	prcl	Case=Loc	4	case	_	locative;aluguel
+7	te	te	PART	prcl	Htp=Yes|Tense=Pres	8	dep	_	heterophoric.marker;marcardor.heterofórico
+8	höimana	höimana	VERB	v	_	0	root	_	live;viver
+9	dza'ra	dza'ra	PART	prcl	Number=Plur	8	dep	_	_
+10	tô	tô	PART	prcl	Case=Fact	8	dep	_	factive;fictício
 
