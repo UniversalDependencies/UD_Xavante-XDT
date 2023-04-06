@@ -1310,7 +1310,7 @@
 23	.	.	PUNCT	punct	_	20	punct	_	_
 
 # sent_id = GL-CLX31.8
-# text = Höiwahö , u te wapté te te ãma 're ãputsi tinho're na hã .
+# text = Höiwahö u te wapté te te ãma 're ãputsi tinho're na hã .
 # text_por = Quando chega a tarde, os adolescentes se cansaram de cantar.
 # text_eng = When the afternoon comes, the teenagers get tired of singing.
 1	Höiwahö	höiwahö	NOUN	n	_	9	dislocated	_	afternoon;à.tarde
@@ -1801,7 +1801,7 @@
 8	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = GL-CLX37.7
-# text = Rowahutu'wa ĩta'are te ta'a , 'watébrémi norĩ dzô romhoré u da hã .
+# text = Rowahutu'wa ĩta'are te ta'a , 'watébrémi norĩ dzô romnhoré u da hã .
 # text_por = O professor toca a campainha para (reunir) os meninos para as aulas.
 # text_eng = The teacher rings the bell (to gather) the boys for lessons.
 1	Rowahutu'wa	rowahutu'wa	NOUN	n	_	4	nsubj	_	teacher;professor
