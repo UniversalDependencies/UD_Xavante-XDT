@@ -62,7 +62,7 @@
 2	pi'õi	pi'õ	NOUN	n	_	1	nmod	_	woman;mulher
 3	me	me	ADP	posp	_	2	case	_	with;com
 4	te	te	PART	prcl	Htp=Yes|Tense=Pres	5	dep	_	heterophoric.marker;marcardor.heterofórico
-5	tineb	ne	VERB	v	Person=3	0	root	_	walk;andar,caminhar
+5	tineb	ne	VERB	v	Person[abs]=3	0	root	_	walk;andar,caminhar
 6	dzahuré	dzahuré	NUM	num	Number=Dual	1	nummod	_	_
 7	buru	buru	NOUN	n	_	5	obl	_	slash;roça
 8	u	u	ADP	posp	_	7	case	_	to;a,para
@@ -280,7 +280,7 @@
 # text_eng = Do you work? - Yes I work.
 1	E	e	PART	prcl	Int=Yes	3	dep	_	question.particle;partícula.interrogativa
 2	te	te	PART	prcl	Htp=Yes|Tense=Pres	3	dep	_	heterophoric.marker;marcardor.heterofórico
-3	ĩromhu	romhuri	VERB	v	Person=2	0	root	_	to.work;trabalhar
+3	ĩromhu	romhuri	VERB	v	Person[abs]=3	0	root	_	to.work;trabalhar
 4	.	.	PUNCT	punct	_	3	punct	_	_
 5	Ĩhe	ĩhe	INTJ	intj	_	8	discourse	_	yes;sim
 6	,	,	PUNCT	punct	_	8	punct	_	_
@@ -333,7 +333,7 @@
 1	E	e	PART	prcl	Int=Yes	4	dep	_	question.particle;partícula.interrogativa
 2	anorĩwa'wahã	anorĩwa'wahã	PRON	pron	Emph=Yes|Number=Coll|Person=2	4	nsubj	_	_
 3	te	te	PART	prcl	Htp=Yes|Tense=Pres	4	dep	_	heterophoric.marker;marcardor.heterofórico
-4	ĩwapari	wapari	VERB	v	Person=2	0	root	_	hear;escutar
+4	ĩwapari	wapari	VERB	v	Person[abs]=3	0	root	_	hear;escutar
 5	dza'ra	dza'ra	PART	prcl	Number=Plur	4	dep	_	_
 6	wa'wa	'wa	X	x	Number=Dual	4	dep	_	dual.number.marker;indicador.dual
 7	.	.	PUNCT	punct	_	4	punct	_	_
@@ -353,7 +353,7 @@
 1	E	e	PART	prcl	Int=Yes	4	dep	_	question.particle;partícula.interrogativa
 2	marĩ	marĩ	NOUN	n	_	4	obj	_	something,what;algo,o.que,alguma.coisa
 3	te	te	PART	prcl	Htp=Yes|Tense=Pres	4	dep	_	heterophoric.marker;marcardor.heterofórico
-4	ĩwaptẽrẽ	waptẽrẽ	VERB	v	Person=2	0	root	_	ask,request;pedir,solicitar
+4	ĩwaptẽrẽ	waptẽrẽ	VERB	v	Person[abs]=3	0	root	_	ask,request;pedir,solicitar
 5	dza'ra	dza'ra	PART	prcl	Number=Plur	4	dep	_	_
 6	wa'wa	'wa	X	x	Number=Dual	4	dep	_	dual.number.marker;indicador.dual
 7	.	.	PUNCT	punct	_	4	punct	_	_
@@ -416,7 +416,7 @@
 # text_eng = Did you ask the "civilized" something? No!
 1	E	e	PART	prcl	Int=Yes	3	dep	_	question.particle;partícula.interrogativa
 2	te	te	PART	prcl	Htp=Yes|Tense=Pres	3	dep	_	heterophoric.marker;marcardor.heterofórico
-3	ĩtsadanharĩ	tsadanharĩ	VERB	v	Person=2	0	root	_	ask;perguntar
+3	ĩtsadanharĩ	tsadanharĩ	VERB	v	Person[abs]=3	0	root	_	ask;perguntar
 4	dza'ra	dza'ra	PART	prcl	Number=Plur	3	dep	_	_
 5	wa'wa	'wa	X	x	Number=Dual	3	dep	_	dual.number.marker;indicador.dual
 6	waradzu	waradzu	NOUN	n	_	3	iobj	_	white,civilized,non-indian;branco,civilizado,não-índio
@@ -437,7 +437,7 @@
 3	,	,	PUNCT	punct	_	6	punct	_	_
 4	e	e	PART	prcl	Int=Yes	6	dep	_	question.particle;partícula.interrogativa
 5	te	te	PART	prcl	Htp=Yes|Tense=Pres	6	dep	_	heterophoric.marker;marcardor.heterofórico
-6	ĩ'madö'ö	'madö'ö	VERB	v	Person=2	0	root	_	see,look;ver,olhar,enxergar
+6	ĩ'madö'ö	'madö'ö	VERB	v	Person[abs]=3	0	root	_	see,look;ver,olhar,enxergar
 7	'wa	'wa	X	x	Number=Dual	6	dep	_	dual.number.marker;indicador.dual
 8	ai'uté	ai'uté	NOUN	n	_	6	obj	_	child;criança
 9	hã	hã	DET	det	_	8	det	_	_
@@ -505,7 +505,7 @@
 # text_eng = We both follow you.
 1	Wanorĩhã	wanorĩhã	PRON	pron	Emph=Yes|Number=Coll|Person=1	3	nsubj	_	_
 2	wa	wa	PART	prcl	Ego=Yes|Person=1	3	dep	_	egophoric.marker;marcardor.egofórico
-3	atsamarĩ	tsamarĩ	VERB	v	Person=2	0	root	_	follow;seguir
+3	atsamarĩ	tsamarĩ	VERB	v	Person[abs]=2	0	root	_	follow;seguir
 4	ni	ni	X	x	Number=Dual	3	dep	_	dual.number.marker;indicador.dual
 5	atsarina	tsarina	ADP	posp	Person=2	3	obl	_	behind;atrás
 6	.	.	PUNCT	punct	_	3	punct	_	_
@@ -516,7 +516,7 @@
 # text_eng = Do you hear? - Yes!
 1	E	e	PART	prcl	Int=Yes	3	dep	_	question.particle;partícula.interrogativa
 2	te	te	PART	prcl	Htp=Yes|Tense=Pres	3	dep	_	heterophoric.marker;marcardor.heterofórico
-3	ĩwapari	wapari	VERB	v	Person=2	0	root	_	hear;escutar
+3	ĩwapari	wapari	VERB	v	Person[abs]=3	0	root	_	hear;escutar
 4	dza'ra	dza'ra	PART	prcl	Number=Plur	3	dep	_	_
 5	wa'wa	'wa	X	x	Number=Dual	3	dep	_	dual.number.marker;indicador.dual
 6	.	.	PUNCT	punct	_	3	punct	_	_
@@ -529,7 +529,7 @@
 # text_eng = Do you ask the man? - No!
 1	E	e	PART	prcl	Int=Yes	3	dep	_	question.particle;partícula.interrogativa
 2	te	te	PART	prcl	Htp=Yes|Tense=Pres	3	dep	_	heterophoric.marker;marcardor.heterofórico
-3	ĩtsadanha	tsadanharĩ	VERB	v	Person=2	0	root	_	ask;perguntar_
+3	ĩtsadanha	tsadanharĩ	VERB	v	Person[abs]=3	0	root	_	ask;perguntar_
 4	aibö	aibö	NOUN	n	_	3	obj	_	man;homem
 5	hã	hã	DET	det	_	4	det	_	_
 6	.	.	PUNCT	punct	_	3	punct	_	_
@@ -544,7 +544,7 @@
 1	E	e	PART	prcl	Int=Yes	4	dep	_	question.particle;partícula.interrogativa
 2	te	te	PART	prcl	Htp=Yes|Tense=Pres	4	dep	_	heterophoric.marker;marcardor.heterofórico
 3	dza	dza	PART	prcl	Tense=Fut	4	dep	_	future.marker;marcador.de.futuro
-4	ĩtsa'wa	tsa'wari	VERB	v	Person=2	0	root	_	pour.out,despejar,derramar
+4	ĩtsa'wa	tsa'wari	VERB	v	Person[abs]=3	0	root	_	pour.out,despejar,derramar
 5	ö	ö	NOUN	n	_	4	obj	_	water;água
 6	hã	hã	DET	det	_	5	det	_	_
 7	.	.	PUNCT	punct	_	4	punct	_	_
@@ -558,7 +558,7 @@
 # text_eng = Do you ask the nurse for medicine? - Yes! My head hurts.
 1	E	e	PART	prcl	Int=Yes	3	dep	_	question.particle;partícula.interrogativa
 2	te	te	PART	prcl	Htp=Yes|Tense=Pres	3	dep	_	heterophoric.marker;marcardor.heterofórico
-3	ĩwaptẽ	waptẽrẽ	VERB	v	Person=2	0	root	_	ask,request;pedir,solicitar
+3	ĩwaptẽ	waptẽrẽ	VERB	v	Person[abs]=3	0	root	_	ask,request;pedir,solicitar
 4	dawede	wede	NOUN	n	Gnq=Yes	3	obj	_	medicine;remédio
 5	hã	hã	DET	det	_	4	det	_	_
 6	dawede'wai	dawede'wa	NOUN	n	_	3	obl	_	nurse,doctor;enfermeiro,médico
@@ -582,7 +582,7 @@
 4	e	e	PART	prcl	Int=Yes	7	dep	_	question.particle;partícula.interrogativa
 5	te	te	PART	prcl	Htp=Yes|Tense=Pres	7	dep	_	heterophoric.marker;marcardor.heterofórico
 6	dza	dza	PART	prcl	Tense=Fut	7	dep	_	future.marker;marcador.de.futuro
-7	ĩromhuri	romhuri	VERB	v	Person=2	0	root	_	to.work;trabalhar
+7	ĩromhuri	romhuri	VERB	v	Person[abs]=3	0	root	_	to.work;trabalhar
 8	dza'ra	dza'ra	PART	prcl	Number=Plur	7	dep	_	_
 9	wa'wa	'wa	X	x	Number=Dual	7	dep	_	dual.number.marker;indicador.dual
 10	aibö	aibö	NOUN	n	_	7	obl	_	man;homem
@@ -633,7 +633,7 @@
 5	dzéma	dzéma	ADV	adv	_	8	advmod	_	also;também
 6	tsi'a	tsi'a	NOUN	n	_	8	obj	_	hen;galinha
 7	te	te	PART	prcl	Htp=Yes|Tense=Pres	8	dep	_	heterophoric.marker;marcardor.heterofórico
-8	titsa	tsari	VERB	v	Person=3	0	root	_	bite;morder
+8	titsa	tsari	VERB	v	Person[abs]=3	0	root	_	bite;morder
 9	.	.	PUNCT	punct	_	8	punct	_	_
 10	Tahawa	tahawa	SCONJ	sconj	_	16	mark	_	therefore;por.isso
 11	,	,	PUNCT	punct	_	16	punct	_	_
@@ -654,7 +654,7 @@
 4	hã	hã	DET	det	_	2	det	_	_
 5	pi'uriwi	pi'uriwi	ADV	adv	_	7	advmod	_	as escondidas;on.the.sly
 6	te	te	PART	prcl	Htp=Yes|Tense=Pres	7	dep	_	heterophoric.marker;marcardor.heterofórico
-7	tinha	nharĩ	VERB	v	Person=3	0	root	_	speak;falar
+7	tinha	nharĩ	VERB	v	Person[abs]=3	0	root	_	speak;falar
 8	tinhohui'wai	nhohui'wa	NOUN	n	Person=3	7	obl	_	godfather;padrinho.do.grupo.etário
 9	ma	ma	ADP	posp	Case=Dat	8	case	_	_
 10	.	.	PUNCT	punct	_	7	punct	_	_
@@ -682,7 +682,7 @@
 4	õnorĩhã	õnorĩhã	PRON	pron	Number=Plur|Person=3	7	nsubj	_	_
 5	te	te	PART	prcl	Htp=Yes|Tense=Pres	7	dep	_	heterophoric.marker;marcardor.heterofórico
 6	aba	aba	PART	prcl	Number=Coll	7	dep	_	collective.marker
-7	tineb	ne	VERB	v	Person=3	0	root	_	walk;andar,caminhar
+7	tineb	ne	VERB	v	Person[abs]=3	0	root	_	walk;andar,caminhar
 8	dzahuré	dzahuré	NUM	num	Number=Dual	7	dep	_	_
 9	.	.	PUNCT	punct	_	7	punct	_	_
 
@@ -696,7 +696,7 @@
 4	marĩ	marĩ	NOUN	n	_	7	obl	_	something,what;algo,o.que,alguma.coisa
 5	na	na	ADP	posp	_	4	case	_	in;from;em,de
 6	te	te	PART	prcl	Htp=Yes|Tense=Pres	7	dep	_	heterophoric.marker;marcardor.heterofórico
-7	ĩnha	nharĩ	VERB	v	Person=3	0	root	_	speak;falar
+7	ĩnha	nharĩ	VERB	v	Person[abs]=3	0	root	_	speak;falar
 8	.	.	PUNCT	punct	_	7	punct	_	_
 9	Mare	mare	NOUN	n	_	7	parataxis	_	nada;nothing
 10	di	di	X	x	_	9	dep	_	expletive;expletivo
@@ -708,7 +708,7 @@
 # text_eng = Is your word the truth? - Yes!
 1	E	e	PART	prcl	Int=Yes	3	dep	_	question.particle;partícula.interrogativa
 2	tô	tô	PART	prcl	Fact=Yes	3	dep	_	factive;fictício
-3	tsena	tsena	NOUN	n	_	0	root	_	verdade,na.verdade,realmente
+3	tsena	tsena	NOUN	n	_	0	root	_	truth;verdade,na.verdade,realmente
 4	aimreme	mreme	NOUN	n	Number=Sing|Person=2	3	nsubj	_	language,word;lingua,palavra
 5	.	.	PUNCT	punct	_	3	punct	_	_
 6	Ĩhe	ĩhe	INTJ	intj	_	3	parataxis	_	yes;sim
@@ -725,7 +725,7 @@
 5	tiha	tiha	NOUN	n	_	8	obl	_	something;algo,alguma.coisa
 6	na	na	ADP	posp	_	5	case	_	in;from;em,de
 7	te	te	PART	prcl	Htp=Yes|Tense=Pres	8	dep	_	heterophoric.marker;marcardor.heterofórico
-8	ĩnharĩ	nharĩ	VERB	v	Person=2	0	root	_	speak;falar
+8	ĩnharĩ	nharĩ	VERB	v	Person[abs]=3	0	root	_	speak;falar
 9	wa'wa	'wa	X	x	Number=Dual	8	dep	_	dual.number.marker;indicador.dual
 10	rowahutu'wai	rowahutu'wa	NOUN	n	_	8	obl	_	teacher;professor
 11	ma	ma	ADP	posp	Case=Dat	10	case	_	_
@@ -743,14 +743,14 @@
 2	bara	bara	NOUN	n	_	5	obj	_	cocroach;barata
 3	ma	ma	PART	prcl	Htp=Yes|Tense=Past	5	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
 4	tô	tô	PART	prcl	Fact=Yes	5	dep	_	factive;fictício
-5	tiwĩ	wĩrĩ	VERB	v	Person=3	0	root	_	kill.a.being;matar.um.ser
+5	tiwĩ	wĩrĩ	VERB	v	Person[abs]=3	0	root	_	kill.a.being;matar.um.ser
 6	.	.	PUNCT	punct	_	5	punct	_	_
 7-8	Mrap-te	_	_	_	_	_	_	_	_
 7	Mrap	mra	NOUN	n	_	11	obl	_	food,hunger;comida,fome
 8	te	te	ADP	posp	_	7	case	_	because.of,why;por.causa.de,por.que
 9	ma	ma	PART	prcl	Htp=Yes|Tense=Past	11	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
 10	tô	tô	PART	prcl	Fact=Yes	11	dep	_	factive;fictício
-11	tiwĩ	wĩrĩ	VERB	v	Person=3	5	parataxis	_	kill.a.being;matar.um.ser
+11	tiwĩ	wĩrĩ	VERB	v	Person[abs]=3	5	parataxis	_	kill.a.being;matar.um.ser
 12	.	.	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = GL-CLX24.10
@@ -762,7 +762,7 @@
 3	wa	wa	PART	prcl	Ego=Yes|Person=1	2	dep	_	egophoric.marker;marcardor.egofórico
 4	ma	ma	PART	prcl	Htp=Yes|Tense=Past	6	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
 5	tô	tô	PART	prcl	Fact=Yes	6	dep	_	factive;fictício
-6	tiwĩ	wĩrĩ	VERB	v	Person=3	2	parataxis	_	kill.a.being;matar.um.ser
+6	tiwĩ	wĩrĩ	VERB	v	Person[abs]=3	2	parataxis	_	kill.a.being;matar.um.ser
 7	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = GL-CLX26.1
@@ -772,7 +772,7 @@
 1	Pi'õ	pi'õ	NOUN	n	_	4	nsubj	_	woman;mulher
 2	ma	ma	PART	prcl	Htp=Yes|Tense=Past	4	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
 3	tãma	ti	PRON	pron	Case=Dat|Person=3	4	iobj	_	lhe,a.ele,.para.ele
-4	titsõ	tsõmri	VERB	v	Person=3	0	root	_	give;dar
+4	titsõ	tsõmri	VERB	v	Person[abs]=3	0	root	_	give;dar
 5	datsa	tsa	NOUN	n	Gnq=Yes	4	obj	_	food;comida,alimento
 6	hã	hã	DET	det	_	5	det	_	_
 7	.	.	PUNCT	punct	_	4	punct	_	_
@@ -783,7 +783,7 @@
 # text_eng = The dog bit the boy.
 1	Waptsã	waptsã	NOUN	n	_	3	nsubj	_	dog,puppy;cachorro
 2	ma	ma	PART	prcl	Htp=Yes|Tense=Past	3	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
-3	titsa	tsari	VERB	v	Person=3	0	root	_	bite;morder
+3	titsa	tsari	VERB	v	Person[abs]=3	0	root	_	bite;morder
 4	'watébrémi	'watébrémi	NOUN	n	_	3	obj	_	boy;menino
 5	hã	hã	DET	det	_	4	det	_	_
 6	.	.	PUNCT	punct	_	3	punct	_	_
@@ -797,12 +797,12 @@
 3	marĩ	marĩ	NOUN	n	_	6	obl	_	something,what;algo,o.que,alguma.coisa
 4	na	na	ADP	posp	_	3	case	_	in;from;em,de
 5	te	te	PART	prcl	Htp=Yes|Tense=Pres	6	dep	_	heterophoric.marker;marcardor.heterofórico
-6	ĩnharĩ	nharĩ	VERB	v	Person=3	0	root	_	speak;falar
+6	ĩnharĩ	nharĩ	VERB	v	Person[abs]=3	0	root	_	speak;falar
 7	dza'ra	dza'ra	PART	prcl	Number=Plur	6	dep	_	_
 8	wa'wa	'wa	X	x	Number=Dual	6	dep	_	dual.number.marker;indicador.dual
 9	.	.	PUNCT	punct	_	6	punct	_	_
 10	Marĩ	marĩ	NOUN	n	_	11	nmod	_	something,what;algo,o.que,alguma.coisa
-11	watsu'ure	watsu'ure	NOUN	n	_	6	parataxis	_	little.story,little.talk;historinha,conversinha,potoca
+11	watsu'ure	watsu'ure	NOUN	n	Degree=Dim	6	parataxis	_	little.story,little.talk;historinha,conversinha,potoca
 12	!	!	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = GL-CLX26.4
@@ -812,7 +812,7 @@
 1	Õhã	õhã	PRON	pron	Emph=Yes|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	he,she,it;ele,ela
 2	pe'a	pe'a	NOUN	n	_	4	obj	_	fish;peixe
 3	ma	ma	PART	prcl	Htp=Yes|Tense=Past	4	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
-4	tihi	hiri	VERB	v	Person=3	0	root	_	place.an.object;colocar.um.objeto
+4	tihi	hiri	VERB	v	Person[abs]=3	0	root	_	place.an.object;colocar.um.objeto
 5	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = GL-CLX26.5
@@ -822,7 +822,7 @@
 1	Õhã	õhã	PRON	pron	Emph=Yes|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	he,she,it;ele,ela
 2	pe'a	pe'a	NOUN	n	_	4	obj	_	fish;peixe
 3	ma	ma	PART	prcl	Htp=Yes|Tense=Past	4	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
-4	tino	nomri	VERB	v	Person=3	0	root	_	put.two.things;colocar.coisas.duas,botar.duas.coisas
+4	tino	nomri	VERB	v	Person[abs]=3	0	root	_	put.two.things;colocar.coisas.duas,botar.duas.coisas
 5	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = GL-CLX26.6
@@ -833,7 +833,7 @@
 2	waptsã	waptsã	NOUN	n	_	5	obj	_	dog,puppy;cachorro
 3	ma	ma	PART	prcl	Htp=Yes|Tense=Past	5	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
 4	tô	tô	PART	prcl	Fact=Yes	5	dep	_	factive;fictício
-5	tiwĩ	wĩrĩ	VERB	v	Person=3	0	root	_	kill.a.being;matar.um.ser
+5	tiwĩ	wĩrĩ	VERB	v	Person[abs]=3	0	root	_	kill.a.being;matar.um.ser
 6	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = GL-CLX26.7
@@ -844,7 +844,7 @@
 2	waptsã	waptsã	NOUN	n	_	5	obj	_	dog,puppy;cachorro
 3	ma	ma	PART	prcl	Htp=Yes|Tense=Past	5	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
 4	tô	tô	PART	prcl	Fact=Yes	5	dep	_	factive;fictício
-5	tipã	pãrĩ	VERB	v	Person=3	0	root	_	kill.two.beings;matar.dois.seres
+5	tipã	pãrĩ	VERB	v	Person[abs]=3	0	root	_	kill.two.beings;matar.dois.seres
 6	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = GL-CLX26.8
@@ -853,7 +853,7 @@
 # text_eng = A snake bit the woman.
 1	Wahi	wahi	NOUN	n	_	3	nsubj	_	snake;cobra
 2	ma	ma	PART	prcl	Htp=Yes|Tense=Past	3	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
-3	titsa	tsari	VERB	v	Person=3	0	root	_	bite;morder
+3	titsa	tsari	VERB	v	Person[abs]=3	0	root	_	bite;morder
 4	pi'õ	pi'õ	NOUN	n	_	3	obj	_	woman;mulher
 5	hã	hã	DET	det	_	4	det	_	_
 6	.	.	PUNCT	punct	_	3	punct	_	_
@@ -864,7 +864,7 @@
 # text_eng = A girl picked up two sticks.
 1	Ba'õno	ba'õno	NOUN	n	_	3	nsubj	_	girl;menina
 2	te	te	PART	prcl	Htp=Yes|Tense=Pres	3	dep	_	heterophoric.marker;marcardor.heterofórico
-3	timra	mrami	VERB	v	Person=3	0	root	_	take.two.objects;pegar.dois.objetos
+3	timra	mrami	VERB	v	Person[abs]=3	0	root	_	take.two.objects;pegar.dois.objetos
 4	wedehu	wedehu	NOUN	n	_	3	obj	_	stick;vara
 5	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -1000,7 +1000,7 @@
 4	tina	na	NOUN	n	Person=3|Reflex=Yes	7	obl	_	mother;mãe
 5	u	u	ADP	posp	_	4	case	_	to;a,para
 6	te	te	PART	prcl	Htp=Yes|Tense=Pres	7	dep	_	heterophoric.marker;marcardor.heterofórico
-7	tineb	ne	VERB	v	Person=3	0	root	_	walk;andar,caminhar
+7	tineb	ne	VERB	v	Person[abs]=3	0	root	_	walk;andar,caminhar
 8	dzahuré	dzahuré	NUM	num	Number=Dual	7	nummod	_	_
 9	.	.	PUNCT	punct	_	7	punct	_	_
 
@@ -1087,7 +1087,7 @@
 2	tina	na	NOUN	n	Person=3|Reflex=Yes	1	nmod	_	mother;mãe
 3	me	me	ADP	posp	_	2	case	_	with;com
 4	te	te	PART	prcl	Htp=Yes|Tense=Pres	5	dep	_	heterophoric.marker;marcardor.heterofórico
-5	tineb	ne	VERB	v	Person=3	0	root	_	walk;andar,caminhar
+5	tineb	ne	VERB	v	Person[abs]=3	0	root	_	walk;andar,caminhar
 6	dzahuré	dzahuré	NUM	num	Number=Dual	5	nummod	_	_
 7	’ri'ahö	’ri'ahö	NOUN	n	_	5	obl	_	city;cidade
 8	u	u	ADP	posp	_	7	case	_	to;a,para
@@ -1120,7 +1120,7 @@
 7	.	.	PUNCT	punct	_	3	punct	_	_
 8	Danhimidzama	nhimidzama	NOUN	n	Person=3	12	obj	_	domestic.animal;animal.doméstico
 9	dzéma	dzéma	ADV	adv	_	12	advmod	_	also;também
-10	ma	ma	PRON	pron	_	12	nsubj	_	he,she;ele,ela
+10	ma	ma	PART	prcl	Htp=Yes|Tense=Past	12	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
 11	duré	duré	ADV	adv	_	12	advmod	_	also;também
 12	apoto	poto	VERB	v	_	3	parataxis	_	be.born,create;nascer,criar
 13	.	.	PUNCT	punct	_	12	punct	_	_
@@ -1209,7 +1209,7 @@
 2	'wa	'wa	PRON	pron	PronType=Int	5	nsubj	_	who;quem
 3	te	te	PART	prcl	Htp=Yes|Tense=Pres	5	dep	_	heterophoric.marker;marcardor.heterofórico
 4	aima	ai	PRON	pron	Case=Dat|Person=2	5	iobj	_	he,she;ele,ela
-5	tinha	nharĩ	VERB	v	Person=3	0	root	_	speak;falar
+5	tinha	nharĩ	VERB	v	Person[abs]=3	0	root	_	speak;falar
 6	,	,	PUNCT	punct	_	5	punct	_	_
 7	wapté	wapté	NOUN	n	_	12	nsubj	_	teenager;adolescente
 8	aihini	aihini	PRON	pron	PronType=Tot	7	nmod	_	all;todos
@@ -1286,7 +1286,7 @@
 # text_por = Quando algum dos adultos se lembrar de algum canto, ele o ensina a eles para eles cantarem, para alegrar os Xavante. Por isso, eles cantam sempre durante o dia todo.
 # text_eng = When one of the adults remembers a song, he teaches it to them so that they can sing it, to make the Xavante happy. So they always sing all day long.
 1	Ĩprédu	prédu	NOUN	n	Person=3	2	nsubj	_	adult,mature;adulto,maduro
-2	'maipo'repu'umhã	po'repu'u	VERB	v	_	0	root	_	remember,remind;lembrar,recordar
+2	'maipo'repu'umhã	po'repu'u	VERB	v	_	0	root	_	remember.once,remind.once;lembrar,recordar
 3	te	te	PART	prcl	Htp=Yes|Tense=Pres	7	dep	_	heterophoric.marker;marcardor.heterofórico
 4	dza	dza	PART	prcl	Tense=Fut	7	dep	_	future.marker;marcador.de.futuro
 5	te	te	AUX	aux	_	7	aux	_	_
@@ -1306,27 +1306,26 @@
 19	natsi	natsi	ADV	adv	_	20	advmod	_	always;sempre
 20	tsõ're	tsõ're	VERB	v	_	13	advcl	_	sing,proclaim,read;cantar,proclamar,ler
 21	bötö	bötö	NOUN	n	_	20	obl	_	day,sun,time;dia,sol,hora
-22	bö	bö	ADP	posp	Case=Loc	21	case	_	locative;aluguel
+22	bö	bö	ADV	adv	_	20	advmod	_	thus;assim
 23	.	.	PUNCT	punct	_	20	punct	_	_
 
 # sent_id = GL-CLX31.8
 # text = Höiwahö , u te wapté te te ãma 're ãputsi tinho're na hã .
 # text_por = Quando chega a tarde, os adolescentes se cansaram de cantar.
 # text_eng = When the afternoon comes, the teenagers get tired of singing.
-1	Höiwahö	höiwahö	ADV	adv	_	10	dislocated	_	late;de.tarde
-2	,	,	PUNCT	punct	_	10	punct	_	_
-3	u	u	ADP	posp	_	10	obl	_	to;a,para
-4	te	te	PART	prcl	Htp=Yes|Tense=Pres	10	dep	_	heterophoric.marker;marcardor.heterofórico
-5	wapté	wapté	NOUN	n	_	10	nsubj	_	teenager;adolescente
-6	te	te	PRON	pron	_	10	dep	_	_
-7	te	te	AUX	aux	_	10	aux	_	_
-8	ãma	ãma	ADP	posp	_	10	obl	_	in;em
-9	're	're	PART	prcl	_	10	dep	_	indicator.of.repeated.action;indicador.de.ação.repetida
-10	ãputsi	ãputsi	VERB	v	_	0	root	_	get.tired;cansar-se
-11	tinho're	danho're	NOUN	n	Person=3	10	obl	_	song;canto
-12	na	na	ADP	posp	_	11	case	_	in,from;em,de
-13	hã	hã	DET	det	_	11	det	_	_
-14	.	.	PUNCT	punct	_	10	punct	_	_
+1	Höiwahö	höiwahö	NOUN	n	_	9	dislocated	_	afternoon;à.tarde
+2	u	u	ADP	posp	_	1	case	_	to;a,para
+3	te	te	PART	prcl	_	9	discourse	_	heterophoric.marker;marcardor.heterofórico
+4	wapté	wapté	NOUN	n	_	9	nsubj	_	teenager;adolescente
+5	te	te	PART	prcl	Htp=Yes|Tense=Pres	9	dep	_	heterophoric.marker;marcardor.heterofórico
+6	te	te	AUX	aux	_	9	aux	_	_
+7	ãma	ãma	VERB	v	_	9	obl	_	in;em
+8	're	're	PART	prcl	_	9	dep	_	indicator.of.repeated.action;indicador.de.ação.repetida
+9	ãputsi	ãputsi	VERB	v	_	0	root	_	get.tired;cansar-se
+10	tinho're	danho're	NOUN	n	Person=3	9	obl	_	song;canto
+11	na	na	ADP	posp	_	10	case	_	in,from;em,de
+12	hã	hã	DET	det	_	10	det	_	_
+13	.	.	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = GL-CLX33.1
 # text = E wapari dza'ra wa'aba õ di ĩmreme hã . Mare di !
@@ -1351,7 +1350,7 @@
 # text_eng = Do you two work every day? Someday we both work. Because of our laziness, sometimes both of us don't work.
 1	E	e	PART	prcl	Int=Yes	4	dep	_	question.particle;partícula.interrogativa
 2	bötö	bötö	NOUN	n	_	4	obl	_	day,sun,time;dia,sol,hora
-3	bö	bö	ADP	posp	Case=Loc	2	case	_	locative;aluguel
+3	bö	bö	PART	prcl	_	2	discourse	_	thus;assim
 4	romhuri	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
 5	aba	aba	PART	prcl	Number=Coll	4	dep	_	collective.marker
 6	õ	õ	PART	prcl	_	4	dep	_	negative.marker;marcador.negativo
@@ -1439,7 +1438,7 @@
 2	pi'õ	pi'õ	NOUN	n	_	5	nsubj	_	woman;mulher
 3	ma	ma	PART	prcl	Htp=Yes|Tense=Past	5	dep	_	perfect.aspect;aspecto.perfeito
 4	aima	ai	PRON	pron	Case=Dat|Person=2	5	iobj	_	he,she;ele,ela
-5	titsõ	tsõmri	VERB	v	Person=3	0	root	_	give;dar
+5	titsõ	tsõmri	VERB	v	Person[abs]=3	0	root	_	give;dar
 6	wãrãhöbö	wãrãhöbö	NOUN	n	_	5	obj	_	armadillo;tatu
 7	hã	hã	DET	det	_	6	det	_	_
 8	.	.	PUNCT	punct	_	5	punct	_	_
@@ -1501,7 +1500,7 @@
 1	E	e	PART	prcl	Int=Yes	4	dep	_	question.particle;partícula.interrogativa
 2	höiwi	höiwi	NOUN	n	_	4	obj	_	plane;avião
 3	te	te	PART	prcl	Htp=Yes|Tense=Pres	4	dep	_	heterophoric.marker;marcardor.heterofórico
-4	ĩ'madö'ö	'madö'ö	VERB	v	Person=3	0	root	_	see,look;ver,olhar,enxergar
+4	ĩ'madö'ö	'madö'ö	VERB	v	Person[abs]=3	0	root	_	see,look;ver,olhar,enxergar
 5	dza'ra	dza'ra	PART	prcl	Number=Plur	4	dep	_	_
 6	wa'wa	'wa	X	x	Number=Dual	4	dep	_	dual.number.marker;indicador.dual
 7	.	.	PUNCT	punct	_	4	punct	_	_
@@ -1532,16 +1531,16 @@
 8	Aiwa'a	wa'a	NOUN	n	Person=2	4	parataxis	_	laziness;preguiça
 9	tõ	tõ	PART	prcl	_	8	dep	_	no!,negation.in.the.imperative;não!,negação.no.imperativo
 10	!	!	PUNCT	punct	_	8	punct	_	_
-11	Atsõhui'wa	tsõhui'wa	NOUN	n	Person=2	8	parataxis	_	godfather;padrinho
+11	Atsõhui'wa	tsõhui'wa	NOUN	n	Person=2	14	nsubj	_	godfather;padrinho
 12	wa'wa	'wa	X	x	Number=Dual	11	dep	_	dual.number.marker;indicador.dual
-13	ma	ma	PART	prcl	Htp=Yes|Tense=Past	15	dep	_	perfect.aspect;aspecto.perfeito
-14	wi	wi	ADP	posp	_	15	obl	_	far.from;longe.de
-15	romhuri	romhuri	VERB	v	_	11	advcl	_	to.work;trabalhar
+13	ma	ma	PART	prcl	Htp=Yes|Tense=Past	14	dep	_	perfect.aspect;aspecto.perfeito
+14	wi	wi	ADP	posp	_	8	parataxis	_	far.from;longe.de
+15	romhuri	romhuri	VERB	v	_	14	advcl	_	to.work;trabalhar
 16	dza'ra	dza'ra	PART	prcl	Number=Plur	15	dep	_	_
 17	wa'aba	aba	PART	prcl	Number=Coll	15	dep	_	collective.marker
-18	wẽ	wẽ	NOUN	n	Person=3	15	obj	_	good,beatuful;bom,bonito,belo
+18	wẽ	wẽ	ADV	adv	Person=3	15	advmod	_	good,beatuful,well;bom,bonito,belo,bem
 19	da	da	SCONJ	sconj	_	15	mark	_	for,in.order.to,so.that;para,afim.de,para.que
-20	.	.	PUNCT	punct	_	11	punct	_	_
+20	.	.	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = GL-CLX34.1
 # text = A'uwẽ ãma hã , mararé romhuri . 'Watébrémi norĩhã timama me , duré ba'õtõ norĩhã tina me te romhuri dza'ra .
@@ -1577,7 +1576,7 @@
 2	ãma	ãma	ADP	posp	_	1	case	_	in;em
 3	hã	hã	DET	det	_	1	det	_	_
 4	,	,	PUNCT	punct	_	5	punct	_	_
-5	romhuri	romhuri	VERB	v	_	6	csubj	_	to.work;trabalhar
+5	romhuri	romhuri	NOUN	n	_	6	nsubj	_	work;trabalhar
 6	ĩpire	pire	NOUN	n	Person=3	0	root	_	heavy,important;pesado,importante
 7	di	di	X	x	_	6	dep	_	expletive;expletivo
 8	,	,	PUNCT	punct	_	6	punct	_	_
@@ -1627,7 +1626,7 @@
 11	,	,	PUNCT	punct	_	14	punct	_	_
 12	e	e	PART	prcl	Int=Yes	14	dep	_	question.particle;partícula.interrogativa
 13	te	te	PART	prcl	Htp=Yes|Tense=Pres	14	dep	_	heterophoric.marker;marcardor.heterofórico
-14	aipo'repu'u	po'repu'u	VERB	v	_	7	ccomp	_	remember,remind;lembrar,recordar
+14	aipo'repu'u	po'repu'u	VERB	v	Person[abs]=2	7	ccomp	_	remember,remind;lembrar,recordar
 15	dza'ra	dza'ra	PART	prcl	Number=Plur	14	dep	_	_
 16	wa'wa	'wa	X	x	Number=Dual	14	dep	_	dual.number.marker;indicador.dual
 17	marĩ	marĩ	NOUN	n	_	14	obl	_	something,what;algo,o.que,alguma.coisa
@@ -1660,7 +1659,7 @@
 3	rowahutu'wa	rowahutu'wa	NOUN	n	_	6	nsubj	_	teacher;professor
 4	te	te	PART	prcl	Htp=Yes|Tense=Pres	6	dep	_	heterophoric.marker;marcardor.heterofórico
 5	dama	da	PRON	pron	Case=Dat|Gnq=Yes|Person=3	6	iobj	_	he,she;ele,ela
-6	tinha	nharĩ	VERB	v	Person=3	0	root	_	speak;falar
+6	tinha	nharĩ	VERB	v	Person[abs]=3	0	root	_	speak;falar
 7	:	:	PUNCT	punct	_	6	punct	_	_
 8	"	"	PUNCT	punct	_	21	punct	_	_
 9	Ãne	ãne	ADV	adv	_	21	dislocated	_	thus;assim
@@ -1675,13 +1674,13 @@
 18	,	,	PUNCT	punct	_	21	punct	_	_
 19	wama	wa	PRON	pron	Case=Dat|Number=Plur|Person=1	21	iobj	_	_
 20	ãma	ãma	ADP	posp	_	21	dep	_	in;em
-21	ĩtsahu	tsahu	VERB	v	Person=2	6	ccomp	_	repeat;repetir
+21	ĩtsahu	tsahu	VERB	v	Person[abs]=3	6	ccomp	_	repeat;repetir
 22	na	na	ADP	posp	_	23	case	_	in,from;em,de
 23	marĩ	marĩ	NOUN	n	_	21	obl	_	something,what;algo,o.que,alguma.coisa
 24	na	na	ADP	posp	_	27	obl	_	in,from;em,de
 25	te	te	PART	prcl	Htp=Yes|Tense=Pres	27	dep	_	heterophoric.marker;marcardor.heterofórico
 26	aima	ai	PRON	pron	Case=Dat|Person=2	27	iobj	_	he,she;ele,ela
-27	ĩrowatsu'u	rowatsu'u	VERB	v	Person=2	21	xcomp	_	tell,narrate,show;contar,narrar,mostrar
+27	ĩrowatsu'u	rowatsu'u	VERB	v	Person[abs]=3	21	xcomp	_	tell,narrate,show;contar,narrar,mostrar
 28	dza'ra	dza'ra	PART	prcl	Number=Plur	27	dep	_	_
 29	aba	aba	PART	prcl	Number=Coll	27	dep	_	collective.marker
 30	na	na	ADP	posp	_	31	dep	_	in,from;em,de
@@ -1703,7 +1702,7 @@
 # text = 'Watébrémire , e aima waihu'u petse di ? Ĩhe !
 # text_por = Menino pequeno, você sabe mesmo? - Sim!
 # text_eng = Little boy, do you even know? - Yes!
-1	'Watébrémire	'watébrémire	NOUN	n	_	5	vocative	_	little.boy;menino.pequeno
+1	'Watébrémire	'watébrémire	NOUN	n	Degree=Dim	5	vocative	_	little.boy;menino.pequeno
 2	,	,	PUNCT	punct	_	5	punct	_	_
 3	e	e	PART	prcl	Int=Yes	5	dep	_	question.particle;partícula.interrogativa
 4	aima	ai	PRON	pron	Case=Dat|Person=2	5	iobj	_	he,she;ele,ela
@@ -1802,7 +1801,7 @@
 8	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = GL-CLX37.7
-# text = Rowahutu'wa ĩta'are te ta'a , 'watébrémi norĩ dzô romnhoré u da hã .
+# text = Rowahutu'wa ĩta'are te ta'a , 'watébrémi norĩ dzô romhoré u da hã .
 # text_por = O professor toca a campainha para (reunir) os meninos para as aulas.
 # text_eng = The teacher rings the bell (to gather) the boys for lessons.
 1	Rowahutu'wa	rowahutu'wa	NOUN	n	_	4	nsubj	_	teacher;professor
@@ -1810,9 +1809,9 @@
 3	te	te	PART	prcl	Htp=Yes|Tense=Pres	4	dep	_	heterophoric.marker;marcardor.heterofórico
 4	ta'a	ta'a	VERB	v	_	0	root	_	hit,touch;bater,tocar
 5	,	,	PUNCT	punct	_	4	punct	_	_
-6	'watébrémi	'watébrémi	NOUN	n	_	9	nmod	_	boy;menino
+6	'watébrémi	'watébrémi	NOUN	n	_	9	nsubj	_	boy;menino
 7	norĩ	norĩ	PART	prcl	Number=Coll	6	dep	_	_
-8	dzô	dzô	ADP	posp	_	6	case	_	after,in.search.of;atrás.de,em.busca.de
+8	dzô	dzô	SCONJ	sconj	_	9	mark	_	after,in.search.of;atrás.de,em.busca.de
 9	romnhoré	romnhoré	NOUN	n	_	4	advcl	_	school,class,teaching;escola,aula,ensino
 10	u	u	ADP	posp	_	9	case	_	to;a,para
 11	da	da	SCONJ	sconj	_	9	mark	_	for,in.order.to,so.that;para,afim.de,para.que
@@ -1846,7 +1845,7 @@
 6	ĩmama	mama	NOUN	n	Person=3	9	nsubj	_	father;pai
 7	te	te	PART	prcl	Htp=Yes|Tense=Pres	9	dep	_	heterophoric.marker;marcardor.heterofórico
 8	te	te	AUX	aux	_	9	aux	_	_
-9	ĩpo'repu'u	po'repu'u	VERB	v	Person=3	2	acl	_	remember,remind;lembrar,recordar
+9	ĩpo'repu'u	po'repu'u	VERB	v	Person[abs]=3	2	acl	_	remember,remind;lembrar,recordar
 10	na	na	ADP	posp	_	9	obl	_	in,from;em,de
 11	hã	hã	PART	prcl	Emph=Yes	9	discourse	_	_
 12	.	.	PUNCT	punct	_	9	punct	_	_
@@ -1882,7 +1881,7 @@
 5	e	e	PART	prcl	Int=Yes	8	dep	_	question.particle;partícula.interrogativa
 6	ai’udza	udza	NOUN	n	Person=2	8	obj	_	clothes,dress.up;roupa,vestir-se
 7	te	te	PART	prcl	Htp=Yes|Tense=Pres	8	dep	_	heterophoric.marker;marcardor.heterofórico
-8	ĩ'uptsõi	uptsõi	VERB	v	Person=3	14	ccomp	_	wash;lavar
+8	ĩ'uptsõi	uptsõi	VERB	v	Person[abs]=3	14	ccomp	_	wash;lavar
 9	wa'wa	'wa	X	x	Number=Dual	8	dep	_	dual.number.marker;indicador.dual
 10	.	.	PUNCT	punct	_	8	punct	_	_
 11	"	"	PUNCT	punct	_	8	punct	_	_
@@ -1909,7 +1908,7 @@
 2	E	e	PART	prcl	Int=Yes	5	dep	_	question.particle;partícula.interrogativa
 3	aihitébré	hitébré	NOUN	n	Person=2	5	obj	_	woman's brother;irmão.da.mulhei
 4	ma	ma	PART	prcl	Htp=Yes|Tense=Past	5	dep	_	perfect.aspect;aspecto.perfeito
-5	ĩtsabui	tsabui	VERB	v	Person=3	11	ccomp	_	see;ver,enxergar,olhar,cuidar
+5	ĩtsabui	tsabui	VERB	v	Person[abs]=3	11	ccomp	_	see;ver,enxergar,olhar,cuidar
 6	wa'wa	'wa	X	x	Number=Dual	5	dep	_	dual.number.marker;indicador.dual
 7	.	.	PUNCT	punct	_	5	punct	_	_
 8	"	"	PUNCT	punct	_	5	punct	_	_
@@ -1975,7 +1974,7 @@
 10	di	di	X	x	_	8	dep	_	expletive;expletivo
 11	!	!	PUNCT	punct	_	8	punct	_	_
 12	"	"	PUNCT	punct	_	8	punct	_	_
-13	ba'õtõre	ba'õtõre	NOUN	n	_	16	nsubj	_	little.girl;menina.pequena
+13	ba'õtõre	ba'õtõre	NOUN	n	Degree=Dim	16	nsubj	_	little.girl;menina.pequena
 14	te	te	PART	prcl	Htp=Yes|Tense=Pres	16	dep	_	heterophoric.marker;marcardor.heterofórico
 15	tãma	ti	PRON	pron	Case=Dat|Person=3	16	iobj	_	_
 16	tinha	nharĩ	VERB	v	Person=3	0	root	_	speak;falar
@@ -1992,7 +1991,7 @@
 5	oto	oto	ADV	adv	_	8	advmod	_	then;então
 6	'ri	'ri	NOUN	n	_	8	obl	_	house;casa
 7	tẽme	tẽme	ADP	posp	_	6	case	_	to;para,até
-8	watsi'aba'ré	tsi'aba'ré	VERB	v	Number=Plur|Person=1	14	ccomp	_	go.much,walk.much;ir.muitos,andar.muitos
+8	watsi'aba'ré	tsi'aba'ré	VERB	v	Person[abs]=1	14	ccomp	_	go.much,walk.much;ir.muitos,andar.muitos
 9	na	na	ADP	posp	_	8	obl	_	in,from;em,de
 10	!	!	PUNCT	punct	_	8	punct	_	_
 11	"	"	PUNCT	punct	_	8	punct	_	_
@@ -2038,7 +2037,7 @@
 1	E	e	PART	prcl	Int=Yes	4	dep	_	question.particle;partícula.interrogativa
 2	atsib'rada	tsib'rada	NOUN	n	Person=2	4	obj	_	hand;mão
 3	ma	ma	PART	prcl	Htp=Yes|Tense=Past	4	dep	_	perfect.aspect;aspecto.perfeito
-4	ĩ'uptsõi	uptsõi	VERB	v	Person=3	0	root	_	wash;lavar
+4	ĩ'uptsõi	uptsõi	VERB	v	Person[abs]=3	0	root	_	wash;lavar
 5	wa'wa	'wa	X	x	Number=Dual	4	dep	_	dual.number.marker;indicador.dual
 6	.	.	PUNCT	punct	_	4	punct	_	_
 
@@ -2070,7 +2069,7 @@
 2	wahi'rata	'rata	NOUN	n	_	5	obj	_	ancestor;antepassado
 3	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	5	discourse	_	_
 4	ma	ma	PART	prcl	Htp=Yes|Tense=Past	5	dep	_	perfect.aspect;aspecto.perfeito
-5	dapãrĩ	pãrĩ	VERB	_	Gnq=Yes|Person=3	0	root	_	kill.two.beings;matar.dois.seres
+5	dapãrĩ	pãrĩ	VERB	_	Gnq=Yes|Person[abs]=3	0	root	_	kill.two.beings;matar.dois.seres
 6	dza'ra	dza'ra	PART	prcl	Number=Plur	5	dep	_	_
 
 # sent_id = EMX-4
@@ -2112,7 +2111,7 @@
 2	wa	wa	PART	prcl	Ego=Yes|Person=1	5	dep	_	egophoric.marker;marcardor.egofórico
 3	dza	dza	PART	prcl	Tense=Fut	5	dep	_	future.marker;marcador.de.futuro
 4	oto	oto	ADV	adv	_	5	advmod	_	then;então
-5	wawa'utu	tsiwa'utu	VERB	v	Number=Plur|Person=1	0	root	_	rest;descansar
+5	wawa'utu	tsiwa'utu	VERB	v	Person[abs]=1	0	root	_	rest;descansar
 6	dza'ra	dza'ra	PART	prcl	Number=Plur	5	dep	_	_
 7	ni	ni	X	x	Number=Dual	5	dep	_	dual.number.marker;indicador.dual
 
@@ -2239,7 +2238,7 @@
 2	dza	dza	PART	prcl	Tense=Fut	5	dep	_	future.marker;marcador.de.futuro
 3	oto	oto	ADV	adv	_	5	advmod	_	then;então
 4	asina	a	PRON	pron	Case=Ins|Hon=Yes|Person=2|Reflex=Yes	5	obl	_	_
-5	aahöimana	höimana	VERB	v	Hon=Yes|Person=2	0	root	_	be,live,exist;ser,viver,existir
+5	aahöimana	höimana	VERB	v	Hon=Yes|Person[abs]=2	0	root	_	be,live,exist;ser,viver,existir
 6	aba	aba	PART	prcl	Number=Coll	5	dep	_	collective.marker
 7	mo	mo	AUX	aux	_	5	aux	_	_
 8	,	,	PUNCT	punct	_	5	punct	_	_
@@ -2255,7 +2254,7 @@
 # text_por = Eu vivi muito feliz.
 1	Wa	wa	PART	prcl	Ego=Yes|Person=1	3	dep	_	egophoric.marker;marcardor.egofórico
 2	're	're	ADP	posp	_	3	dep	_	inside,in;dentro.de,em
-3	ĩĩhöimana	höimana	VERB	v	Number=Sing|Person=1	0	root	_	live;viver
+3	ĩĩhöimana	höimana	VERB	v	Number[abs]=Sing|Person[abs]=1	0	root	_	live;viver
 4-5	rowẽuptabi	_	_	_	_	_	_	_	_
 4	rowẽ	rowẽ	VERB	v	_	3	parataxis	_	make.beautiful;fazer.bonito,alegrar
 5	uptabi	uptabi	NOUN	n	_	4	obl	_	good,very.good;muito,muito.bom
@@ -2306,7 +2305,7 @@
 3	tô	tô	PART	prcl	Fact=Yes	8	dep	_	factive;fictício
 4	darob	rob	NOUN	n	Gnq=Yes	8	obl	_	village;aldeia
 5	mono	mono	PART	prcl	NumType=Dist	4	dep	_	_
-6	bö	bö	PART	prcl	Case=Loc	4	case	_	locative;aluguel
+6	bö	bö	PART	prcl	_	4	discourse	_	thus;assim
 7	te	te	PART	prcl	Htp=Yes|Tense=Pres	8	dep	_	heterophoric.marker;marcardor.heterofórico
 8	höimana	höimana	VERB	v	_	0	root	_	live;viver
 9	dza'ra	dza'ra	PART	prcl	Number=Plur	8	dep	_	_
