@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Xavante-XDT:
-commit 53c4555e30098b6501f610a2d2d17dd2362a1712
-Merge: 3af54a3 1a677a5
+commit 7e370ff4b5189df2025f38afcf4380b89b36f787
+Merge: 0f66f2c fedda8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 1597 of 1597 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.936253738465751.
