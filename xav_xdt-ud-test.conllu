@@ -2344,3 +2344,13 @@
 1	utö	utö	NOUN	n	_	0	root	_	tapir;tapir
 2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
 
+# sent_id = EMX-25
+# text = Wede hã uburé ma pusi
+# text_fr = Tous les arbres ont surgi
+# text_por = 
+1	Wede	_	NOUN	n	_	5	nsubj	_	_
+2	hã	hã	PART	prcl	_	1	dep	_	_
+3	uburé	uburé	PRON	pron	PronType=Tot	1	nmod	_	_
+4	ma	ma	PART	prcl	_	5	dep	_	_
+5	pusi	pusi	VERB	v	Number=Sing|Person=3	0	root	_	_
+
