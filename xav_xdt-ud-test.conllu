@@ -2405,3 +2405,45 @@
 1	Tahã	ta	PRON	pron	PronType=Ana	0	root	_	_
 2	zéma	zéma	ADV	adv	_	1	advmod	_	_
 
+# sent_id = EMX-31
+# text = Wahã , ĩĩwasutu di
+# text_eng = Me, I am tired.
+# text_por = 
+1	Wahã	wa	PRON	pron	Emph=Yes|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ĩĩwasutu	wasutu	VERB	v	Number=Sing|Person=1	0	root	_	_
+3	di	di	AUX	cop	_	2	cop	_	_
+
+# sent_id = EMX-33
+# text = Wedeñorõ ã re hã rom na hã mare di
+# text_eng = There is no such/this little rope in the bush.
+# text_por =
+1	Wedeñorõ	wedeñorõ	NOUN	_	_	0	root	_	_
+2	ã	ã	DET	dem	Deixis=Prox	1	det	_	_
+3	re	re	PART	prcl	Degree=Dim	1	dep	_	_
+4	hã	hã	PART	_	Emph=Yes	1	dep	_	_
+5	rom	rom	NOUN	_	_	1	obl	_	_
+6	na	na	ADP	posp	_	5	case	_	_
+7	hã	hã	PART	_	Emph=Yes	5	dep	_	_
+8	mare	mare	ADV	_	_	9	advmod	_	_
+9	di	di	AUX	cop	_	1	cop	_	_
+
+# sent_id = EMX-35
+# text = Õhõ si tô ropotoʔwa
+# text_eng = Only he is actually the Creator.
+# text_por = 
+1	Õhõ	õ	DET	dem	Deixis=Remt|Emph=Yes	4	det	_	_
+2	si	si	ADV	adv	_	4	advmod	_	_
+3	tô	tô	ADV	adv	_	4	advcl	_	_
+4	ropotoʔwa	ropotoʔwa	NOUN	n	_	0	root	_	_
+
+# sent_id = EMX-37
+# text = Ta isérépa si hã
+# text_eng = Those there are all people with long hair.
+# text_por =
+1	Ta	ta	PRON	pron	Deixis=Med|PronType=Dem	2	nsubj	_	_
+2-3	_	_	_	_	_	_	_	_	_	_
+2	iséré	séré	NOUN	n	Numer=Sing|Person=3	0	root	_	_
+3	pa	pa	ADJ	adj	_	2	nmod	_	_
+4	si	si	ADV	adv	_	2	advmod	_	_
+5	hã	hã	PART	prcl	Emph=Yes	2	dep	_	_
+
