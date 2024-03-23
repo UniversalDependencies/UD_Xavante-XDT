@@ -2436,6 +2436,32 @@
 2	ĩĩwasutu	wasutu	VERB	v	Number=Sing|Person=1	0	root	_	_
 3	di	di	AUX	cop	_	2	cop	_	_
 
+# sent_id = EMX-32a
+# text = azarutu zéré
+# text_fr = les cheveux de la jeune fille
+# text_por =
+1	azarutu	azarutu	NOUN	n	Number=Sing	2	nmod	_	_
+2	zéré	zéré	NOUN	n	Number=Plur	0	root	_	_
+
+# sent_id = EMX-32a1
+# text = ĩĩzéré
+# text_fr = mes cheveux
+# text_por =
+1	ĩĩzéré	zéré	NOUN	n	Number=Plur|Number[psor]=Sing|Person=1	0	root	_	_
+
+# sent_id = EMX-32b
+# text = azarutu ma
+# text_fr = pour la jeune fille
+# text_por =
+1	azarutu	azarutu	NOUN	n	Number=Sing	0	root	_	_
+2	ma	ma	ADP	posp	_	1	case	_	_
+
+# sent_id = EMX-32b1
+# text = ĩĩma
+# text_fr = pour moi
+# text_por = 
+1	ĩĩma	ma	ADP	posp	Number=Sing|Person=1	0	root	_	_
+
 # sent_id = EMX-33
 # text = Wedeñorõ ã re hã rom na hã mare di
 # text_eng = There is no such/this little rope in the bush.
