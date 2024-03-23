@@ -2405,6 +2405,29 @@
 1	Tahã	ta	PRON	pron	PronType=Ana	0	root	_	_
 2	zéma	zéma	ADV	adv	_	1	advmod	_	_
 
+# sent_id = EMX-30a
+# text = Waãma ĩbicho zaʔra mono hã , a norĩ waʔaba mono hã
+# text_fr = Ceux que nous considérons comme des bêtes, (c’)est vous
+# text_por =
+1	Waãma	wa	PRON	pron	Number=Plur|PronType=Prs	2	nsubj	_	_
+2	ĩbicho	bicho	VERB	v	Person=3	7	dislocated	_	_
+3	zaʔra	zaʔra	PART	part	Number=Dual	1	dep	_	_
+4	mono	mono	PART	prcl	Aspect=Iter	2	dep	_	_
+5	hã	hã	PART	prcl	Emph=Yes	2	discourse	_	_
+6	,	,	PUNCT	punct	_	2	punct	_	_
+7	anorĩ	a	PRON	pron	Number=Plur|Person=2|PronType=Prs	0	root	_	_
+8	waʔaba	waʔaba	PRON	_	_	7	dep	_	_
+9	mono	mono	PART	prcl	Aspect=Iter	7	dep	_	_
+10	hã	hã	PART	prcl	Emph=Yes	7	discourse	_	_
+
+# sent_id = EMX-30b
+# text = Wahã dawi robʔréʔwa
+# text_fr = Je suis (quelqu’un) qui fait taire les gens.
+# text_por = Eu sou (alguém) que silencia as pessoas
+1	Wahã	wa	PRON	Pron	Emph=Yes|PronType=Prs	3	nsubj	_	_
+2	dawi	_	PRON	pron	Person=3|PronType=Gen	3	nmod	_	_
+3	robʔréʔwa	robʔré	NOUN	n	Nomzr=Ag	0	root	_	_
+
 # sent_id = EMX-31
 # text = Wahã , ĩĩwasutu di
 # text_eng = Me, I am tired.
