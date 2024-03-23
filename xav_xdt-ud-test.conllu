@@ -2425,7 +2425,7 @@
 # text_fr = Je suis (quelqu’un) qui fait taire les gens.
 # text_por = Eu sou (alguém) que silencia as pessoas
 1	Wahã	wa	PRON	Pron	Emph=Yes|PronType=Prs	3	nsubj	_	_
-2	dawi	_	PRON	pron	Person=3|PronType=Gen	3	nmod	_	_
+2	dawi	da	PRON	pron	Person=3|PronType=Gen	3	nmod	_	_
 3	robʔréʔwa	robʔré	NOUN	n	Nomzr=Ag	0	root	_	_
 
 # sent_id = EMX-31
