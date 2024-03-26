@@ -1162,14 +1162,14 @@
 3	te	te	PART	prcl	Htp=Yes|Tense=Pres	4	dep	_	heterophoric.marker;marcardor.heterofórico
 4	romhu	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
 5	.	.	PUNCT	punct	_	4	punct	_	_
-6	Mare	mare	NOUN	n	_	4	parataxis	_	nada;nothing
+6	Mare	mare	ADV	adv	Polarity=Neg	4	parataxis	_	nada;nothing
 7	di	di	X	x	_	6	dep	_	expletive;expletivo
 8	!	!	PUNCT	punct	_	6	punct	_	_
 9	Ni'wa	ni'wa	PRON	pron	PronType=Ind	12	nsubj	_	someone,some;alguém,algum
 10	te	te	PART	prcl	Htp=Yes|Tense=Pres	12	dep	_	heterophoric.marker;marcardor.heterofórico
 11	te	te	AUX	aux	_	12	aux	_	_
 12	romhuri	romhuri	VERB	v	_	6	parataxis	_	to.work;trabalhar
-13	õ	õ	PART	prcl	_	12	dep	_	negative.marker;marcador.negativo
+13	õ	õ	PART	prcl	Polarity=Neg	12	dep	_	negative.marker;marcador.negativo
 14	di	di	X	x	_	12	dep	_	expletive;expletivo
 15	,	,	PUNCT	punct	_	12	punct	_	_
 16	tãi	tã	NOUN	n	_	12	advcl	_	rain;chuva
