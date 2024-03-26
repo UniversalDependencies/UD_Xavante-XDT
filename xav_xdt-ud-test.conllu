@@ -1513,7 +1513,7 @@
 14	te	te	AUX	aux	_	15	aux	_	_
 15	'madö'ö	'madö'ö	VERB	v	_	8	parataxis	_	see,look;ver,olhar,enxergar
 16	dza'ra	dza'ra	PART	prcl	Number=Plur	15	dep	_	_
-17	õ	õ	PART	prcl	_	15	dep	_	negative.marker;marcador.negativo
+17	õ	õ	PART	prcl	Polarity=Neg	15	dep	_	negative.marker;marcador.negativo
 18	di	di	X	x	_	15	dep	_	expletive;expletivo
 19	.	.	PUNCT	punct	_	15	punct	_	_
 
@@ -2473,7 +2473,7 @@
 5	rom	rom	NOUN	_	_	1	obl	_	_
 6	na	na	ADP	posp	_	5	case	_	_
 7	hã	hã	PART	_	Emph=Yes	5	dep	_	_
-8	mare	mare	ADV	_	_	9	advmod	_	_
+8	mare	mare	ADV	adv	Polarity=Neg	9	advmod	_	_
 9	di	di	AUX	cop	_	1	cop	_	_
 
 # sent_id = EMX-34
