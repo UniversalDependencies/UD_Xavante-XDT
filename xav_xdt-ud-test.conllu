@@ -2508,3 +2508,33 @@
 4	si	si	ADV	adv	_	2	advmod	_	_
 5	hã	hã	PART	prcl	Emph=Yes	2	dep	_	_
 
+# sent_id = EMX-70a
+# text = Nimame dawedezé hã iwẽ uptabi hã we te sãmra õ di
+# text_eng = They have never sent good medicines here
+# text_por = Nunca se mandou remédios bos para cá
+1	Nimame	nima	ADV	adv	_	9	advmod	_	_
+2	dawedezé	dawedezé	NOUN	n	_	9	obj	_	_
+3	hã	hã	PART	prcl	Emph=Yes	2	nmod	_	_
+4	iwẽ	wẽ	VERB	v	Number=Sing|Person=3	2	nmod	_	_
+5	uptabi	uptabi	ADV	adv	_	4	advmod	_	_
+6	hã	hã	PART	prcl	Emph=Yes	4	dep	_	_
+7	we	we	ADV	adv	_	9	advmod	_	_
+8	te	te	AUX	_	_	9	aux	_	_
+9	sãmra	sãmra	VERB	v	Number=Sing|Person=3	0	root	_	_
+10	õ	õ	ADV	adv	Polarity=Neg	9	advmod	_	_
+11	di	di	AUX	cop	_	10	cop	_	_
+
+# sent_id = EMX-70b
+# text = Duré nimamem hã ĩĩzahi wasédé ĩĩsiré piʔõ da
+# text_eng = And I didn't get angry with a woman of my generation
+# text_por =
+1	Duré	Duré	ADV	adv	_	4	advmod	_	_
+2	nimamem	nima	ADV	adv	_	4	advmod	_	_
+3	hã	hã	PART	prcl	Emph=Yes	_	_	_	_
+4	ĩĩzahi	zahi	VERB	v	Number=Sing|Person=1	0	root	_	_
+5	wasédé	wasédé	ADV	adv	_	4	advmod	_	_
+6	ĩĩsiré	siré	NOUN	n	Number=Sing|Person=1	7	nmod	_	_
+7	piʔõ	piʔõ	NOUN	n	_	4	obl	_	_
+8	da	da	ADP	posp	_	7	case	_	_
+
+
