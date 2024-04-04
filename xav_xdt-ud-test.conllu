@@ -2537,4 +2537,20 @@
 7	piʔõ	piʔõ	NOUN	n	_	4	obl	_	_
 8	da	da	ADP	posp	_	7	case	_	_
 
+# sent_id = EMX-71
+# text = Dasimasisi aba wamhã , e niha te tahöjmana aba ni ?
+# text_eng = When they arrived, how did they live?
+# text_por =
+1	Dasimasisi	simasisi	VERB	_	_	8	advcl	_	_
+2	aba	aba	PART	prcl	Number=Coll	1	dep	_	_
+3	wamhã	wamhã	SCONJ	sconj	_	1	mark	_	_
+4	,	,	PUNCT	punct	_	1	punct	_	_
+5	e	e	PART	prcl	Int=Yes	8	dep	_	_
+6	niha	niha	ADV	adv	_	8	advmod	_	_
+7	te	te	X	x	Htp=Yes	8	dep	_	_
+8	tahöjmana	höjmana	VERB	v	_	0	root	_	_
+9	aba	aba	PART	prcl	Number=Coll	8	dep	_	_
+10	ni	ni	PRON	pron	PronType=Ind	8	dep	_	_
+11	?	?	PUNCT	punct	_	8	punct	_	_
+
 
