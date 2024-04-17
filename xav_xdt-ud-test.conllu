@@ -144,7 +144,7 @@
 1	Ti'ra	'ra	NOUN	n	Person=3	3	obj	_	son,daughter;filho,filha
 2	tete	te	AUX	aux	Number=Sing|Person=3	3	aux	_	_
 3	tsabu	tsabu	VERB	v	_	6	advcl	_	see,take.care.of;ver,enxergar,olhar,cuidar
-4	da	da	SCONJ	sconj	_	3	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+4	da	da	ADP	posp	_	3	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 5	ma	ma	PART	prcl	Htp=Yes|Tense=Past	6	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
 6	wei	we	X	x	_	0	root	_	hither;para.cá
 7	wi	wi	ADP	posp	_	6	obl	_	far.from;longe.de
@@ -235,7 +235,7 @@
 8	waptẽ	waptẽrẽ	VERB	v	_	0	root	_	ask,request;pedir,solicitar
 9	,	,	PUNCT	punct	_	8	punct	_	_
 10	tsa	tsa	NOUN	n	_	8	advcl	_	food;comida,alimento
-11	da	da	SCONJ	sconj	_	10	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+11	da	da	ADP	posp	_	10	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 12	.	.	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = GL-CLX18.5
@@ -256,7 +256,7 @@
 12	,	,	PUNCT	punct	_	14	punct	_	_
 13	marĩ	marĩ	NOUN	n	_	14	nmod	_	something,what;algo,o.que,alguma.coisa
 14	datsa	tsa	NOUN	n	Gnq=Yes	18	obl	_	food;comida,alimento
-15	da	da	SCONJ	sconj	_	14	case	_	for,in.order.to,so.that;para,afim.de,para.que
+15	da	da	ADP	posp	_	14	case	_	for,in.order.to,so.that;para,afim.de,para.que
 16	hã	hã	DET	det	_	14	det	_	_
 17	,	,	PUNCT	punct	_	14	punct	_	_
 18	höimana	höimana	VERB	v	_	4	parataxis	_	be,live,exist;ser,viver,existir
@@ -613,7 +613,7 @@
 6	te	te	PRON	pron	_	8	nsubj	_	_
 7	te	te	AUX	aux	_	8	aux	_	_
 8	öri	öri	VERB	v	_	3	advcl	_	pick.up.an.object;pegar.um.objeto
-9	da	da	SCONJ	sconj	_	8	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+9	da	da	ADP	posp	_	8	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 10	.	.	PUNCT	punct	_	3	punct	_	_
 11	Ba'õtõ	ba'õtõre	NOUN	n	_	15	nsubj	_	little.girl;menina.pequena
 12	dzéma	dzéma	ADV	adv	_	15	advmod	_	also;também
@@ -978,7 +978,7 @@
 19	te	te	AUX	aux	_	20	aux	_	_
 20	to	to	VERB	v	_	10	advcl	_	cheer,play;brincar,alegrar-se
 21	dza'ra	dza'ra	PART	prcl	Number=Plur	20	dep	_	_
-22	da	da	SCONJ	sconj	_	20	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+22	da	da	ADP	posp	_	20	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 23	.	.	PUNCT	punct	_	20	punct	_	_
 
 # sent_id = GL-CLX27.7
@@ -1299,7 +1299,7 @@
 12	te	te	AUX	aux	_	13	aux	_	_
 13	rowẽ	rowẽ	VERB	v	_	7	advcl	_	make.beautiful;fazer.bonito,alegrar
 14	dza'ra	dza'ra	PART	prcl	Number=Plur	13	dep	_	_
-15	da	da	SCONJ	sconj	_	13	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+15	da	da	ADP	posp	_	13	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 16	.	.	PUNCT	punct	_	13	punct	_	_
 17	Tahawa	tahawa	SCONJ	sconj	_	20	mark	_	therefore;por.isso
 18	te	te	PART	prcl	Htp=Yes|Tense=Pres	20	dep	_	heterophoric.marker;marcardor.heterofórico
@@ -1490,7 +1490,7 @@
 11	te	te	AUX	aux	_	13	aux	_	_
 12	aima	ai	PRON	pron	Case=Dat|Person=2	13	iobj	_	he,she;ele,ela
 13	waihu'u	waihu'u	VERB	v	_	5	advcl	_	know,do,teach;saber,fazer,ensinar
-14	da	da	SCONJ	sconj	_	13	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+14	da	da	ADP	posp	_	13	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 15	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = GL-CLX33.9
@@ -1539,7 +1539,7 @@
 16	dza'ra	dza'ra	PART	prcl	Number=Plur	15	dep	_	_
 17	wa'aba	aba	PART	prcl	Number=Coll	15	dep	_	collective.marker
 18	wẽ	wẽ	ADV	adv	Person=3	15	advmod	_	good,beatuful,well;bom,bonito,belo,bem
-19	da	da	SCONJ	sconj	_	15	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+19	da	da	ADP	posp	_	15	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 20	.	.	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = GL-CLX34.1
@@ -1581,7 +1581,7 @@
 7	di	di	X	x	_	6	dep	_	expletive;expletivo
 8	,	,	PUNCT	punct	_	6	punct	_	_
 9	datsa	tsa	NOUN	n	Gnq=Yes	6	advcl	_	food;comida,alimento
-10	da	da	SCONJ	sconj	_	9	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+10	da	da	ADP	posp	_	9	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 11	hã	hã	DET	det	_	9	det	_	_
 12	.	.	PUNCT	punct	_	9	punct	_	_
 
@@ -1605,7 +1605,7 @@
 14	u	u	ADP	posp	_	13	case	_	to;a,para
 15	,	,	PUNCT	punct	_	16	punct	_	_
 16	tsi'ubumro	tsi'ubumro	VERB	v	_	6	advcl	_	gather.up;reunir-se
-17	da	da	SCONJ	sconj	_	16	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+17	da	da	ADP	posp	_	16	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 18	hã	hã	PART	prcl	Emph=Yes	16	discourse	_	_
 19	.	.	PUNCT	punct	_	16	punct	_	_
 
@@ -1694,7 +1694,7 @@
 38	te	te	AUX	aux	_	39	aux	_	_
 39	waihu'u	waihu'u	VERB	v	_	27	advcl	_	know,do,teach;saber,fazer,ensinar
 40	dza'ra	dza'ra	PART	prcl	Number=Plur	39	dep	_	_
-41	da	da	SCONJ	sconj	_	39	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+41	da	da	ADP	posp	_	39	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 42	!	!	PUNCT	punct	_	39	punct	_	_
 43	"	"	PUNCT	punct	_	21	punct	_	_
 
@@ -1763,7 +1763,7 @@
 9	te	te	AUX	aux	_	11	aux	_	_
 10	wama	wa	PRON	pron	Case=Dat|Number=Plur|Person=1	11	iobj	_	_
 11	rowatsu'u	rowatsu'u	VERB	v	_	5	advcl	_	tell,narrate,show;contar,narrar,mostrar
-12	da	da	SCONJ	sconj	_	11	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+12	da	da	ADP	posp	_	11	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 13	hã	hã	PART	prcl	Emph=Yes	11	discourse	_	_
 14	,	,	PUNCT	punct	_	11	punct	_	_
 15	a'uwẽ	a'uwẽ	NOUN	n	_	16	nmod	_	man,person,people,indian;homem,pessoa,gente,índio
@@ -1814,7 +1814,7 @@
 8	dzô	dzô	SCONJ	sconj	_	9	mark	_	after,in.search.of;atrás.de,em.busca.de
 9	romnhoré	romnhoré	NOUN	n	_	4	advcl	_	school,class,teaching;escola,aula,ensino
 10	u	u	ADP	posp	_	9	case	_	to;a,para
-11	da	da	SCONJ	sconj	_	9	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+11	da	da	ADP	posp	_	9	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 12	hã	hã	PART	prcl	Emph=Yes	9	discourse	_	_
 13	.	.	PUNCT	punct	_	9	punct	_	_
 
@@ -2225,7 +2225,7 @@
 # text_eng = I want to wash myself. (Estevam 2011:  35, 16b)
 # text_por = Eu quero me lavar.
 1	Ĩĩsiupte	upte	VERB	v	Number=Sing|Person=1	5	xcomp	_	wash;lavagem
-2	da	da	SCONJ	sconj	_	1	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+2	da	da	ADP	posp	_	1	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 3	wa	wa	PART	prcl	Ego=Yes|Person=1	5	dep	_	egophoric.marker;marcardor.egofórico
 4	ĩĩsima	ĩĩ	PRON	pron	Case=Dat|Number=Sing|Person=1|Reflex=Yes	5	nsubj	_	_
 5	wẽ	wẽ	VERB	v	_	0	root	_	want;querer
