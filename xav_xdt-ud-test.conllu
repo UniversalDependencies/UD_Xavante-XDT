@@ -2237,8 +2237,8 @@
 1	Te	te	PART	prcl	Htp=Yes|Tense=Pres	5	dep	_	heterophoric.marker;marcardor.heterofórico
 2	dza	dza	PART	prcl	Tense=Fut	5	dep	_	future.marker;marcador.de.futuro
 3	oto	oto	ADV	adv	_	5	advmod	_	then;então
-4	asina	a	PRON	pron	Case=Ins|Hon=Yes|Person=2|Reflex=Yes	5	obl	_	_
-5	aahöimana	höimana	VERB	v	Hon=Yes|Person[abs]=2	0	root	_	be,live,exist;ser,viver,existir
+4	asina	a	PRON	pron	Case=Ins|Hnfc=Yes|Person=2|Reflex=Yes	5	obl	_	_
+5	aahöimana	höimana	VERB	v	Hnfc=Yes|Person[abs]=2	0	root	_	be,live,exist;ser,viver,existir
 6	aba	aba	PART	prcl	Number=Coll	5	dep	_	collective.marker
 7	mo	mo	AUX	aux	_	5	aux	_	_
 8	,	,	PUNCT	punct	_	5	punct	_	_
