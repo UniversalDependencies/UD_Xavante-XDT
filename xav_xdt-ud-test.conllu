@@ -2575,17 +2575,17 @@
 # text = Dazépuʔu õ di , datõmo zé õ di , duré da ñi zé õ di
 # text_eng = There was no ilness, no eye pain, and also no muscle pain
 # text_por =
-1	Dazépuʔu	zépuʔu	NOUN	n	Gnc=Yes|Number=Sing|Poss=Yes	0	root	_	_
+1	Dazépuʔu	zépuʔu	NOUN	n	Number=Sing|Poss=Yes|PronType=Gnc	0	root	_	_
 2	õ	õ	ADV	adv	Polarity=Neg	1	advmod	_	_
 3	di	di	AUX	cop	_	1	cop	_	_
 4	,	,	PUNCT	punct	_	1	punct	_	_
-5	datõmo	tõmo	NOUN	n	Gnc=Yes|Number=Sing|Poss=Yes	6	nmod	_	_
+5	datõmo	tõmo	NOUN	n	Number=Sing|Poss=Yes|PronType=Gnc	6	nmod	_	_
 6	zé	zé	NOUN	n	_	1	conj	_	_
 7	õ	õ	ADV	adv	Polarity=Neg	6	advcl	_	_
 8	di	di	AUX	cop	_	6	cop	_	_
 9	,	,	PUNCT	punct	_	6	punct	_	_
 10	duré	duré	ADV	adv	_	12	advmod	_	_
-11	dañi	ñi	NOUN	n	Gnc=Yes|Number=Sing|Poss=Yes	12	nmod	_	_
+11	dañi	ñi	NOUN	n	Number=Sing|Poss=Yes|PronType=Gnc	12	nmod	_	_
 12	zé	zé	NOUN	n	Number=Sing	1	conj	_	_
 13	õ	õ	ADV	adv	Polarity=Neg	12	advmod	_	_
 14	di	di	AUX	cop	_	12	aux	_	_
