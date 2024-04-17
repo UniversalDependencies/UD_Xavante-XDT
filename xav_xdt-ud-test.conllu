@@ -2553,4 +2553,17 @@
 10	ni	ni	PRON	pron	PronType=Ind	8	dep	_	_
 11	?	?	PUNCT	punct	_	8	punct	_	_
 
+# sent_id = EMX-164.a
+# text = Ĩĩmama , e te za aañamra ni ?
+# text_eng = Mon père, est-ce que tu vas t’asseoir ?
+# text_por = Meu pai, por que o senhor vai se sentar?
+1	Ĩĩmama	mama	NOUN	n	Number=Sing|Number[psor]=Sing|Person=1	6	vocative	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	e	e	PART	prcl	_	6	dep	_	_
+4	te	te	PRON	pron	Htp=Yes|Tense=Pres	6	dep	_	_
+5	za	za	PART	prcl	Tense=Fut	6	dep	_	_
+6	aañamra	ñamra	VERB	v	Hnfc=Yes|Number=Sing|Person=2	0	root	_	_
+7	ni	ni	PRON	pron	_	6	dep	_	_
+8	?	?	PUNCT	punct	_	6	punct	_	_
+
 
