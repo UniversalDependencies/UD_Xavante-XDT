@@ -2379,7 +2379,7 @@
 # text = Ta barana ma dahudu , misi hã ma ajwajrĩ
 # text_fr = Ces gens-là ont fuit la nuit, seul un est resté
 # text_por =
-1	Ta	ta	PRON	pron	PronType=Ana	4	nsubj	_	_
+1	Ta	ta	PRON	pron	_	4	nsubj	_	_
 2	barana	barana	ADV	adv	_	4	advmod	_	_
 3	ma	ma	PART	prcl	_	4	dep	_	_
 4	dahudu	hudu	VERB	vi	Number=Sing|Person=3	0	root	_	_
@@ -2402,7 +2402,7 @@
 # text = Tahã zéma
 # text_fr = Lui aussi
 # text_por = Ele também
-1	Tahã	ta	PRON	pron	PronType=Ana	0	root	_	_
+1	Tahã	ta	PRON	pron	_	0	root	_	_
 2	zéma	zéma	ADV	adv	_	1	advmod	_	_
 
 # sent_id = EMX-30a
