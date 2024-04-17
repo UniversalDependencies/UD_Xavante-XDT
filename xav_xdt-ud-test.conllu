@@ -255,7 +255,7 @@
 11	hã	hã	DET	det	_	9	det	_	_
 12	,	,	PUNCT	punct	_	14	punct	_	_
 13	marĩ	marĩ	NOUN	n	_	14	nmod	_	something,what;algo,o.que,alguma.coisa
-14	datsa	tsa	NOUN	n	Gnq=Yes	18	obl	_	food;comida,alimento
+14	datsa	tsa	NOUN	n	Gen=Yes	18	obl	_	food;comida,alimento
 15	da	da	ADP	posp	_	14	case	_	for,in.order.to,so.that;para,afim.de,para.que
 16	hã	hã	DET	det	_	14	det	_	_
 17	,	,	PUNCT	punct	_	14	punct	_	_
@@ -454,7 +454,7 @@
 3	te	te	PART	prcl	Htp=Yes|Tense=Pres	4	dep	_	heterophoric.marker;marcardor.heterofórico
 4	waptẽrẽ	waptẽrẽ	VERB	v	_	0	root	_	ask,request;pedir,solicitar
 5	dzahuré	dzahuré	NUM	num	Number=Dual	4	nummod	_	_
-6	dawede	wede	NOUN	n	Gnq=Yes	4	obj	_	medicine;remédio
+6	dawede	wede	NOUN	n	Gen=Yes	4	obj	_	medicine;remédio
 7	hã	hã	DET	det	_	6	det	_	_
 8	,	,	PUNCT	punct	_	4	punct	_	_
 9	dawede'wai	dawede'wa	NOUN	n	_	4	dislocated	_	nurse,doctor;enfermeiro,médico
@@ -559,7 +559,7 @@
 1	E	e	PART	prcl	Int=Yes	3	dep	_	question.particle;partícula.interrogativa
 2	te	te	PART	prcl	Htp=Yes|Tense=Pres	3	dep	_	heterophoric.marker;marcardor.heterofórico
 3	ĩwaptẽ	waptẽrẽ	VERB	v	Person[abs]=3	0	root	_	ask,request;pedir,solicitar
-4	dawede	wede	NOUN	n	Gnq=Yes	3	obj	_	medicine;remédio
+4	dawede	wede	NOUN	n	Gen=Yes	3	obj	_	medicine;remédio
 5	hã	hã	DET	det	_	4	det	_	_
 6	dawede'wai	dawede'wa	NOUN	n	_	3	obl	_	nurse,doctor;enfermeiro,médico
 7	wi	wi	ADP	posp	_	6	case	_	far.from;longe.de
@@ -773,7 +773,7 @@
 2	ma	ma	PART	prcl	Htp=Yes|Tense=Past	4	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
 3	tãma	ti	PRON	pron	Case=Dat|Person=3	4	iobj	_	lhe,a.ele,.para.ele
 4	titsõ	tsõmri	VERB	v	Person[abs]=3	0	root	_	give;dar
-5	datsa	tsa	NOUN	n	Gnq=Yes	4	obj	_	food;comida,alimento
+5	datsa	tsa	NOUN	n	Gen=Yes	4	obj	_	food;comida,alimento
 6	hã	hã	DET	det	_	5	det	_	_
 7	.	.	PUNCT	punct	_	4	punct	_	_
 
@@ -1580,7 +1580,7 @@
 6	ĩpire	pire	NOUN	n	Person=3	0	root	_	heavy,important;pesado,importante
 7	di	di	X	x	_	6	dep	_	expletive;expletivo
 8	,	,	PUNCT	punct	_	6	punct	_	_
-9	datsa	tsa	NOUN	n	Gnq=Yes	6	advcl	_	food;comida,alimento
+9	datsa	tsa	NOUN	n	Gen=Yes	6	advcl	_	food;comida,alimento
 10	da	da	ADP	posp	_	9	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 11	hã	hã	DET	det	_	9	det	_	_
 12	.	.	PUNCT	punct	_	9	punct	_	_
@@ -1658,7 +1658,7 @@
 2	parimhã	parimhã	ADP	posp	_	1	case	_	_
 3	rowahutu'wa	rowahutu'wa	NOUN	n	_	6	nsubj	_	teacher;professor
 4	te	te	PART	prcl	Htp=Yes|Tense=Pres	6	dep	_	heterophoric.marker;marcardor.heterofórico
-5	dama	da	PRON	pron	Case=Dat|Gnq=Yes|Person=3	6	iobj	_	he,she;ele,ela
+5	dama	da	PRON	pron	Case=Dat|Gen=Yes|Person=3	6	iobj	_	he,she;ele,ela
 6	tinha	nharĩ	VERB	v	Person[abs]=3	0	root	_	speak;falar
 7	:	:	PUNCT	punct	_	6	punct	_	_
 8	"	"	PUNCT	punct	_	21	punct	_	_
@@ -1864,7 +1864,7 @@
 8	na	na	ADP	posp	_	7	case	_	in,from;em,de
 9	te	te	PART	prcl	Htp=Yes|Tense=Pres	12	dep	_	heterophoric.marker;marcardor.heterofórico
 10	te	te	AUX	aux	_	12	aux	_	_
-11	dama	da	PRON	pron	Case=Dat|Gnq=Yes|Person=3	12	iobj	_	he,she;ele,ela
+11	dama	da	PRON	pron	Case=Dat|Gen=Yes|Person=3	12	iobj	_	he,she;ele,ela
 12	rowatsu'u	rowatsu'u	VERB	v	_	3	parataxis	_	tell,narrate,show;contar,narrar,mostrar
 13	ré	ré	ADP	posp	_	12	obl	_	full.of,inside.of,during,while;cheio.de,dentro,do,durante,enquanto,sendo
 14	hã	hã	PART	prcl	Emph=Yes	12	dep	_	_
@@ -2069,7 +2069,7 @@
 2	wahi'rata	'rata	NOUN	n	_	5	obj	_	ancestor;antepassado
 3	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	5	discourse	_	_
 4	ma	ma	PART	prcl	Htp=Yes|Tense=Past	5	dep	_	perfect.aspect;aspecto.perfeito
-5	dapãrĩ	pãrĩ	VERB	_	Gnq=Yes|Person[abs]=3	0	root	_	kill.two.beings;matar.dois.seres
+5	dapãrĩ	pãrĩ	VERB	_	Gen=Yes|Person[abs]=3	0	root	_	kill.two.beings;matar.dois.seres
 6	dza'ra	dza'ra	PART	prcl	Number=Plur	5	dep	_	_
 
 # sent_id = EMX-4
@@ -2292,7 +2292,7 @@
 # text_fr = chien de mon père
 # text_eng = dog of my father (Estevam 2011:  39, 21)
 1	ĩĩmama	mama	NOUN	n	Number=Sing|Person=1	3	nmod	_	father;pai
-2	te	te	X	x	Gnq=Yes	3	dep	_	_
+2	te	te	X	x	Gen=Yes	3	dep	_	_
 3	waptsã	waptsã	NOUN	n	_	0	root	_	dog,puppy;cachorro
 
 # sent_id = EMX-22
@@ -2303,7 +2303,7 @@
 1	Ĩhi	ĩhi	NOUN	n	_	2	nmod	_	old,aged,elderly;velho,idoso,ancião
 2	ñimiza'reseõ	ñimiza'rese	NOUN	n	Polarity=Neg	8	nsubj	_	ignorant;ignorante
 3	tô	tô	PART	prcl	Fact=Yes	8	dep	_	factive;fictício
-4	darob	rob	NOUN	n	Gnq=Yes	8	obl	_	village;aldeia
+4	darob	rob	NOUN	n	Gen=Yes	8	obl	_	village;aldeia
 5	mono	mono	PART	prcl	NumType=Dist	4	dep	_	_
 6	bö	bö	PART	prcl	_	4	discourse	_	thus;assim
 7	te	te	PART	prcl	Htp=Yes|Tense=Pres	8	dep	_	heterophoric.marker;marcardor.heterofórico
