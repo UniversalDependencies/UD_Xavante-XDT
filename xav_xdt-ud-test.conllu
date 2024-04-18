@@ -1064,7 +1064,7 @@
 10	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = GL-CLX30.4
-# text = Ana norĩ hã te tsawi petse dza'ra ti'ra norĩ hã .
+# text = Ananorĩ hã te tsawi petse dza'ra ti'ranorĩ hã .
 # text_por = As mães de vocês amam mesmo seus filhos.
 # text_eng = Your mothers really love their children.
 1	Ana	na	NOUN	n	Person=2	5	nsubj	_	mother;mãe
@@ -1819,7 +1819,7 @@
 13	.	.	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = GL-CLX37.8
-# text = Pi’õ te te wẽ'ẽ tsada'ré , ti'ra norĩ ma .
+# text = Pi’õ te te wẽ'ẽ tsada'ré , ti'ranorĩ ma .
 # text_por = Uma mulher parte o bolo para os filhos.
 # text_eng = A woman breaks the cake for her children.
 1	Pi’õ	pi'õ	NOUN	n	_	4	nsubj	_	woman;mulher
@@ -1871,7 +1871,7 @@
 15	!	!	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = GL-CLX38.1
-# text = " Ĩ'ra norĩ , e ai’udza te ĩ'uptsõi wa'wa . " pi'õ te tsadanha . " Madze di ! " õnorĩhã ma tsada'öbö dzahuré .
+# text = " Ĩ'ranorĩ , e ai’udza te ĩ'uptsõi wa'wa . " pi'õ te tsadanha . " Madze di ! " õnorĩhã ma tsada'öbö dzahuré .
 # text_por = "Minhas duas filhas, vocês lavam suas roupas?"pergunta a mulher. "Não!" responderam as duas.
 # text_eng = "My two daughters, do you wash your clothes?" asks the woman. "No!" replied the two.
 1	"	"	PUNCT	punct	_	8	punct	_	_
@@ -2042,7 +2042,7 @@
 6	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = EMX-1
-# text = Tahata wahi'rata norĩhã
+# text = Tahata wahi'ratanorĩhã
 # text_eng = Those are our ancestros (Estevam 2011:  27, 1)
 # text_por = Aquele são nossos antepassados
 1	Tahata	tahata	DET	dem	_	2	det	_	isso;that
@@ -2050,7 +2050,7 @@
 3	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	2	discourse	_	_
 
 # sent_id = EMX-2
-# text = Wahi'rata norĩhã danho're ma wama awaihu'u .
+# text = Wahi'ratanorĩhã danho're ma wama awaihu'u .
 # text_eng = Our ancestors taught us songs. (Estevam, 27: 2)
 # text_por = Nossos ancestrais nos ensinaram canções.
 1	Wahi'rata	'rata	NOUN	n	_	6	nsubj	_	ancestor;antepassado
@@ -2062,7 +2062,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = EMX-3
-# text = Waradzu wahi'rata norĩhã ma dapãrĩ dza'ra
+# text = Waradzu wahi'ratanorĩhã ma dapãrĩ dza'ra
 # text_eng = The white man murdered our ancestors. (Estevam, 27: 3)
 # text_por = O homem branco matou nossos antepassados. 
 1	Waradzu	waradzu	NOUN	n	_	5	nsubj	_	white,civilized,non-indian;branco,civilizado,não-índio
@@ -2073,7 +2073,7 @@
 6	dza'ra	dza'ra	PART	prcl	Number=Plur	5	dep	_	_
 
 # sent_id = EMX-4
-# text = Wahi'rata norĩ höimanadzé ĩpire
+# text = Wahi'ratanorĩ höimanadzé ĩpire
 # text_eng = The life of our ancestors is hard. (Estevam 2011:  28, 4)
 # text_por = A vida de nossos antepassados é difícil.
 1	Wahi'rata	'rata	NOUN	n	_	3	nmod	_	ancestor;antepassado
@@ -2082,7 +2082,7 @@
 4	ĩpire	pire	NOUN	n	_	0	root	_	heavy,important;pesado,importante
 
 # sent_id = EMX-5
-# text = Höiwahö wa dza we wate simro wa'ra norĩhã
+# text = Höiwahö wa dza we wate simro wa'ranorĩhã
 # text_eng = In the afternoon we will bring our children back. (Estevam 2011:  28, 5)
 # text_por = À tarde, traremos nossos filhos de volta.
 1	Höiwahö	höiwahö	ADV	adv	_	6	advmod	_	late;de.tarde
@@ -2140,7 +2140,7 @@
 5	mro	mro	VERB	v	_	0	root	_	match;contar
 
 # sent_id = EMX-10
-# text = Te wamama norĩhã waré 're höimana dza'ra warobreb 're hã U'uiwawẽ ãma hã
+# text = Te wamamanorĩhã waré 're höimana dza'ra warobreb 're hã U'uiwawẽ ãma hã
 # text_eng = Our parents lived (happily) with us in our small village in Lagoa Azul. (Estevam 2011:  31, 10)
 # text_por = Nossos pais viviam (felizmente) conosco em nosso pequeno vilarejo em Lagoa Azul.
 1	Te	te	PART	prcl	Htp=Yes|Tense=Pres	6	dep	_	heterophoric.marker;marcardor.heterofórico
@@ -2331,7 +2331,7 @@
 4	di	di	PART	prcl	_	3	dep	_	_
 
 # sent_id = EMX-24a
-# text = aba'wa norĩ
+# text = aba'wanorĩ
 # text_fr = (les) chasseurs
 # text_eng = the hunters (Estevam 2011:  41, 24a)
 1	aba'wa	aba'wa	NOUN	n	_	0	root	_	hunter;caçador
@@ -2406,7 +2406,7 @@
 2	zéma	zéma	ADV	adv	_	1	advmod	_	_
 
 # sent_id = EMX-30a
-# text = Waãma ĩbicho zaʔra mono hã , a norĩ waʔaba mono hã
+# text = Waãma ĩbicho zaʔra mono hã , anorĩ waʔaba mono hã
 # text_fr = Ceux que nous considérons comme des bêtes, (c’)est vous
 # text_por =
 1	Waãma	wa	PRON	pron	Number=Plur|PronType=Prs	2	nsubj	_	_
