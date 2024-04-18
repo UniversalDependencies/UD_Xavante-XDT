@@ -2502,7 +2502,7 @@
 # text_eng = Those there are all people with long hair.
 # text_por =
 1	Ta	ta	PRON	pron	Deixis=Med|PronType=Dem	2	nsubj	_	_
-2-3	_	_	_	_	_	_	_	_	_	_
+2-3	_	_	_	_	_	_	_	_	_
 2	iséré	séré	NOUN	n	Number=Sing|Person=3	0	root	_	_
 3	pa	pa	ADJ	adj	_	2	nmod	_	_
 4	si	si	ADV	adv	_	2	advmod	_	_
