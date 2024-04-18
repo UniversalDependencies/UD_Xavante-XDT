@@ -2572,7 +2572,7 @@
 13	da	da	PART	parl	Mood=Sub	12	dep	_	_
 
 # sent_id = EMX-133
-# text = Dazépuʔu õ di , datõmo zé õ di , duré da ñi zé õ di
+# text = Dazépuʔu õ di , datõmo zé õ di , duré dañi zé õ di
 # text_eng = There was no ilness, no eye pain, and also no muscle pain
 # text_por =
 1	Dazépuʔu	zépuʔu	NOUN	n	Number=Sing|Poss=Yes|PronType=Gnc	0	root	_	_
