@@ -1864,7 +1864,7 @@
 8	na	na	ADP	posp	_	7	case	_	in,from;em,de
 9	te	te	PART	prcl	Htp=Yes|Tense=Pres	12	dep	_	heterophoric.marker;marcardor.heterofórico
 10	te	te	AUX	aux	_	12	aux	_	_
-11	dama	da	PRON	pron	Case=Dat|PronType=Gnc|Person=3	12	iobj	_	he,she;ele,ela
+11	dama	da	PRON	pron	Case=Dat|PronType=Gnc	12	iobj	_	he,she;ele,ela
 12	rowatsu'u	rowatsu'u	VERB	v	_	3	parataxis	_	tell,narrate,show;contar,narrar,mostrar
 13	ré	ré	ADP	posp	_	12	obl	_	full.of,inside.of,during,while;cheio.de,dentro,do,durante,enquanto,sendo
 14	hã	hã	PART	prcl	Emph=Yes	12	dep	_	_
