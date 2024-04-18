@@ -1658,7 +1658,7 @@
 2	parimhã	parimhã	ADP	posp	_	1	case	_	_
 3	rowahutu'wa	rowahutu'wa	NOUN	n	_	6	nsubj	_	teacher;professor
 4	te	te	PART	prcl	Htp=Yes|Tense=Pres	6	dep	_	heterophoric.marker;marcardor.heterofórico
-5	dama	da	PRON	pron	Case=Dat|PronType=Gnc|Person=3	6	iobj	_	he,she;ele,ela
+5	dama	da	PRON	pron	Case=Dat|PronType=Gnc	6	iobj	_	he,she;ele,ela
 6	tinha	nharĩ	VERB	v	Person[abs]=3	0	root	_	speak;falar
 7	:	:	PUNCT	punct	_	6	punct	_	_
 8	"	"	PUNCT	punct	_	21	punct	_	_
