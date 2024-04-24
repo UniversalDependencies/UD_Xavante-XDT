@@ -2554,7 +2554,7 @@
 1	Awẽm	awẽm	ADV	adv	_	5	advmod	_	_
 2	hã	hã	PART	prcl	Top=Yes	1	discourse	_	_
 3	wa	wa	PRON	pron	PronType=Prs	5	nsubj	_	_
-4	za	za	PART	prcl	Tense=Prosp	5	dep	_	_
+4	za	za	PART	prcl	Tense=Fut	5	dep	_	_
 5	aiʔabaʔré	aiʔabaʔré	VERB	v	_	0	root	_	_
 6	ni	ni	X	x	_	5	dep	_	_
 7	mararé	mararé	ADV	adv	_	12	advmod	_	_
