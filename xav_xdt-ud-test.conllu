@@ -2552,14 +2552,14 @@
 # text_eng = Tomorrow we'll go early and finish the work together
 # text_por = Amanhã iremos cedo para terminar o trabalho
 1	Awẽm	awẽm	ADV	adv	_	5	advmod	_	_
-2	hã	hã	PART	prcl	Top=Yes	1	discourse	_	_
+2	hã	hã	PART	prcl	Emph=Yes	1	discourse	_	_
 3	wa	wa	PRON	pron	PronType=Prs	5	nsubj	_	_
 4	za	za	PART	prcl	Tense=Fut	5	dep	_	_
 5	aiʔabaʔré	aiʔabaʔré	VERB	v	_	0	root	_	_
 6	ni	ni	X	x	_	5	dep	_	_
 7	mararé	mararé	ADV	adv	_	12	advmod	_	_
 8	romhuri	romhuri	NOUN	n	_	12	obj	_	_
-9	hã	hã	PART	prcl	Top=Yes	8	discourse	_	_
+9	hã	hã	PART	prcl	Emph=Yes	8	discourse	_	_
 10	wate	wa	PRON	pron	Number=Plur|Person=1|PronType=Prs	11	dep	_	_
 11	wasiwi	wasiwi	PRON	pron	Number=Coll	12	nsubj	_	_
 12	ʔrãsutuwẽ	ʔrãsutu	VERB	v	Intens=Yes	5	xcomp	_	_
