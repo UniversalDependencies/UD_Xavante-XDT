@@ -1064,20 +1064,18 @@
 10	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = GL-CLX30.4
-# text = Ananorĩ hã te tsawi petse dza'ra ti'ranorĩ hã .
+# text = Ananorĩhã te tsawi petse dza'ra ti'ranorĩ hã .
 # text_por = As mães de vocês amam mesmo seus filhos.
 # text_eng = Your mothers really love their children.
-1	Ana	na	NOUN	n	Person=2	5	nsubj	_	mother;mãe
-2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
-3	hã	hã	DET	det	_	1	det	_	_
-4	te	te	PART	prcl	Htp=Yes|Tense=Pres	5	dep	_	heterophoric.marker;marcardor.heterofórico
-5	tsawi	tsawi	VERB	v	_	0	root	_	love,like,greet;amar,gostar,cumprimentar
-6	petse	petse	ADV	adv	_	5	advmod	_	much,very.much;mesmo,muito.mesmo
-7	dza'ra	dza'ra	PART	prcl	Number=Plur	5	dep	_	_
-8	ti'ra	'ra	NOUN	n	Person=3	5	obj	_	son,daughter;filho,filha
-9	norĩ	norĩ	PART	prcl	Number=Coll	8	dep	_	_
-10	hã	hã	DET	det	_	8	det	_	_
-11	.	.	PUNCT	punct	_	5	punct	_	_
+1	Ananorĩhã	na	NOUN	n	Number=Coll|Person=2	3	nsubj	_	mother;mãe
+2	te	te	PART	prcl	Htp=Yes|Tense=Pres	3	dep	_	heterophoric.marker;marcardor.heterofórico
+3	tsawi	tsawi	VERB	v	_	0	root	_	love,like,greet;amar,gostar,cumprimentar
+4	petse	petse	ADV	adv	_	3	advmod	_	much,very.much;mesmo,muito.mesmo
+5	dza'ra	dza'ra	PART	prcl	Number=Plur	3	dep	_	_
+6	ti'ra	'ra	NOUN	n	Person=3	3	obj	_	son,daughter;filho,filha
+7	norĩ	norĩ	PART	prcl	Number=Coll	6	dep	_	_
+8	hã	hã	DET	det	_	6	det	_	_
+9	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = GL-CLX30.5
 # text = Ano tina me te tineb dzahuré ’ri'ahö u .
