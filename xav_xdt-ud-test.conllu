@@ -610,7 +610,7 @@
 3	wara	wara	VERB	v	_	0	root	_	run;correr
 4	tsi'a	tsi'a	NOUN	n	_	3	obl	_	hen;galinha
 5	dzô	dzô	ADP	posp	_	4	case	_	after,in.search.of;atrás.de,em.busca.de
-6	te	te	PRON	pron	_	8	nsubj	_	_
+6	te	te	PART	prcl	_	8	nsubj	_	_
 7	te	te	AUX	aux	_	8	aux	_	_
 8	öri	öri	VERB	v	_	3	advcl	_	pick.up.an.object;pegar.um.objeto
 9	da	da	ADP	posp	_	8	mark	_	for,in.order.to,so.that;para,afim.de,para.que
@@ -2122,7 +2122,7 @@
 2	'rowi	'rowi	ADV	adv	_	3	advmod	_	near;perto
 3	pese	pese	VERB	v	_	0	root	_	be.perfect;seja.perfeito
 4	re	re	PART	prcl	Degree=Dim	3	dep	_	diminutive;diminutivo
-5	te	te	PRON	pron	_	7	nsubj	_	_
+5	te	te	PART	prcl	_	7	nsubj	_	_
 6	te	te	AUX	aux	_	7	aux	_	_
 7	sõré	sõré	VERB	v	_	3	parataxis	_	install;instalar
 
@@ -2595,7 +2595,7 @@
 1	Ĩĩmama	mama	NOUN	n	Number=Sing|Number[psor]=Sing|Person=1	6	vocative	_	_
 2	,	,	PUNCT	punct	_	1	punct	_	_
 3	e	e	PART	prcl	_	6	dep	_	_
-4	te	te	PRON	pron	Htp=Yes|Tense=Pres	6	dep	_	_
+4	te	te	PART	prcl	Htp=Yes|Tense=Pres	6	dep	_	_
 5	za	za	PART	prcl	Tense=Fut	6	dep	_	_
 6	aañamra	ñamra	VERB	v	Hnfc=Yes|Number=Sing|Person=2	0	root	_	_
 7	ni	ni	PRON	pron	_	6	dep	_	_
