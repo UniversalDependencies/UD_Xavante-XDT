@@ -1064,7 +1064,7 @@
 10	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = GL-CLX30.4
-# text = Ananorĩhã te tsawi petse dza'ra ti'ranorĩhã .
+# text = Ananorĩhã te tsawi petse dza'ra ti'ranorĩhã
 # text_por = As mães de vocês amam mesmo seus filhos.
 # text_eng = Your mothers really love their children.
 1	Ananorĩhã	na	NOUN	n	Number=Coll|Person=2	3	nsubj	_	mother;mãe
@@ -1823,10 +1823,9 @@
 4	wẽ'ẽ	wẽ'ẽ	VERB	v	_	0	root	_	to.break;quebrar
 5	tsada'ré	tsada'ré	NOUN	n	_	4	obj	_	pounded.corn.and.babassu.Xavante.cake;bolo.Xavante.de.milho.socado.e.babaçu
 6	,	,	PUNCT	punct	_	4	punct	_	_
-7	ti'ra	'ra	NOUN	n	Person=3	4	dislocated	_	son,daughter;filho,filha
-8	norĩ	norĩ	PART	prcl	Number=Coll	7	dep	_	_
-9	ma	ma	ADP	posp	Case=Dat	7	case	_	_
-10	.	.	PUNCT	punct	_	4	punct	_	_
+7	ti'ranorĩ	'ra	NOUN	n	Number=Coll|Person=3	4	dislocated	_	son,daughter;filho,filha
+8	ma	ma	ADP	posp	Case=Dat	7	case	_	_
+9	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = GL-CLX37.9
 # text = Ai'repudu uburé te waihu'u , ĩmama te te ĩpo'repu'u na hã .
