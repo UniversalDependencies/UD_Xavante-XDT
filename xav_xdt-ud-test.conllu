@@ -1064,7 +1064,7 @@
 10	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = GL-CLX30.4
-# text = Ananorĩhã te tsawi petse dza'ra ti'ranorĩ hã .
+# text = Ananorĩhã te tsawi petse dza'ra ti'ranorĩhã .
 # text_por = As mães de vocês amam mesmo seus filhos.
 # text_eng = Your mothers really love their children.
 1	Ananorĩhã	na	NOUN	n	Number=Coll|Person=2	3	nsubj	_	mother;mãe
@@ -1072,10 +1072,7 @@
 3	tsawi	tsawi	VERB	v	_	0	root	_	love,like,greet;amar,gostar,cumprimentar
 4	petse	petse	ADV	adv	_	3	advmod	_	much,very.much;mesmo,muito.mesmo
 5	dza'ra	dza'ra	PART	prcl	Number=Plur	3	dep	_	_
-6	ti'ra	'ra	NOUN	n	Person=3	3	obj	_	son,daughter;filho,filha
-7	norĩ	norĩ	PART	prcl	Number=Coll	6	dep	_	_
-8	hã	hã	DET	det	_	6	det	_	_
-9	.	.	PUNCT	punct	_	3	punct	_	_
+6	ti'ranorĩhã	'ra	NOUN	n	Number=Coll|Person=3	3	obj	_	son,daughter;filho,filha
 
 # sent_id = GL-CLX30.5
 # text = Ano tina me te tineb dzahuré ’ri'ahö u .
