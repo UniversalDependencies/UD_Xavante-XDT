@@ -2509,7 +2509,7 @@
 # text_por =
 1	Duré	Duré	ADV	adv	_	4	advmod	_	_
 2	nimamem	nima	ADV	adv	_	4	advmod	_	_
-3	hã	hã	PART	prcl	Emph=Yes	_	_	_	_
+3	hã	hã	PART	prcl	Emph=Yes	2	dep	_	_
 4	ĩĩzahi	zahi	VERB	v	Number=Sing|Person=1	0	root	_	_
 5	wasédé	wasédé	ADV	adv	_	4	advmod	_	_
 6	ĩĩsiré	siré	NOUN	n	Number=Sing|Person=1	7	nmod	_	_
