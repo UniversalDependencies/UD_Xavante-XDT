@@ -1868,28 +1868,26 @@
 # text = " Ĩ'ranorĩ , e ai’udza te ĩ'uptsõi wa'wa . " pi'õ te tsadanha . " Madze di ! " õnorĩhã ma tsada'öbö dzahuré .
 # text_por = "Minhas duas filhas, vocês lavam suas roupas?"pergunta a mulher. "Não!" responderam as duas.
 # text_eng = "My two daughters, do you wash your clothes?" asks the woman. "No!" replied the two.
-1	Ĩ'ranorĩ	'ra	NOUN	n	Number=Coll|Person=3	7	vocative	_	son,daughter;filho,filha
-2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
-3	,	,	PUNCT	punct	_	7	punct	_	_
-4	e	e	PART	prcl	Int=Yes	7	dep	_	question.particle;partícula.interrogativa
-5	ai’udza	udza	NOUN	n	Person=2	7	obj	_	clothes,dress.up;roupa,vestir-se
-6	te	te	PART	prcl	Htp=Yes|Tense=Pres	7	dep	_	heterophoric.marker;marcardor.heterofórico
-7	ĩ'uptsõi	uptsõi	VERB	v	Person[abs]=3	13	ccomp	_	wash;lavar
-8	wa'wa	'wa	X	x	Number=Dual	7	dep	_	dual.number.marker;indicador.dual
-9	.	.	PUNCT	punct	_	7	punct	_	_
-10	"	"	PUNCT	punct	_	7	punct	_	_
-11	pi'õ	pi'õ	NOUN	n	_	13	nsubj	_	woman;mulher
-12	te	te	PART	prcl	Htp=Yes|Tense=Pres	13	dep	_	heterophoric.marker;marcardor.heterofórico
-13	tsadanha	tsadanharĩ	VERB	v	_	0	root	_	ask;perguntar
-14	.	.	PUNCT	punct	_	13	punct	_	_
-15	Madze	madze	NOUN	n	_	21	ccomp	_	nada;nothing
-16	di	di	X	x	_	15	dep	_	expletive;expletivo
-17	!	!	PUNCT	punct	_	15	punct	_	_
-18	"	"	PUNCT	punct	_	15	punct	_	_
-19	õnorĩhã	õnorĩhã	PRON	pron	Number=Plur|Person=3	21	nsubj	_	_
-20	ma	ma	PART	prcl	Htp=Yes|Tense=Past	21	dep	_	perfect.aspect;aspecto.perfeito
-21	tsada'öbö	tsada'öbö	VERB	v	_	13	parataxis	_	reply;responder
-22	dzahuré	dzahuré	NUM	num	Number=Dual	19	nummod	_	_
+1	Ĩ'ranorĩ	'ra	NOUN	n	Number=Coll|Person=3	6	vocative	_	son,daughter;filho,filha
+2	,	,	PUNCT	punct	_	6	punct	_	_
+3	e	e	PART	prcl	Int=Yes	6	dep	_	question.particle;partícula.interrogativa
+4	ai’udza	udza	NOUN	n	Person=2	6	obj	_	clothes,dress.up;roupa,vestir-se
+5	te	te	PART	prcl	Htp=Yes|Tense=Pres	6	dep	_	heterophoric.marker;marcardor.heterofórico
+6	ĩ'uptsõi	uptsõi	VERB	v	Person[abs]=3	11	ccomp	_	wash;lavar
+7	wa'wa	'wa	X	x	Number=Dual	6	dep	_	dual.number.marker;indicador.dual
+8	.	.	PUNCT	punct	_	6	punct	_	_
+9	pi'õ	pi'õ	NOUN	n	_	11	nsubj	_	woman;mulher
+10	te	te	PART	prcl	Htp=Yes|Tense=Pres	11	dep	_	heterophoric.marker;marcardor.heterofórico
+11	tsadanha	tsadanharĩ	VERB	v	_	0	root	_	ask;perguntar
+12	.	.	PUNCT	punct	_	11	punct	_	_
+13	Madze	madze	NOUN	n	_	19	ccomp	_	nada;nothing
+14	di	di	X	x	_	13	dep	_	expletive;expletivo
+15	!	!	PUNCT	punct	_	13	punct	_	_
+16	"	"	PUNCT	punct	_	13	punct	_	_
+17	õnorĩhã	õnorĩhã	PRON	pron	Number=Plur|Person=3	19	nsubj	_	_
+18	ma	ma	PART	prcl	Htp=Yes|Tense=Past	19	dep	_	perfect.aspect;aspecto.perfeito
+19	tsada'öbö	tsada'öbö	VERB	v	_	11	parataxis	_	reply;responder
+20	dzahuré	dzahuré	NUM	num	Number=Dual	17	dep	_	_
 
 # sent_id = GL-CLX38.2
 # text =  " E aihitébré ma ĩtsabui wa'wa . " ĩna te tsadanha . " Ĩhe ! " ma tsada'öbö dzahuré .
@@ -2043,13 +2041,11 @@
 # text = Wahi'ratanorĩhã danho're ma wama awaihu'u .
 # text_eng = Our ancestors taught us songs. (Estevam, 27: 2)
 # text_por = Nossos ancestrais nos ensinaram canções.
-1	Wahi'rata	'rata	NOUN	n	_	6	nsubj	_	ancestor;antepassado
-2	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	6	discourse	_	_
-3	danho're	danho're	NOUN	n	_	6	obj	_	song;canto
-4	ma	ma	PART	prcl	Htp=Yes|Tense=Past	3	dep	_	perfect.aspect;aspecto.perfeito
-5	wama	wa	PRON	pron	Case=Dat|Number=Plur|Person=1	6	iobj	_	_
-6	awaihu'u	waihu'u	VERB	v	_	0	root	_	know,do,teach;saber,fazer,ensinar
-7	.	.	PUNCT	_	_	6	punct	_	_
+1	Wahi'ratanorĩhã	'rata	NOUN	n	Emph=Yes|Number=Coll	5	nsubj	_	ancestor;antepassado
+2	danho're	danho're	NOUN	n	_	5	obj	_	song;canto
+3	ma	ma	PART	prcl	Htp=Yes|Tense=Past	2	dep	_	perfect.aspect;aspecto.perfeito
+4	wama	wa	PRON	pron	Case=Dat|Number=Plur|Person=1	5	iobj	_	_
+5	awaihu'u	waihu'u	VERB	v	_	0	root	_	know,do,teach;saber,fazer,ensinar
 
 # sent_id = EMX-3
 # text = Waradzu wahi'ratanorĩhã ma dapãrĩ dza'ra
