@@ -1865,7 +1865,7 @@
 15	!	!	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = GL-CLX38.1
-# text = Ĩ'ranorĩ , e ai’udza te ĩ'uptsõi wa'wa . pi'õ te tsadanha . " Madze di ! " õnorĩhã ma tsada'öbö dzahuré .
+# text = Ĩ'ranorĩ , e ai’udza te ĩ'uptsõi wa'wa . pi'õ te tsadanha . Madze di ! õnorĩhã ma tsada'öbö dzahuré
 # text_por = "Minhas duas filhas, vocês lavam suas roupas?"pergunta a mulher. "Não!" responderam as duas.
 # text_eng = "My two daughters, do you wash your clothes?" asks the woman. "No!" replied the two.
 1	Ĩ'ranorĩ	'ra	NOUN	n	Number=Coll|Person=3	6	vocative	_	son,daughter;filho,filha
@@ -1880,14 +1880,13 @@
 10	te	te	PART	prcl	Htp=Yes|Tense=Pres	11	dep	_	heterophoric.marker;marcardor.heterofórico
 11	tsadanha	tsadanharĩ	VERB	v	_	0	root	_	ask;perguntar
 12	.	.	PUNCT	punct	_	11	punct	_	_
-13	Madze	madze	NOUN	n	_	19	ccomp	_	nada;nothing
+13	Madze	madze	NOUN	n	_	18	ccomp	_	nada;nothing
 14	di	di	X	x	_	13	dep	_	expletive;expletivo
 15	!	!	PUNCT	punct	_	13	punct	_	_
-16	"	"	PUNCT	punct	_	13	punct	_	_
-17	õnorĩhã	õnorĩhã	PRON	pron	Number=Plur|Person=3	19	nsubj	_	_
-18	ma	ma	PART	prcl	Htp=Yes|Tense=Past	19	dep	_	perfect.aspect;aspecto.perfeito
-19	tsada'öbö	tsada'öbö	VERB	v	_	11	parataxis	_	reply;responder
-20	dzahuré	dzahuré	NUM	num	Number=Dual	17	dep	_	_
+16	õnorĩhã	õnorĩhã	PRON	pron	Number=Plur|Person=3	18	nsubj	_	_
+17	ma	ma	PART	prcl	Htp=Yes|Tense=Past	18	dep	_	perfect.aspect;aspecto.perfeito
+18	tsada'öbö	tsada'öbö	VERB	v	_	11	parataxis	_	reply;responder
+19	dzahuré	dzahuré	NUM	num	Number=Dual	16	dep	_	_
 
 # sent_id = GL-CLX38.2
 # text =  " E aihitébré ma ĩtsabui wa'wa . " ĩna te tsadanha . " Ĩhe ! " ma tsada'öbö dzahuré .
