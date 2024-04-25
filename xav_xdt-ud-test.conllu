@@ -2374,7 +2374,7 @@
 # text_fr = Et mon oncle ?
 # text_por = E meu tio?
 1	E	e	PART	prcl	_	3	dep	_	interrogative.particle;partícula.interrogativa
-2	bété	bété	PART	prcl	Focus=Yes	3	discourse	_	_
+2	bété	bété	PART	prcl	_	3	discourse	_	focal particle
 3	ĩĩmamawapté	mamawapté	NOUN	n	Number=Sing|Person=1	0	root	_	maternal.uncle;tio.materno
 4	?	?	PUNCT	punct	_	3	punct	_	_
 
