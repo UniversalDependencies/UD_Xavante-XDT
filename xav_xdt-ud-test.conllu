@@ -1868,31 +1868,28 @@
 # text = " Ĩ'ranorĩ , e ai’udza te ĩ'uptsõi wa'wa . " pi'õ te tsadanha . " Madze di ! " õnorĩhã ma tsada'öbö dzahuré .
 # text_por = "Minhas duas filhas, vocês lavam suas roupas?"pergunta a mulher. "Não!" responderam as duas.
 # text_eng = "My two daughters, do you wash your clothes?" asks the woman. "No!" replied the two.
-1	"	"	PUNCT	punct	_	8	punct	_	_
-2	Ĩ'ra	'ra	NOUN	n	Person=3	8	vocative	_	son,daughter;filho,filha
-3	norĩ	norĩ	PART	prcl	Number=Coll	2	dep	_	_
-4	,	,	PUNCT	punct	_	8	punct	_	_
-5	e	e	PART	prcl	Int=Yes	8	dep	_	question.particle;partícula.interrogativa
-6	ai’udza	udza	NOUN	n	Person=2	8	obj	_	clothes,dress.up;roupa,vestir-se
-7	te	te	PART	prcl	Htp=Yes|Tense=Pres	8	dep	_	heterophoric.marker;marcardor.heterofórico
-8	ĩ'uptsõi	uptsõi	VERB	v	Person[abs]=3	14	ccomp	_	wash;lavar
-9	wa'wa	'wa	X	x	Number=Dual	8	dep	_	dual.number.marker;indicador.dual
-10	.	.	PUNCT	punct	_	8	punct	_	_
-11	"	"	PUNCT	punct	_	8	punct	_	_
-12	pi'õ	pi'õ	NOUN	n	_	14	nsubj	_	woman;mulher
-13	te	te	PART	prcl	Htp=Yes|Tense=Pres	14	dep	_	heterophoric.marker;marcardor.heterofórico
-14	tsadanha	tsadanharĩ	VERB	v	_	0	root	_	ask;perguntar
-15	.	.	PUNCT	punct	_	14	punct	_	_
-16	"	"	PUNCT	punct	_	17	punct	_	_
-17	Madze	madze	NOUN	n	_	23	ccomp	_	nada;nothing
-18	di	di	X	x	_	17	dep	_	expletive;expletivo
-19	!	!	PUNCT	punct	_	17	punct	_	_
-20	"	"	PUNCT	punct	_	17	punct	_	_
-21	õnorĩhã	õnorĩhã	PRON	pron	Number=Plur|Person=3	23	nsubj	_	_
-22	ma	ma	PART	prcl	Htp=Yes|Tense=Past	23	dep	_	perfect.aspect;aspecto.perfeito
-23	tsada'öbö	tsada'öbö	VERB	v	_	14	parataxis	_	reply;responder
-24	dzahuré	dzahuré	NUM	num	Number=Dual	21	nummod	_	_
-25	.	.	PUNCT	punct	_	23	punct	_	_
+1	Ĩ'ranorĩ	'ra	NOUN	n	Number=Coll|Person=3	7	vocative	_	son,daughter;filho,filha
+2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
+3	,	,	PUNCT	punct	_	7	punct	_	_
+4	e	e	PART	prcl	Int=Yes	7	dep	_	question.particle;partícula.interrogativa
+5	ai’udza	udza	NOUN	n	Person=2	7	obj	_	clothes,dress.up;roupa,vestir-se
+6	te	te	PART	prcl	Htp=Yes|Tense=Pres	7	dep	_	heterophoric.marker;marcardor.heterofórico
+7	ĩ'uptsõi	uptsõi	VERB	v	Person[abs]=3	13	ccomp	_	wash;lavar
+8	wa'wa	'wa	X	x	Number=Dual	7	dep	_	dual.number.marker;indicador.dual
+9	.	.	PUNCT	punct	_	7	punct	_	_
+10	"	"	PUNCT	punct	_	7	punct	_	_
+11	pi'õ	pi'õ	NOUN	n	_	13	nsubj	_	woman;mulher
+12	te	te	PART	prcl	Htp=Yes|Tense=Pres	13	dep	_	heterophoric.marker;marcardor.heterofórico
+13	tsadanha	tsadanharĩ	VERB	v	_	0	root	_	ask;perguntar
+14	.	.	PUNCT	punct	_	13	punct	_	_
+15	Madze	madze	NOUN	n	_	21	ccomp	_	nada;nothing
+16	di	di	X	x	_	15	dep	_	expletive;expletivo
+17	!	!	PUNCT	punct	_	15	punct	_	_
+18	"	"	PUNCT	punct	_	15	punct	_	_
+19	õnorĩhã	õnorĩhã	PRON	pron	Number=Plur|Person=3	21	nsubj	_	_
+20	ma	ma	PART	prcl	Htp=Yes|Tense=Past	21	dep	_	perfect.aspect;aspecto.perfeito
+21	tsada'öbö	tsada'öbö	VERB	v	_	13	parataxis	_	reply;responder
+22	dzahuré	dzahuré	NUM	num	Number=Dual	19	nummod	_	_
 
 # sent_id = GL-CLX38.2
 # text =  " E aihitébré ma ĩtsabui wa'wa . " ĩna te tsadanha . " Ĩhe ! " ma tsada'öbö dzahuré .
