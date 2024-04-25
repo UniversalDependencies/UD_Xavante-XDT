@@ -1865,7 +1865,7 @@
 15	!	!	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = GL-CLX38.1
-# text = " Ĩ'ranorĩ , e ai’udza te ĩ'uptsõi wa'wa . " pi'õ te tsadanha . " Madze di ! " õnorĩhã ma tsada'öbö dzahuré .
+# text = Ĩ'ranorĩ , e ai’udza te ĩ'uptsõi wa'wa . pi'õ te tsadanha . " Madze di ! " õnorĩhã ma tsada'öbö dzahuré .
 # text_por = "Minhas duas filhas, vocês lavam suas roupas?"pergunta a mulher. "Não!" responderam as duas.
 # text_eng = "My two daughters, do you wash your clothes?" asks the woman. "No!" replied the two.
 1	Ĩ'ranorĩ	'ra	NOUN	n	Number=Coll|Person=3	6	vocative	_	son,daughter;filho,filha
@@ -2316,8 +2316,7 @@
 # text = aba'wanorĩ
 # text_fr = (les) chasseurs
 # text_eng = the hunters (Estevam 2011:  41, 24a)
-1	aba'wa	aba'wa	NOUN	n	_	0	root	_	hunter;caçador
-2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
+1	aba'wanorĩ	aba'wa	NOUN	n	Number=Coll	0	root	_	hunter;caçador
 
 # sent_id = EMX-24b
 # text = utö norĩ
