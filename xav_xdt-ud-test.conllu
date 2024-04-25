@@ -2053,7 +2053,7 @@
 1	Waradzu	waradzu	NOUN	n	_	4	nsubj	_	white,civilized,non-indian;branco,civilizado,não-índio
 2	wahi'ratanorĩhã	'rata	NOUN	n	Emph=Yes|Number=Coll	4	obj	_	ancestor;antepassado
 3	ma	ma	PART	prcl	Htp=Yes|Tense=Past	4	dep	_	perfect.aspect;aspecto.perfeito
-4	dapãrĩ	pãrĩ	VERB	_	PronType=Gnc|Person[abs]=3	0	root	_	kill.two.beings;matar.dois.seres
+4	dapãrĩ	pãrĩ	VERB	_	Person[abs]=3|PronType=Gnc	0	root	_	kill.two.beings;matar.dois.seres
 5	dza'ra	dza'ra	PART	prcl	Number=Plur	4	dep	_	_
 
 # sent_id = EMX-4
