@@ -2037,7 +2037,7 @@
 2	wahi'ratanorĩhã	'rata	NOUN	n	Emph=Yes|Number=Coll	0	root	_	ancestor;antepassado
 
 # sent_id = EMX-2
-# text = Wahi'ratanorĩhã danho're ma wama awaihu'u .
+# text = Wahi'ratanorĩhã danho're ma wama awaihu'u
 # text_eng = Our ancestors taught us songs. (Estevam, 27: 2)
 # text_por = Nossos ancestrais nos ensinaram canções.
 1	Wahi'ratanorĩhã	'rata	NOUN	n	Emph=Yes|Number=Coll	5	nsubj	_	ancestor;antepassado
@@ -2273,7 +2273,7 @@
 # text_fr = chien de mon père
 # text_eng = dog of my father (Estevam 2011:  39, 21)
 1	ĩĩmama	mama	NOUN	n	Number=Sing|Person=1	3	nmod	_	father;pai
-2	te	te	X	x	PronType=Gnc	3	dep	_	_
+2	te	te	PRON	x	PronType=Gnc	3	dep	_	_
 3	waptsã	waptsã	NOUN	n	_	0	root	_	dog,puppy;cachorro
 
 # sent_id = EMX-22
