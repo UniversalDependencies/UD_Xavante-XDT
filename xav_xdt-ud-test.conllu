@@ -2070,10 +2070,9 @@
 # text = Wahi'ratanorĩ höimanadzé ĩpire
 # text_eng = The life of our ancestors is hard. (Estevam 2011:  28, 4)
 # text_por = A vida de nossos antepassados é difícil.
-1	Wahi'rata	'rata	NOUN	n	_	3	nmod	_	ancestor;antepassado
-2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
-3	höimanadzé	höimanadzé	NOUN	n	_	4	nsubj	_	life,existence;vida,existência
-4	ĩpire	pire	NOUN	n	_	0	root	_	heavy,important;pesado,importante
+1	Wahi'ratanorĩ	'rata	NOUN	n	Number=Coll	2	nmod	_	ancestor;antepassado
+2	höimanadzé	höimanadzé	NOUN	n	_	3	nsubj	_	life,existence;vida,existência
+3	ĩpire	pire	NOUN	n	_	0	root	_	heavy,important;pesado,importante
 
 # sent_id = EMX-5
 # text = Höiwahö wa dza we wate simro wa'ranorĩhã
@@ -2085,8 +2084,7 @@
 4	we	we	ADV	adv	_	6	advmod	_	hither;para.cá
 5	wate	te	AUX	aux	Number=Plur|Person=1	6	aux	_	_
 6	simro	simro	VERB	v	_	0	root	_	bring.back;trazer.de.volta
-7	wa'ra	'ra	NOUN	n	Number=Plur|Person=1	6	obj	_	son,daughter;filho,filha
-8	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	6	discourse	_	_
+7	wa'ranorĩhã	'ra	NOUN	n	Emph=Yes|Number=Coll|Person=1	6	obj	_	son,daughter;filho,filha
 
 # sent_id = EMX-6
 # text = 'Watébrémi ti'a te tsãmra
