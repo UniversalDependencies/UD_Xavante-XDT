@@ -2040,8 +2040,7 @@
 # text_eng = Those are our ancestros (Estevam 2011:  27, 1)
 # text_por = Aquele são nossos antepassados
 1	Tahata	tahata	DET	dem	_	2	det	_	isso;that
-2	wahi'rata	'rata	NOUN	n	_	0	root	_	ancestor;antepassado
-3	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	2	discourse	_	_
+2	wahi'ratanorĩhã	'rata	NOUN	n	Emph=Yes|Number=Coll	0	root	_	ancestor;antepassado
 
 # sent_id = EMX-2
 # text = Wahi'ratanorĩhã danho're ma wama awaihu'u .
@@ -2059,12 +2058,11 @@
 # text = Waradzu wahi'ratanorĩhã ma dapãrĩ dza'ra
 # text_eng = The white man murdered our ancestors. (Estevam, 27: 3)
 # text_por = O homem branco matou nossos antepassados. 
-1	Waradzu	waradzu	NOUN	n	_	5	nsubj	_	white,civilized,non-indian;branco,civilizado,não-índio
-2	wahi'rata	'rata	NOUN	n	_	5	obj	_	ancestor;antepassado
-3	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	5	discourse	_	_
-4	ma	ma	PART	prcl	Htp=Yes|Tense=Past	5	dep	_	perfect.aspect;aspecto.perfeito
-5	dapãrĩ	pãrĩ	VERB	_	PronType=Gnc|Person[abs]=3	0	root	_	kill.two.beings;matar.dois.seres
-6	dza'ra	dza'ra	PART	prcl	Number=Plur	5	dep	_	_
+1	Waradzu	waradzu	NOUN	n	_	4	nsubj	_	white,civilized,non-indian;branco,civilizado,não-índio
+2	wahi'ratanorĩhã	'rata	NOUN	n	Emph=Yes|Number=Coll	4	obj	_	ancestor;antepassado
+3	ma	ma	PART	prcl	Htp=Yes|Tense=Past	4	dep	_	perfect.aspect;aspecto.perfeito
+4	dapãrĩ	pãrĩ	VERB	_	PronType=Gnc|Person[abs]=3	0	root	_	kill.two.beings;matar.dois.seres
+5	dza'ra	dza'ra	PART	prcl	Number=Plur	4	dep	_	_
 
 # sent_id = EMX-4
 # text = Wahi'ratanorĩ höimanadzé ĩpire
