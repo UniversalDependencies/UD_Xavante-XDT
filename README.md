@@ -16,7 +16,7 @@ The development of this treebank is supported by the by European Research Counci
 
 * Estevam, Adriana Machado. 2011, * Morphosyntaxe du Xavante. Langue jê du Mato Grosso (Brésil) PhD thesis. Université Paris.Diderot.
 * de Oliveira, Rosana Costa. 2007,  * Morfologia e sintaxe da língua Xavante. PhD thesis. Universidade Federal do Rio de Janeiro.
-* Lachnitt, Georg. 2004, * Damreme'uwaimramidzé. Campo Grande, UCDB.
+* Lachnitt, Georg. 2004, * _Damreme'uwaimramidzé_. Campo Grande, UCDB.
 
 
 # Changelog
