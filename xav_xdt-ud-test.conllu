@@ -1,6 +1,6 @@
 # sent_id = GL-CLX16.1
 # text = Aibö te mo . Pi’õ te mo . Ba'õno te mo . Õhã te mo .
-# text_por = Uni homem vai. Uma mulher vai. A menina vai. Ele (ela) vai.
+# text_por = Um homem vai. Uma mulher vai. A menina vai. Ele (ela) vai.
 # text_eng = One man goes. A woman goes. The girl goes. He (she) goes.
 1	Aibö	aibö	NOUN	n	_	3	nsubj	_	man;homem
 2	te	te	PART	prcl	Htp=Yes|Tense=Pres	3	dep	_	heterophoric.marker;marcardor.heterofórico
@@ -144,7 +144,7 @@
 1	Ti'ra	'ra	NOUN	n	Person=3	3	obj	_	son,daughter;filho,filha
 2	tete	te	AUX	aux	Number=Sing|Person=3	3	aux	_	_
 3	tsabu	tsabu	VERB	v	_	6	advcl	_	see,take.care.of;ver,enxergar,olhar,cuidar
-4	da	da	SCONJ	sconj	_	3	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+4	da	da	ADP	posp	_	3	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 5	ma	ma	PART	prcl	Htp=Yes|Tense=Past	6	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
 6	wei	we	X	x	_	0	root	_	hither;para.cá
 7	wi	wi	ADP	posp	_	6	obl	_	far.from;longe.de
@@ -235,7 +235,7 @@
 8	waptẽ	waptẽrẽ	VERB	v	_	0	root	_	ask,request;pedir,solicitar
 9	,	,	PUNCT	punct	_	8	punct	_	_
 10	tsa	tsa	NOUN	n	_	8	advcl	_	food;comida,alimento
-11	da	da	SCONJ	sconj	_	10	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+11	da	da	ADP	posp	_	10	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 12	.	.	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = GL-CLX18.5
@@ -255,8 +255,8 @@
 11	hã	hã	DET	det	_	9	det	_	_
 12	,	,	PUNCT	punct	_	14	punct	_	_
 13	marĩ	marĩ	NOUN	n	_	14	nmod	_	something,what;algo,o.que,alguma.coisa
-14	datsa	tsa	NOUN	n	Gnq=Yes	18	obl	_	food;comida,alimento
-15	da	da	SCONJ	sconj	_	14	case	_	for,in.order.to,so.that;para,afim.de,para.que
+14	datsa	tsa	NOUN	n	PronType=Gnc	18	obl	_	food;comida,alimento
+15	da	da	ADP	posp	_	14	case	_	for,in.order.to,so.that;para,afim.de,para.que
 16	hã	hã	DET	det	_	14	det	_	_
 17	,	,	PUNCT	punct	_	14	punct	_	_
 18	höimana	höimana	VERB	v	_	4	parataxis	_	be,live,exist;ser,viver,existir
@@ -454,7 +454,7 @@
 3	te	te	PART	prcl	Htp=Yes|Tense=Pres	4	dep	_	heterophoric.marker;marcardor.heterofórico
 4	waptẽrẽ	waptẽrẽ	VERB	v	_	0	root	_	ask,request;pedir,solicitar
 5	dzahuré	dzahuré	NUM	num	Number=Dual	4	nummod	_	_
-6	dawede	wede	NOUN	n	Gnq=Yes	4	obj	_	medicine;remédio
+6	dawede	wede	NOUN	n	PronType=Gnc	4	obj	_	medicine;remédio
 7	hã	hã	DET	det	_	6	det	_	_
 8	,	,	PUNCT	punct	_	4	punct	_	_
 9	dawede'wai	dawede'wa	NOUN	n	_	4	dislocated	_	nurse,doctor;enfermeiro,médico
@@ -559,7 +559,7 @@
 1	E	e	PART	prcl	Int=Yes	3	dep	_	question.particle;partícula.interrogativa
 2	te	te	PART	prcl	Htp=Yes|Tense=Pres	3	dep	_	heterophoric.marker;marcardor.heterofórico
 3	ĩwaptẽ	waptẽrẽ	VERB	v	Person[abs]=3	0	root	_	ask,request;pedir,solicitar
-4	dawede	wede	NOUN	n	Gnq=Yes	3	obj	_	medicine;remédio
+4	dawede	wede	NOUN	n	PronType=Gnc	3	obj	_	medicine;remédio
 5	hã	hã	DET	det	_	4	det	_	_
 6	dawede'wai	dawede'wa	NOUN	n	_	3	obl	_	nurse,doctor;enfermeiro,médico
 7	wi	wi	ADP	posp	_	6	case	_	far.from;longe.de
@@ -610,10 +610,10 @@
 3	wara	wara	VERB	v	_	0	root	_	run;correr
 4	tsi'a	tsi'a	NOUN	n	_	3	obl	_	hen;galinha
 5	dzô	dzô	ADP	posp	_	4	case	_	after,in.search.of;atrás.de,em.busca.de
-6	te	te	PRON	pron	_	8	nsubj	_	_
+6	te	te	PART	prcl	_	8	nsubj	_	_
 7	te	te	AUX	aux	_	8	aux	_	_
 8	öri	öri	VERB	v	_	3	advcl	_	pick.up.an.object;pegar.um.objeto
-9	da	da	SCONJ	sconj	_	8	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+9	da	da	ADP	posp	_	8	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 10	.	.	PUNCT	punct	_	3	punct	_	_
 11	Ba'õtõ	ba'õtõre	NOUN	n	_	15	nsubj	_	little.girl;menina.pequena
 12	dzéma	dzéma	ADV	adv	_	15	advmod	_	also;também
@@ -773,7 +773,7 @@
 2	ma	ma	PART	prcl	Htp=Yes|Tense=Past	4	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
 3	tãma	ti	PRON	pron	Case=Dat|Person=3	4	iobj	_	lhe,a.ele,.para.ele
 4	titsõ	tsõmri	VERB	v	Person[abs]=3	0	root	_	give;dar
-5	datsa	tsa	NOUN	n	Gnq=Yes	4	obj	_	food;comida,alimento
+5	datsa	tsa	NOUN	n	PronType=Gnc	4	obj	_	food;comida,alimento
 6	hã	hã	DET	det	_	5	det	_	_
 7	.	.	PUNCT	punct	_	4	punct	_	_
 
@@ -978,7 +978,7 @@
 19	te	te	AUX	aux	_	20	aux	_	_
 20	to	to	VERB	v	_	10	advcl	_	cheer,play;brincar,alegrar-se
 21	dza'ra	dza'ra	PART	prcl	Number=Plur	20	dep	_	_
-22	da	da	SCONJ	sconj	_	20	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+22	da	da	ADP	posp	_	20	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 23	.	.	PUNCT	punct	_	20	punct	_	_
 
 # sent_id = GL-CLX27.7
@@ -1064,20 +1064,15 @@
 10	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = GL-CLX30.4
-# text = Ana norĩ hã te tsawi petse dza'ra ti'ra norĩ hã .
+# text = Ananorĩhã te tsawi petse dza'ra ti'ranorĩhã
 # text_por = As mães de vocês amam mesmo seus filhos.
 # text_eng = Your mothers really love their children.
-1	Ana	na	NOUN	n	Person=2	5	nsubj	_	mother;mãe
-2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
-3	hã	hã	DET	det	_	1	det	_	_
-4	te	te	PART	prcl	Htp=Yes|Tense=Pres	5	dep	_	heterophoric.marker;marcardor.heterofórico
-5	tsawi	tsawi	VERB	v	_	0	root	_	love,like,greet;amar,gostar,cumprimentar
-6	petse	petse	ADV	adv	_	5	advmod	_	much,very.much;mesmo,muito.mesmo
-7	dza'ra	dza'ra	PART	prcl	Number=Plur	5	dep	_	_
-8	ti'ra	'ra	NOUN	n	Person=3	5	obj	_	son,daughter;filho,filha
-9	norĩ	norĩ	PART	prcl	Number=Coll	8	dep	_	_
-10	hã	hã	DET	det	_	8	det	_	_
-11	.	.	PUNCT	punct	_	5	punct	_	_
+1	Ananorĩhã	na	NOUN	n	Number=Coll|Person=2	3	nsubj	_	mother;mãe
+2	te	te	PART	prcl	Htp=Yes|Tense=Pres	3	dep	_	heterophoric.marker;marcardor.heterofórico
+3	tsawi	tsawi	VERB	v	_	0	root	_	love,like,greet;amar,gostar,cumprimentar
+4	petse	petse	ADV	adv	_	3	advmod	_	much,very.much;mesmo,muito.mesmo
+5	dza'ra	dza'ra	PART	prcl	Number=Plur	3	dep	_	_
+6	ti'ranorĩhã	'ra	NOUN	n	Number=Coll|Person=3	3	obj	_	son,daughter;filho,filha
 
 # sent_id = GL-CLX30.5
 # text = Ano tina me te tineb dzahuré ’ri'ahö u .
@@ -1162,14 +1157,14 @@
 3	te	te	PART	prcl	Htp=Yes|Tense=Pres	4	dep	_	heterophoric.marker;marcardor.heterofórico
 4	romhu	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
 5	.	.	PUNCT	punct	_	4	punct	_	_
-6	Mare	mare	NOUN	n	_	4	parataxis	_	nada;nothing
+6	Mare	mare	ADV	adv	Polarity=Neg	4	parataxis	_	nada;nothing
 7	di	di	X	x	_	6	dep	_	expletive;expletivo
 8	!	!	PUNCT	punct	_	6	punct	_	_
 9	Ni'wa	ni'wa	PRON	pron	PronType=Ind	12	nsubj	_	someone,some;alguém,algum
 10	te	te	PART	prcl	Htp=Yes|Tense=Pres	12	dep	_	heterophoric.marker;marcardor.heterofórico
 11	te	te	AUX	aux	_	12	aux	_	_
 12	romhuri	romhuri	VERB	v	_	6	parataxis	_	to.work;trabalhar
-13	õ	õ	PART	prcl	_	12	dep	_	negative.marker;marcador.negativo
+13	õ	õ	PART	prcl	Polarity=Neg	12	dep	_	negative.marker;marcador.negativo
 14	di	di	X	x	_	12	dep	_	expletive;expletivo
 15	,	,	PUNCT	punct	_	12	punct	_	_
 16	tãi	tã	NOUN	n	_	12	advcl	_	rain;chuva
@@ -1299,7 +1294,7 @@
 12	te	te	AUX	aux	_	13	aux	_	_
 13	rowẽ	rowẽ	VERB	v	_	7	advcl	_	make.beautiful;fazer.bonito,alegrar
 14	dza'ra	dza'ra	PART	prcl	Number=Plur	13	dep	_	_
-15	da	da	SCONJ	sconj	_	13	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+15	da	da	ADP	posp	_	13	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 16	.	.	PUNCT	punct	_	13	punct	_	_
 17	Tahawa	tahawa	SCONJ	sconj	_	20	mark	_	therefore;por.isso
 18	te	te	PART	prcl	Htp=Yes|Tense=Pres	20	dep	_	heterophoric.marker;marcardor.heterofórico
@@ -1490,7 +1485,7 @@
 11	te	te	AUX	aux	_	13	aux	_	_
 12	aima	ai	PRON	pron	Case=Dat|Person=2	13	iobj	_	he,she;ele,ela
 13	waihu'u	waihu'u	VERB	v	_	5	advcl	_	know,do,teach;saber,fazer,ensinar
-14	da	da	SCONJ	sconj	_	13	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+14	da	da	ADP	posp	_	13	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 15	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = GL-CLX33.9
@@ -1513,7 +1508,7 @@
 14	te	te	AUX	aux	_	15	aux	_	_
 15	'madö'ö	'madö'ö	VERB	v	_	8	parataxis	_	see,look;ver,olhar,enxergar
 16	dza'ra	dza'ra	PART	prcl	Number=Plur	15	dep	_	_
-17	õ	õ	PART	prcl	_	15	dep	_	negative.marker;marcador.negativo
+17	õ	õ	PART	prcl	Polarity=Neg	15	dep	_	negative.marker;marcador.negativo
 18	di	di	X	x	_	15	dep	_	expletive;expletivo
 19	.	.	PUNCT	punct	_	15	punct	_	_
 
@@ -1539,7 +1534,7 @@
 16	dza'ra	dza'ra	PART	prcl	Number=Plur	15	dep	_	_
 17	wa'aba	aba	PART	prcl	Number=Coll	15	dep	_	collective.marker
 18	wẽ	wẽ	ADV	adv	Person=3	15	advmod	_	good,beatuful,well;bom,bonito,belo,bem
-19	da	da	SCONJ	sconj	_	15	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+19	da	da	ADP	posp	_	15	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 20	.	.	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = GL-CLX34.1
@@ -1580,8 +1575,8 @@
 6	ĩpire	pire	NOUN	n	Person=3	0	root	_	heavy,important;pesado,importante
 7	di	di	X	x	_	6	dep	_	expletive;expletivo
 8	,	,	PUNCT	punct	_	6	punct	_	_
-9	datsa	tsa	NOUN	n	Gnq=Yes	6	advcl	_	food;comida,alimento
-10	da	da	SCONJ	sconj	_	9	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+9	datsa	tsa	NOUN	n	PronType=Gnc	6	advcl	_	food;comida,alimento
+10	da	da	ADP	posp	_	9	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 11	hã	hã	DET	det	_	9	det	_	_
 12	.	.	PUNCT	punct	_	9	punct	_	_
 
@@ -1605,7 +1600,7 @@
 14	u	u	ADP	posp	_	13	case	_	to;a,para
 15	,	,	PUNCT	punct	_	16	punct	_	_
 16	tsi'ubumro	tsi'ubumro	VERB	v	_	6	advcl	_	gather.up;reunir-se
-17	da	da	SCONJ	sconj	_	16	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+17	da	da	ADP	posp	_	16	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 18	hã	hã	PART	prcl	Emph=Yes	16	discourse	_	_
 19	.	.	PUNCT	punct	_	16	punct	_	_
 
@@ -1658,7 +1653,7 @@
 2	parimhã	parimhã	ADP	posp	_	1	case	_	_
 3	rowahutu'wa	rowahutu'wa	NOUN	n	_	6	nsubj	_	teacher;professor
 4	te	te	PART	prcl	Htp=Yes|Tense=Pres	6	dep	_	heterophoric.marker;marcardor.heterofórico
-5	dama	da	PRON	pron	Case=Dat|Gnq=Yes|Person=3	6	iobj	_	he,she;ele,ela
+5	dama	da	PRON	pron	Case=Dat|PronType=Gnc	6	iobj	_	he,she;ele,ela
 6	tinha	nharĩ	VERB	v	Person[abs]=3	0	root	_	speak;falar
 7	:	:	PUNCT	punct	_	6	punct	_	_
 8	"	"	PUNCT	punct	_	21	punct	_	_
@@ -1694,7 +1689,7 @@
 38	te	te	AUX	aux	_	39	aux	_	_
 39	waihu'u	waihu'u	VERB	v	_	27	advcl	_	know,do,teach;saber,fazer,ensinar
 40	dza'ra	dza'ra	PART	prcl	Number=Plur	39	dep	_	_
-41	da	da	SCONJ	sconj	_	39	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+41	da	da	ADP	posp	_	39	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 42	!	!	PUNCT	punct	_	39	punct	_	_
 43	"	"	PUNCT	punct	_	21	punct	_	_
 
@@ -1763,7 +1758,7 @@
 9	te	te	AUX	aux	_	11	aux	_	_
 10	wama	wa	PRON	pron	Case=Dat|Number=Plur|Person=1	11	iobj	_	_
 11	rowatsu'u	rowatsu'u	VERB	v	_	5	advcl	_	tell,narrate,show;contar,narrar,mostrar
-12	da	da	SCONJ	sconj	_	11	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+12	da	da	ADP	posp	_	11	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 13	hã	hã	PART	prcl	Emph=Yes	11	discourse	_	_
 14	,	,	PUNCT	punct	_	11	punct	_	_
 15	a'uwẽ	a'uwẽ	NOUN	n	_	16	nmod	_	man,person,people,indian;homem,pessoa,gente,índio
@@ -1814,12 +1809,12 @@
 8	dzô	dzô	SCONJ	sconj	_	9	mark	_	after,in.search.of;atrás.de,em.busca.de
 9	romnhoré	romnhoré	NOUN	n	_	4	advcl	_	school,class,teaching;escola,aula,ensino
 10	u	u	ADP	posp	_	9	case	_	to;a,para
-11	da	da	SCONJ	sconj	_	9	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+11	da	da	ADP	posp	_	9	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 12	hã	hã	PART	prcl	Emph=Yes	9	discourse	_	_
 13	.	.	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = GL-CLX37.8
-# text = Pi’õ te te wẽ'ẽ tsada'ré , ti'ra norĩ ma .
+# text = Pi’õ te te wẽ'ẽ tsada'ré , ti'ranorĩ ma .
 # text_por = Uma mulher parte o bolo para os filhos.
 # text_eng = A woman breaks the cake for her children.
 1	Pi’õ	pi'õ	NOUN	n	_	4	nsubj	_	woman;mulher
@@ -1828,10 +1823,9 @@
 4	wẽ'ẽ	wẽ'ẽ	VERB	v	_	0	root	_	to.break;quebrar
 5	tsada'ré	tsada'ré	NOUN	n	_	4	obj	_	pounded.corn.and.babassu.Xavante.cake;bolo.Xavante.de.milho.socado.e.babaçu
 6	,	,	PUNCT	punct	_	4	punct	_	_
-7	ti'ra	'ra	NOUN	n	Person=3	4	dislocated	_	son,daughter;filho,filha
-8	norĩ	norĩ	PART	prcl	Number=Coll	7	dep	_	_
-9	ma	ma	ADP	posp	Case=Dat	7	case	_	_
-10	.	.	PUNCT	punct	_	4	punct	_	_
+7	ti'ranorĩ	'ra	NOUN	n	Number=Coll|Person=3	4	dislocated	_	son,daughter;filho,filha
+8	ma	ma	ADP	posp	Case=Dat	7	case	_	_
+9	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = GL-CLX37.9
 # text = Ai'repudu uburé te waihu'u , ĩmama te te ĩpo'repu'u na hã .
@@ -1864,41 +1858,35 @@
 8	na	na	ADP	posp	_	7	case	_	in,from;em,de
 9	te	te	PART	prcl	Htp=Yes|Tense=Pres	12	dep	_	heterophoric.marker;marcardor.heterofórico
 10	te	te	AUX	aux	_	12	aux	_	_
-11	dama	da	PRON	pron	Case=Dat|Gnq=Yes|Person=3	12	iobj	_	he,she;ele,ela
+11	dama	da	PRON	pron	Case=Dat|PronType=Gnc	12	iobj	_	he,she;ele,ela
 12	rowatsu'u	rowatsu'u	VERB	v	_	3	parataxis	_	tell,narrate,show;contar,narrar,mostrar
 13	ré	ré	ADP	posp	_	12	obl	_	full.of,inside.of,during,while;cheio.de,dentro,do,durante,enquanto,sendo
 14	hã	hã	PART	prcl	Emph=Yes	12	dep	_	_
 15	!	!	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = GL-CLX38.1
-# text = " Ĩ'ra norĩ , e ai’udza te ĩ'uptsõi wa'wa . " pi'õ te tsadanha . " Madze di ! " õnorĩhã ma tsada'öbö dzahuré .
+# text = Ĩ'ranorĩ , e ai’udza te ĩ'uptsõi wa'wa . pi'õ te tsadanha . Madze di ! õnorĩhã ma tsada'öbö dzahuré
 # text_por = "Minhas duas filhas, vocês lavam suas roupas?"pergunta a mulher. "Não!" responderam as duas.
 # text_eng = "My two daughters, do you wash your clothes?" asks the woman. "No!" replied the two.
-1	"	"	PUNCT	punct	_	8	punct	_	_
-2	Ĩ'ra	'ra	NOUN	n	Person=3	8	vocative	_	son,daughter;filho,filha
-3	norĩ	norĩ	PART	prcl	Number=Coll	2	dep	_	_
-4	,	,	PUNCT	punct	_	8	punct	_	_
-5	e	e	PART	prcl	Int=Yes	8	dep	_	question.particle;partícula.interrogativa
-6	ai’udza	udza	NOUN	n	Person=2	8	obj	_	clothes,dress.up;roupa,vestir-se
-7	te	te	PART	prcl	Htp=Yes|Tense=Pres	8	dep	_	heterophoric.marker;marcardor.heterofórico
-8	ĩ'uptsõi	uptsõi	VERB	v	Person[abs]=3	14	ccomp	_	wash;lavar
-9	wa'wa	'wa	X	x	Number=Dual	8	dep	_	dual.number.marker;indicador.dual
-10	.	.	PUNCT	punct	_	8	punct	_	_
-11	"	"	PUNCT	punct	_	8	punct	_	_
-12	pi'õ	pi'õ	NOUN	n	_	14	nsubj	_	woman;mulher
-13	te	te	PART	prcl	Htp=Yes|Tense=Pres	14	dep	_	heterophoric.marker;marcardor.heterofórico
-14	tsadanha	tsadanharĩ	VERB	v	_	0	root	_	ask;perguntar
-15	.	.	PUNCT	punct	_	14	punct	_	_
-16	"	"	PUNCT	punct	_	17	punct	_	_
-17	Madze	madze	NOUN	n	_	23	ccomp	_	nada;nothing
-18	di	di	X	x	_	17	dep	_	expletive;expletivo
-19	!	!	PUNCT	punct	_	17	punct	_	_
-20	"	"	PUNCT	punct	_	17	punct	_	_
-21	õnorĩhã	õnorĩhã	PRON	pron	Number=Plur|Person=3	23	nsubj	_	_
-22	ma	ma	PART	prcl	Htp=Yes|Tense=Past	23	dep	_	perfect.aspect;aspecto.perfeito
-23	tsada'öbö	tsada'öbö	VERB	v	_	14	parataxis	_	reply;responder
-24	dzahuré	dzahuré	NUM	num	Number=Dual	21	nummod	_	_
-25	.	.	PUNCT	punct	_	23	punct	_	_
+1	Ĩ'ranorĩ	'ra	NOUN	n	Number=Coll|Person=3	6	vocative	_	son,daughter;filho,filha
+2	,	,	PUNCT	punct	_	6	punct	_	_
+3	e	e	PART	prcl	Int=Yes	6	dep	_	question.particle;partícula.interrogativa
+4	ai’udza	udza	NOUN	n	Person=2	6	obj	_	clothes,dress.up;roupa,vestir-se
+5	te	te	PART	prcl	Htp=Yes|Tense=Pres	6	dep	_	heterophoric.marker;marcardor.heterofórico
+6	ĩ'uptsõi	uptsõi	VERB	v	Person[abs]=3	11	ccomp	_	wash;lavar
+7	wa'wa	'wa	X	x	Number=Dual	6	dep	_	dual.number.marker;indicador.dual
+8	.	.	PUNCT	punct	_	6	punct	_	_
+9	pi'õ	pi'õ	NOUN	n	_	11	nsubj	_	woman;mulher
+10	te	te	PART	prcl	Htp=Yes|Tense=Pres	11	dep	_	heterophoric.marker;marcardor.heterofórico
+11	tsadanha	tsadanharĩ	VERB	v	_	0	root	_	ask;perguntar
+12	.	.	PUNCT	punct	_	11	punct	_	_
+13	Madze	madze	NOUN	n	_	18	ccomp	_	nada;nothing
+14	di	di	X	x	_	13	dep	_	expletive;expletivo
+15	!	!	PUNCT	punct	_	13	punct	_	_
+16	õnorĩhã	õnorĩhã	PRON	pron	Number=Plur|Person=3	18	nsubj	_	_
+17	ma	ma	PART	prcl	Htp=Yes|Tense=Past	18	dep	_	perfect.aspect;aspecto.perfeito
+18	tsada'öbö	tsada'öbö	VERB	v	_	11	parataxis	_	reply;responder
+19	dzahuré	dzahuré	NUM	num	Number=Dual	16	dep	_	_
 
 # sent_id = GL-CLX38.2
 # text =  " E aihitébré ma ĩtsabui wa'wa . " ĩna te tsadanha . " Ĩhe ! " ma tsada'öbö dzahuré .
@@ -2042,47 +2030,42 @@
 6	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = EMX-1
-# text = Tahata wahi'rata norĩhã
+# text = Tahata wahi'ratanorĩhã
 # text_eng = Those are our ancestros (Estevam 2011:  27, 1)
 # text_por = Aquele são nossos antepassados
 1	Tahata	tahata	DET	dem	_	2	det	_	isso;that
-2	wahi'rata	'rata	NOUN	n	_	0	root	_	ancestor;antepassado
-3	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	2	discourse	_	_
+2	wahi'ratanorĩhã	'rata	NOUN	n	Emph=Yes|Number=Coll	0	root	_	ancestor;antepassado
 
 # sent_id = EMX-2
-# text = Wahi'rata norĩhã danho're ma wama awaihu'u .
+# text = Wahi'ratanorĩhã danho're ma wama awaihu'u
 # text_eng = Our ancestors taught us songs. (Estevam, 27: 2)
 # text_por = Nossos ancestrais nos ensinaram canções.
-1	Wahi'rata	'rata	NOUN	n	_	6	nsubj	_	ancestor;antepassado
-2	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	6	discourse	_	_
-3	danho're	danho're	NOUN	n	_	6	obj	_	song;canto
-4	ma	ma	PART	prcl	Htp=Yes|Tense=Past	3	dep	_	perfect.aspect;aspecto.perfeito
-5	wama	wa	PRON	pron	Case=Dat|Number=Plur|Person=1	6	iobj	_	_
-6	awaihu'u	waihu'u	VERB	v	_	0	root	_	know,do,teach;saber,fazer,ensinar
-7	.	.	PUNCT	_	_	6	punct	_	_
+1	Wahi'ratanorĩhã	'rata	NOUN	n	Emph=Yes|Number=Coll	5	nsubj	_	ancestor;antepassado
+2	danho're	danho're	NOUN	n	_	5	obj	_	song;canto
+3	ma	ma	PART	prcl	Htp=Yes|Tense=Past	2	dep	_	perfect.aspect;aspecto.perfeito
+4	wama	wa	PRON	pron	Case=Dat|Number=Plur|Person=1	5	iobj	_	_
+5	awaihu'u	waihu'u	VERB	v	_	0	root	_	know,do,teach;saber,fazer,ensinar
 
 # sent_id = EMX-3
-# text = Waradzu wahi'rata norĩhã ma dapãrĩ dza'ra
+# text = Waradzu wahi'ratanorĩhã ma dapãrĩ dza'ra
 # text_eng = The white man murdered our ancestors. (Estevam, 27: 3)
 # text_por = O homem branco matou nossos antepassados. 
-1	Waradzu	waradzu	NOUN	n	_	5	nsubj	_	white,civilized,non-indian;branco,civilizado,não-índio
-2	wahi'rata	'rata	NOUN	n	_	5	obj	_	ancestor;antepassado
-3	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	5	discourse	_	_
-4	ma	ma	PART	prcl	Htp=Yes|Tense=Past	5	dep	_	perfect.aspect;aspecto.perfeito
-5	dapãrĩ	pãrĩ	VERB	_	Gnq=Yes|Person[abs]=3	0	root	_	kill.two.beings;matar.dois.seres
-6	dza'ra	dza'ra	PART	prcl	Number=Plur	5	dep	_	_
+1	Waradzu	waradzu	NOUN	n	_	4	nsubj	_	white,civilized,non-indian;branco,civilizado,não-índio
+2	wahi'ratanorĩhã	'rata	NOUN	n	Emph=Yes|Number=Coll	4	obj	_	ancestor;antepassado
+3	ma	ma	PART	prcl	Htp=Yes|Tense=Past	4	dep	_	perfect.aspect;aspecto.perfeito
+4	dapãrĩ	pãrĩ	VERB	_	Person[abs]=3|PronType=Gnc	0	root	_	kill.two.beings;matar.dois.seres
+5	dza'ra	dza'ra	PART	prcl	Number=Plur	4	dep	_	_
 
 # sent_id = EMX-4
-# text = Wahi'rata norĩ höimanadzé ĩpire
+# text = Wahi'ratanorĩ höimanadzé ĩpire
 # text_eng = The life of our ancestors is hard. (Estevam 2011:  28, 4)
 # text_por = A vida de nossos antepassados é difícil.
-1	Wahi'rata	'rata	NOUN	n	_	3	nmod	_	ancestor;antepassado
-2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
-3	höimanadzé	höimanadzé	NOUN	n	_	4	nsubj	_	life,existence;vida,existência
-4	ĩpire	pire	NOUN	n	_	0	root	_	heavy,important;pesado,importante
+1	Wahi'ratanorĩ	'rata	NOUN	n	Number=Coll	2	nmod	_	ancestor;antepassado
+2	höimanadzé	höimanadzé	NOUN	n	_	3	nsubj	_	life,existence;vida,existência
+3	ĩpire	pire	NOUN	n	_	0	root	_	heavy,important;pesado,importante
 
 # sent_id = EMX-5
-# text = Höiwahö wa dza we wate simro wa'ra norĩhã
+# text = Höiwahö wa dza we wate simro wa'ranorĩhã
 # text_eng = In the afternoon we will bring our children back. (Estevam 2011:  28, 5)
 # text_por = À tarde, traremos nossos filhos de volta.
 1	Höiwahö	höiwahö	ADV	adv	_	6	advmod	_	late;de.tarde
@@ -2091,8 +2074,7 @@
 4	we	we	ADV	adv	_	6	advmod	_	hither;para.cá
 5	wate	te	AUX	aux	Number=Plur|Person=1	6	aux	_	_
 6	simro	simro	VERB	v	_	0	root	_	bring.back;trazer.de.volta
-7	wa'ra	'ra	NOUN	n	Number=Plur|Person=1	6	obj	_	son,daughter;filho,filha
-8	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	6	discourse	_	_
+7	wa'ranorĩhã	'ra	NOUN	n	Emph=Yes|Number=Coll|Person=1	6	obj	_	son,daughter;filho,filha
 
 # sent_id = EMX-6
 # text = 'Watébrémi ti'a te tsãmra
@@ -2124,7 +2106,7 @@
 2	'rowi	'rowi	ADV	adv	_	3	advmod	_	near;perto
 3	pese	pese	VERB	v	_	0	root	_	be.perfect;seja.perfeito
 4	re	re	PART	prcl	Degree=Dim	3	dep	_	diminutive;diminutivo
-5	te	te	PRON	pron	_	7	nsubj	_	_
+5	te	te	PART	prcl	_	7	nsubj	_	_
 6	te	te	AUX	aux	_	7	aux	_	_
 7	sõré	sõré	VERB	v	_	3	parataxis	_	install;instalar
 
@@ -2140,24 +2122,23 @@
 5	mro	mro	VERB	v	_	0	root	_	match;contar
 
 # sent_id = EMX-10
-# text = Te wamama norĩhã waré 're höimana dza'ra warobreb 're hã U'uiwawẽ ãma hã
+# text = Te wamamanorĩhã waré 're höimana dza'ra warobreb 're hã U'uiwawẽ ãma hã
 # text_eng = Our parents lived (happily) with us in our small village in Lagoa Azul. (Estevam 2011:  31, 10)
 # text_por = Nossos pais viviam (felizmente) conosco em nosso pequeno vilarejo em Lagoa Azul.
-1	Te	te	PART	prcl	Htp=Yes|Tense=Pres	6	dep	_	heterophoric.marker;marcardor.heterofórico
-2	wamama	mama	NOUN	n	_	6	nsubj	_	father;pai
-3	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	6	discourse	_	_
-4	waré	ré	ADP	posp	Number=Plur|Person=1	6	obl	_	full.of,inside.of,during,while;cheio.de,dentro.de,durante,enquanto,sendo
-5	're	're	ADP	posp	_	6	obl	_	inside,in;dentro.de,em
-6	höimana	höimana	VERB	v	_	0	root	_	be,live,exist;ser,viver,existir
-7	dza'ra	dza'ra	PART	prcl	Number=Plur	6	dep	_	_
-8-9	warobreb	_	_	_	_	_	_	_	_
-8	warob	rob	NOUN	n	Number=Plur|Person=1	6	obl	_	village;aldeia
-9	reb	re	PART	prcl	Degree=Dim	8	dep	_	diminutive;diminutivo
-10	're	're	ADP	posp	_	8	case	_	inside,in;dentro.de,em
-11	hã	hã	DET	det	_	8	det	_	_
-12	U'uiwawẽ	u'uiwawẽ	PROPN	propn	_	6	obl	_	_
-13	ãma	ãma	ADP	posp	_	12	case	_	in;em
-14	hã	hã	DET	det	_	12	det	_	_
+1	Te	te	PART	prcl	Htp=Yes|Tense=Pres	5	dep	_	heterophoric.marker;marcardor.heterofórico
+2	wamamanorĩhã	mama	NOUN	n	Emph=Yes|Number=Coll	5	nsubj	_	father;pai
+3	waré	ré	ADP	posp	Number=Plur|Person=1	5	obl	_	full.of,inside.of,during,while;cheio.de,dentro.de,durante,enquanto,sendo
+4	're	're	ADP	posp	_	5	obl	_	inside,in;dentro.de,em
+5	höimana	höimana	VERB	v	_	0	root	_	be,live,exist;ser,viver,existir
+6	dza'ra	dza'ra	PART	prcl	Number=Plur	5	dep	_	_
+7-8	warobreb	_	_	_	_	_	_	_	_
+7	warob	rob	NOUN	n	Number=Plur|Person=1	5	obl	_	village;aldeia
+8	reb	re	PART	prcl	Degree=Dim	7	dep	_	diminutive;diminutivo
+9	're	're	ADP	posp	_	7	case	_	inside,in;dentro.de,em
+10	hã	hã	DET	det	_	7	det	_	_
+11	U'uiwawẽ	u'uiwawẽ	PROPN	propn	_	5	obl	_	_
+12	ãma	ãma	ADP	posp	_	11	case	_	in;em
+13	hã	hã	DET	det	_	11	det	_	_
 
 # sent_id = EMX-11
 # text = Õhã si uburé marĩ waihu'u'wa hã tô , ropoto'wa si
@@ -2225,7 +2206,7 @@
 # text_eng = I want to wash myself. (Estevam 2011:  35, 16b)
 # text_por = Eu quero me lavar.
 1	Ĩĩsiupte	upte	VERB	v	Number=Sing|Person=1	5	xcomp	_	wash;lavagem
-2	da	da	SCONJ	sconj	_	1	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+2	da	da	ADP	posp	_	1	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 3	wa	wa	PART	prcl	Ego=Yes|Person=1	5	dep	_	egophoric.marker;marcardor.egofórico
 4	ĩĩsima	ĩĩ	PRON	pron	Case=Dat|Number=Sing|Person=1|Reflex=Yes	5	nsubj	_	_
 5	wẽ	wẽ	VERB	v	_	0	root	_	want;querer
@@ -2237,8 +2218,8 @@
 1	Te	te	PART	prcl	Htp=Yes|Tense=Pres	5	dep	_	heterophoric.marker;marcardor.heterofórico
 2	dza	dza	PART	prcl	Tense=Fut	5	dep	_	future.marker;marcador.de.futuro
 3	oto	oto	ADV	adv	_	5	advmod	_	then;então
-4	asina	a	PRON	pron	Case=Ins|Hon=Yes|Person=2|Reflex=Yes	5	obl	_	_
-5	aahöimana	höimana	VERB	v	Hon=Yes|Person[abs]=2	0	root	_	be,live,exist;ser,viver,existir
+4	asina	a	PRON	pron	Case=Ins|Hnfc=Yes|Person=2|Reflex=Yes	5	obl	_	_
+5	aahöimana	höimana	VERB	v	Hnfc=Yes|Person[abs]=2	0	root	_	be,live,exist;ser,viver,existir
 6	aba	aba	PART	prcl	Number=Coll	5	dep	_	collective.marker
 7	mo	mo	AUX	aux	_	5	aux	_	_
 8	,	,	PUNCT	punct	_	5	punct	_	_
@@ -2292,7 +2273,7 @@
 # text_fr = chien de mon père
 # text_eng = dog of my father (Estevam 2011:  39, 21)
 1	ĩĩmama	mama	NOUN	n	Number=Sing|Person=1	3	nmod	_	father;pai
-2	te	te	X	x	Gnq=Yes	3	dep	_	_
+2	te	te	PRON	x	PronType=Gnc	3	dep	_	_
 3	waptsã	waptsã	NOUN	n	_	0	root	_	dog,puppy;cachorro
 
 # sent_id = EMX-22
@@ -2303,7 +2284,7 @@
 1	Ĩhi	ĩhi	NOUN	n	_	2	nmod	_	old,aged,elderly;velho,idoso,ancião
 2	ñimiza'reseõ	ñimiza'rese	NOUN	n	Polarity=Neg	8	nsubj	_	ignorant;ignorante
 3	tô	tô	PART	prcl	Fact=Yes	8	dep	_	factive;fictício
-4	darob	rob	NOUN	n	Gnq=Yes	8	obl	_	village;aldeia
+4	darob	rob	NOUN	n	PronType=Gnc	8	obl	_	village;aldeia
 5	mono	mono	PART	prcl	NumType=Dist	4	dep	_	_
 6	bö	bö	PART	prcl	_	4	discourse	_	thus;assim
 7	te	te	PART	prcl	Htp=Yes|Tense=Pres	8	dep	_	heterophoric.marker;marcardor.heterofórico
@@ -2331,11 +2312,10 @@
 4	di	di	PART	prcl	_	3	dep	_	_
 
 # sent_id = EMX-24a
-# text = aba'wa norĩ
+# text = aba'wanorĩ
 # text_fr = (les) chasseurs
 # text_eng = the hunters (Estevam 2011:  41, 24a)
-1	aba'wa	aba'wa	NOUN	n	_	0	root	_	hunter;caçador
-2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
+1	aba'wanorĩ	aba'wa	NOUN	n	Number=Coll	0	root	_	hunter;caçador
 
 # sent_id = EMX-24b
 # text = utö norĩ
@@ -2343,4 +2323,262 @@
 # text_eng = the tapirs (Estevam 2011:  41, 24b)
 1	utö	utö	NOUN	n	_	0	root	_	tapir;tapir
 2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
+
+# sent_id = EMX-25
+# text = Wede hã uburé ma pusi
+# text_fr = Tous les arbres ont surgi
+# text_por = 
+1	Wede	_	NOUN	n	_	5	nsubj	_	_
+2	hã	hã	PART	prcl	_	1	dep	_	_
+3	uburé	uburé	PRON	pron	PronType=Tot	1	nmod	_	_
+4	ma	ma	PART	prcl	_	5	dep	_	_
+5	pusi	pusi	VERB	v	Number=Sing|Person=3	0	root	_	_
+
+# sent_id = EMX-26
+# text = Norõ te su ma azidi tô
+# text_fr = Ils ont aperçu les feuilles de palmier (sp)
+# text_por =
+1	Norõ	norõ	NOUN	n	_	3	nmod	_	_
+2	te	te	PART	prcl	_	1	dep	_	_
+3	su	su	NOUN	n	_	5	obj	_	_
+4	ma	ma	PART	prcl	Tense=Past	5	dep	_	_
+5	azidi	azidi	VERB	v	Number=Sing|Person=3	0	root	_	_
+6	tô	tô	PART	prcl	_	5	dep	_	_
+
+# sent_id = EMX-27
+# text = Ĩzö hã ĩwaʔwa höjmana zaʔra
+# text_fr = 
+# text_por = Ses graines se trouvent en son centre.
+1	Ĩzö	zö	NOUN	n	Number=Sing|Person=3	4	nsubj	_	_
+2	hã	hã	PART	prcl	_	1	dep	_	_
+3	ĩwaʔwa	waʔwa	NOUN	n	Number=Sing|Person=3	4	obl	_	_
+4	höjmana	höjmana	VERB	v	Number=Sing|Person=3	0	root	_	_
+5	zaʔra	zaʔra	PART	prcl	Number=Plur	1	dep	_	_
+
+# sent_id = EMX-28
+# text = Ta barana ma dahudu , misi hã ma ajwajrĩ
+# text_fr = Ces gens-là ont fuit la nuit, seul un est resté
+# text_por =
+1	Ta	ta	PRON	pron	_	4	nsubj	_	_
+2	barana	barana	ADV	adv	_	4	advmod	_	_
+3	ma	ma	PART	prcl	_	4	dep	_	_
+4	dahudu	hudu	VERB	vi	Number=Sing|Person=3	0	root	_	_
+5	,	,	PUNCT	punct	_	4	punct	_	_
+6	misi	misi	NUM	_	_	9	nsubj	_	_
+7	hã	hã	PART	prcl	_	9	discourse	_	_
+8	ma	ma	PART	prcl	_	9	dep	_	_
+9	ajwajrĩ	ajwajrĩ	VERB	v	Number=Sing|Person=3	4	parataxis	_	_
+
+# sent_id = EMX-29a
+# text = E bété ĩĩmamawapté ?
+# text_fr = Et mon oncle ?
+# text_por = E meu tio?
+1	E	e	PART	prcl	_	3	dep	_	interrogative.particle;partícula.interrogativa
+2	bété	bété	PART	prcl	_	3	discourse	_	focal particle
+3	ĩĩmamawapté	mamawapté	NOUN	n	Number=Sing|Person=1	0	root	_	maternal.uncle;tio.materno
+4	?	?	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = EMX-29b
+# text = Tahã zéma
+# text_fr = Lui aussi
+# text_por = Ele também
+1	Tahã	ta	PRON	pron	_	0	root	_	_
+2	zéma	zéma	ADV	adv	_	1	advmod	_	_
+
+# sent_id = EMX-30a
+# text = Waãma ĩbicho zaʔra mono hã , anorĩ waʔaba mono hã
+# text_fr = Ceux que nous considérons comme des bêtes, (c’)est vous
+# text_por =
+1	Waãma	wa	PRON	pron	Number=Plur|PronType=Prs	2	nsubj	_	_
+2	ĩbicho	bicho	VERB	v	Person=3	7	dislocated	_	_
+3	zaʔra	zaʔra	PART	part	Number=Dual	1	dep	_	_
+4	mono	mono	PART	prcl	Aspect=Iter	2	dep	_	_
+5	hã	hã	PART	prcl	Emph=Yes	2	discourse	_	_
+6	,	,	PUNCT	punct	_	2	punct	_	_
+7	anorĩ	a	PRON	pron	Number=Plur|Person=2|PronType=Prs	0	root	_	_
+8	waʔaba	waʔaba	PRON	_	_	7	dep	_	_
+9	mono	mono	PART	prcl	Aspect=Iter	7	dep	_	_
+10	hã	hã	PART	prcl	Emph=Yes	7	discourse	_	_
+
+# sent_id = EMX-30b
+# text = Wahã dawi robʔréʔwa
+# text_fr = Je suis (quelqu’un) qui fait taire les gens.
+# text_por = Eu sou (alguém) que silencia as pessoas
+1	Wahã	wa	PRON	Pron	Emph=Yes|PronType=Prs	3	nsubj	_	_
+2	dawi	da	PRON	pron	Person=3|PronType=Gnc	3	nmod	_	_
+3	robʔréʔwa	robʔré	NOUN	n	Nomzr=Ag	0	root	_	_
+
+# sent_id = EMX-31
+# text = Wahã ĩĩwasutu di
+# text_eng = Me, I am tired.
+# text_por = 
+1	Wahã	wa	PRON	pron	Emph=Yes|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	ĩĩwasutu	wasutu	VERB	v	Number=Sing|Person=1	0	root	_	_
+3	di	di	AUX	cop	_	2	cop	_	_
+
+# sent_id = EMX-32a
+# text = azarutu zéré
+# text_fr = les cheveux de la jeune fille
+# text_por =
+1	azarutu	azarutu	NOUN	n	Number=Sing	2	nmod	_	_
+2	zéré	zéré	NOUN	n	Number=Plur	0	root	_	_
+
+# sent_id = EMX-32a1
+# text = ĩĩzéré
+# text_fr = mes cheveux
+# text_por =
+1	ĩĩzéré	zéré	NOUN	n	Number=Plur|Number[psor]=Sing|Person=1	0	root	_	_
+
+# sent_id = EMX-32b
+# text = azarutu ma
+# text_fr = pour la jeune fille
+# text_por =
+1	azarutu	azarutu	NOUN	n	Number=Sing	0	root	_	_
+2	ma	ma	ADP	posp	_	1	case	_	_
+
+# sent_id = EMX-32b1
+# text = ĩĩma
+# text_fr = pour moi
+# text_por = 
+1	ĩĩma	ma	ADP	posp	Number=Sing|Person=1	0	root	_	_
+
+# sent_id = EMX-33
+# text = Wedeñorõ ã re hã rom na hã mare di
+# text_eng = There is no such/this little rope in the bush.
+# text_por =
+1	Wedeñorõ	wedeñorõ	NOUN	_	_	0	root	_	_
+2	ã	ã	DET	dem	Deixis=Prox	1	det	_	_
+3	re	re	PART	prcl	Degree=Dim	1	dep	_	_
+4	hã	hã	PART	_	Emph=Yes	1	dep	_	_
+5	rom	rom	NOUN	_	_	1	obl	_	_
+6	na	na	ADP	posp	_	5	case	_	_
+7	hã	hã	PART	_	Emph=Yes	5	dep	_	_
+8	mare	mare	ADV	adv	Polarity=Neg	9	advmod	_	_
+9	di	di	AUX	cop	_	1	cop	_	_
+
+# sent_id = EMX-34
+# text = Ãhã marã ʔre ʔre ĩhöjmana zaʔra mono
+# text_fr = Ceux-là sont de ceux qui se trouvent dans la brousse.
+# text_por =
+1	Ãhã	ã	DET	dem	Deixis=Prox|Emph=Yes	5	nsubj	_	_
+2	marã	marã	NOUN	n	_	5	obl	_	_
+3	ʔre	ʔre	ADP	posp	_	2	case	_	_
+4	ʔre	ʔre	PART	prcl	_	5	dep	_	_
+5	ĩhöjmana	höjmana	VERB	v	Number=Sing|Person=3	0	root	_	_
+6	zaʔra	zaʔra	PART	x	Number=Plur	5	dep	_	_
+7	mono	mono	PART	prcl	Aspect=Iter	5	dep	_	_
+
+# sent_id = EMX-35
+# text = Õhõ si tô ropotoʔwa
+# text_eng = Only he is actually the Creator.
+# text_por = 
+1	Õhõ	õ	DET	dem	Deixis=Remt|Emph=Yes	4	det	_	_
+2	si	si	ADV	adv	_	4	advmod	_	_
+3	tô	tô	ADV	adv	_	4	advcl	_	_
+4	ropotoʔwa	ropotoʔwa	NOUN	n	_	0	root	_	_
+
+# sent_id = EMX-37
+# text = Ta iséré pa si hã
+# text_eng = Those there are all people with long hair.
+# text_por =
+1	Ta	ta	PRON	pron	Deixis=Med|PronType=Dem	2	nsubj	_	_
+2	iséré	séré	NOUN	n	Number=Sing|Person=3	0	root	_	_
+3	pa	pa	ADJ	adj	_	2	nmod	_	_
+4	si	si	ADV	adv	_	2	advmod	_	_
+5	hã	hã	PART	prcl	Emph=Yes	2	dep	_	_
+
+# sent_id = EMX-70a
+# text = Nimame dawedezé hã iwẽ uptabi hã we te sãmra õ di
+# text_eng = They have never sent good medicines here
+# text_por = Nunca se mandou remédios bos para cá
+1	Nimame	nima	ADV	adv	_	9	advmod	_	_
+2	dawedezé	dawedezé	NOUN	n	_	9	obj	_	_
+3	hã	hã	PART	prcl	Emph=Yes	2	nmod	_	_
+4	iwẽ	wẽ	VERB	v	Number=Sing|Person=3	2	nmod	_	_
+5	uptabi	uptabi	ADV	adv	_	4	advmod	_	_
+6	hã	hã	PART	prcl	Emph=Yes	4	dep	_	_
+7	we	we	ADV	adv	_	9	advmod	_	_
+8	te	te	AUX	_	_	9	aux	_	_
+9	sãmra	sãmra	VERB	v	Number=Sing|Person=3	0	root	_	_
+10	õ	õ	ADV	adv	Polarity=Neg	9	advmod	_	_
+11	di	di	AUX	cop	_	10	cop	_	_
+
+# sent_id = EMX-70b
+# text = Duré nimamem hã ĩĩzahi wasédé ĩĩsiré piʔõ da
+# text_eng = And I didn't get angry with a woman of my generation
+# text_por =
+1	Duré	Duré	ADV	adv	_	4	advmod	_	_
+2	nimamem	nima	ADV	adv	_	4	advmod	_	_
+3	hã	hã	PART	prcl	Emph=Yes	2	dep	_	_
+4	ĩĩzahi	zahi	VERB	v	Number=Sing|Person=1	0	root	_	_
+5	wasédé	wasédé	ADV	adv	_	4	advmod	_	_
+6	ĩĩsiré	siré	NOUN	n	Number=Sing|Person=1	7	nmod	_	_
+7	piʔõ	piʔõ	NOUN	n	_	4	obl	_	_
+8	da	da	ADP	posp	_	7	case	_	_
+
+# sent_id = EMX-71
+# text = Dasimasisi aba wamhã , e niha te tahöjmana aba ni ?
+# text_eng = When they arrived, how did they live?
+# text_por =
+1	Dasimasisi	simasisi	VERB	_	_	8	advcl	_	_
+2	aba	aba	PART	prcl	Number=Coll	1	dep	_	_
+3	wamhã	wamhã	SCONJ	sconj	_	1	mark	_	_
+4	,	,	PUNCT	punct	_	1	punct	_	_
+5	e	e	PART	prcl	Int=Yes	8	dep	_	_
+6	niha	niha	ADV	adv	_	8	advmod	_	_
+7	te	te	PART	x	Htp=Yes	8	dep	_	_
+8	tahöjmana	höjmana	VERB	v	_	0	root	_	_
+9	aba	aba	PART	prcl	Number=Coll	8	dep	_	_
+10	ni	ni	PRON	pron	PronType=Ind	8	dep	_	_
+11	?	?	PUNCT	punct	_	8	punct	_	_
+
+# sent_id = EMX-131
+# text = Awẽm hã wa za aiʔabaʔré ni mararé romhuri hã wate wasiwi ʔrãsutuwẽ da
+# text_eng = Tomorrow we'll go early and finish the work together
+# text_por = Amanhã iremos cedo para terminar o trabalho
+1	Awẽm	awẽm	ADV	adv	_	5	advmod	_	_
+2	hã	hã	PART	prcl	Emph=Yes	1	discourse	_	_
+3	wa	wa	PRON	pron	PronType=Prs	5	nsubj	_	_
+4	za	za	PART	prcl	Tense=Fut	5	dep	_	_
+5	aiʔabaʔré	aiʔabaʔré	VERB	v	_	0	root	_	_
+6	ni	ni	X	x	_	5	dep	_	_
+7	mararé	mararé	ADV	adv	_	12	advmod	_	_
+8	romhuri	romhuri	NOUN	n	_	12	obj	_	_
+9	hã	hã	PART	prcl	Emph=Yes	8	discourse	_	_
+10	wate	wa	PRON	pron	Number=Plur|Person=1|PronType=Prs	11	dep	_	_
+11	wasiwi	wasiwi	PRON	pron	Number=Coll	12	nsubj	_	_
+12	ʔrãsutuwẽ	ʔrãsutu	VERB	v	Intens=Yes	5	xcomp	_	_
+13	da	da	PART	prcl	Mood=Sub	12	dep	_	_
+
+# sent_id = EMX-133
+# text = Dazépuʔu õ di , datõmo zé õ di , duré dañi zé õ di
+# text_eng = There was no ilness, no eye pain, and also no muscle pain
+# text_por =
+1	Dazépuʔu	zépuʔu	NOUN	n	Number=Sing|Poss=Yes|PronType=Gnc	0	root	_	_
+2	õ	õ	ADV	adv	Polarity=Neg	1	advmod	_	_
+3	di	di	AUX	cop	_	1	cop	_	_
+4	,	,	PUNCT	punct	_	1	punct	_	_
+5	datõmo	tõmo	NOUN	n	Number=Sing|Poss=Yes|PronType=Gnc	6	nmod	_	_
+6	zé	zé	NOUN	n	_	1	conj	_	_
+7	õ	õ	ADV	adv	Polarity=Neg	6	advcl	_	_
+8	di	di	AUX	cop	_	6	cop	_	_
+9	,	,	PUNCT	punct	_	6	punct	_	_
+10	duré	duré	ADV	adv	_	12	advmod	_	_
+11	dañi	ñi	NOUN	n	Number=Sing|Poss=Yes|PronType=Gnc	12	nmod	_	_
+12	zé	zé	NOUN	n	Number=Sing	1	conj	_	_
+13	õ	õ	ADV	adv	Polarity=Neg	12	advmod	_	_
+14	di	di	AUX	cop	_	12	aux	_	_
+
+# sent_id = EMX-164.a
+# text = Ĩĩmama , e te za aañamra ni ?
+# text_eng = Mon père, est-ce que tu vas t’asseoir ?
+# text_por = Meu pai, por que o senhor vai se sentar?
+1	Ĩĩmama	mama	NOUN	n	Number=Sing|Number[psor]=Sing|Person=1	6	vocative	_	_
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	e	e	PART	prcl	_	6	dep	_	_
+4	te	te	PART	prcl	Htp=Yes|Tense=Pres	6	dep	_	_
+5	za	za	PART	prcl	Tense=Fut	6	dep	_	_
+6	aañamra	ñamra	VERB	v	Hnfc=Yes|Number=Sing|Person=2	0	root	_	_
+7	ni	ni	PRON	pron	_	6	dep	_	_
+8	?	?	PUNCT	punct	_	6	punct	_	_
 
