@@ -937,7 +937,7 @@
 
 # sent_id = GL-CLX27.5
 # text = Waptéb norĩ hã , bötö ré hã hö ba te höimana dza'ra .
-# text_por = Durante o dia, os adolescentes vivem na casa dos solteiros. 
+# text_por = Durante o dia, os adolescentes vivem na casa dos solteiros.
 # text_eng = During the day, the teenagers live in the singles' house.
 1	Waptéb	wapté	NOUN	n	_	11	nsubj	_	teenager;adolescente
 2	norĩ	norĩ	PART	prcl	Number=Coll	1	dep	_	_
@@ -955,7 +955,7 @@
 
 # sent_id = GL-CLX27.6
 # text = Mara ré hã , niwamhã tinhohui'wai me wapté te tsõ're dza'ra 'rinho're baba , a'uwẽ norĩ hã te te to dza'ra da .
-# text_por = Durante a noite, de vez em quando, os adolescentes com seus padrinhos cantam pela aldeia, para alegrar os Xavante. 
+# text_por = Durante a noite, de vez em quando, os adolescentes com seus padrinhos cantam pela aldeia, para alegrar os Xavante.
 # text_eng = During the night, from time to time, teenagers with their godparents sing throughout the village, to cheer up the Xavante.
 1	Mara	mara	NOUN	n	_	10	dislocated	_	night;noite
 2	ré	ré	ADP	posp	_	1	case	_	full.of,inside.of,during,while;cheio.de,dentro,do,durante,enquanto,sendo
@@ -1341,7 +1341,7 @@
 
 # sent_id = GL-CLX33.2
 # text = E bötö bö romhuri aba õ di . Niwa bötö na , wanorĩhã wa romhuri ni . Wawa'a-te , niwamhã wa te romhuri õ di .
-# text_por = Vocês dois trabalham todos os dias? Algum dia nós dois trabalhamos. Por nossa preguiça, alguma vez nós dois não trabalhamos. 
+# text_por = Vocês dois trabalham todos os dias? Algum dia nós dois trabalhamos. Por nossa preguiça, alguma vez nós dois não trabalhamos.
 # text_eng = Do you two work every day? Someday we both work. Because of our laziness, sometimes both of us don't work.
 1	E	e	PART	prcl	Int=Yes	4	dep	_	question.particle;partícula.interrogativa
 2	bötö	bötö	NOUN	n	_	4	obl	_	day,sun,time;dia,sol,hora
@@ -2049,7 +2049,7 @@
 # sent_id = EMX-3
 # text = Waradzu wahi'ratanorĩhã ma dapãrĩ dza'ra
 # text_eng = The white man murdered our ancestors. (Estevam, 27: 3)
-# text_por = O homem branco matou nossos antepassados. 
+# text_por = O homem branco matou nossos antepassados.
 1	Waradzu	waradzu	NOUN	n	_	4	nsubj	_	white,civilized,non-indian;branco,civilizado,não-índio
 2	wahi'ratanorĩhã	'rata	NOUN	n	Emph=Yes|Number=Coll	4	obj	_	ancestor;antepassado
 3	ma	ma	PART	prcl	Htp=Yes|Tense=Past	4	dep	_	perfect.aspect;aspecto.perfeito
@@ -2327,7 +2327,7 @@
 # sent_id = EMX-25
 # text = Wede hã uburé ma pusi
 # text_fr = Tous les arbres ont surgi
-# text_por = 
+# text_por =
 1	Wede	_	NOUN	n	_	5	nsubj	_	_
 2	hã	hã	PART	prcl	_	1	dep	_	_
 3	uburé	uburé	PRON	pron	PronType=Tot	1	nmod	_	_
@@ -2347,7 +2347,7 @@
 
 # sent_id = EMX-27
 # text = Ĩzö hã ĩwaʔwa höjmana zaʔra
-# text_fr = 
+# text_fr =
 # text_por = Ses graines se trouvent en son centre.
 1	Ĩzö	zö	NOUN	n	Number=Sing|Person=3	4	nsubj	_	_
 2	hã	hã	PART	prcl	_	1	dep	_	_
@@ -2411,7 +2411,7 @@
 # sent_id = EMX-31
 # text = Wahã ĩĩwasutu di
 # text_eng = Me, I am tired.
-# text_por = 
+# text_por =
 1	Wahã	wa	PRON	pron	Emph=Yes|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	ĩĩwasutu	wasutu	VERB	v	Number=Sing|Person=1	0	root	_	_
 3	di	di	AUX	cop	_	2	cop	_	_
@@ -2439,7 +2439,7 @@
 # sent_id = EMX-32b1
 # text = ĩĩma
 # text_fr = pour moi
-# text_por = 
+# text_por =
 1	ĩĩma	ma	ADP	posp	Number=Sing|Person=1	0	root	_	_
 
 # sent_id = EMX-33
@@ -2471,7 +2471,7 @@
 # sent_id = EMX-35
 # text = Õhõ si tô ropotoʔwa
 # text_eng = Only he is actually the Creator.
-# text_por = 
+# text_por =
 1	Õhõ	õ	DET	dem	Deixis=Remt|Emph=Yes	4	det	_	_
 2	si	si	ADV	adv	_	4	advmod	_	_
 3	tô	tô	ADV	adv	_	4	advcl	_	_
@@ -2581,4 +2581,34 @@
 6	aañamra	ñamra	VERB	v	Hnfc=Yes|Number=Sing|Person=2	0	root	_	_
 7	ni	ni	PRON	pron	_	6	dep	_	_
 8	?	?	PUNCT	punct	_	6	punct	_	_
+
+# sent_id = EMX-268.a
+# text = waʔrata ma wa za oto api zaʔra ni
+# text_eng = We will prepare food to our grandmother
+# text_fr = Nous allons faire à manger pour notre grand-mère (maintenant)
+1	waʔrata	ʔrata	NOUN	n	Number=Plur|Person=1	6	obl	_	_
+2	ma	ma	ADP	posp	_	1	case	_	_
+3	wa	wa	PRON	pron	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	za	za	PART	prcl	Tense=Fut	6	dep	_	_
+5	oto	oto	PART	prcl	_	6	dep	_	_
+6	api	api	VERB	vc	_	0	root	_	_
+7	zaʔra	zaʔra	X	_	_	3	dep	_	_
+8	ni	ni	X	x	_	3	dep	_	_
+
+# sent_id = EMX-268b
+# text = Ãne za waʔrata ma hã ʔre wanhipi zaʔra dama ĩwẽ zeb u
+# text_eng =
+# text_fr = C’est ainsi que nous allons faire à manger pour notre grand-mère, à la façon qui lui plaît.
+1	Ãne	ãne	ADV	adv	_	7	advmod	_	_
+2	za	za	PART	_	Tense=Fut	7	dep	_	_
+3	waʔrata	ʔrata	NOUN	n	Number=Plur|Person=1	7	obl	_	_
+4	ma	ma	ADP	posp	_	3	case	_	_
+5	hã	ʔre	PART	_	_	7	nsubj	_	_
+6	ʔre	ʔre	X	_	_	7	dep	_	_
+7	wanhipi	nhipi	VERB	_	_	0	root	_	_
+8	zaʔra	zaʔra	X	_	_	5	dep	_	_
+9	dama	ma	ADP	_	Polite=Form	10	obl	_	_
+10	ĩwẽ	wẽ	NOUN	_	_	7	advcl	_	_
+11	zeb	zeb	NOUN	_	_	10	nsubj	_	_
+12	u	u	X	_	_	10	mark	_	_
 
