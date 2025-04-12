@@ -4,7 +4,7 @@
 # text_eng = The girls are sad
 1	baʔõtõ	baʔõtõ	NOUN	_	_	3	dep	_	girl;menina
 2	norĩ	norĩ	X	_	Number=Plur	1	dep	_	collective marker;coletivo
-3	ma	ma	PRON	htf	Person=non1|Tense=Past	4	nsubj	_	heteroforic index past;índice heterofórico passado
+3	ma	ma	PRON	htp	Person=non1|Tense=Past	4	nsubj	_	heteroforic index past;índice heterofórico passado
 4	robzeiʔõ	robzeiʔõ	NOUN	n	_	0	root	_	sad(ness);triste(za)
 5	di	di	AUX	cop	_	4	cop	_	copula;cópula 
 
@@ -27,7 +27,7 @@
 # text_por = Um homem vai. Uma mulher vai. A menina vai. Ele (ela) vai.
 # text_eng = One man goes. A woman goes. The girl goes. He (she) goes.
 1	Aibö	aibö	NOUN	n	_	3	nsubj	_	man;homem
-2	te	te	PART	prcl	Htp=Yes|Tense=Pres	3	dep	_	heterophoric.marker;marcardor.heterofórico
+2	te	te	PART	htp	Number=Non1	3	dep	_	heterophoric.marker;marcardor.heterofórico
 3	mo	mo	VERB	v	_	0	root	_	go;ir
 4	.	.	PUNCT	punct	_	3	punct	_	_
 5	Pi’õ	pi'õ	NOUN	n	_	7	nsubj	_	woman;mulher
