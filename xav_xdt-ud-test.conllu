@@ -1,3 +1,27 @@
+# sent_id = FGIR-FW-01
+# text = baʔõtõ norĩ ma robzeiʔõ di
+# text_port = As meninas estão tristes
+# text_eng = The girls are sad
+1	baʔõtõ	baʔõtõ	NOUN	_	_	3	dep	_	girl;menina
+2	norĩ	norĩ	X	_	Number=Plur	1	dep	_	collective marker;coletivo
+3	ma	ma	PRON	htf	Person=non1|Tense=Past	4	nsubj	_	heteroforic index past;índice heterofórico passado
+4	robzeiʔõ	robzeiʔõ	NOUN	n	_	0	root	_	sad(ness);triste(za)
+5	di	di	AUX	cop	_	4	cop	_	copula;cópula 
+
+# sent_id = FGIR-FW-02
+# text = õ norĩ te we aiʔabaʔré dawedeʔwa norĩ sihutu wapsi
+# text_port = Aqueles (que) virão quando os médicos chegarem
+# text_eng = Those (who) will come when the doctores arrive
+1	õ	õ	DET	det	Deixis=Dist	3	dep	_	_
+2	norĩ	norĩ	X	_	Number=Plur	1	dep	_	_
+3	te	te	PRON	htf	Person=Non1	5	nsubj	_	heteroforic index;índice heterofórico
+4	we	we	X	x	Ventive=Yes	5	dep	_	directive;diretivo
+5	aiʔabaʔré	aiʔabaʔré	VERB	vi	Number=Plur	0	root	_	go;ir
+6	dawedeʔwa	wedeʔwa	NOUN	_	Hum=Yes	8	nsubj	_	medical doctor;médico
+7	norĩ	norĩ	X	_	Number=Plur	6	dep	_	_
+8	sihutu	sihutu	VERB	vi	Number=Plur	5	advcl	_	arrive;chegar
+9	wapsi	wapsi	ADV	adv	AdvType=Tim	8	mark	_	when;quando
+
 # sent_id = GL-CLX16.1
 # text = Aibö te mo . Pi’õ te mo . Ba'õno te mo . Õhã te mo .
 # text_por = Um homem vai. Uma mulher vai. A menina vai. Ele (ela) vai.
