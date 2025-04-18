@@ -162,17 +162,18 @@
 7	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = GL-CLX16.11
-# text = Ti'ra tete tsabu da ma wei wi .
+# text = Ti'ra te te tsabu da ma wei wi .
 # text_por = Para ver seu filho, ele veio.
 # text_eng = To see his son, he came.
-1	Ti'ra	'ra	NOUN	n	Person=3	3	obj	_	son,daughter;filho,filha
-2	tete	te	AUX	aux	Number=Sing|Person=3	3	aux	_	_
-3	tsabu	tsabu	VERB	v	_	6	advcl	_	see,take.care.of;ver,enxergar,olhar,cuidar
-4	da	da	ADP	posp	_	3	mark	_	for,in.order.to,so.that;para,afim.de,para.que
-5	ma	ma	PART	prcl	Htp=Yes|Tense=Past	6	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
-6	wei	we	X	x	_	0	root	_	hither;para.cá
-7	wi	wi	ADP	posp	_	6	obl	_	far.from;longe.de
-8	.	.	PUNCT	punct	_	6	punct	_	_
+1	Ti'ra	'ra	NOUN	n	Person=3	4	obj	_	son,daughter;filho,filha
+2	te	te	AUX	aux	Number=Sing|Person=3	4	dep	_	_
+3	te	te	AUX	aux	Number=Sing|Person=3	4	aux	_	_
+4	tsabu	tsabu	VERB	v	_	7	advcl	_	see,take.care.of;ver,enxergar,olhar,cuidar
+5	da	da	ADP	posp	_	4	mark	_	for,in.order.to,so.that;para,afim.de,para.que
+6	ma	ma	PART	prcl	Htp=Yes|Tense=Past	7	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
+7	wei	we	X	x	_	0	root	_	hither;para.cá
+8	wi	wi	ADP	posp	_	7	obl	_	far.from;longe.de
+9	.	.	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = GL-CLX16.12
 # text = E te dza apö mo .
@@ -180,7 +181,7 @@
 # text_eng = Will he come back?
 1	E	e	PART	prcl	Int=Yes	5	dep	_	question.particle;partícula.interrogativa
 2	te	te	PRON	htp	Person=Non1	5	dep	_	heterophoric.marker;marcardor.heterofórico
-3	dza	dza	PART	prcl	Tense=Fut	5	dep	_	future.marker;marcador.de.futuro
+3	dza	dza	PART	prcl	Aspect=Prosp	5	dep	_	future.marker;marcador.de.futuro
 4	apö	apö	ADV	adv	_	5	advmod	_	back,again;de.volta,outra.vez
 5	mo	mo	VERB	v	_	0	root	_	go;ir
 6	.	.	PUNCT	punct	_	5	punct	_	_
@@ -191,7 +192,7 @@
 # text_eng = Yes, he will come back.
 1	Ĩhe	ĩhe	INTJ	intj	_	5	discourse	_	yes;sim
 2	te	te	PRON	htp	Person=Non1	5	dep	_	heterophoric.marker;marcardor.heterofórico
-3	dza	dza	PART	prcl	Tense=Fut	5	dep	_	future.marker;marcador.de.futuro
+3	dza	dza	PART	prcl	Aspect=Prosp	5	dep	_	future.marker;marcador.de.futuro
 4	apö	apö	ADV	adv	_	5	advmod	_	back,again;de.volta,outra.vez
 5	mo	mo	VERB	v	_	0	root	_	go;ir
 6	.	.	PUNCT	punct	_	5	punct	_	_
@@ -567,7 +568,7 @@
 # text_eng = Are you going to spill the water? - No!
 1	E	e	PART	prcl	Int=Yes	4	dep	_	question.particle;partícula.interrogativa
 2	te	te	PRON	htp	Person=Non1	4	dep	_	heterophoric.marker;marcardor.heterofórico
-3	dza	dza	PART	prcl	Tense=Fut	4	dep	_	future.marker;marcador.de.futuro
+3	dza	dza	PART	prcl	Aspect=Prosp	4	dep	_	future.marker;marcador.de.futuro
 4	ĩtsa'wa	tsa'wari	VERB	v	Person[abs]=3	0	root	_	pour.out,despejar,derramar
 5	ö	ö	NOUN	n	_	4	obj	_	water;água
 6	hã	hã	DET	det	_	5	det	_	_
@@ -605,7 +606,7 @@
 3	,	,	PUNCT	punct	_	7	punct	_	_
 4	e	e	PART	prcl	Int=Yes	7	dep	_	question.particle;partícula.interrogativa
 5	te	te	PRON	htp	Person=Non1	7	dep	_	heterophoric.marker;marcardor.heterofórico
-6	dza	dza	PART	prcl	Tense=Fut	7	dep	_	future.marker;marcador.de.futuro
+6	dza	dza	PART	prcl	Aspect=Prosp	7	dep	_	future.marker;marcador.de.futuro
 7	ĩromhuri	romhuri	VERB	v	Person[abs]=3	0	root	_	to.work;trabalhar
 8	dza'ra	dza'ra	PART	prcl	Number=Plur	7	dep	_	_
 9	wa'wa	'wa	X	x	Number=Dual	7	dep	_	dual.number.marker;indicador.dual
@@ -617,7 +618,7 @@
 15	!	!	PUNCT	punct	_	14	punct	_	_
 16	Tsa'ẽtè	tsa'ẽtè	ADV	adv	_	19	advmod	_	in.a.hurry,quickly,loud;depressa,em.voz.alta
 17	wa	wa	PRON	ego	Person=1	19	dep	_	egophoric.marker;marcardor.egofórico
-18	dza	dza	PART	prcl	Tense=Fut	19	dep	_	future.marker;marcador.de.futuro
+18	dza	dza	PART	prcl	Aspect=Prosp	19	dep	_	future.marker;marcador.de.futuro
 19	romhuri	romhuri	VERB	v	_	14	parataxis	_	to.work;trabalhar
 20	dza'ra	dza'ra	PART	prcl	Number=Plur	19	dep	_	_
 21	ni	ni	X	x	Number=Dual	19	dep	_	dual.number.marker;indicador.dual
@@ -1208,7 +1209,7 @@
 7	norĩ	norĩ	PART	prcl	Number=Coll	6	dep	_	_
 8	hã	hã	DET	det	_	6	det	_	_
 9	te	te	PRON	htp	Person=Non1	11	dep	_	heterophoric.marker;marcardor.heterofórico
-10	dza	dza	PART	prcl	Tense=Fut	11	dep	_	future.marker;marcador.de.futuro
+10	dza	dza	PART	prcl	Aspect=Prosp	11	dep	_	future.marker;marcador.de.futuro
 11	romhuri	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
 12	dza'ra	dza'ra	PART	prcl	Number=Plur	11	dep	_	_
 13	pi'õ	pi'õ	NOUN	n	_	6	nmod	_	woman;mulher
@@ -1267,7 +1268,7 @@
 5	wapté	wapté	NOUN	n	_	9	nsubj	_	teenager;adolescente
 6	norĩhã	norĩ	PART	prcl	Emph=Yes|Number=Coll	9	discourse	_	_
 7	te	te	PRON	htp	Person=Non1	9	dep	_	heterophoric.marker;marcardor.heterofórico
-8	dza	dza	PART	prcl	Tense=Fut	9	dep	_	future.marker;marcador.de.futuro
+8	dza	dza	PART	prcl	Aspect=Prosp	9	dep	_	future.marker;marcador.de.futuro
 9	romhuri	romhuri	VERB	v	_	0	root	_	to.work;trabalhar
 10	dza'ra	dza'ra	PART	prcl	Number=Plur	9	dep	_	_
 11	a'ãma	a'ãma	NOUN	n	_	12	nmod	_	defender,lawyer;defensor,advogado
@@ -1307,7 +1308,7 @@
 1	Ĩprédu	prédu	NOUN	n	Person=3	2	nsubj	_	adult,mature;adulto,maduro
 2	'maipo'repu'umhã	po'repu'u	VERB	v	_	0	root	_	remember.once,remind.once;lembrar,recordar
 3	te	te	PRON	htp	Person=Non1	7	dep	_	heterophoric.marker;marcardor.heterofórico
-4	dza	dza	PART	prcl	Tense=Fut	7	dep	_	future.marker;marcador.de.futuro
+4	dza	dza	PART	prcl	Aspect=Prosp	7	dep	_	future.marker;marcador.de.futuro
 5	te	te	AUX	aux	_	7	aux	_	_
 6	tãma	ti	PRON	pron	Case=Dat|Person=3	7	iobj	_	_
 7	'manho're	'manho're	VERB	v	_	2	parataxis	_	count.once,sing;contar.uma.só.vez,cantar
@@ -1465,7 +1466,7 @@
 10	di	di	X	x	_	9	dep	_	expletive;expletivo
 11	!	!	PUNCT	punct	_	9	punct	_	_
 12	Pi’õ	pi'õ	NOUN	n	_	18	nsubj	_	woman;mulher
-13	dza	dza	PART	prcl	Tense=Fut	18	dep	_	future.marker;marcador.de.futuro
+13	dza	dza	PART	prcl	Aspect=Prosp	18	dep	_	future.marker;marcador.de.futuro
 14	hadu	hadu	ADV	adv	_	18	advmod	_	yet;ainda
 15	te	te	PRON	htp	Person=Non1	18	dep	_	heterophoric.marker;marcardor.heterofórico
 16	te	te	AUX	aux	_	18	aux	_	_
@@ -1498,7 +1499,7 @@
 # text_eng = Your father will come to tell you something important.
 1	Aimama	mama	NOUN	n	Person=2	5	nsubj	_	father,uncle;pai,tio
 2	te	te	PRON	htp	Person=Non1	5	dep	_	heterophoric.marker;marcardor.heterofórico
-3	dza	dza	PART	prcl	Tense=Fut	5	dep	_	future.marker;marcador.de.futuro
+3	dza	dza	PART	prcl	Aspect=Prosp	5	dep	_	future.marker;marcador.de.futuro
 4	wei	we	ADV	adv	_	5	advmod	_	hither;para.cá
 5	mo	mo	VERB	v	_	0	root	_	go;ir
 6	,	,	PUNCT	punct	_	5	punct	_	_
@@ -2094,7 +2095,7 @@
 # text_por = À tarde, traremos nossos filhos de volta.
 1	Höiwahö	höiwahö	ADV	adv	_	6	advmod	_	late;de.tarde
 2	wa	wa	PRON	ego	Person=1	6	dep	_	egophoric.marker;marcardor.egofórico
-3	dza	dza	PART	prcl	Tense=Fut	6	dep	_	future.marker;marcador.de.futuro
+3	dza	dza	PART	prcl	Aspect=Prosp	6	dep	_	future.marker;marcador.de.futuro
 4	we	we	ADV	adv	_	6	advmod	_	hither;para.cá
 5	wate	te	AUX	aux	Number=Plur|Person=1	6	aux	_	_
 6	simro	simro	VERB	v	_	0	root	_	bring.back;trazer.de.volta
@@ -2115,7 +2116,7 @@
 # text_por = À tarde vamos descansar.
 1	Höiwahö	höiwahö	ADV	adv	_	5	advmod	_	late;de.tarde
 2	wa	wa	PRON	ego	Person=1	5	dep	_	egophoric.marker;marcardor.egofórico
-3	dza	dza	PART	prcl	Tense=Fut	5	dep	_	future.marker;marcador.de.futuro
+3	dza	dza	PART	prcl	Aspect=Prosp	5	dep	_	future.marker;marcador.de.futuro
 4	oto	oto	ADV	adv	_	5	advmod	_	then;então
 5	wawa'utu	tsiwa'utu	VERB	v	Person[abs]=1	0	root	_	rest;descansar
 6	dza'ra	dza'ra	PART	prcl	Number=Plur	5	dep	_	_
@@ -2240,7 +2241,7 @@
 # text_eng = From now on you will live by yourselves, so that the (people) xavante (will) multiply. (Estevam 2011:  35, 17)
 # text_por = A partir de agora vocês viverão sozinhos, para que o (povo) xavante (se multiplique).
 1	te	te	PRON	htp	Person=Non1	5	dep	_	heterophoric.marker;marcardor.heterofórico
-2	dza	dza	PART	prcl	Tense=Fut	5	dep	_	future.marker;marcador.de.futuro
+2	dza	dza	PART	prcl	Aspect=Prosp	5	dep	_	future.marker;marcador.de.futuro
 3	oto	oto	ADV	adv	_	5	advmod	_	then;então
 4	asina	a	PRON	pron	Case=Ins|Hnfc=Yes|Person=2|Reflex=Yes	5	obl	_	_
 5	aahöimana	höimana	VERB	v	Hnfc=Yes|Person[abs]=2	0	root	_	be,live,exist;ser,viver,existir
@@ -2355,7 +2356,7 @@
 1	Wede	_	NOUN	n	_	5	nsubj	_	_
 2	hã	hã	PART	prcl	_	1	dep	_	_
 3	uburé	uburé	PRON	pron	PronType=Tot	1	nmod	_	_
-4	ma	ma	PART	prcl	_	5	dep	_	_
+4	ma	ma	AUX	aux	Tense=Past	5	dep	_	_
 5	pusi	pusi	VERB	v	Number=Sing|Person=3	0	root	_	_
 
 # sent_id = EMX-26
@@ -2385,12 +2386,12 @@
 # text_por =
 1	Ta	ta	PRON	pron	_	4	nsubj	_	_
 2	barana	barana	ADV	adv	_	4	advmod	_	_
-3	ma	ma	PART	prcl	_	4	dep	_	_
+3	ma	ma	AUX	aux	Tense=Past	4	dep	_	_
 4	dahudu	hudu	VERB	vi	Number=Sing|Person=3	0	root	_	_
 5	,	,	PUNCT	punct	_	4	punct	_	_
 6	misi	misi	NUM	_	_	9	nsubj	_	_
 7	hã	hã	PART	prcl	_	9	discourse	_	_
-8	ma	ma	PART	prcl	_	9	dep	_	_
+8	ma	ma	AUX	aux	Tense=Past	9	dep	_	_
 9	ajwajrĩ	ajwajrĩ	VERB	v	Number=Sing|Person=3	4	parataxis	_	_
 
 # sent_id = EMX-29a
@@ -2563,7 +2564,7 @@
 1	Awẽm	awẽm	ADV	adv	_	5	advmod	_	_
 2	hã	hã	PART	prcl	Emph=Yes	1	discourse	_	_
 3	wa	wa	PRON	pron	PronType=Prs	5	nsubj	_	_
-4	za	za	PART	prcl	Tense=Fut	5	dep	_	_
+4	za	za	PART	prcl	Aspect=Prosp	5	dep	_	_
 5	aiʔabaʔré	aiʔabaʔré	VERB	v	_	0	root	_	_
 6	ni	ni	X	x	_	5	dep	_	_
 7	mararé	mararé	ADV	adv	_	12	advmod	_	_
@@ -2601,7 +2602,7 @@
 2	,	,	PUNCT	punct	_	1	punct	_	_
 3	e	e	PART	prcl	_	6	dep	_	_
 4	te	te	PRON	htp	Person=Non1	6	dep	_	_
-5	za	za	PART	prcl	Tense=Fut	6	dep	_	_
+5	za	za	PART	prcl	Aspect=Prosp	6	dep	_	_
 6	aañamra	ñamra	VERB	v	Hnfc=Yes|Number=Sing|Person=2	0	root	_	_
 7	ni	ni	PRON	pron	_	6	dep	_	_
 8	?	?	PUNCT	punct	_	6	punct	_	_
@@ -2613,7 +2614,7 @@
 1	waʔrata	ʔrata	NOUN	n	Number=Plur|Person=1	6	obl	_	_
 2	ma	ma	ADP	posp	_	1	case	_	_
 3	wa	wa	PRON	pron	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
-4	za	za	PART	prcl	Tense=Fut	6	dep	_	_
+4	za	za	PART	prcl	Aspect=Prosp	6	dep	_	_
 5	oto	oto	PART	prcl	_	6	dep	_	_
 6	api	api	VERB	vc	_	0	root	_	_
 7	zaʔra	zaʔra	X	_	_	3	dep	_	_
@@ -2624,7 +2625,7 @@
 # text_eng =
 # text_fr = C’est ainsi que nous allons faire à manger pour notre grand-mère, à la façon qui lui plaît.
 1	Ãne	ãne	ADV	adv	_	7	advmod	_	_
-2	za	za	PART	_	Tense=Fut	7	dep	_	_
+2	za	za	PART	_	Aspect=Prosp	7	dep	_	_
 3	waʔrata	ʔrata	NOUN	n	Number=Plur|Person=1	7	obl	_	_
 4	ma	ma	ADP	posp	_	3	case	_	_
 5	hã	ʔre	PART	_	_	7	nsubj	_	_
@@ -2635,4 +2636,3 @@
 10	ĩwẽ	wẽ	NOUN	_	_	7	advcl	_	_
 11	zeb	zeb	NOUN	_	_	10	nsubj	_	_
 12	u	u	X	_	_	10	mark	_	_
-
