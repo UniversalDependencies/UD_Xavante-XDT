@@ -14,7 +14,7 @@
 # text_eng = Those (who) will come when the doctores arrive
 1	õ	õ	DET	det	Deixis=Remt	3	dep	_	_
 2	norĩ	norĩ	X	_	Number=Plur	1	dep	_	_
-3	te	te	PRON	htf	Person=Non1	5	nsubj	_	heteroforic index;índice heterofórico
+3	te	te	AUX	aux	Person=Non1	5	nsubj	_	heteroforic index;índice heterofórico
 4	we	we	X	x	Ventive=Yes	5	dep	_	directive;diretivo
 5	aiʔabaʔré	aiʔabaʔré	VERB	vi	Number=Plur	0	root	_	go;ir
 6	dawedeʔwa	wedeʔwa	NOUN	_	Hum=Yes	8	nsubj	_	medical doctor;médico
