@@ -27,7 +27,7 @@
 # text_por = Um homem vai. Uma mulher vai. A menina vai. Ele (ela) vai.
 # text_eng = One man goes. A woman goes. The girl goes. He (she) goes.
 1	Aibö	aibö	NOUN	n	_	3	nsubj	_	man;homem
-2	te	te	PART	htp	Number=Non1	3	dep	_	heterophoric.marker;marcardor.heterofórico
+2	te	te	AUX	aux	Person=Non1	3	dep	_	heterophoric.marker;marcardor.heterofórico
 3	mo	mo	VERB	v	_	0	root	_	go;ir
 4	.	.	PUNCT	punct	_	3	punct	_	_
 5	Pi’õ	pi'õ	NOUN	n	_	7	nsubj	_	woman;mulher
