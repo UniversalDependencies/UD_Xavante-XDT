@@ -166,8 +166,8 @@
 # text_por = Para ver seu filho, ele veio.
 # text_eng = To see his son, he came.
 1	Ti'ra	'ra	NOUN	n	Person=3	4	obj	_	son,daughter;filho,filha
-2	te	te	AUX	aux	Number=Sing|Person=3	4	dep	_	_
-3	te	te	AUX	aux	Number=Sing|Person=3	4	aux	_	_
+2	te	te	AUX	aux	Person=Non1	4	dep	_	_
+3	te	te	AUX	aux	Person=Non1	4	aux	_	_
 4	tsabu	tsabu	VERB	v	_	7	advcl	_	see,take.care.of;ver,enxergar,olhar,cuidar
 5	da	da	ADP	posp	_	4	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 6	ma	ma	PART	prcl	Htp=Yes|Tense=Past	7	dep	_	heterophoric.marker.perfective.aspect;marcardor.heterofórico.aspecto.perfectivo
@@ -1558,7 +1558,7 @@
 15	romhuri	romhuri	VERB	v	_	14	advcl	_	to.work;trabalhar
 16	dza'ra	dza'ra	PART	prcl	Number=Plur	15	dep	_	_
 17	wa'aba	aba	PART	prcl	Number=Coll	15	dep	_	collective.marker
-18	wẽ	wẽ	ADV	adv	Person=3	15	advmod	_	good,beatuful,well;bom,bonito,belo,bem
+18	wẽ	wẽ	ADV	adv	_	15	advmod	_	good,beatuful,well;bom,bonito,belo,bem
 19	da	da	ADP	posp	_	15	mark	_	for,in.order.to,so.that;para,afim.de,para.que
 20	.	.	PUNCT	punct	_	14	punct	_	_
 
