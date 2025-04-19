@@ -2674,7 +2674,7 @@
 2	hã	hã	PART	prcl	_	1	discourse	_	_
 3	waradzu	waradzu	NOUN	n	_	8	nsubj	_	_
 4	ma	ma	AUX	aux	Tense=Past	3	dep	_	_
-5	te	te	AUX	aux	Ergative=Yes	8	aux	_	_
+5	te	te	AUX	aux	_	8	aux	_	_
 6	tiʔa	tiʔa	NOUN	n	_	8	obj	_	_
 7	tsiwi	tsiwi	ADV	adv	_	8	advmod	_	_
 8	ʔrepuʔu	ʔrepuʔu	VERB	v	Number=Plur|Person=3	0	root	_	_
@@ -2915,5 +2915,4 @@
 3	ma	ma	ADP	_	Person=3	2	case	_	_
 4	wa	wa	AUX	_	Person=1	5	aux	_	_
 5	ti'ö	'ö	VERB	_	Number=Sing|Person=3	0	root	_	_
-
 
