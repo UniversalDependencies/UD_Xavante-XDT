@@ -2816,12 +2816,105 @@
 5	tisõ	sõ	VERB	_	Number=Sing|Person=3	0	root	_	_
 
 # sent_id = EW-4
-# text = wahã õhõ ma wa ti'ö
+# text = wahã õhõ ma wa tiʔö
 # text_port = eu levo para ele
 # text_eng =
 1	wahã	wa	PRON	_	Emph=Yes|Person=1	5	nsubj	_	_
 2	õhõ	õhõ	PRON	dem	_	5	obl	_	_
 3	ma	ma	ADP	_	Person=3	2	case	_	_
 4	wa	wa	AUX	_	Person=1	5	aux	_	_
-5	ti'ö	'ö	VERB	_	Number=Sing|Person=3	0	root	_	_
+5	tiʔö	ʔö	VERB	_	Number=Sing|Person=3	0	root	_	_
+
+# sent_id = EW-5
+# text = wahã ĩʔahö ma wa ĩĩñoʔre
+# tet_port = Eu canto para a comunidade
+# text_eng = 
+1	wahã	wa	PRON	_	Emph=Yes|Person=1	5	nsubj	_	_
+2	ĩʔahö	ĩʔahö	NOUN	_	_	5	obl	_	_
+3	ma	ma	ADP	posp	_	2	case	_	_
+4	wa	wa	AUX	_	Person=1	5	aux	_	_
+5	ĩĩñoʔre	ñoʔre	VERB	v	Number=Sing|Person=1	0	root	_	_
+
+# sent_id = EW-6
+# text = ahã ĩʔahö ma te tinhõʔre
+# tet_port = Ele canta para comunidade
+# text_eng = 
+1	ohã	a	PRON	_	Emph=Yes|Person=3	5	nsubj	_	_
+2	ĩʔahö	ĩʔahö	NOUN	_	_	5	obl	_	_
+3	ma	ma	ADP	_	_	2	case	_	_
+4	te	te	AUX	_	Person=Non1|Tense=Pres	5	aux	_	_
+5	tinhõʔre	ñoʔre	VERB	_	Number=Sing|Person=3	0	root	_	_
+
+# sent_id = EW-7
+# text = ohã ĩʔahö ma te asõʔre
+# tet_port = Você canta para comunidade
+# text_eng = 
+1	ahã	a	PRON	_	Emph=Yes|Person=2	5	nsubj	_	_
+2	ĩʔahö	ĩʔahö	NOUN	_	_	5	obl	_	_
+3	ma	ma	ADP	_	_	2	case	_	_
+4	te	te	AUX	_	Person=Non1|Tense=Pres	5	aux	_	_
+5	asõʔre	ñoʔre	VERB	_	Number=Sing|Person=2	0	root	_	_
+
+# sent_id = EW-8
+# text = wa hã ĩme wa za mõ ĩĩme
+# tet_port = Eu vou com ele
+# text_eng = 
+1	wahã	wa	PRON	_	Emph=Yes|Person=1	5	nsubj	_	_
+2	ĩme	me	ADP	_	Number=Sing|Person=3	5	case	_	_
+3	wa	wa	AUX	_	Person=1	5	aux	_	_
+4	za	za	PART	_	Aspect=Prosp	5	dep	_	_
+5	mõ	mõ	VERB	_	Number=Sing|Person=1	0	root	_	_
+
+# sent_id = EW-9
+# text = õhã te za mõ ĩĩme
+# tet_port = Ele vai comigo
+# text_eng = 
+1	õhã	õ	PRON	_	Emph=Yes|Person=3	4	nsubj	_	_
+2	te	te	AUX	_	Person=Non1|Tense=Pres	4	aux	_	_
+3	za	za	PART	_	Aspect=Prosp	4	dep	_	_
+4	mõ	mõ	VERB	_	Number=Sing|Person=3	0	root	_	_
+5	ĩĩme	me	ADP	_	Number=Sing|Person=1	4	case	_	_
+
+# sent_id = EW-27.6
+# text = wahã wa aimãdö
+# tet_port = Eu te vejo
+# text_eng = 
+1	wahã	wa	PRON	_	Emph=Yes|Number=Sing|Person=1	3	_	_	_
+2	wa	wa	AUX	_	Person=1	3	_	_	_
+3	aimãdö	mãdö	VERB	_	Person=2	0	root	_	_
+
+# sent_id = 90.3
+# text = wahã ahã wa aiamã aime
+# tet_port = eu te ajudo
+# text_eng = 
+1	wahã	wa	PRON	_	Emph=Yes|Number=Sing|Person=1	4	nsubj	_	_
+2	ahã	a	PRON	_	Emph=Yes|Number=Sing|Person=2	4	obj	_	_
+3	wa	wa	AUX	_	Person=1	4	aux	_	_
+4	aiamã	amã	VERB	v	Person=2	0	root	_	_
+5	aime	me	ADP	_	Number=Sing|Person=2	4	case	_	_
+
+# sent_id = 91.2
+# text = wahã wanorĩ waʔwa hã wa aimãdöʔö ʔwa
+# tet_port = eu vejo (ambos) vocês
+# text_eng = 
+1	wahã	wa	PRON	_	Emph=Yes|Number=Sing|Person=1	6	nsubj	_	_
+2	wanorĩ	wa	PRON	_	Number=Coll|Person=1	6	obj	_	_
+3	waʔwa	waʔwa	PART	_	Number=Plur	2	dep	_	_
+4	hã	hã	PART	_	Emph=Yes	2	dep	_	_
+5	wa	wa	AUX	_	Person=1	6	aux	_	_
+6	aimãdöʔö	mãdö	VERB	_	LongForm=Yes|Person=2	0	root	_	_
+7	ʔwa	ʔwa	PART	_	Number=Dual	6	dep	_	_
+
+# sent_id = 91-5
+# text = wahã anorĩ waʔwa hã wa aiwapari zaʔra waʔwa
+# tet_port = eu escuto vocês
+# text_eng =
+1	wahã	wa	PRON	_	Emph=Yes|Number=Sing|Person=1	6	nsubj	_	_
+2	wanorĩ	wa	PRON	_	Number=Coll|Person=1	6	obj	_	_
+3	waʔwa	waʔwa	PART	_	Number=Plur	2	dep	_	_
+4	hã	hã	PART	_	_	2	dep	_	_
+5	wa	wa	AUX	_	Person=1	6	aux	_	_
+6	aiwapari	wapa	VERB	_	LongForm=Yes|Person=2	0	root	_	_
+7	zaʔra	zaʔra	PART	_	Number=Plur	6	dep	_	_
+8	waʔwa	waʔwa	PART	_	Number=Plur	6	dep	_	_
 
