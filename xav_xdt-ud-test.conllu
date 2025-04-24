@@ -2833,6 +2833,7 @@
 3	wa	wa	AUX	_	Person=1	5	aux	_	_
 4	za	za	PART	_	Aspect=Prosp	5	dep	_	_
 5	mõ	mõ	VERB	_	Number=Sing|Person=1	0	root	_	_
+6	ĩĩme	me	ADP	_	Number=Sing|Person=1	5	obl	_	_
 
 # sent_id = EW-9
 # text = õhã te za mõ ĩĩme
