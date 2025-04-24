@@ -2707,13 +2707,13 @@
 9	puʔu	puʔu	VERB	v	_	0	root	_	_
 
 # sent_id = MM-1.4
-# text = Waradzu tiʔa te tsiwi ʔrepuʔu wamha wedenhõrõ te tsiwi tsõrõ tsada, ĩpa uptabi wedenhõrõ hã
+# text = Waradzu tiʔa te tsiwi ʔrepuʔu wamha wedenhõrõ te tsiwi tsõrõ tsada , ĩpa uptabi wedenhõrõ hã
 # text_eng = 
 # text_por = Quando o homem quis descer pelo furo da terra, trançou para is uma corda muito comprida
 1	Waradzu	waradzu	NOUN	n	_	5	nsubj	_	_
 2	tiʔa	tiʔa	NOUN	n	_	1	dep	_	earth;terra
 3	te	te	AUX	_	_	1	dep	_	_
-4	tsiwi	tsiwi	PART	prcl	Reflex=Yes	1	dep	_	_
+4	tsiwi	tsiwi	PRON	pron	Reflex=Yes	1	dep	_	_
 5	ʔrepuʔu	ʔrepuʔu	VERB	v	Person=3	10	advcl	_	pierce;furar
 6	wamha	wamha	SCONJ	_	_	5	mark	_	_
 7	wedenhõrõ	wedenhõrõ	NOUN	n	_	10	obj	_	rope;corda
@@ -2731,7 +2731,7 @@
 # text = Taha na ma te tsiʔra
 # text_eng = 
 # text_por = Com isso ele desceu
-1	Taha	taha	ADV	adv	PronType=Dem	5	advmod	_	and.then;com.isso
+1	Taha	taha	ADV	adv	_	5	advmod	_	and.then;com.isso
 2	na	na	ADP	posp	_	1	case	_	in;em
 3	ma	ma	PRON	_	_	5	dep	_	_
 4	te	te	AUX	_	_	5	aux	_	_
@@ -2746,13 +2746,13 @@
 3	da	da	SCONJ	_	_	6	mark	_	_
 4	te	te	AUX	_	_	6	dep	_	_
 5	ĩré	ĩré	ADP	_	_	6	dep	_	during;durante
-6	tsidzöri	tsidzöri	VERB	v	Action=Sing	12	advcl	_	cut;cortar
+6	tsidzöri	tsidzöri	VERB	v	Number=Sing	12	advcl	_	cut;cortar
 7	wa	wa	X	_	_	6	dep	_	_
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	ma	ma	PRON	_	_	12	nsubj	_	_
 10	te	te	AUX	_	_	12	dep	_	_
 11	tiwi	wi	ADP	_	Number=Sing|Person=3	12	dep	_	far;longe
-12	tirobzeiwʔõ	_	VERB	v	Polarity=Neg	0	root	_	sad;triste,infeliz
+12	tirobzeiwʔõ	_	VERB	v	_	0	root	_	sad;triste,infeliz
 
 # sent_id = EW-1
 # text = wahã ĩʔra ma wa tinha
@@ -2760,7 +2760,7 @@
 # text_eng =
 1	wahã	wa	PRON	_	Emph=Yes|Person=1	5	nsubj	_	_
 2	ĩʔra	ʔra	NOUN	_	Number=Sing|Person=1	5	obl	_	_
-3	ma	ma	ADP	_	_	4	case	_	_
+3	ma	ma	ADP	_	_	2	obl	_	_
 4	wa	wa	AUX	_	Person=1	5	aux	_	_
 5	tinha	nha	VERB	_	Number=Sing|Person=3	0	root	_	_
 
