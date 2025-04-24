@@ -2724,8 +2724,8 @@
 12	,	,	PUNCT	_	_	10	punct	_	_
 13	ĩpa	ĩpa	ADJ	_	_	15	amod	_	_
 14	uptabi	_	ADV	adv	_	13	amod	_	_
-15	wedenhõrõ	_	NOUN	n	_	_	_	_	_
-16	hã	_	_	_	_	_	_	_	_
+15	wedenhõrõ	_	NOUN	n	_	10	dep	_	_
+16	hã	_	PART	_	_	15	dep	_	_
 
 # sent_id = MM-1.6
 # text = Taha na ma te tsiʔra
