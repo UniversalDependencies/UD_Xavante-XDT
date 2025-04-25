@@ -2928,3 +2928,38 @@
 4	di	di	AUX	cop	_	3	cop	_	_
 5	éré	éré	PART	_	Tense=Imp	3	dep	_	_
 
+# sent_id = RO-147.5
+# text = ĩma hö di éré
+# tet_port = Estou com frio
+# text_eng =
+1	ĩma	ma	ADP	_	Person=1	2	obl	_	_
+2	hö	hö	NOUN	_	_	0	root	_	_
+3	di	di	AUX	cop	_	2	cop	_	_
+4	éré	éré	PART	_	Tense=Imp	2	dep	_	_
+
+# sent_id = RO-212.1
+# text = e aibö ma tô tepe dzô mo ahömhö ?
+# tet_port = O homem foi pescar ontem?
+# text_eng =
+1	e	e	PART	_	_	7	discourse	_	partícula interrogativa
+2	aibö	aibö	NOUN	_	_	7	nsubj	_	homem
+3	ma	ma	AUX	_	Tense=Past	7	aux	_	_
+4	tô	tô	PART	_	Aspect=Perf	7	dep	_	_
+5	tepe	tepe	NOUN	_	_	7	obl	_	peixe
+6	dzô	dzô	ADP	_	_	5	case	_	_
+7	mo	mo	VERB	_	_	0	root	_	ir (singular)
+8	ahömhö	_	ADV	_	_	7	advmod	_	ontem
+8	?	?	PUNCT	_	_	7	punct	_	_
+
+# sent_id = RO-223.1
+# text = e waima da ma aibö titsõ mari
+# tet_port = Aquele homem deu o que para quem ?
+# text_eng =
+1	e	e	PART	_	_	6	discourse	_	_
+2	waima	waima	PRON	_	_	6	obl	_	quem
+3	da	da	ADP	_	_	2	case	_	a
+4	ma	ma	AUX	_	Tense=Past	6	aux	_	_
+5	aibö	aibö	NOUN	_	_	6	nsubj	_	_
+6	titsõ	so	VERB	_	Person=3	0	root	_	dar
+7	mari	mari	PRON	_	PronType=Ind	6	obj	_	o que
+
