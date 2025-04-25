@@ -2917,3 +2917,14 @@
 5	're	're	PART	_	_	6	dep	_	_
 6	romhuri	romhuri	VERB	v	LongForm=Yes	0	root	_	trabalhar
 
+# sent_id = RO-148.5
+# text = panho'u ö'ré di éré
+# tet_port = O rio estava seco
+# text_eng =
+1	panho'u	panho'u	NOUN	_	_	3	nsubj	_	_
+2-3	ö'ré	_	_	_	_	_	_	_	_
+2	ö	ö	NOUN	_	_	3	nmod	_	_
+3	'ré	'ré	NOUN	_	_	0	root	_	_
+4	di	di	AUX	cop	_	3	cop	_	_
+5	éré	éré	PART	_	Tense=Imp	3	dep	_	_
+
