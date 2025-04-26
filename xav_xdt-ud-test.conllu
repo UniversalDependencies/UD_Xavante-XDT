@@ -3023,7 +3023,7 @@
 10	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = GL.19-4
-# text = Tane nherẽ pire nherẽ , wapté hõimanazé ĩwẽ . 
+# text = Tane nherẽ pire nherẽ , wapté hõimanazé ĩwẽ .
 # text_port = Apesar disso, mesmo que pesada, a vida dos adolescentes é bonita.
 # text_eng =
 1	Tane	tane	ADV	_	_	3	advmod	_	assim
@@ -3201,7 +3201,7 @@
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = GL.19-5
-# text = Bötö ré hã te za 're ai'aba'ré sire zô duré abaze zapore zô tisiré me .
+# text = Bötö ré hã te za 're ai'aba'ré sire zô duré abaze zapore zô tsiré me .
 # text_port = Durante o dia eles vão (caçar) passarinhos e animais pequenos com os companheiros.
 # text_eng =
 1	Bötö	bötö	NOUN	_	_	7	obl	_	_
