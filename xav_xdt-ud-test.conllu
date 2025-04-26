@@ -2964,15 +2964,15 @@
 7	mari	mari	PRON	pron	PronType=Ind	6	obj	_	o que
 
 # sent_id = GL.19-1
-# text = A'uwẽ ãma hã , wapté norí hã , mara wa'wa , te 're utu za'ra sõ're da hã .
+# text = A'uwẽ ãma hã , wapté norĩ hã , mara wa'wa , te 're utu za'ra sõ're da hã .
 # text_port = Entre os Xavante, os adolescentes se levantam à meia noite para cantar.
 # text_eng = 
 1	A'uwẽ	a'uwẽ	NOUN	n	_	14	dislocated	_	_
 2	ãma	ãma	ADP	posp	_	1	case	_	_
 3	hã	hã	PART	prcl	_	1	dep	_	_
-4	.	.	PUNCT	punct	_	1	punct	_	_
+4	,	,	PUNCT	punct	_	1	punct	_	_
 5	wapté	wapté	NOUN	n	_	14	nsubj	_	_
-6	norí	_	PART	prcl	Number=Coll	5	dep	_	_
+6	norĩ	_	PART	prcl	Number=Coll	5	dep	_	_
 7	hã	hã	PART	prcl	_	5	dep	_	_
 8	,	,	PUNCT	punct	_	5	punct	_	_
 9	mara	mara	NOUN	n	_	10	nmod	_	_
@@ -2995,12 +2995,12 @@
 2	wapté	wapté	NOUN	n	_	8	nsubj	_	adolescente
 3	si'utu	utu	VERB	v	_	8	advcl	_	levantar
 4	wamhã	wamhã	ADV	_	_	3	advmod	_	quando
-5	.	.	PUNCT	punct	_	3	punct	_	_
+5	,	,	PUNCT	punct	_	3	punct	_	_
 6	te	te	AUX	aux	Person=Non1|Tense=Pres	8	aux	_	_
 7	za	za	PART	prcl	Aspect=Prog	8	dep	_	_
 8	sõ're	sõ're	VERB	v	_	0	root	_	_
 9	za'ra	_	PART	prcl	Number=Plur	2	dep	_	_
-10	.	.	PUNCT	punct	_	8	punct	_	_
+10	,	,	PUNCT	punct	_	8	punct	_	_
 11	dama	ma	SCONJ	_	Human=Yes	12	dep	_	_
 12	rowẽ	rowẽ	NOUN	n	_	8	advcl	_	alegre,bom,bem
 13	da	da	SCONJ	_	_	12	mark	_	para,a
@@ -3030,20 +3030,20 @@
 2	nherẽ	nherẽ	SCONJ	_	_	1	flat	_	apesar de
 3	pire	pire	NOUN	n	_	8	advcl	_	pesado
 4	nherẽ	nherẽ	SCONJ	_	_	3	mark	_	_
-5	.	.	PUNCT	punct	_	3	punct	_	_
+5	,	,	PUNCT	punct	_	3	punct	_	_
 6	wapté	wapté	NOUN	n	_	7	nmod	_	_
 7	hõimanazé	hõimanazé	NOUN	n	_	8	nsubj	_	vida
 8	ĩwẽ	wẽ	NOUN	n	Number=Sing|Person=3	0	root	_	_
 9	.	.	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = GL.1-1
-# text = Ba'õno te mo, o hã te mo .
+# text = Ba'õno te mo , o hã te mo .
 # text_port = A menina vai, ela vai.
 # text_eng =
 1	Ba'õno	ba'õno	NOUN	n	_	3	nsubj	_	_
 2	te	te	AUX	aux	Person=Non1|Tense=Pres	3	aux	_	_
 3	mo	mo	VERB	v	Number=Sing	0	root	_	_
-4	.	.	PUNCT	punct	_	3	punct	_	_
+4	,	,	PUNCT	punct	_	3	punct	_	_
 5	o	o	DET	_	_	8	nsubj	_	_
 6	hã	hã	PART	prcl	_	5	dep	_	_
 7	te	te	AUX	aux	Person=Non1|Tense=Pres	8	aux	_	_
@@ -3057,7 +3057,7 @@
 1	Wapté	wapté	NOUN	n	_	3	nsubj	_	_
 2	te	te	AUX	aux	Person=Non1|Tense=Pres	3	aux	_	_
 3	wara	wara	VERB	v	Number=Sing	0	root	_	correr
-4	.	.	PUNCT	punct	_	3	punct	_	_
+4	,	,	PUNCT	punct	_	3	punct	_	_
 5	tsa'êtẽ	tsa'êtẽ	ADV	_	_	7	advmod	_	depressa
 6	te	te	AUX	aux	Person=Non1|Tense=Pres	7	aux	_	_
 7	wara	wara	VERB	v	Number=Sing	3	conj	_	_
