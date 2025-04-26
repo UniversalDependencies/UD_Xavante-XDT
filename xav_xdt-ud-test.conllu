@@ -3258,7 +3258,7 @@
 18	.	_	PUNCT	_	_	13	punct	_	_
 
 # sent_id = GL.19-7
-# text = Ane a'uwẽ marĩ ĩwẽ na te ĩhöibatéb ma , te 're waihu'u za'ra , 're prédub za'ra da .
+# text = Ane a'uwẽ marĩ ĩwẽ na te ĩhöibatéb ma te 're waihu'u za'ra , 're prédub za'ra da .
 # text_port = Assim os Xavante ensinam coisas boas aos novos para se tornarem adultos.
 # text_eng =
 1	Ane	ane	ADV	_	_	11	advmod	_	assim
