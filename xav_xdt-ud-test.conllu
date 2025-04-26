@@ -3234,8 +3234,8 @@
 15	me	me	ADP	_	_	14	case	_	com
 16	.	.	PUNCT	_	_	7	punct	_	_
 
-# sent_id = GL.19-5
-# text = Ni'wa aibö wei mori wamhã , uburé abaze hã , te za tãma sõmri za'ra , sõpru wa .
+# sent_id = GL.19-6
+# text = Ni'wa aibö wei mori wamhã , uburé abaze hã te za tãma sõmri za'ra , sõpru wa .
 # text_port = Quando vier algum homem, eles lhe entregarão todos os animais caçados, por generosidade.  
 # text_eng =
 1	Ni'wa	ni'wa	PRON	_	PronType=Ind	2	nmod	_	algum, algo
@@ -3249,7 +3249,7 @@
 9	hã	hã	PART	_	_	8	dep	_	_
 10	te	te	AUX	aux	Person=Non1|Tense=Pres	13	aux	_	_
 11	za	_	PART	_	Aspect=Prosp	13	dep	_	_
-12	tãma	ma	ADP	_	Person=Plur	13	case	_	_
+12	tãma	ma	ADP	_	Person=3	13	case	_	_
 13	sõmri	sõmri	VERB	_	LongForm=Yes	0	root	_	_
 14	za'ra	za'ra	PART	_	Number=Plur	13	dep	_	_
 15	,	_	PUNCT	_	_	13	punct	_	_
@@ -3258,7 +3258,7 @@
 18	.	_	PUNCT	_	_	13	punct	_	_
 
 # sent_id = GL.19-7
-# text = Ane a'uwẽ marĩ ĩwẽ na te ĩhõibatéb ma , te 're waihu'u za'ra , 're prédub za'ra da .
+# text = Ane a'uwẽ marĩ ĩwẽ na te ĩhöibatéb ma , te 're waihu'u za'ra , 're prédub za'ra da .
 # text_port = Assim os Xavante ensinam coisas boas aos novos para se tornarem adultos.
 # text_eng =
 1	Ane	ane	ADV	_	_	11	advmod	_	assim
