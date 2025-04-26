@@ -2963,3 +2963,62 @@
 6	titsõ	so	VERB	_	Person=3	0	root	_	dar
 7	mari	mari	PRON	_	PronType=Ind	6	obj	_	o que
 
+# sent_id = GL.19-1
+# text = A'uwè ãma hã , wapté norí hã , mara wa'wa , te 're utu dza'ra tsõ're da hã .
+# text_port = Entre os Xavante, os adolescentes se levantam à meia noite para cantar.
+# text_eng = 
+1	A'uwè	a'uwè	NOUN	n	_	14	dislocated	_	_
+2	ãma	ãma	ADP	_	_	1	case	_	_
+3	hã	hã	PART	_	_	1	dep	_	_
+4	,	_	PUNCT	_	_	1	punct	_	_
+5	wapté	wapté	NOUN	_	_	14	nsubj	_	_
+6	norí	_	PART	_	Number=Coll	5	dep	_	_
+7	hã	hã	PART	_	_	5	dep	_	_
+8	,	,	PUNCT	_	_	5	punct	_	_
+9	mara	mara	NOUN	_	_	10	nmod	_	_
+10	wa'wa	wa'wa	ADP	_	_	14	obl	_	no meio
+11	,	_	PUNCT	_	_	_	_	_	_
+12	te	te	AUX	_	Number=Non1|Tense=Prs	14	aux	_	_
+13	're	're	PART	_	_	14	dep	_	_
+14	utu	utu	VERB	_	_	0	root	_	leventar-se
+15	dza'ra	dza'ra	PART	_	Number=Plur	5	dep	_	_
+16	tsõ're	tsõ're	VERB	_	_	14	advcl	_	cantar
+17	da	da	SCONJ	_	_	16	mark	_	para,afim de
+18	hã	hã	PART	_	_	16	dep	_	_
+19	.	_	PUNCT	_	_	16	punct	_	_
+
+# sent_id = GL.19-2
+# text = Aihini wapté tsi'utu wamhã , te dza tsõ're dza'ra , dama rowè da hã .
+# text_port = Ouando todos os adolescentes se levantaram, eles cantam para alegrar os outros.
+# text_eng = 
+1	Aihini	aihini	PRON	pron	PronType=Tot	2	nmod	_	todos
+2	wapté	wapté	NOUN	_	_	8	nsubj	_	adolescente
+3	tsi'utu	utu	VERB	_	_	8	advcl	_	levantar
+4	wamhã	wamhã	ADV	_	_	3	advmod	_	quando
+5	,	_	PUNCT	_	_	3	punct	_	_
+6	te	te	AUX	_	Number=Non1|Tense=Prs	8	aux	_	_
+7	dza	dza	PART	_	Aspect=Prog	8	dep	_	_
+8	tsõ're	tsõ're	VERB	_	_	0	root	_	_
+9	dza'ra	_	PART	_	Number=Plur	2	dep	_	_
+10	,	_	PUNCT	_	_	8	punct	_	_
+11	dama	ma	SCONJ	_	Human=Yes	12	dep	_	_
+12	rowè	rowè	NOUN	_	_	8	advcl	_	alegre,bom,bem
+13	da	da	SCONJ	_	_	12	mark	_	para,a
+14	hã	hã	PART	_	_	12	dep	_	_
+15	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = GL.19-3
+# text = Taha wa te mararé 're tsõtõ dza'ra aptö'ö-te . 
+# text_port = Por isso eles dormem de madrugada, porque estão cansados.
+# text_eng =
+1	Taha	taha	ADV	_	_	6	advmod	_	_
+2	wa	wa	ADV	_	_	1	flat	_	_
+3	te	te	AUX	_	Number=Non1|Tense=Prs	6	aux	_	_
+4	mararé	mararé	ADV	_	_	6	advmod	_	madrugada
+5	're	_	PART	_	_	6	dep	_	_
+6	tsõtõ	tsõtõ	VERB	_	_	0	root	_	dormir
+7	dza'ra	dza'ra	PART	_	_	6	dep	_	_
+8	aptö'ö	aptö'ö	NOUN	_	_	6	obl	_	cansaço
+9	te	te	ADP	_	_	8	case	_	por causa (de)
+10	.	.	PUNCT	_	_	6	punct	_	_
+
