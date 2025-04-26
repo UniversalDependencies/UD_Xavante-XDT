@@ -2949,7 +2949,7 @@
 6	dzô	dzô	ADP	_	_	5	case	_	_
 7	mo	mo	VERB	_	_	0	root	_	ir (singular)
 8	ahömhö	_	ADV	_	_	7	advmod	_	ontem
-8	?	?	PUNCT	_	_	7	punct	_	_
+9	?	?	PUNCT	_	_	7	punct	_	_
 
 # sent_id = RO-223.1
 # text = e waima da ma aibö titsõ mari
@@ -2977,8 +2977,8 @@
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	mara	mara	NOUN	_	_	10	nmod	_	_
 10	wa'wa	wa'wa	ADP	_	_	14	obl	_	no meio
-11	,	_	PUNCT	_	_	_	_	_	_
-12	te	te	AUX	_	Number=Non1|Tense=Prs	14	aux	_	_
+11	,	_	PUNCT	_	_	10	punct	_	_
+12	te	te	AUX	_	Person=Non1|Tense=Pres	14	aux	_	_
 13	're	're	PART	_	_	14	dep	_	_
 14	utu	utu	VERB	_	_	0	root	_	leventar-se
 15	dza'ra	dza'ra	PART	_	Number=Plur	5	dep	_	_
