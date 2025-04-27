@@ -70,7 +70,7 @@
 # text_eng =
 1	a	a	PRON	_	Person=2	5	nsubj	_	_
 2	norĩ	norĩ	NOUN	_	Number=Coll	1	dep	_	_
-3	wa'wa	wa'wa	PART	_	Number=Non1|Person=2	1	dep	_	_
+3	wa'wa	wa'wa	PART	_	Person=2	1	dep	_	_
 4	hã	hã	PART	_	_	1	dep	_	_
 5	sawi	sawi	VERB	_	_	0	root	_	_
 6	za'ra	za'ra	PART	_	Number=Plur	1	dep	_	_
@@ -85,7 +85,7 @@
 1	õ	õ	DET	_	_	5	nsubj	_	_
 2	norĩ	norĩ	NOUN	_	Number=Coll	1	dep	_	_
 3	hã	hã	PART	_	_	1	dep	_	_
-4	te	te	AUX	_	Number=Non1|Tense=Pres	5	aux	_	_
+4	te	te	AUX	_	Person=Non1|Tense=Pres	5	aux	_	_
 5	waihu'u	waihu	VERB	_	LongForm=Yes	0	root	_	saber
 6	zahure	zahure	PART	_	Number=Dual	1	dep	_	_
 
@@ -94,7 +94,7 @@
 # text_port = está chovendo
 # text_eng =
 1	tã	tã	NOUN	_	_	3	nsubj	_	chuva
-2	te	te	AUX	_	Number=Non1|Tense=Pres	3	aux	_	_
+2	te	te	AUX	_	Person=Non1|Tense=Pres	3	aux	_	_
 3	ti'a'a	ti'a'a	VERB	_	Person=3	0	root	_	cair, gotejar, pingar
 
 # sent_id = FGIR-FW-10
