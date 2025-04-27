@@ -128,7 +128,7 @@
 # text_por = Ele (ela) vai.
 # text_eng = (S)he goes.
 1	Õ	õ	DET	pron	_	4	nsubj	_	_
-2	hã	õhã	PRON	pron	Emph=Yes	4	nsubj	_	_
+2	hã	õhã	PRON	pron	Emph=Yes	1	dep	_	_
 3	te	te	AUX	aux	Person=Non1|Tense=Pres	4	dep	_	_
 4	mo	mo	VERB	v	_	0	root	_	go;ir
 5	.	.	PUNCT	punct	_	4	punct	_	_
