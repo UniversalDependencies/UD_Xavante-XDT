@@ -56,12 +56,12 @@
 # text_port = nós dois não amamos
 # text_eng =
 1	wa	wa	PRON	_	Person=1|PronType=Prs	6	nsubj	_	_
-2	norĩ	norĩ	NOUN	_	Number=Coll	1	dep	_	_
-3	hã	hã	PART	_	_	1	dep	_	_
+2	norĩ	norĩ	NOUN	n	Number=Coll	1	dep	_	_
+3	hã	hã	PART	prcl	_	1	dep	_	_
 4	wa	wa	AUX	_	Person=1	6	aux	_	_
 5	te	te	AUX	_	Ergative=Yes	6	aux	_	_
-6	sawi	sawi	VERB	_	_	0	root	_	_
-7	õ	õ	PART	_	Polarity=Neg	6	dep	_	_
+6	sawi	sawi	VERB	v	_	0	root	_	_
+7	õ	õ	PART	prcl	Polarity=Neg	6	dep	_	_
 8	di	di	AUX	_	_	6	cop	_	_
 
 # sent_id = FGIR-FW-07
@@ -69,13 +69,13 @@
 # text_port = Vocês (dois) não amam
 # text_eng =
 1	a	a	PRON	_	Person=2	5	nsubj	_	_
-2	norĩ	norĩ	NOUN	_	Number=Coll	1	dep	_	_
-3	wa'wa	wa'wa	PART	_	Person=2	1	dep	_	_
-4	hã	hã	PART	_	_	1	dep	_	_
-5	sawi	sawi	VERB	_	_	0	root	_	_
-6	za'ra	za'ra	PART	_	Number=Plur	1	dep	_	_
-7	wa'aba	wa'aba	PART	_	Number=Dual	1	dep	_	_
-8	õ	õ	PART	_	Polarity=Neg	5	dep	_	_
+2	norĩ	norĩ	NOUN	n	Number=Coll	1	dep	_	_
+3	wa'wa	wa'wa	PART	prcl	Person=2	1	dep	_	_
+4	hã	hã	PART	prcl	_	1	dep	_	_
+5	sawi	sawi	VERB	v	_	0	root	_	_
+6	za'ra	za'ra	PART	prcl	Number=Plur	1	dep	_	_
+7	wa'aba	wa'aba	PART	prcl	Number=Dual	1	dep	_	_
+8	õ	õ	PART	prcl	Polarity=Neg	5	dep	_	_
 9	di	di	AUX	_	_	5	cop	_	_
 
 # sent_id = FGIR-FW-08
@@ -83,26 +83,26 @@
 # text_port = Eles (dois) sabem
 # text_eng =
 1	õ	õ	DET	_	_	5	nsubj	_	_
-2	norĩ	norĩ	NOUN	_	Number=Coll	1	dep	_	_
-3	hã	hã	PART	_	_	1	dep	_	_
+2	norĩ	norĩ	NOUN	n	Number=Coll	1	dep	_	_
+3	hã	hã	PART	prcl	_	1	dep	_	_
 4	te	te	AUX	_	Person=Non1|Tense=Pres	5	aux	_	_
-5	waihu'u	waihu	VERB	_	LongForm=Yes	0	root	_	saber
-6	zahure	zahure	PART	_	Number=Dual	1	dep	_	_
+5	waihu'u	waihu	VERB	v	LongForm=Yes	0	root	_	saber
+6	zahure	zahure	PART	prcl	Number=Dual	1	dep	_	_
 
 # sent_id = FGIR-FW-09
 # text = tã te ti'a'a
 # text_port = está chovendo
 # text_eng =
-1	tã	tã	NOUN	_	_	3	nsubj	_	chuva
+1	tã	tã	NOUN	n	_	3	nsubj	_	chuva
 2	te	te	AUX	_	Person=Non1|Tense=Pres	3	aux	_	_
-3	ti'a'a	ti'a'a	VERB	_	Person=3	0	root	_	cair, gotejar, pingar
+3	ti'a'a	ti'a'a	VERB	v	Person=3	0	root	_	cair, gotejar, pingar
 
 # sent_id = FGIR-FW-10
 # text = dahipopo'o õ di
 # text_port = Não há dança
 # text_eng =
-1	dahipopo'o	hipopo'o	VERB	_	Human=Yes|LongForm=Yes	0	root	_	_
-2	õ	õ	PART	_	Polarity=Neg	1	dep	_	_
+1	dahipopo'o	hipopo'o	VERB	v	Human=Yes|LongForm=Yes	0	root	_	_
+2	õ	õ	PART	prcl	Polarity=Neg	1	dep	_	_
 3	di	di	AUX	cop	_	1	cop	_	_
 
 # sent_id = GL-CLX16.1
@@ -486,9 +486,9 @@
 10	.	.	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = GL-CLX21.5
-# text = E marĩ te ĩwaptẽrẽ za'ra wa'wa ? Wanorĩhã wa wasa waptẽrẽ za'ra ni .
-# text_por = O que vocês estão pedindo? - Nós pedimos nossa comida.
-# text_eng = What are you asking? - We ordered our food.
+# text = E marĩ te ĩwaptẽrẽ za'ra wa'wa ?
+# text_por = O que vocês estão pedindo?
+# text_eng = What are you asking?
 1	E	e	PART	prcl	Int=Yes	4	dep	_	question.particle;partícula.interrogativa
 2	marĩ	marĩ	NOUN	n	_	4	obj	_	something,what;algo,o.que,alguma.coisa
 3	te	te	AUX	aux	Person=Non1	4	dep	_	_
@@ -496,13 +496,20 @@
 5	za'ra	za'ra	PART	prcl	Number=Plur	4	dep	_	_
 6	wa'wa	'wa	X	x	Number=Dual	4	dep	_	_
 7	?	?	PUNCT	punct	_	4	punct	_	_
-8	Wanorĩhã	wanorĩhã	PRON	pron	Emph=Yes|Number=Coll|Person=1	11	nsubj	_	_
-9	wa	wa	PRON	ego	Person=1	11	dep	_	_
-10	wasa	sa	NOUN	n	Number=Plur|Person=1	11	obj	_	food;comida,alimento
-11	waptẽrẽ	waptẽrẽ	VERB	v	_	4	parataxis	_	ask,request;pedir,solicitar
-12	za'ra	za'ra	PART	prcl	Number=Plur	11	dep	_	_
-13	ni	ni	X	x	Number=Dual	11	dep	_	_
-14	.	.	PUNCT	punct	_	11	punct	_	_
+
+# sent_id = GL-CLX21.5.1
+# text = Wa norĩ hã wa wasa waptẽrẽ za'ra ni .
+# text_por = Nós pedimos nossa comida.
+# text_eng = We ordered our food.
+1	Wa	wa	PRON	pron	Person=1	6	nsubj	_	_
+2	norĩ	norĩ	NOUN	n	Number=Coll	1	dep	_	_
+3	hã	hã	PRON	pron	Emph=Yes	1	dep	_	_
+4	wa	wa	AUX	aux	Person=1	6	aux	_	_
+5	wasa	sa	NOUN	n	Number=Plur|Person=1	6	obj	_	food;comida,alimento
+6	waptẽrẽ	waptẽrẽ	VERB	v	_	0	root	_	ask,request;pedir,solicitar
+7	za'ra	za'ra	PART	prcl	Number=Plur	1	dep	_	_
+8	ni	ni	PART	prcl	_	1	dep	_	_
+9	.	.	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = GL-CLX23.1
 # text = Aibö norĩhã duré pi’õ norĩhã te romhuri za'ra buru ãma hã .
@@ -650,66 +657,86 @@
 6	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = GL-CLX23.11
-# text = E te ĩwapari za'ra wa'wa . Ĩhe !
-# text_por = Vocês escutam? - Sim!
-# text_eng = Do you hear? - Yes!
+# text = E te ĩwapari za'ra wa'wa .
+# text_por = Vocês escutam?
+# text_eng = Do you hear?
 1	E	e	PART	prcl	Int=Yes	3	dep	_	question.particle;partícula.interrogativa
-2	te	te	AUX	aux	Person=Non1	3	dep	_	_
+2	te	te	AUX	aux	Person=Non1|Tense=Pres	3	dep	_	_
 3	ĩwapari	wapari	VERB	v	Person[abs]=3	0	root	_	hear;escutar
 4	za'ra	za'ra	PART	prcl	Number=Plur	3	dep	_	_
 5	wa'wa	'wa	X	x	Number=Dual	3	dep	_	_
 6	.	.	PUNCT	punct	_	3	punct	_	_
-7	Ĩhe	ĩhe	INTJ	intj	_	3	parataxis	_	yes;sim
-8	!	!	PUNCT	punct	_	7	punct	_	_
+
+# sent_id = GL-CLX23.11.1
+# text = Ĩhe !
+# text_por = Sim!
+# text_eng = Yes!
+1	Ĩhe	ĩhe	INTJ	intj	_	0	root	_	yes;sim
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = GL-CLX23.20
-# text = E te ĩsadanha aibö hã . Mare di !
-# text_por = Você pergunta o homem? - Não!
-# text_eng = Do you ask the man? - No!
+# text = E te ĩsadanha aibö hã ?
+# text_por = Você pergunta o homem?
+# text_eng = Do you ask the man?
 1	E	e	PART	prcl	Int=Yes	3	dep	_	question.particle;partícula.interrogativa
-2	te	te	AUX	aux	Person=Non1	3	dep	_	_
+2	te	te	AUX	aux	Person=Non1|Tense=Pres	3	dep	_	_
 3	ĩsadanha	sadanharĩ	VERB	v	Person[abs]=3	0	root	_	ask;perguntar_
 4	aibö	aibö	NOUN	n	_	3	obj	_	man;homem
 5	hã	hã	DET	det	_	4	det	_	_
-6	.	.	PUNCT	punct	_	3	punct	_	_
-7	Mare	mare	NOUN	n	_	3	parataxis	_	nada;nothing
-8	di	di	X	x	_	7	dep	_	expletive;expletivo
-9	!	!	PUNCT	punct	_	7	punct	_	_
+6	?	?	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = GL-CLX23.20.1
+# text = Mare di !
+# text_por = Não!
+# text_eng = Não!
+1	Mare	mare	X	x	Gender=Masc	0	root	_	_
+2	di	di	AUX	cop	_	1	flat	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = GL-CLX23.30
-# text = E te za ĩsa'wa ö hã . Maze di !
-# text_por = Vocês vai derramar a água? - Não!
-# text_eng = Are you going to spill the water? - No!
+# text = E te za ĩsa'wa ö hã .
+# text_por = Vocês vai derramar a água?
+# text_eng = Are you going to spill the water?
 1	E	e	PART	prcl	Int=Yes	4	dep	_	question.particle;partícula.interrogativa
-2	te	te	AUX	aux	Person=Non1	4	dep	_	_
+2	te	te	AUX	aux	Person=Non1|Tense=Pres	4	dep	_	_
 3	za	za	PART	prcl	Aspect=Prosp	4	dep	_	future.marker;marcador.de.futuro
 4	ĩsa'wa	sa'wari	VERB	v	Person[abs]=3	0	root	_	pour.out,despejar,derramar
 5	ö	ö	NOUN	n	_	4	obj	_	water;água
 6	hã	hã	DET	det	_	5	det	_	_
-7	.	.	PUNCT	punct	_	4	punct	_	_
-8	Maze	maze	NOUN	n	_	4	parataxis	_	nada;nothing
-9	di	di	X	x	_	8	dep	_	expletive;expletivo
-10	!	!	PUNCT	punct	_	8	punct	_	_
+7	?	?	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = GL-CLX23.30.1
+# text = Maze di !
+# text_por = Não!
+# text_eng = Não!
+1	Maze	mare	X	x	Gender=Fem	0	root	_	_
+2	di	di	AUX	cop	_	1	flat	_	_
+2	!	!	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = GL-CLX23.40
-# text = E te ĩwaptẽ dawede hã dawede'wai wi hã . Ĩhe ! Ĩ'rã zé di .
-# text_por = Você pede um remédio ao enfermeiro? - Sim! Minha cabeça dói.
-# text_eng = Do you ask the nurse for medicine? - Yes! My head hurs.
+# text = E te ĩwaptẽ dawede hã dawede'wai wi hã ?
+# text_por = Você pede um remédio ao enfermeiro?
+# text_eng = Do you ask the nurse for medicine?
 1	E	e	PART	prcl	Int=Yes	3	dep	_	question.particle;partícula.interrogativa
 2	te	te	AUX	aux	Person=Non1	3	dep	_	_
 3	ĩwaptẽ	waptẽrẽ	VERB	v	Person[abs]=3	0	root	_	ask,request;pedir,solicitar
-4	dawede	wede	NOUN	n	PronType=Gnc	3	obj	_	medicine;remédio
+4	dawede	wede	NOUN	n	Human=Yes	3	obj	_	medicine;remédio
 5	hã	hã	DET	det	_	4	det	_	_
-6	dawede'wai	dawede'wa	NOUN	n	_	3	obl	_	nurse,doctor;enfermeiro,médico
+6	dawede'wai	dawede'wa	NOUN	n	Human=Yes	3	obl	_	nurse,doctor;enfermeiro,médico
 7	wi	wi	ADP	posp	_	6	case	_	far.from;longe.de
 8	hã	hã	DET	det	_	6	det	_	_
-9	.	.	PUNCT	punct	_	3	punct	_	_
-10	Ĩhe	ĩhe	INTJ	intj	_	3	parataxis	_	yes;sim
-11	!	!	PUNCT	punct	_	10	punct	_	_
-12	Ĩ'rã	'rã	NOUN	n	Person=1	13	nsubj	_	head;cabeça
-13	zé	zé	VERB	v	_	10	parataxis	_	hurt;doer
-14	di	di	X	x	_	13	dep	_	expletive;expletivo
-15	.	.	PUNCT	punct	_	13	punct	_	_
+9	?	?	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = GL-CLX23.40.1
+# text = Ĩhe , ĩ'rã zé di !
+# text_por = Sim! Minha cabeça dói.
+# text_eng = Yes! My head hurts.
+1	Ĩhe	ĩhe	INTJ	intj	_	4	discourse	_	yes;sim
+2	,	,	PUNCT	punct	_	4	punct	_	_
+3	ĩ'rã	'rã	NOUN	n	Person=1	4	nsubj	_	head;cabeça
+4	zé	zé	VERB	v	_	0	root	_	hurt;doer
+5	di	di	AUX	cop	_	4	cop	_	expletive;expletivo
+6	!	!	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = GL-CLX23.50
 # text = 'Watébrémi norĩhã , e te za ĩromhuri za'ra wa'wa aibö me hã . Ĩhe ! Tsa'ẽtẽ wa za romhuri za'ra ni aibö me .
@@ -3152,18 +3179,18 @@
 # text = Aibö te mo buru u , pi'õ dzéma te mo buru u .
 # text_port = Um homem vai à roça. Também uma mulher vai à roça.
 # text_eng =
-1	Aibö	aibö	NOUN	_	_	3	nsubj	_	_
+1	Aibö	aibö	NOUN	n	_	3	nsubj	_	_
 2	te	te	AUX	aux	Person=Non1|Tense=Pres	3	aux	_	_
-3	mo	mo	VERB	_	Number=Sing	0	root	_	_
-4	buru	buru	NOUN	_	_	3	obl	_	_
-5	u	u	ADP	_	_	4	case	_	_
+3	mo	mo	VERB	v	Number=Sing	0	root	_	_
+4	buru	buru	NOUN	n	_	3	obl	_	_
+5	u	u	ADP	posp	_	4	case	_	_
 6	,	,	PUNCT	punct	_	3	punct	_	_
-7	pi'õ	pi'õ	NOUN	_	_	10	nsubj	_	mulher
+7	pi'õ	pi'õ	NOUN	n	_	10	nsubj	_	mulher
 8	dzéma	dzéma	ADV	_	_	10	advmod	_	também
 9	te	te	AUX	aux	Person=Non1|Tense=Pres	10	aux	_	_
-10	mo	mo	VERB	_	Number=Sing	3	conj	_	_
-11	buru	buru	NOUN	_	_	10	obl	_	_
-12	u	u	ADP	_	_	11	case	_	_
+10	mo	mo	VERB	v	Number=Sing	3	conj	_	_
+11	buru	buru	NOUN	n	_	10	obl	_	_
+12	u	u	ADP	posp	_	11	case	_	_
 13	.	.	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = GL.1-4
@@ -3184,195 +3211,229 @@
 # text = 'watébrémi te mo 'ri tẽme , tina u .
 # text_port = Um menino vai para casa , à mãe dele .
 # text_eng =
-1	'watébrémi	'watébrémi_	NOUN	_	_	3	nsubj	_	menino
+1	'watébrémi	'watébrémi_	NOUN	n	_	3	nsubj	_	menino
 2	te	te	AUX	aux	Person=Non1|Tense=Pres	3	aux	_	_
-3	mo	mo	VERB	_	Number=Sing	0	root	_	ir (singular)
-4	'ri	'ri	NOUN	_	_	3	obl	_	casa
-5	tẽme	tẽme	ADP	_	_	4	case	_	para, até
+3	mo	mo	VERB	v	Number=Sing	0	root	_	ir (singular)
+4	'ri	'ri	NOUN	n	_	3	obl	_	casa
+5	tẽme	tẽme	ADP	posp	_	4	case	_	para, até
 6	,	,	PUNCT	punct	_	4	punct	_	_
-7	tina	na	NOUN	_	Number=Sing|Person=3	3	obl	_	mãe
-8	u	u	ADP	_	_	7	case	_	_
+7	tina	na	NOUN	n	Number=Sing|Person=3	3	obl	_	mãe
+8	u	u	ADP	posp	_	7	case	_	_
 9	.	.	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = GL.1-6
 # text = Aibö te wara pe'a dzô .
 # text_port = Um homem corre em busca de um peixe.
 # text_eng =
-1	Aibö	aibö	NOUN	_	_	3	nsubj	_	_
+1	Aibö	aibö	NOUN	n	_	3	nsubj	_	_
 2	te	te	AUX	aux	Person=Non1|Tense=Pres	3	aux	_	_
-3	wara	wara	VERB	_	_	0	root	_	correr
-4	pe'a	pe'a	NOUN	_	_	3	obl	_	peixe
-5	dzô	dzô	ADP	_	_	4	case	_	em busca de, atrás
-6	.	.	PUNCT	_	_	3	punct	_	_
+3	wara	wara	VERB	v	_	0	root	_	correr
+4	pe'a	pe'a	NOUN	n	_	3	obl	_	peixe
+5	dzô	dzô	ADP	posp	_	4	case	_	em busca de, atrás
+6	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = GL.1-7
 # text = Pe'a te tiwi wara .
 # text_port = Um peixe foge dele.
 # text_eng =
-1	Pe'a	pe'a	NOUN	_	_	4	nsubj	_	_
+1	Pe'a	pe'a	NOUN	n	_	4	nsubj	_	_
 2	te	te	AUX	aux	Person=Non1|Tense=Pres	4	aux	_	_
-3	tiwi	wi	ADP	_	Person=3	4	case	_	de
-4	wara	wara	VERB	_	_	0	root	_	_
-5	.	.	PUNCT	_	_	4	punct	_	_
+3	tiwi	wi	ADP	posp	Person=3	4	case	_	de
+4	wara	wara	VERB	v	_	0	root	_	_
+5	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = GL.1-8
 # text = Tsô wara wa , te tiwi wara .
 # text_port = Porque ele corre atrás dele, ele foge.
 # text_eng =
-1	Tsô	tso	ADP	_	_	2	case	_	em busca de, atrás
-2	wara	wara	VERB	_	_	7	advcl	_	_
+1	Tsô	tso	ADP	posp	_	2	case	_	em busca de, atrás
+2	wara	wara	VERB	v	_	7	advcl	_	_
 3	wa	wa	SCONJ	_	_	2	mark	_	por que
-4	,	,	PUNCT	_	_	2	punct	_	_
+4	,	,	PUNCT	punct	_	2	punct	_	_
 5	te	te	AUX	aux	Person=Non1|Tense=Pres	7	aux	_	_
-6	tiwi	wi	ADP	_	Person=3	7	case	_	_
-7	wara	wara	VERB	_	_	0	root	_	_
-8	.	_	PUNCT	_	_	7	punct	_	_
+6	tiwi	wi	ADP	posp	Person=3	7	case	_	_
+7	wara	wara	VERB	v	_	0	root	_	_
+8	.	_	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = GL.1-9
 # text = Aibö ma wei wi .
 # text_port = Um homem veio.
 # text_eng =
-1	Aibö	aibö	NOUN	_	_	3	nsubj	_	_
+1	Aibö	aibö	NOUN	n	_	3	nsubj	_	_
 2	ma	ma	AUX	aux	Person=Non1|Tense=Past	3	aux	_	_
-3	wei	wei	VERB	_	_	0	root	_	ir, vir
-4	wi	wi	ADP	_	_	3	case	_	_
-5	.	.	PUNCT	_	_	3	punct	_	_
+3	wei	wei	VERB	v	_	0	root	_	ir, vir
+4	wi	wi	ADP	posp	_	3	case	_	_
+5	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = GL.1-10
 # text = E marĩ dzô ma wei wi ?
 # text_port = Para que ele veio?
 # text_eng =
-1	E	e	PART	_	_	5	discourse	_	_
+1	E	e	PART	prcl	_	5	discourse	_	_
 2	marĩ	marĩ	PRON	_	PronType=Ind	5	obl	_	algo, alguma coisa
-3	dzô	dzo	ADP	_	_	2	case	_	_
+3	dzô	dzo	ADP	posp	_	2	case	_	_
 4	ma	ma	AUX	aux	Person=Non1|Tense=Past	5	aux	_	_
-5	wei	wei	VERB	_	_	0	root	_	_
-6	wi	wi	ADP	_	_	5	case	_	_
-7	?	?	PUNCT	_	_	5	punct	_	_
+5	wei	wei	VERB	v	_	0	root	_	_
+6	wi	wi	ADP	posp	_	5	case	_	_
+7	?	?	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = GL.1-11
 # text = Ti'ra te te tsabu dama wei wi .
 # text_port = Para ver seu filho, ele veio.
 # text_eng =
-1	Ti'ra	'ra	NOUN	_	Number=Sing	6	obj	_	filho
+1	Ti'ra	'ra	NOUN	n	Number=Sing	6	obj	_	filho
 2	te	te	AUX	aux	Person=Non1|Tense=Pres	6	aux	_	_
 3	te	te	AUX	_	Ergative=Yes	6	aux	_	_
-4	tsabu	tsabu	VERB	_	_	6	advcl	_	ver
+4	tsabu	tsabu	VERB	v	_	6	advcl	_	ver
 5	dama	ma	SCONJ	_	Human=Yes	4	mark	_	para, a fim de
-6	wei	wei	VERB	_	_	0	root	_	_
-7	wi	wei	ADP	_	_	6	case	_	_
-8	.	.	PUNCT	_	_	6	punct	_	_
+6	wei	wei	VERB	v	_	0	root	_	_
+7	wi	wei	ADP	posp	_	6	case	_	_
+8	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = GL.1-12
 # text = E te dza apö mo ?
 # text_port = Ele voltará?
 # text_eng =
-1	E	e	PART	_	_	5	discourse	_	_
+1	E	e	PART	prcl	_	5	discourse	_	_
 2	te	te	AUX	aux	Person=Non1|Tense=Pres	5	aux	_	_
-3	dza	za	PART	_	Aspect=Prosp	5	dep	_	_
+3	dza	za	PART	prcl	Aspect=Prosp	5	dep	_	_
 4	apö	apö	ADV	_	_	5	advmod	_	de volta
-5	mo	mo	VERB	_	_	0	root	_	_
-6	?	?	PUNCT	_	_	5	punct	_	_
+5	mo	mo	VERB	v	_	0	root	_	_
+6	?	?	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = GL.1-13
 # text = Ĩhe , te dza apö mo .
 # text_port = Sim, ele voltará.
-1	Ĩhe	ĩhe	PART	_	_	6	discourse	_	sim
-2	,	,	PUNCT	_	_	6	punct	_	_
+1	Ĩhe	ĩhe	PART	prcl	_	6	discourse	_	sim
+2	,	,	PUNCT	punct	_	6	punct	_	_
 3	te	te	AUX	aux	Person=Non1|Tense=Pres	6	aux	_	_
-4	dza	za	PART	_	Aspect=Prosp	6	dep	_	_
+4	dza	za	PART	prcl	Aspect=Prosp	6	dep	_	_
 5	apö	apö	ADV	_	_	6	advmod	_	_
-6	mo	mo	VERB	_	_	0	root	_	_
-7	.	.	PUNCT	_	_	6	punct	_	_
+6	mo	mo	VERB	v	_	0	root	_	_
+7	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = GL.19-5
 # text = Bötö ré hã te za 're ai'aba'ré sire zô duré abaze zapore zô tsiré me .
 # text_port = Durante o dia eles vão (caçar) passarinhos e animais pequenos com os companheiros.
 # text_eng =
-1	Bötö	bötö	NOUN	_	_	7	obl	_	_
-2	ré	ré	ADP	_	_	1	case	_	durante
-3	hã	hã	PART	_	_	1	dep	_	_
+1	Bötö	bötö	NOUN	n	_	7	obl	_	_
+2	ré	ré	ADP	posp	_	1	case	_	durante
+3	hã	hã	PART	prcl	_	1	dep	_	_
 4	te	te	AUX	aux	Person=Non1|Tense=Pres	7	aux	_	_
-5	za	za	PART	_	Aspect=Prosp	7	dep	_	_
-6	're	're	PART	_	_	7	dep	_	_
-7	ai'aba'ré	_	VERB	_	Number=Plur	0	root	_	_
-8	sire	sire	NOUN	_	_	7	obl	_	passarinho
-9	zô	zo	ADP	_	_	8	case	_	_
+5	za	za	PART	prcl	Aspect=Prosp	7	dep	_	_
+6	're	're	PART	prcl	_	7	dep	_	_
+7	ai'aba'ré	_	VERB	v	Number=Plur	0	root	_	_
+8	sire	sire	NOUN	n	_	7	obl	_	passarinho
+9	zô	zo	ADP	posp	_	8	case	_	_
 10	duré	duré	ADV	_	_	7	advmod	_	também
-11	abaze	abaze	NOUN	_	_	7	obl	_	carne de caça
-12	zapore	zapore	NOUN	_	_	11	nmod	_	pequeno
-13	zô	zô	ADP	_	_	11	case	_	_
-14	tsiré	tsiré	NOUN	_	_	7	obl	_	companheiro
-15	me	me	ADP	_	_	14	case	_	com
-16	.	.	PUNCT	_	_	7	punct	_	_
+11	abaze	abaze	NOUN	n	_	7	obl	_	carne de caça
+12	zapore	zapore	NOUN	n	_	11	nmod	_	pequeno
+13	zô	zô	ADP	posp	_	11	case	_	_
+14	tsiré	tsiré	NOUN	n	_	7	obl	_	companheiro
+15	me	me	ADP	posp	_	14	case	_	com
+16	.	.	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = GL.19-6
 # text = Ni'wa aibö wei mori wamhã , uburé abaze hã te za tãma sõmri za'ra , sõpru wa .
 # text_port = Quando vier algum homem, eles lhe entregarão todos os animais caçados, por generosidade.  
 # text_eng =
 1	Ni'wa	ni'wa	PRON	_	PronType=Ind	2	nmod	_	algum, algo
-2	aibö	aibö	NOUN	_	_	3	nsubj	_	_
-3	wei	wei	VERB	_	_	13	advcl	_	_
-4	mori	mori	VERB	_	_	3	flat	_	_
+2	aibö	aibö	NOUN	n	_	3	nsubj	_	_
+3	wei	wei	VERB	v	_	13	advcl	_	_
+4	mori	mori	VERB	v	_	3	flat	_	_
 5	wamhã	wamhã	SCONJ	_	_	3	mark	_	quando
-6	,	_	PUNCT	_	_	3	punct	_	_
+6	,	_	PUNCT	punct	_	3	punct	_	_
 7	uburé	_	PRON	_	PronType=Tot	8	nmod	_	todos
-8	abaze	abaze	NOUN	_	_	13	obj	_	carne de caça
-9	hã	hã	PART	_	_	8	dep	_	_
+8	abaze	abaze	NOUN	n	_	13	obj	_	carne de caça
+9	hã	hã	PART	prcl	_	8	dep	_	_
 10	te	te	AUX	aux	Person=Non1|Tense=Pres	13	aux	_	_
-11	za	_	PART	_	Aspect=Prosp	13	dep	_	_
-12	tãma	ma	ADP	_	Person=3	13	case	_	_
-13	sõmri	sõmri	VERB	_	LongForm=Yes	0	root	_	_
-14	za'ra	za'ra	PART	_	Number=Plur	13	dep	_	_
-15	,	_	PUNCT	_	_	13	punct	_	_
-16	sõpru	sõpru	NOUN	_	_	13	obl	_	generosidade
-17	wa	wa	ADP	_	_	16	case	_	por
-18	.	_	PUNCT	_	_	13	punct	_	_
+11	za	_	PART	prcl	Aspect=Prosp	13	dep	_	_
+12	tãma	ma	ADP	posp	Person=3	13	case	_	_
+13	sõmri	sõmri	VERB	v	LongForm=Yes	0	root	_	_
+14	za'ra	za'ra	PART	prcl	Number=Plur	13	dep	_	_
+15	,	_	PUNCT	punct	_	13	punct	_	_
+16	sõpru	sõpru	NOUN	n	_	13	obl	_	generosidade
+17	wa	wa	ADP	posp	_	16	case	_	por
+18	.	_	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = GL.19-7
 # text = Ane a'uwẽ marĩ ĩwẽ na te ĩhöibatéb ma te 're waihu'u za'ra , 're prédub za'ra da .
 # text_port = Assim os Xavante ensinam coisas boas aos novos para se tornarem adultos.
 # text_eng =
 1	Ane	ane	ADV	_	_	11	advmod	_	assim
-2	a'uwẽ	a'uwẽ	NOUN	_	_	11	nsubj	_	xavante
-3	marĩ	marĩ	NOUN	_	_	4	nmod	_	_
-4	ĩwẽ	wẽ	NOUN	_	_	11	obl	_	_
-5	na	na	ADP	_	_	4	case	_	_
+2	a'uwẽ	a'uwẽ	NOUN	n	_	11	nsubj	_	xavante
+3	marĩ	marĩ	NOUN	n	_	4	nmod	_	_
+4	ĩwẽ	wẽ	NOUN	n	_	11	obl	_	_
+5	na	na	ADP	posp	_	4	case	_	_
 6	te	te	X	_	_	4	dep	_	_
-7	ĩhöibatéb	höibatéb	NOUN	_	_	11	obl	_	_
-8	ma	ma	ADP	_	_	7	case	_	_
+7	ĩhöibatéb	höibatéb	NOUN	n	_	11	obl	_	_
+8	ma	ma	ADP	posp	_	7	case	_	_
 9	te	te	AUX	aux	Person=Non1|Tense=Pres	11	aux	_	_
-10	're	_	PART	_	_	11	dep	_	_
-11	waihu'u	waihu'u	VERB	_	_	0	root	_	saber, ensinar
-12	za'ra	za'ra	PART	_	Number=Plur	2	dep	_	_
-13	,	,	PUNCT	_	_	11	punct	_	_
-14	're	're	PART	_	_	15	dep	_	_
-15	prédub	_	NOUN	_	_	11	advcl	_	adulto
-16	za'ra	za'ra	PART	_	Number=Plur	15	dep	_	_
+10	're	_	PART	prcl	_	11	dep	_	_
+11	waihu'u	waihu'u	VERB	v	_	0	root	_	saber, ensinar
+12	za'ra	za'ra	PART	prcl	Number=Plur	2	dep	_	_
+13	,	,	PUNCT	punct	_	11	punct	_	_
+14	're	're	PART	prcl	_	15	dep	_	_
+15	prédub	_	NOUN	n	_	11	advcl	_	adulto
+16	za'ra	za'ra	PART	prcl	Number=Plur	15	dep	_	_
 17	da	da	SCONJ	_	_	15	mark	_	_
-18	.	_	PUNCT	_	_	15	punct	_	_
+18	.	_	PUNCT	punct	_	15	punct	_	_
 
 # sent_id = RO-236-402
 # text = hu te te wĩrĩ õ di
 # text_port = ele não matou a onça
 # text_eng =
-1	hu	hu	NOUN	_	_	4	obj	_	onça
+1	hu	hu	NOUN	n	_	4	obj	_	onça
 2	te	te	AUX	_	Person=Non1|Tense=Pres	4	aux	_	_
 3	te	te	AUX	_	Ergative=Yes	4	aux	_	_
-4	wĩrĩ	wĩrĩ	VERB	_	Number=Sing	0	root	_	_
-5	õ	õ	PART	_	Polarity=Neg	4	dep	_	_
+4	wĩrĩ	wĩrĩ	VERB	v	Number=Sing	0	root	_	_
+5	õ	õ	PART	prcl	Polarity=Neg	4	dep	_	_
 6	di	di	AUX	cop	_	4	cop	_	_
 
 # sent_id = RO-239-406
 # text = aihöiré wa te watsiwi tsimrõ ni õ di
 # text_port = Nós não matamos jacarés
 # text_eng =
-1	aihöiré	aihöiré	NOUN	_	_	5	obj	_	jacaré
+1	aihöiré	aihöiré	NOUN	n	_	5	obj	_	jacaré
 2	wa	wa	AUX	_	Person=1	5	aux	_	_
 3	te	te	AUX	_	Ergative=Yes	5	aux	_	_
 4	watsiwi	watsiwi	PRON	_	Number=Coll|Person=1	5	nsubj	_	_
-5	tsimrõ	tsimrõ	VERB	_	Number=Plur	0	root	_	matar
+5	tsimrõ	tsimrõ	VERB	v	Number=Plur	0	root	_	matar
 6	ni	ni	PART	prcl	Number=Plur|Person=1	5	dep	_	_
-7	õ	õ	PART	_	Polarity=Neg	5	dep	_	negação
+7	õ	õ	PART	prcl	Polarity=Neg	5	dep	_	negação
 8	di	di	AUX	cop	_	5	cop	_	_
+
+# sent_id = 33-1
+# text = Duréi hã , wadzuri'wa te we tsimi'wara waradzu dzô .
+# text_port = Antigamente os (Xavante) exploradores vieram à procura dos brancos.
+# text_eng = 
+1	Duréi	durei	ADV	_	_	7	advmod	_	antigamente
+2	hã	hã	PART	_	_	1	dep	_	_
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	wadzuri'wa	wadzuri'wa	NOUN	_	_	7	nsubj	_	explorador
+5	te	te	AUX	_	Person=Non1|Tense=Pres	7	aux	_	_
+6	we	we	ADV	_	_	7	advmod	_	para cá
+7	tsimi'wara	_	VERB	_	_	0	root	_	_
+8	waradzu	waradzu	NOUN	_	_	7	obl	_	não indígena
+9	dzô	zo	ADP	_	_	8	case	_	_
+10	.	_	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 33-2
+# text = Öwawẽ na oto tsapri dza'ra ; te tsapri dza'ra hö , mara ré .
+# text_port = Atravessaram o rio das Mortes; passaram de manhã.
+# text_eng =
+1	Öwawẽ	öwawẽ	PROPN	_	_	4	obl	_	rio grande, clã a esquerda, Rio das Mortes
+2	na	na	ADP	_	_	1	case	_	em
+3	oto	oto	ADV	_	_	4	advmod	_	então
+4	tsapri	tsapri	VERB	_	_	0	root	_	_
+5	dza'ra	dza'ra	PART	_	Number=Plur	4	dep	_	_
+6	;	;	PUNCT	_	_	4	punct	_	_
+7	te	te	AUX	_	Person=Non1|Tense=Pres	8	aux	_	_
+8	tsapri	tsapri	VERB	_	_	4	conj	_	_
+9	dza'ra	dza'ra	PART	_	Number=Plur	8	dep	_	_
+10	hö	hö	ADV	_	_	8	advmod	_	já
+11	,	,	PUNCT	_	_	8	punct	_	_
+12	mara	mara	NOUN	_	_	8	obl	_	noite
+13	ré	ré	ADP	_	_	12	case	_	durante
+14	.	.	PUNCT	_	_	12	punct	_	_
 
