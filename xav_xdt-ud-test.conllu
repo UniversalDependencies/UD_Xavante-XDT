@@ -124,11 +124,11 @@
 4	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = GL-CLX16.1.3
-# text = Õhã te mo .
+# text = Õ hã te mo .
 # text_por = Ele (ela) vai.
 # text_eng = (S)he goes.
 1	Õ	õ	DET	pron	_	4	nsubj	_	_
-2	Õhã	õhã	PRON	pron	Emph=Yes	4	nsubj	_	_
+2	hã	õhã	PRON	pron	Emph=Yes	4	nsubj	_	_
 3	te	te	AUX	aux	Person=Non1|Tense=Pres	4	dep	_	_
 4	mo	mo	VERB	v	_	0	root	_	go;ir
 5	.	.	PUNCT	punct	_	4	punct	_	_
@@ -3371,7 +3371,7 @@
 2	wa	wa	AUX	_	Person=1	5	aux	_	_
 3	te	te	AUX	_	Ergative=Yes	5	aux	_	_
 4	watsiwi	watsiwi	PRON	_	Number=Coll|Person=1	5	nsubj	_	_
-5	tsimrõ	tsimrõ	VERB	_	Number=Plur	_	_	_	matar
+5	tsimrõ	tsimrõ	VERB	_	Number=Plur	0	root	_	matar
 6	ni	ni	PART	prcl	Number=Plur|Person=1	5	dep	_	_
 7	õ	õ	PART	_	Polarity=Neg	5	dep	_	negação
 8	di	di	AUX	cop	_	5	cop	_	_
