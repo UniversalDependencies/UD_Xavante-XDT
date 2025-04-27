@@ -509,7 +509,7 @@
 6	waptẽrẽ	waptẽrẽ	VERB	v	_	0	root	_	ask,request;pedir,solicitar
 7	za'ra	za'ra	PART	prcl	Number=Plur	1	dep	_	_
 8	ni	ni	PART	prcl	_	1	dep	_	_
-9	.	.	PUNCT	punct	_	11	punct	_	_
+9	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = GL-CLX23.1
 # text = Aibö norĩhã duré pi’õ norĩhã te romhuri za'ra buru ãma hã .
