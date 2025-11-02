@@ -134,23 +134,6 @@
 5	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = GL-CLX16.2
-# text = Wapté te wara . Tsa'ẽtẽ te wara . Uhödö te wara .
-# text_por = Um adolescente corre. Ele corre depressa. Uma anta corre.
-# text_eng = A teenager runs. He runs fast. A tapir runs.
-1	Wapté	wapté	NOUN	n	_	3	nsubj	_	teenager;adolescente
-2	te	te	AUX	aux	Person=Non1	3	dep	_	_
-3	wara	wara	VERB	v	_	0	root	_	run;correr
-4	.	.	PUNCT	punct	_	3	punct	_	_
-5	Tsa'ẽtẽ	sa'ẽtẽ	ADV	adv	_	7	advmod	_	in.a.hurry,quickly,loud;depressa,em.voz.alta
-6	te	te	AUX	aux	Person=Non1	7	dep	_	_
-7	wara	wara	VERB	v	_	3	parataxis	_	run;correr
-8	.	.	PUNCT	punct	_	7	punct	_	_
-9	Uhödö	uhödö	NOUN	n	_	11	nsubj	_	tapir;anta
-10	te	te	AUX	aux	Person=Non1	11	dep	_	_
-11	wara	wara	VERB	v	_	3	parataxis	_	run;correr
-12	.	.	PUNCT	punct	_	11	punct	_	_
-
-# sent_id = GL-CLX16.2
 # text = Wapté te wara , sa'ẽtẽ te wara , uhödö te wara .
 # text_por = Um adolescente corre. Ele corre depressa. Uma anta corre.
 # text_eng = A teenager runs. He runs fast. A tapir runs.
@@ -165,7 +148,7 @@
 9	uhödö	uhödö	NOUN	n	_	11	nsubj	_	tapir;anta
 10	te	te	AUX	aux	Person=Non1	11	dep	_	_
 11	wara	wara	VERB	v	_	3	parataxis	_	run;correr
-12	,	,	PUNCT	punct	_	11	punct	_	_
+12	.	.	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = GL-CLX16.3
 # text = Aibö te mo buru u , pi’õ zéma te mo buru u .
@@ -764,6 +747,7 @@
 # text_por = Meninos, vocês vão trabalhar com o homem ?
 # text_eng = Boys, are you going to work with the man?
 1	'Watébrémi	'watébrémi	NOUN	n	_	8	vocative	_	boy;menino
+2-3	norĩhã	_	_	_	_	_	_	_	_
 2	norĩ	norĩ	PART	prcl	Number=Coll	1	discourse	_	_
 3	hã	hã	PART	prcl	_	1	discourse	_	_
 4	,	,	PUNCT	punct	_	8	punct	_	_
