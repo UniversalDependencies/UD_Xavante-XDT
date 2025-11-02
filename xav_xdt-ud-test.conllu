@@ -782,17 +782,17 @@
 # text = Ĩhe , sa'ẽtẽ wa za romhuri za'ra ni aibö me .
 # text_por = Sim! Nós vamos trabalhar depressa com o homem.
 # text_eng = Yes! We're going to work quickly with the man.
-1	Ĩhe	ĩhe	INTJ	intj	_	_	_	_	yes;sim
-2	,	,	PUNCT	punct	_	_	_	_	_
-3	sa'ẽtẽ	sa'ẽtẽ	ADV	adv	_	_	_	_	in.a.hurry,quickly,loud;depressa,em.voz.alta
-4	wa	wa	AUX	aux	Person=1	_	_	_	_
-5	za	za	PART	prcl	Aspect=Prosp	_	_	_	future.marker;marcador.de.futuro
+1	Ĩhe	ĩhe	INTJ	intj	_	6	discourse	_	yes;sim
+2	,	,	PUNCT	punct	_	1	punct	_	_
+3	sa'ẽtẽ	sa'ẽtẽ	ADV	adv	_	6	advmod	_	in.a.hurry,quickly,loud;depressa,em.voz.alta
+4	wa	wa	AUX	aux	Person=1	6	nsubj	_	_
+5	za	za	PART	prcl	Aspect=Prosp	6	dep	_	future.marker;marcador.de.futuro
 6	romhuri	romhuri	VERB	v	LongForm=Yes	0	root	_	to.work;trabalhar
-7	za'ra	za'ra	PART	prcl	Number=Plur	_	_	_	_
-8	ni	ni	X	x	Number=Dual	_	_	_	_
-9	aibö	aibö	NOUN	n	_	_	_	_	man;homem
-10	me	me	ADP	posp	_	_	_	_	with;com
-11	.	.	PUNCT	punct	_	_	_	_	_
+7	za'ra	za'ra	PART	prcl	Number=Plur	6	dep	_	_
+8	ni	ni	X	x	Number=Dual	6	dep	_	_
+9	aibö	aibö	NOUN	n	_	6	obl	_	man;homem
+10	me	me	ADP	posp	_	9	case	_	with;com
+11	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = GL-CLX24.1
 # text = Pi'õ te wara si'a zô te te öri da . Ba'õtõ zéma si'a te ti'ö .
@@ -2825,7 +2825,7 @@
 
 # sent_id = MM-1.2
 # text = Aʔuwe ma hã , siʔubura ihöiba re hã
-# text_eng = 
+# text_eng =
 # text_por = Para os Xavante o redemoinho tem vida (é um ser vivo)
 1	Aʔuwe	aʔuwe	NOUN	n	_	6	obl	_	_
 2	ma	ma	ADP	posp	_	1	case	_	_
@@ -2852,7 +2852,7 @@
 
 # sent_id = MM-1.4
 # text = Warazu tiʔa te siwi ʔrepuʔu wamha wedenhõrõ te siwi sõrõ sada , ĩpa uptabi wedenhõrõ hã
-# text_eng = 
+# text_eng =
 # text_por = Quando o homem quis descer pelo furo da terra, trançou para is uma corda muito comprida
 1	Warazu	warazu	NOUN	n	_	5	nsubj	_	_
 2	tiʔa	tiʔa	NOUN	n	_	1	dep	_	earth;terra
@@ -2873,7 +2873,7 @@
 
 # sent_id = MM-1.6
 # text = Taha na ma te siʔra
-# text_eng = 
+# text_eng =
 # text_por = Com isso ele desceu
 1	Taha	taha	ADV	adv	_	5	advmod	_	and.then;com.isso
 2	na	na	ADP	posp	_	1	case	_	in;em
@@ -2883,7 +2883,7 @@
 
 # sent_id = MM-1.8
 # text = Wedenhõrõ , da te ĩré sizöri wa , ma te tiwi tirobzeiwʔõ
-# text_eng = 
+# text_eng =
 # text_por = Quando a corda foi cortada, ficou triste
 1	Wedenhõrõ	Wedenhõrõ	NOUN	n	_	6	dislocated	_	rope,string;corda,barbante
 2	,	,	PUNCT	punct	_	1	punct	_	_
@@ -2941,7 +2941,7 @@
 # sent_id = EW-5
 # text = wahã ĩʔahö ma wa ĩĩñoʔre
 # tet_port = Eu canto para a comunidade
-# text_eng = 
+# text_eng =
 1	wahã	wa	PRON	pron	Emph=Yes|Person=1	5	nsubj	_	_
 2	ĩʔahö	ĩʔahö	NOUN	n	_	5	obl	_	_
 3	ma	ma	ADP	posp	_	2	case	_	_
@@ -2951,7 +2951,7 @@
 # sent_id = EW-6
 # text = ohã ĩʔahö ma te tinhõʔre
 # tet_port = Ele canta para comunidade
-# text_eng = 
+# text_eng =
 1	ohã	a	PRON	pron	Emph=Yes|Person=3	5	nsubj	_	_
 2	ĩʔahö	ĩʔahö	NOUN	n	_	5	obl	_	_
 3	ma	ma	ADP	posp	_	2	case	_	_
@@ -2961,7 +2961,7 @@
 # sent_id = EW-7
 # text = ahã ĩʔahö ma te asõʔre
 # tet_port = Você canta para comunidade
-# text_eng = 
+# text_eng =
 1	ahã	a	PRON	pron	Emph=Yes|Person=2	5	nsubj	_	_
 2	ĩʔahö	ĩʔahö	NOUN	n	_	5	obl	_	_
 3	ma	ma	ADP	posp	_	2	case	_	_
@@ -2971,7 +2971,7 @@
 # sent_id = EW-8
 # text = wahã ĩme wa za mõ ĩĩme
 # tet_port = Eu vou com ele
-# text_eng = 
+# text_eng =
 1	wahã	wa	PRON	pron	Emph=Yes|Person=1	5	nsubj	_	_
 2	ĩme	me	ADP	posp	Number=Sing|Person=3	5	case	_	_
 3	wa	wa	AUX	aux	Person=1	5	aux	_	_
@@ -2982,7 +2982,7 @@
 # sent_id = EW-9
 # text = õhã te za mõ ĩĩme
 # tet_port = Ele vai comigo
-# text_eng = 
+# text_eng =
 1	õhã	õ	PRON	pron	Emph=Yes|Person=3	4	nsubj	_	_
 2	te	te	AUX	aux	Person=Non1|Tense=Pres	4	aux	_	_
 3	za	za	PART	prcl	Aspect=Prosp	4	dep	_	_
@@ -2992,7 +2992,7 @@
 # sent_id = EW-27.6
 # text = wahã wa aimãdö
 # tet_port = Eu te vejo
-# text_eng = 
+# text_eng =
 1	wahã	wa	PRON	pron	Emph=Yes|Number=Sing|Person=1	3	nsubj	_	_
 2	wa	wa	AUX	aux	Person=1	3	aux	_	_
 3	aimãdö	mãdö	VERB	v	Person=2	0	root	_	_
@@ -3000,7 +3000,7 @@
 # sent_id = EW-90.3
 # text = wahã ahã wa aiamã aime
 # tet_port = eu te ajudo
-# text_eng = 
+# text_eng =
 1	wahã	wa	PRON	pron	Emph=Yes|Number=Sing|Person=1	4	nsubj	_	_
 2	ahã	a	PRON	pron	Emph=Yes|Number=Sing|Person=2	4	obj	_	_
 3	wa	wa	AUX	aux	Person=1	4	aux	_	_
@@ -3010,7 +3010,7 @@
 # sent_id = EW-91.2
 # text = wahã wanorĩ waʔwa hã wa aimãdöʔö ʔwa
 # tet_port = eu vejo (ambos) vocês
-# text_eng = 
+# text_eng =
 1	wahã	wa	PRON	pron	Emph=Yes|Number=Sing|Person=1	6	nsubj	_	_
 2	wanorĩ	wa	PRON	pron	Number=Coll|Person=1	6	obj	_	_
 3	waʔwa	waʔwa	PART	prcl	Number=Plur	2	dep	_	_
@@ -3110,7 +3110,7 @@
 # sent_id = GL.19-1
 # text = A'uwẽ ãma hã , wapté norĩ hã , mara wa'wa , te 're utu za'ra sõ're da hã .
 # text_port = Entre os Xavante, os adolescentes se levantam à meia noite para cantar.
-# text_eng = 
+# text_eng =
 1	A'uwẽ	a'uwẽ	NOUN	n	_	14	dislocated	_	_
 2	ãma	ãma	ADP	posp	_	1	case	_	_
 3	hã	hã	PART	prcl	_	1	dep	_	_
@@ -3134,7 +3134,7 @@
 # sent_id = GL.19-2
 # text = Aihini wapté si'utu wamhã , te za sõ're za'ra , dama rowẽ da hã .
 # text_port = Ouando todos os adolescentes se levantaram, eles cantam para alegrar os outros.
-# text_eng = 
+# text_eng =
 1	Aihini	aihini	PRON	pron	PronType=Tot	2	nmod	_	todos
 2	wapté	wapté	NOUN	n	_	8	nsubj	_	adolescente
 3	si'utu	utu	VERB	v	_	8	advcl	_	levantar
@@ -3367,7 +3367,7 @@
 
 # sent_id = GL.19-6
 # text = Ni'wa aibö wei mori wamhã , uburé abaze hã te za tãma sõmri za'ra , sõpru wa .
-# text_port = Quando vier algum homem, eles lhe entregarão todos os animais caçados, por generosidade.  
+# text_port = Quando vier algum homem, eles lhe entregarão todos os animais caçados, por generosidade.
 # text_eng =
 1	Ni'wa	ni'wa	PRON	_	PronType=Ind	2	nmod	_	algum, algo
 2	aibö	aibö	NOUN	n	_	3	nsubj	_	_
@@ -3438,7 +3438,7 @@
 # sent_id = 33-1
 # text = Duréi hã , wadzuri'wa te we tsimi'wara waradzu dzô .
 # text_port = Antigamente os (Xavante) exploradores vieram à procura dos brancos.
-# text_eng = 
+# text_eng =
 1	Duréi	durei	ADV	_	_	7	advmod	_	antigamente
 2	hã	hã	PART	_	_	1	dep	_	_
 3	,	,	PUNCT	_	_	7	punct	_	_
@@ -3472,7 +3472,7 @@
 # sent_id = 10-x
 # text = e awẽm hã oi'o ?
 # text_port = há luta dos meninos amanhã?
-# text_eng = 
+# text_eng =
 1	e	e	PART	_	_	4	discourse	_	_
 2	awẽm	awẽ	ADV	_	_	4	advmod	_	amanhã
 3	hã	hã	PART	_	_	2	dep	_	_
