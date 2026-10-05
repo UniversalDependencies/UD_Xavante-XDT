@@ -105,11 +105,11 @@
     <dep name="flat">5</dep>
     <dep name="iobj">23</dep>
     <dep name="mark">38</dep>
-    <dep name="nmod">59</dep>
+    <dep name="nmod">65</dep>
     <dep name="nsubj">195</dep>
     <dep name="nummod">8</dep>
     <dep name="obj">85</dep>
-    <dep name="obl">127</dep>
+    <dep name="obl">121</dep>
     <dep name="parataxis">44</dep>
     <dep name="punct">320</dep>
     <dep name="root">248</dep>

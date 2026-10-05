@@ -1126,7 +1126,7 @@
 3	hã	hã	DET	det	_	1	det	_	_
 4	,	,	PUNCT	punct	_	11	punct	_	_
 5	bötö	bötö	NOUN	n	_	11	obl	_	day,sun,time;dia,sol,hora
-6	ré	ré	ADP	posp	_	5	obl	_	full.of,inside.of,during,while;cheio.de,dentro,do,durante,enquanto,sendo
+6	ré	ré	ADP	posp	_	5	nmod	_	full.of,inside.of,during,while;cheio.de,dentro,do,durante,enquanto,sendo
 7	hã	hã	DET	det	_	5	det	_	_
 8	hö	hö	NOUN	n	_	11	obl	_	singles.house;casa.dos.solteiros
 9	ba	ba	ADP	posp	_	8	case	_	inside,in;dentro.de,em
@@ -1317,13 +1317,13 @@
 # text_por = Na cultura Xavante, as meninas vivem (se realizam) em casa.
 # text_eng = In the Xavante culture, girls live (fulfill themselves) at home.
 1	A'uwẽ	a'uwẽ	NOUN	n	_	11	dislocated	_	man,person,people,indian;homem,pessoa,gente,índio
-2	ãma	ãma	ADP	posp	_	1	obl	_	in;em
+2	ãma	ãma	ADP	posp	_	1	nmod	_	in;em
 3	hã	hã	DET	det	_	1	det	_	_
 4	,	,	PUNCT	punct	_	11	punct	_	_
 5	ba'õtõ	ba'õtõre	NOUN	n	_	11	nsubj	_	little.girl;menina.pequena
 6	norĩ	norĩ	PART	prcl	Number=Coll	5	dep	_	_
 7	hã	hã	DET	det	_	5	det	_	_
-8	'ri	'ri	NOUN	n	_	5	obl	_	house;casa
+8	'ri	'ri	NOUN	n	_	5	nmod	_	house;casa
 9	ãma	ãma	ADP	posp	_	8	case	_	in;em
 10	te	te	AUX	aux	Person=Non1	11	dep	_	_
 11	höimana	höimana	VERB	v	_	0	root	_	be,live,exist;ser,viver,existir
@@ -2071,7 +2071,7 @@
 19	zahuré	zahuré	NUM	num	Number=Dual	16	dep	_	_
 
 # sent_id = GL-CLX38.2
-# text =  " E aihitébré ma ĩsabui wa'wa . " ĩna te sadanha . " Ĩhe ! " ma sada'öbö zahuré .
+# text = " E aihitébré ma ĩsabui wa'wa . " ĩna te sadanha . " Ĩhe ! " ma sada'öbö zahuré .
 # text_por = "Vocês duas cuidaram do seu irmão?"pergunta a mãe delas. "Sim!" responderam as duas.
 # text_eng = "Did you two take care of your brother?" asks their mother. "Yes!" replied the two.
 1	"	"	PUNCT	punct	_	5	punct	_	_
@@ -2151,7 +2151,7 @@
 17	.	.	PUNCT	punct	_	16	punct	_	_
 
 # sent_id = GL-CLX38.6
-# text =  " Tane wamhã , oto 'ri tẽme wasi'aba'ré na ! " pi'õ te 'mahö .
+# text = " Tane wamhã , oto 'ri tẽme wasi'aba'ré na ! " pi'õ te 'mahö .
 # text_por = "Se ê assim, vamos para casa!" exclama a mulher.
 # text_eng = "If that's the case, let's go home!" exclaims the woman.
 1	"	"	PUNCT	punct	_	8	punct	_	_
@@ -2888,7 +2888,7 @@
 # text_eng =
 1	wahã	wa	PRON	pron	Emph=Yes|Person=1	5	nsubj	_	_
 2	ĩʔra	ʔra	NOUN	n	Number=Sing|Person=1	5	obl	_	_
-3	ma	ma	ADP	posp	_	2	obl	_	_
+3	ma	ma	ADP	posp	_	2	nmod	_	_
 4	wa	wa	AUX	aux	Person=1	5	aux	_	_
 5	tinha	nha	VERB	v	Number=Sing|Person=3	0	root	_	_
 
@@ -2908,7 +2908,7 @@
 # text_eng =
 1	wahã	wa	PRON	pron	Emph=Yes|Person=1	5	nsubj	_	_
 2	daas	as	NOUN	n	Human=Yes	5	obj	_	_
-3	aima	ma	ADP	posp	Number=Sing|Person=2	2	obl	_	_
+3	aima	ma	ADP	posp	Number=Sing|Person=2	2	nmod	_	_
 4	wa	wa	AUX	aux	Person=1	5	aux	_	_
 5	tisõ	sõ	VERB	v	Number=Sing|Person=3	0	root	_	_
 
@@ -3214,7 +3214,7 @@
 # text_port = Um homem e uma mulher vão à roça.
 # text_eng =
 1	Aibö	Aibö	NOUN	n	_	5	nsubj	_	_
-2	pi'õi	pi'õ	NOUN	n	_	1	obl	_	_
+2	pi'õi	pi'õ	NOUN	n	_	1	nmod	_	_
 3	me	ma	ADP	posp	_	2	case	_	_
 4	te	te	AUX	aux	Person=Non1|Tense=Pres	5	aux	_	_
 5	tineb	tineb	VERB	v	Number=Dual	0	root	_	_
